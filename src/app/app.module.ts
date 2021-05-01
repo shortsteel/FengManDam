@@ -11,6 +11,7 @@ import {BasicInfoComponent} from './basic-info/basic-info.component';
 import {AirTemperatureComponent} from './air-temperature/air-temperature.component';
 import {WaterTemperatureComponent} from './water-temperature/water-temperature.component';
 import {IceConditionComponent} from './ice-condition/ice-condition.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {IceConditionComponent} from './ice-condition/ice-condition.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatTabsModule,
-    MatCardModule
+    MatCardModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
