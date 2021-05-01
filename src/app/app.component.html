@@ -1,21 +1,17 @@
-<mat-toolbar>
-  <span>丰满水电站水温监测成果综合数据库</span>
+<mat-toolbar style="height: fit-content">
+  <nav mat-tab-nav-bar mat-align-tabs="center">
+    <span>丰满水电站水温监测成果综合数据库</span>
+    <a mat-tab-link routerLink="Home" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+      首页</a>
+    <a mat-tab-link routerLink="BasicInfo" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+      基本信息</a>
+    <a mat-tab-link routerLink="MonitoringPlan" routerLinkActive #rla="routerLinkActive"
+       [active]="rla.isActive">监测方案</a>
+    <a mat-tab-link routerLink="WaterTemperature" routerLinkActive #rla="routerLinkActive"
+       [active]="rla.isActive">水温</a>
+    <a mat-tab-link routerLink="IceCondition" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+      冰情</a>
+  </nav>
 </mat-toolbar>
 
-<mat-tab-group mat-align-tabs="center">
-  <mat-tab label="首页">
-    <app-home></app-home>
-  </mat-tab>
-  <mat-tab label="基本信息">
-    <app-basic-info></app-basic-info>
-  </mat-tab>
-  <mat-tab label="气温">
-    <app-air-temperature></app-air-temperature>
-  </mat-tab>
-  <mat-tab label="水温">
-    <app-water-temperature></app-water-temperature>
-  </mat-tab>
-  <mat-tab label="冰情">
-    <app-ice-condition></app-ice-condition>
-  </mat-tab>
-</mat-tab-group>
+<router-outlet></router-outlet>

@@ -8,19 +8,19 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 import {HomeComponent} from './home/home.component';
 import {BasicInfoComponent} from './basic-info/basic-info.component';
-import {AirTemperatureComponent} from './air-temperature/air-temperature.component';
 import {WaterTemperatureComponent} from './water-temperature/water-temperature.component';
 import {IceConditionComponent} from './ice-condition/ice-condition.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MonitoringPlanComponent } from './monitoring-plan/monitoring-plan.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     BasicInfoComponent,
-    AirTemperatureComponent,
     WaterTemperatureComponent,
-    IceConditionComponent
+    IceConditionComponent,
+    MonitoringPlanComponent
   ],
   imports: [
     BrowserModule,
