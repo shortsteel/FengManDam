@@ -6,12 +6,19 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
 import {HomeComponent} from './home/home.component';
 import {BasicInfoComponent} from './basic-info/basic-info.component';
 import {WaterTemperatureComponent} from './water-temperature/water-temperature.component';
 import {IceConditionComponent} from './ice-condition/ice-condition.component';
-import { AppRoutingModule } from './app-routing.module';
-import { MonitoringPlanComponent } from './monitoring-plan/monitoring-plan.component';
+import {AppRoutingModule} from './app-routing.module';
+import {MonitoringPlanComponent} from './monitoring-plan/monitoring-plan.component';
+import { BasinOverviewComponent } from './basic-info/basin-overview/basin-overview.component';
+import { ProjectOverviewComponent } from './basic-info/project-overview/project-overview.component';
+import { ScheduleOperationComponent } from './basic-info/schedule-operation/schedule-operation.component';
+import { WeatherConditionComponent } from './basic-info/weather-condition/weather-condition.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +27,11 @@ import { MonitoringPlanComponent } from './monitoring-plan/monitoring-plan.compo
     BasicInfoComponent,
     WaterTemperatureComponent,
     IceConditionComponent,
-    MonitoringPlanComponent
+    MonitoringPlanComponent,
+    BasinOverviewComponent,
+    ProjectOverviewComponent,
+    ScheduleOperationComponent,
+    WeatherConditionComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +39,9 @@ import { MonitoringPlanComponent } from './monitoring-plan/monitoring-plan.compo
     MatToolbarModule,
     MatTabsModule,
     MatCardModule,
+    MatGridListModule,
+    MatListModule,
+    MatButtonModule,
     AppRoutingModule
   ],
   providers: [],
