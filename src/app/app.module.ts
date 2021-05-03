@@ -10,15 +10,16 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
 import {HomeComponent} from './home/home.component';
+import {NgxEchartsModule} from 'ngx-echarts';
 import {BasicInfoComponent} from './basic-info/basic-info.component';
 import {WaterTemperatureComponent} from './water-temperature/water-temperature.component';
 import {IceConditionComponent} from './ice-condition/ice-condition.component';
 import {AppRoutingModule} from './app-routing.module';
 import {MonitoringPlanComponent} from './monitoring-plan/monitoring-plan.component';
-import { BasinOverviewComponent } from './basic-info/basin-overview/basin-overview.component';
-import { ProjectOverviewComponent } from './basic-info/project-overview/project-overview.component';
-import { ScheduleOperationComponent } from './basic-info/schedule-operation/schedule-operation.component';
-import { WeatherConditionComponent } from './basic-info/weather-condition/weather-condition.component';
+import {BasinOverviewComponent} from './basic-info/basin-overview/basin-overview.component';
+import {ProjectOverviewComponent} from './basic-info/project-overview/project-overview.component';
+import {ScheduleOperationComponent} from './basic-info/schedule-operation/schedule-operation.component';
+import {WeatherConditionComponent} from './basic-info/weather-condition/weather-condition.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { WeatherConditionComponent } from './basic-info/weather-condition/weathe
     MatGridListModule,
     MatListModule,
     MatButtonModule,
+    NgxEchartsModule,
     AppRoutingModule
   ],
   providers: [],
