@@ -15,7 +15,8 @@ export class ScheduleOperationComponent implements OnInit {
     },
     legend: {
       data: ['上游水位', '入库流量', '出库流量'],
-      left: 50
+      left: 'center',
+      top: 30
     },
     toolbox: {
       feature: {
@@ -52,10 +53,11 @@ export class ScheduleOperationComponent implements OnInit {
       name: '上游水位',
       type: 'line',
       data: [],
+      symbolSize: 0,
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .5
+            width: .8
           }
         }
       }
@@ -64,10 +66,11 @@ export class ScheduleOperationComponent implements OnInit {
       name: '入库流量',
       type: 'line',
       data: [],
+      symbolSize: 0,
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .5
+            width: .8
           }
         }
       }
@@ -76,10 +79,11 @@ export class ScheduleOperationComponent implements OnInit {
       name: '出库流量',
       type: 'line',
       data: [],
+      symbolSize: 0,
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .5
+            width: .8
           }
         }
       }
@@ -96,7 +100,7 @@ export class ScheduleOperationComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.setChartDateWithRange();
+    this.setChartData(ScheduleOperation.DATA);
   }
 
   chartInit(chartInstance): void {

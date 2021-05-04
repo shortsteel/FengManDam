@@ -2767,7 +2767,7 @@ export class ScheduleOperation {
     {date: '2020-12-25', upstream: 259.82, inflow: 288.64, outflow: 289.64},
     {date: '2020-12-26', upstream: 259.82, inflow: 302.54, outflow: 303.82},
     {date: '2020-12-27', upstream: 259.82, inflow: 286.70, outflow: 47.86},
-    {date: '2020-12-28', upstream: 259.76, inflow: 269.32, outflow: 190.55},
+    {date: '2020-12-28', upstream: 259.76, inflow: 269.32, outflow: 190.55}
   ];
 
   date: string;
