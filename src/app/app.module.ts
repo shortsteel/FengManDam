@@ -20,6 +20,11 @@ import {BasinOverviewComponent} from './basic-info/basin-overview/basin-overview
 import {ProjectOverviewComponent} from './basic-info/project-overview/project-overview.component';
 import {ScheduleOperationComponent} from './basic-info/schedule-operation/schedule-operation.component';
 import {WeatherConditionComponent} from './basic-info/weather-condition/weather-condition.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatInputModule} from '@angular/material/input';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -43,8 +48,14 @@ import {WeatherConditionComponent} from './basic-info/weather-condition/weather-
     MatGridListModule,
     MatListModule,
     MatButtonModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatNativeDateModule,
+    MatButtonModule,
+    MatInputModule,
     NgxEchartsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

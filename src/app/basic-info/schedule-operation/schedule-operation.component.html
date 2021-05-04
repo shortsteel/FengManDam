@@ -1,1 +1,24 @@
-<p>schedule-operation works!</p>
+<mat-card style="margin-top: 10%">
+  <mat-card-content>
+    <form [formGroup]="dateRange">
+      <mat-form-field class="example-full-width" style="margin-left: 20%">
+        <mat-label>开始时间</mat-label>
+        <input matInput [matDatepicker]="picker1" formControlName="start">
+        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field class="example-full-width" style="margin-left: 10%">
+        <mat-label>结束时间</mat-label>
+        <input matInput [matDatepicker]="picker2" formControlName="end">
+        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+        <mat-datepicker #picker2></mat-datepicker>
+      </mat-form-field>
+      <button mat-flat-button color="primary" (click)="setChartDateWithRange()" style="margin-left: 10%">确认</button>
+    </form>
+  </mat-card-content>
+  <mat-card-content>
+    <div style="width: 60vw;">
+      <div echarts [options]="chartOptions" (chartInit)="chartInit($event)"></div>
+    </div>
+  </mat-card-content>
+</mat-card>
