@@ -40,13 +40,19 @@ export class ScheduleOperationComponent implements OnInit {
       }
     }],
     yAxis: [{
-      name: '水位(米)',
+      name: '水位(m)',
       type: 'value',
-      scale: true
+      scale: true,
+      axisLabel: {
+        formatter: '{value} m'
+      }
     }, {
-      name: '流量(立方米/秒)',
+      name: '流量(m³/s)',
       type: 'value',
-      scale: true
+      scale: true,
+      axisLabel: {
+        formatter: '{value} m³/s'
+      }
     }],
     series: [{
       yAxisIndex: 0,
