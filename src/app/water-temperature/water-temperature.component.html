@@ -1,1 +1,23 @@
-<p>water-temperature works!</p>
+<mat-grid-list cols="10" rowHeight="90%" style="background: rgb(250,250,250)">
+  <mat-grid-tile rowspan="1" colspan="1"></mat-grid-tile>
+  <mat-grid-tile rowspan="1" colspan="1">
+    <mat-nav-list style="background: white">
+      <a routerLink="ReservoirVertical" routerLinkActive="active" mat-list-item>
+        <span mat-line>库区垂向</span>
+      </a>
+      <a routerLink="OnlinePoint" routerLinkActive="active" mat-list-item>
+        <span mat-line>在线点位</span>
+      </a>
+      <a routerLink="ReservoirTemperature" routerLinkActive="active" mat-list-item>
+        <span mat-line>库区水温</span>
+      </a>
+    </mat-nav-list>
+  </mat-grid-tile>
+  <mat-grid-tile rowspan="1" colspan="6">
+    <div style="height: 100%">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile rowspan="1" colspan="1"></mat-grid-tile>
+  <mat-grid-tile rowspan="1" colspan="1"></mat-grid-tile>
+</mat-grid-list>

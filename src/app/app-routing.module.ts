@@ -9,6 +9,9 @@ import {BasinOverviewComponent} from './basic-info/basin-overview/basin-overview
 import {ProjectOverviewComponent} from './basic-info/project-overview/project-overview.component';
 import {ScheduleOperationComponent} from './basic-info/schedule-operation/schedule-operation.component';
 import {WeatherConditionComponent} from './basic-info/weather-condition/weather-condition.component';
+import {ReservoirVerticalComponent} from './water-temperature/reservoir-vertical/reservoir-vertical.component';
+import {OnlinePointComponent} from './water-temperature/online-point/online-point.component';
+import {ReservoirTemperatureComponent} from './water-temperature/reservoir-temperature/reservoir-temperature.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'Home', pathMatch: 'full'},
@@ -23,7 +26,14 @@ const routes: Routes = [
     ]
   },
   {path: 'MonitoringPlan', component: MonitoringPlanComponent},
-  {path: 'WaterTemperature', component: WaterTemperatureComponent},
+  {
+    path: 'WaterTemperature', component: WaterTemperatureComponent, children: [
+      {path: '', redirectTo: 'ReservoirVertical', pathMatch: 'full'},
+      {path: 'ReservoirVertical', component: ReservoirVerticalComponent},
+      {path: 'OnlinePoint', component: OnlinePointComponent},
+      {path: 'ReservoirTemperature', component: ReservoirTemperatureComponent},
+    ]
+  },
   {path: 'IceCondition', component: IceConditionComponent},
 ];
 
