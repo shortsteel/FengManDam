@@ -22,12 +22,13 @@ import {ScheduleOperationComponent} from './basic-info/schedule-operation/schedu
 import {WeatherConditionComponent} from './basic-info/weather-condition/weather-condition.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatNativeDateModule} from '@angular/material/core';
+import {MatNativeDateModule, MatOptionModule} from '@angular/material/core';
 import {MatInputModule} from '@angular/material/input';
 import {ReactiveFormsModule} from '@angular/forms';
-import { ReservoirVerticalComponent } from './water-temperature/reservoir-vertical/reservoir-vertical.component';
-import { OnlinePointComponent } from './water-temperature/online-point/online-point.component';
-import { ReservoirTemperatureComponent } from './water-temperature/reservoir-temperature/reservoir-temperature.component';
+import {ReservoirVerticalComponent} from './water-temperature/reservoir-vertical/reservoir-vertical.component';
+import {OnlinePointComponent} from './water-temperature/online-point/online-point.component';
+import {ReservoirTemperatureComponent} from './water-temperature/reservoir-temperature/reservoir-temperature.component';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,9 @@ import { ReservoirTemperatureComponent } from './water-temperature/reservoir-tem
     MatInputModule,
     NgxEchartsModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatSelectModule,
+    MatOptionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
