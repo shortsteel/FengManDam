@@ -24,7 +24,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatNativeDateModule, MatOptionModule} from '@angular/material/core';
 import {MatInputModule} from '@angular/material/input';
-import {ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {ReservoirVerticalComponent} from './water-temperature/reservoir-vertical/reservoir-vertical.component';
 import {OnlinePointComponent} from './water-temperature/online-point/online-point.component';
 import {ReservoirTemperatureComponent} from './water-temperature/reservoir-temperature/reservoir-temperature.component';
@@ -46,26 +46,27 @@ import {MatSelectModule} from '@angular/material/select';
     OnlinePointComponent,
     ReservoirTemperatureComponent
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatTabsModule,
-    MatCardModule,
-    MatGridListModule,
-    MatListModule,
-    MatButtonModule,
-    MatDatepickerModule,
-    MatFormFieldModule,
-    MatNativeDateModule,
-    MatButtonModule,
-    MatInputModule,
-    NgxEchartsModule,
-    AppRoutingModule,
-    ReactiveFormsModule,
-    MatSelectModule,
-    MatOptionModule
-  ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatTabsModule,
+        MatCardModule,
+        MatGridListModule,
+        MatListModule,
+        MatButtonModule,
+        MatDatepickerModule,
+        MatFormFieldModule,
+        MatNativeDateModule,
+        MatButtonModule,
+        MatInputModule,
+        NgxEchartsModule,
+        AppRoutingModule,
+        ReactiveFormsModule,
+        MatSelectModule,
+        MatOptionModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
