@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-reservoir-temperature',
@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reservoir-temperature.component.css']
 })
 export class ReservoirTemperatureComponent implements OnInit {
+  imgSrc: string;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
+    this.imgSrc = 'assets/images/reservoir-temperature/2013-06.bmp';
   }
 
 }

@@ -1,1 +1,29 @@
-<p>reservoir-temperature works!</p>
+<mat-card style="text-align: center;margin-top: 10%;height: 60%">
+  <mat-card-content>
+    <div>
+      <mat-form-field class="example-full-width" style="margin-left: 5%">
+        <mat-label>时间</mat-label>
+        <mat-select [(ngModel)]="imgSrc">
+          <mat-option value="assets/images/reservoir-temperature/2013-06.bmp">2013-06</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2013-09.bmp">2013-09</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2014-02.bmp">2014-02</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2014-06.bmp">2014-06</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2014-09.bmp">2014-09</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2015-02.bmp">2015-02</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2015-06.bmp">2015-06</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2015-09.bmp">2015-09</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2016-02.bmp">2016-02</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2016-06.bmp">2016-06</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2016-09.bmp">2016-09</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2017-02.bmp">2017-02</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2017-06.bmp">2017-06</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2017-09.bmp">2017-09</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2018-02.bmp">2018-02</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2018-06.bmp">2018-06</mat-option>
+          <mat-option value="assets/images/reservoir-temperature/2018-09.bmp">2018-09</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <img [src]="imgSrc" style="width: 100%;margin-top: 5%"/>
+  </mat-card-content>
+</mat-card>
