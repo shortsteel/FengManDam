@@ -42,10 +42,7 @@ export class WeatherConditionComponent implements OnInit {
     yAxis: [{
       name: '温度(°C)',
       type: 'value',
-      scale: true,
-      axisLabel: {
-        formatter: '{value} °C'
-      }
+      scale: true
     }],
     series: [{
       yAxisIndex: 0,
@@ -56,7 +53,7 @@ export class WeatherConditionComponent implements OnInit {
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .8
+            width: 1
           }
         }
       }

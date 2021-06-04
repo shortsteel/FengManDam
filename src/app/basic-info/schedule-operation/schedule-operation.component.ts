@@ -57,7 +57,7 @@ export class ScheduleOperationComponent implements OnInit {
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .8
+            width: 1
           }
         }
       }
@@ -70,7 +70,7 @@ export class ScheduleOperationComponent implements OnInit {
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .8
+            width: 1
           }
         }
       }
@@ -83,7 +83,7 @@ export class ScheduleOperationComponent implements OnInit {
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .8
+            width: 1
           }
         }
       }

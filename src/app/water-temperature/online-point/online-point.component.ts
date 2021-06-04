@@ -57,7 +57,7 @@ export class OnlinePointComponent implements OnInit {
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .8
+            width: 1
           }
         }
       }

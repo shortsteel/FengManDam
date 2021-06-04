@@ -52,7 +52,7 @@ export class ReservoirVerticalComponent implements OnInit {
       itemStyle: {
         normal: {
           lineStyle: {
-            width: .8
+            width: 1
           }
         }
       }
