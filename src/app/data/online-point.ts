@@ -2,7 +2,3952 @@ export class OnlinePoint {
   // @ts-ignore
   static DATA: OnlinePoint[] = [
     {
-      date: '2014-01-01',
+      date: '2013/4/13',
+      wsd: null,
+      jlrdc: null,
+      jlswz: null,
+      yqsk: null,
+      fmswz: null,
+      sqws: 2.1,
+      hsws: null,
+      yqws: 2.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/14',
+      wsd: null,
+      jlrdc: null,
+      jlswz: null,
+      yqsk: null,
+      fmswz: null,
+      sqws: 2.1,
+      hsws: 3.2,
+      yqws: 2.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/15',
+      wsd: 2.1,
+      jlrdc: null,
+      jlswz: null,
+      yqsk: null,
+      fmswz: null,
+      sqws: 2.1,
+      hsws: 3.4,
+      yqws: 2.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/16',
+      wsd: 2.7,
+      jlrdc: null,
+      jlswz: null,
+      yqsk: null,
+      fmswz: null,
+      sqws: 2.1,
+      hsws: 3.5,
+      yqws: 2.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/17',
+      wsd: 2.7,
+      jlrdc: 12.0,
+      jlswz: null,
+      yqsk: 2.2,
+      fmswz: null,
+      sqws: 2.1,
+      hsws: 3.5,
+      yqws: 2.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/18',
+      wsd: 2.7,
+      jlrdc: 13.0,
+      jlswz: null,
+      yqsk: 2.1,
+      fmswz: 1.8,
+      sqws: 2.1,
+      hsws: 3.5,
+      yqws: 2.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/19',
+      wsd: 2.5,
+      jlrdc: 12.2,
+      jlswz: null,
+      yqsk: 2.3,
+      fmswz: 1.9,
+      sqws: 2.1,
+      hsws: 3.5,
+      yqws: 2.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/20',
+      wsd: 2.7,
+      jlrdc: 11.7,
+      jlswz: null,
+      yqsk: 2.2,
+      fmswz: 1.9,
+      sqws: 2.2,
+      hsws: 3.5,
+      yqws: 2.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/21',
+      wsd: 3.0,
+      jlrdc: 11.7,
+      jlswz: null,
+      yqsk: 2.3,
+      fmswz: 2.0,
+      sqws: 2.2,
+      hsws: 3.7,
+      yqws: 2.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/22',
+      wsd: 3.3,
+      jlrdc: 14.0,
+      jlswz: null,
+      yqsk: 2.4,
+      fmswz: 2.1,
+      sqws: 2.1,
+      hsws: 3.9,
+      yqws: 2.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/23',
+      wsd: 3.4,
+      jlrdc: 13.1,
+      jlswz: null,
+      yqsk: 2.2,
+      fmswz: 2.0,
+      sqws: 2.2,
+      hsws: 3.9,
+      yqws: 2.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/24',
+      wsd: 3.2,
+      jlrdc: 12.7,
+      jlswz: null,
+      yqsk: 2.5,
+      fmswz: 2.1,
+      sqws: 2.2,
+      hsws: 4.1,
+      yqws: 2.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/25',
+      wsd: 3.5,
+      jlrdc: 11.9,
+      jlswz: null,
+      yqsk: 2.5,
+      fmswz: 2.2,
+      sqws: 2.3,
+      hsws: 4.2,
+      yqws: 2.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/26',
+      wsd: 3.5,
+      jlrdc: 12.2,
+      jlswz: null,
+      yqsk: 2.4,
+      fmswz: 2.1,
+      sqws: 2.3,
+      hsws: 4.3,
+      yqws: 2.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/27',
+      wsd: 3.6,
+      jlrdc: 14.2,
+      jlswz: null,
+      yqsk: 2.6,
+      fmswz: 2.3,
+      sqws: 2.4,
+      hsws: 4.6,
+      yqws: 2.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/28',
+      wsd: 4.0,
+      jlrdc: 13.9,
+      jlswz: null,
+      yqsk: 2.7,
+      fmswz: 2.4,
+      sqws: 2.4,
+      hsws: 5.0,
+      yqws: 2.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/29',
+      wsd: 3.9,
+      jlrdc: 13.4,
+      jlswz: null,
+      yqsk: 2.5,
+      fmswz: 2.3,
+      sqws: 2.4,
+      hsws: 5.2,
+      yqws: 2.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/4/30',
+      wsd: 3.5,
+      jlrdc: 13.9,
+      jlswz: null,
+      yqsk: 2.5,
+      fmswz: 2.3,
+      sqws: 2.5,
+      hsws: 5.2,
+      yqws: 2.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/1',
+      wsd: 3.6,
+      jlrdc: 15.0,
+      jlswz: 4.8,
+      yqsk: 2.6,
+      fmswz: 2.4,
+      sqws: 2.5,
+      hsws: 5.3,
+      yqws: 2.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/2',
+      wsd: 4.0,
+      jlrdc: 14.8,
+      jlswz: 5.2,
+      yqsk: 2.7,
+      fmswz: 2.4,
+      sqws: 2.6,
+      hsws: 5.1,
+      yqws: 2.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/3',
+      wsd: 3.9,
+      jlrdc: 14.3,
+      jlswz: 5.3,
+      yqsk: 2.7,
+      fmswz: 2.5,
+      sqws: 2.6,
+      hsws: 4.7,
+      yqws: 2.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/4',
+      wsd: 4.2,
+      jlrdc: 14.1,
+      jlswz: 5.2,
+      yqsk: 2.9,
+      fmswz: 2.7,
+      sqws: 2.7,
+      hsws: 4.4,
+      yqws: 2.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/5',
+      wsd: 4.8,
+      jlrdc: 14.6,
+      jlswz: 5.0,
+      yqsk: 3.2,
+      fmswz: 2.9,
+      sqws: 2.9,
+      hsws: 4.5,
+      yqws: 2.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/6',
+      wsd: 5.2,
+      jlrdc: 15.2,
+      jlswz: 5.1,
+      yqsk: 3.3,
+      fmswz: 3.0,
+      sqws: 3.0,
+      hsws: 4.9,
+      yqws: 2.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/7',
+      wsd: 5.1,
+      jlrdc: 15.3,
+      jlswz: 5.2,
+      yqsk: 3.4,
+      fmswz: 3.1,
+      sqws: 3.1,
+      hsws: 5.5,
+      yqws: 3.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/8',
+      wsd: 5.6,
+      jlrdc: 16.2,
+      jlswz: 5.8,
+      yqsk: 3.7,
+      fmswz: 3.2,
+      sqws: 3.3,
+      hsws: 5.6,
+      yqws: 3.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/9',
+      wsd: 5.9,
+      jlrdc: 18.0,
+      jlswz: 5.6,
+      yqsk: 3.8,
+      fmswz: 3.4,
+      sqws: 3.4,
+      hsws: 5.6,
+      yqws: 3.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/10',
+      wsd: 5.3,
+      jlrdc: 16.5,
+      jlswz: 5.8,
+      yqsk: 3.6,
+      fmswz: 3.4,
+      sqws: 3.5,
+      hsws: 5.6,
+      yqws: 3.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/11',
+      wsd: 5.1,
+      jlrdc: 14.7,
+      jlswz: 5.9,
+      yqsk: 4.0,
+      fmswz: 3.5,
+      sqws: 3.7,
+      hsws: 5.3,
+      yqws: 3.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/12',
+      wsd: 5.7,
+      jlrdc: 15.5,
+      jlswz: 5.4,
+      yqsk: 4.0,
+      fmswz: 3.6,
+      sqws: 3.8,
+      hsws: 4.8,
+      yqws: 3.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/13',
+      wsd: 5.7,
+      jlrdc: 16.3,
+      jlswz: 5.4,
+      yqsk: 4.4,
+      fmswz: 3.9,
+      sqws: 4.0,
+      hsws: 5.0,
+      yqws: 3.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/14',
+      wsd: 6.0,
+      jlrdc: 15.0,
+      jlswz: 5.2,
+      yqsk: 4.6,
+      fmswz: 4.0,
+      sqws: 4.1,
+      hsws: 5.5,
+      yqws: 4.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/15',
+      wsd: 5.7,
+      jlrdc: 14.8,
+      jlswz: 5.0,
+      yqsk: 4.7,
+      fmswz: 4.2,
+      sqws: 4.3,
+      hsws: 5.5,
+      yqws: 4.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/16',
+      wsd: 5.9,
+      jlrdc: 15.6,
+      jlswz: 5.4,
+      yqsk: 5.8,
+      fmswz: 4.9,
+      sqws: 5.0,
+      hsws: 5.5,
+      yqws: 5.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/17',
+      wsd: 7.3,
+      jlrdc: 18.4,
+      jlswz: 5.8,
+      yqsk: 5.5,
+      fmswz: 4.7,
+      sqws: 4.8,
+      hsws: 5.6,
+      yqws: 4.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/18',
+      wsd: 7.2,
+      jlrdc: 18.2,
+      jlswz: 6.0,
+      yqsk: 5.9,
+      fmswz: 5.0,
+      sqws: 5.1,
+      hsws: 5.7,
+      yqws: 5.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/19',
+      wsd: 7.4,
+      jlrdc: 17.9,
+      jlswz: 6.2,
+      yqsk: 5.9,
+      fmswz: 5.0,
+      sqws: 5.1,
+      hsws: 5.9,
+      yqws: 5.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/20',
+      wsd: 6.9,
+      jlrdc: 15.1,
+      jlswz: 7.8,
+      yqsk: 5.5,
+      fmswz: 4.9,
+      sqws: 5.0,
+      hsws: 5.9,
+      yqws: 4.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/21',
+      wsd: 6.5,
+      jlrdc: 16.1,
+      jlswz: 8.0,
+      yqsk: 5.6,
+      fmswz: 4.9,
+      sqws: 5.0,
+      hsws: 5.9,
+      yqws: 4.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/22',
+      wsd: 7.0,
+      jlrdc: 15.5,
+      jlswz: 7.4,
+      yqsk: 6.0,
+      fmswz: 5.2,
+      sqws: 5.3,
+      hsws: 6.3,
+      yqws: 5.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/23',
+      wsd: 7.6,
+      jlrdc: 15.1,
+      jlswz: 8.4,
+      yqsk: 5.7,
+      fmswz: 4.9,
+      sqws: 5.0,
+      hsws: 6.7,
+      yqws: 4.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/24',
+      wsd: 7.2,
+      jlrdc: 15.7,
+      jlswz: 8.0,
+      yqsk: 5.5,
+      fmswz: 5.0,
+      sqws: 5.1,
+      hsws: 6.9,
+      yqws: 5.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/25',
+      wsd: 7.0,
+      jlrdc: 16.7,
+      jlswz: 7.8,
+      yqsk: 5.9,
+      fmswz: 5.2,
+      sqws: 5.2,
+      hsws: 6.6,
+      yqws: 5.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/26',
+      wsd: 7.9,
+      jlrdc: 18.0,
+      jlswz: 8.4,
+      yqsk: 6.0,
+      fmswz: 5.3,
+      sqws: 5.3,
+      hsws: 6.7,
+      yqws: 5.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/27',
+      wsd: 8.0,
+      jlrdc: 16.6,
+      jlswz: 8.8,
+      yqsk: 6.0,
+      fmswz: 5.4,
+      sqws: 5.4,
+      hsws: 7.0,
+      yqws: 5.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/28',
+      wsd: 7.9,
+      jlrdc: 16.8,
+      jlswz: 8.6,
+      yqsk: 6.3,
+      fmswz: 5.6,
+      sqws: 5.6,
+      hsws: 7.1,
+      yqws: 5.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/29',
+      wsd: 7.9,
+      jlrdc: 16.6,
+      jlswz: 8.0,
+      yqsk: 6.4,
+      fmswz: 5.6,
+      sqws: 5.6,
+      hsws: 7.1,
+      yqws: 5.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/30',
+      wsd: 7.9,
+      jlrdc: 16.5,
+      jlswz: 8.2,
+      yqsk: 6.7,
+      fmswz: 5.9,
+      sqws: 5.9,
+      hsws: 7.2,
+      yqws: 5.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/5/31',
+      wsd: 8.7,
+      jlrdc: 15.8,
+      jlswz: 8.8,
+      yqsk: 6.9,
+      fmswz: 5.9,
+      sqws: 5.9,
+      hsws: 7.6,
+      yqws: 5.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/1',
+      wsd: 8.7,
+      jlrdc: 15.6,
+      jlswz: 8.4,
+      yqsk: 7.2,
+      fmswz: 6.3,
+      sqws: 6.3,
+      hsws: 8.0,
+      yqws: 6.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/2',
+      wsd: 8.5,
+      jlrdc: 15.0,
+      jlswz: 8.2,
+      yqsk: 7.2,
+      fmswz: 6.5,
+      sqws: 6.5,
+      hsws: 8.4,
+      yqws: 6.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/3',
+      wsd: 8.4,
+      jlrdc: 14.6,
+      jlswz: 7.6,
+      yqsk: 7.0,
+      fmswz: 6.3,
+      sqws: 6.2,
+      hsws: 8.1,
+      yqws: 6.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/4',
+      wsd: 8.3,
+      jlrdc: 14.2,
+      jlswz: 9.2,
+      yqsk: 7.4,
+      fmswz: 6.7,
+      sqws: 6.6,
+      hsws: 7.6,
+      yqws: 6.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/5',
+      wsd: 8.7,
+      jlrdc: 15.1,
+      jlswz: 8.4,
+      yqsk: 7.4,
+      fmswz: 6.6,
+      sqws: 6.5,
+      hsws: 8.1,
+      yqws: 6.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/6',
+      wsd: 9.0,
+      jlrdc: 15.0,
+      jlswz: 8.6,
+      yqsk: 7.9,
+      fmswz: 6.9,
+      sqws: 6.7,
+      hsws: 7.7,
+      yqws: 6.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/7',
+      wsd: 9.4,
+      jlrdc: 16.1,
+      jlswz: 8.7,
+      yqsk: 7.9,
+      fmswz: 7.1,
+      sqws: 6.9,
+      hsws: 7.4,
+      yqws: 6.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/8',
+      wsd: 10.1,
+      jlrdc: 17.8,
+      jlswz: 9.0,
+      yqsk: 8.1,
+      fmswz: 7.3,
+      sqws: 7.1,
+      hsws: 7.7,
+      yqws: 7.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/9',
+      wsd: 10.9,
+      jlrdc: 19.4,
+      jlswz: 9.1,
+      yqsk: 8.3,
+      fmswz: 7.4,
+      sqws: 7.1,
+      hsws: 8.0,
+      yqws: 7.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/10',
+      wsd: 11.0,
+      jlrdc: 18.8,
+      jlswz: 9.0,
+      yqsk: 8.0,
+      fmswz: 7.2,
+      sqws: 7.1,
+      hsws: 7.9,
+      yqws: 7.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/11',
+      wsd: 9.8,
+      jlrdc: 17.8,
+      jlswz: 8.1,
+      yqsk: 8.0,
+      fmswz: 8.4,
+      sqws: 7.5,
+      hsws: 8.0,
+      yqws: 7.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/12',
+      wsd: 8.8,
+      jlrdc: 17.5,
+      jlswz: 8.8,
+      yqsk: 8.5,
+      fmswz: 8.9,
+      sqws: 7.9,
+      hsws: 7.6,
+      yqws: 7.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/13',
+      wsd: 9.6,
+      jlrdc: 18.2,
+      jlswz: 9.2,
+      yqsk: 8.7,
+      fmswz: 9.3,
+      sqws: 8.2,
+      hsws: 7.4,
+      yqws: 7.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/14',
+      wsd: 10.1,
+      jlrdc: 17.6,
+      jlswz: 12.2,
+      yqsk: 8.5,
+      fmswz: 10.1,
+      sqws: 9.1,
+      hsws: 7.8,
+      yqws: 7.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/15',
+      wsd: 10.3,
+      jlrdc: 17.9,
+      jlswz: 10.0,
+      yqsk: 8.9,
+      fmswz: 10.2,
+      sqws: 9.1,
+      hsws: 8.0,
+      yqws: 8.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/16',
+      wsd: 10.2,
+      jlrdc: 20.3,
+      jlswz: 9.9,
+      yqsk: 9.0,
+      fmswz: 10.4,
+      sqws: 9.5,
+      hsws: 8.4,
+      yqws: 8.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/17',
+      wsd: 10.5,
+      jlrdc: 18.2,
+      jlswz: 10.4,
+      yqsk: 9.3,
+      fmswz: 10.3,
+      sqws: 9.1,
+      hsws: 8.6,
+      yqws: 8.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/18',
+      wsd: 11.0,
+      jlrdc: 19.0,
+      jlswz: 11.2,
+      yqsk: 9.3,
+      fmswz: 9.5,
+      sqws: 8.6,
+      hsws: 8.9,
+      yqws: 9.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/19',
+      wsd: 10.8,
+      jlrdc: 19.7,
+      jlswz: 11.8,
+      yqsk: 9.9,
+      fmswz: 9.3,
+      sqws: 8.8,
+      hsws: 8.1,
+      yqws: 9.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/20',
+      wsd: 11.7,
+      jlrdc: 19.0,
+      jlswz: 11.6,
+      yqsk: 9.8,
+      fmswz: 9.2,
+      sqws: 8.8,
+      hsws: 7.9,
+      yqws: 9.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/21',
+      wsd: 12.0,
+      jlrdc: 20.0,
+      jlswz: 11.4,
+      yqsk: 10.3,
+      fmswz: 9.9,
+      sqws: 9.0,
+      hsws: 8.0,
+      yqws: 9.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/22',
+      wsd: 12.5,
+      jlrdc: 20.9,
+      jlswz: 12.2,
+      yqsk: 10.4,
+      fmswz: 11.1,
+      sqws: 10.4,
+      hsws: 7.9,
+      yqws: 9.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/23',
+      wsd: 13.0,
+      jlrdc: 22.0,
+      jlswz: 12.8,
+      yqsk: 10.6,
+      fmswz: 10.7,
+      sqws: 10.0,
+      hsws: 8.2,
+      yqws: 9.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/24',
+      wsd: 13.8,
+      jlrdc: 20.9,
+      jlswz: 11.9,
+      yqsk: 10.5,
+      fmswz: 10.7,
+      sqws: 9.5,
+      hsws: 8.0,
+      yqws: 9.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/25',
+      wsd: 13.3,
+      jlrdc: 20.6,
+      jlswz: 12.3,
+      yqsk: 10.6,
+      fmswz: 10.8,
+      sqws: 9.4,
+      hsws: 7.8,
+      yqws: 9.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/26',
+      wsd: 13.6,
+      jlrdc: 20.9,
+      jlswz: 12.4,
+      yqsk: 10.7,
+      fmswz: 10.8,
+      sqws: 9.7,
+      hsws: 7.8,
+      yqws: 9.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/27',
+      wsd: 12.9,
+      jlrdc: 19.7,
+      jlswz: 13.0,
+      yqsk: 10.3,
+      fmswz: 10.9,
+      sqws: 10.0,
+      hsws: 8.0,
+      yqws: 9.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/28',
+      wsd: 12.1,
+      jlrdc: 21.4,
+      jlswz: 19.0,
+      yqsk: 10.7,
+      fmswz: 10.7,
+      sqws: 9.9,
+      hsws: 8.3,
+      yqws: 9.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/29',
+      wsd: 12.0,
+      jlrdc: 20.6,
+      jlswz: 14.5,
+      yqsk: 10.3,
+      fmswz: 9.7,
+      sqws: 9.3,
+      hsws: 8.6,
+      yqws: 9.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/6/30',
+      wsd: 12.1,
+      jlrdc: 19.0,
+      jlswz: 12.7,
+      yqsk: 10.7,
+      fmswz: 10.7,
+      sqws: 10.5,
+      hsws: 8.3,
+      yqws: 9.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/1',
+      wsd: 12.2,
+      jlrdc: 19.0,
+      jlswz: 10.7,
+      yqsk: 10.6,
+      fmswz: 11.3,
+      sqws: 10.8,
+      hsws: 8.3,
+      yqws: 9.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/2',
+      wsd: 12.0,
+      jlrdc: 19.1,
+      jlswz: 10.9,
+      yqsk: 10.8,
+      fmswz: 11.5,
+      sqws: 11.0,
+      hsws: 8.4,
+      yqws: 10.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/3',
+      wsd: 13.1,
+      jlrdc: 19.9,
+      jlswz: 11.3,
+      yqsk: 11.2,
+      fmswz: 11.7,
+      sqws: 11.0,
+      hsws: 8.5,
+      yqws: 9.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/4',
+      wsd: 13.5,
+      jlrdc: 18.9,
+      jlswz: 11.1,
+      yqsk: 11.1,
+      fmswz: 11.5,
+      sqws: 10.9,
+      hsws: 9.1,
+      yqws: 10.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/5',
+      wsd: 13.7,
+      jlrdc: 19.3,
+      jlswz: 11.5,
+      yqsk: 11.3,
+      fmswz: 12.3,
+      sqws: 10.9,
+      hsws: 9.9,
+      yqws: 10.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/6',
+      wsd: 13.2,
+      jlrdc: 20.1,
+      jlswz: 11.4,
+      yqsk: 11.3,
+      fmswz: 12.4,
+      sqws: 11.2,
+      hsws: 10.6,
+      yqws: 10.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/7',
+      wsd: 13.8,
+      jlrdc: 22.1,
+      jlswz: 11.8,
+      yqsk: 11.7,
+      fmswz: 12.7,
+      sqws: 11.8,
+      hsws: 10.4,
+      yqws: 10.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/8',
+      wsd: 13.1,
+      jlrdc: 20.5,
+      jlswz: 11.5,
+      yqsk: 11.6,
+      fmswz: 12.0,
+      sqws: 11.9,
+      hsws: 9.9,
+      yqws: 10.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/9',
+      wsd: 12.8,
+      jlrdc: 21.2,
+      jlswz: 11.7,
+      yqsk: 11.9,
+      fmswz: 11.4,
+      sqws: 11.9,
+      hsws: 9.2,
+      yqws: 10.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/10',
+      wsd: 13.3,
+      jlrdc: 20.0,
+      jlswz: 12.5,
+      yqsk: 12.5,
+      fmswz: 11.6,
+      sqws: 12.7,
+      hsws: 8.6,
+      yqws: 11.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/11',
+      wsd: 14.0,
+      jlrdc: 22.9,
+      jlswz: 12.7,
+      yqsk: 12.7,
+      fmswz: 11.8,
+      sqws: 13.1,
+      hsws: 8.3,
+      yqws: 11.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/12',
+      wsd: 14.2,
+      jlrdc: 23.4,
+      jlswz: 13.1,
+      yqsk: 13.2,
+      fmswz: 12.1,
+      sqws: 13.1,
+      hsws: 8.3,
+      yqws: 12.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/13',
+      wsd: 14.9,
+      jlrdc: 23.9,
+      jlswz: 13.5,
+      yqsk: 13.3,
+      fmswz: 12.2,
+      sqws: 12.5,
+      hsws: 8.3,
+      yqws: 12.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/14',
+      wsd: 14.9,
+      jlrdc: 23.4,
+      jlswz: 13.7,
+      yqsk: 13.6,
+      fmswz: 12.4,
+      sqws: 13.2,
+      hsws: 8.3,
+      yqws: 12.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/15',
+      wsd: 15.1,
+      jlrdc: 21.7,
+      jlswz: 13.8,
+      yqsk: 13.7,
+      fmswz: 12.6,
+      sqws: 14.4,
+      hsws: 8.6,
+      yqws: 12.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/16',
+      wsd: 15.5,
+      jlrdc: 22.2,
+      jlswz: 14.1,
+      yqsk: 14.2,
+      fmswz: 12.9,
+      sqws: 14.5,
+      hsws: 8.7,
+      yqws: 13.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/17',
+      wsd: 15.9,
+      jlrdc: 22.1,
+      jlswz: 14.1,
+      yqsk: 13.9,
+      fmswz: 13.1,
+      sqws: 14.0,
+      hsws: 8.7,
+      yqws: 12.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/18',
+      wsd: 15.4,
+      jlrdc: 23.3,
+      jlswz: 14.4,
+      yqsk: 14.4,
+      fmswz: 13.6,
+      sqws: 14.9,
+      hsws: 9.2,
+      yqws: 13.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/19',
+      wsd: 15.5,
+      jlrdc: 23.8,
+      jlswz: 14.5,
+      yqsk: 14.6,
+      fmswz: 14.1,
+      sqws: 14.1,
+      hsws: 9.4,
+      yqws: 13.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/20',
+      wsd: 16.1,
+      jlrdc: 24.1,
+      jlswz: 14.9,
+      yqsk: 14.7,
+      fmswz: 14.0,
+      sqws: 13.7,
+      hsws: 9.3,
+      yqws: 13.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/21',
+      wsd: 16.6,
+      jlrdc: 26.3,
+      jlswz: 15.1,
+      yqsk: 14.9,
+      fmswz: 14.0,
+      sqws: 13.7,
+      hsws: 10.1,
+      yqws: 13.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/22',
+      wsd: 17.1,
+      jlrdc: 25.0,
+      jlswz: 15.2,
+      yqsk: 14.9,
+      fmswz: 14.3,
+      sqws: 13.9,
+      hsws: 10.3,
+      yqws: 14.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/23',
+      wsd: 16.5,
+      jlrdc: 25.1,
+      jlswz: 15.2,
+      yqsk: 15.1,
+      fmswz: 15.0,
+      sqws: 14.5,
+      hsws: 10.0,
+      yqws: 14.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/24',
+      wsd: 15.9,
+      jlrdc: 23.2,
+      jlswz: 15.0,
+      yqsk: 15.0,
+      fmswz: 16.5,
+      sqws: 15.3,
+      hsws: 10.2,
+      yqws: 14.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/25',
+      wsd: 16.4,
+      jlrdc: 23.5,
+      jlswz: 15.4,
+      yqsk: 15.4,
+      fmswz: 16.7,
+      sqws: 15.5,
+      hsws: 10.5,
+      yqws: 14.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/26',
+      wsd: 16.9,
+      jlrdc: 23.9,
+      jlswz: 15.9,
+      yqsk: 15.9,
+      fmswz: 17.0,
+      sqws: 16.1,
+      hsws: 11.7,
+      yqws: 15.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/27',
+      wsd: 17.2,
+      jlrdc: 26.4,
+      jlswz: 16.4,
+      yqsk: 16.3,
+      fmswz: 17.6,
+      sqws: 16.3,
+      hsws: 12.4,
+      yqws: 15.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/28',
+      wsd: 17.3,
+      jlrdc: 25.9,
+      jlswz: 16.4,
+      yqsk: 16.4,
+      fmswz: 17.9,
+      sqws: 16.6,
+      hsws: 11.8,
+      yqws: 15.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/29',
+      wsd: 17.7,
+      jlrdc: 25.7,
+      jlswz: 16.8,
+      yqsk: 16.6,
+      fmswz: 17.8,
+      sqws: 16.7,
+      hsws: 11.9,
+      yqws: 16.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/30',
+      wsd: 17.6,
+      jlrdc: 25.0,
+      jlswz: 16.7,
+      yqsk: 16.7,
+      fmswz: 17.8,
+      sqws: 16.8,
+      hsws: 12.3,
+      yqws: 16.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/7/31',
+      wsd: 17.8,
+      jlrdc: 24.1,
+      jlswz: 17.2,
+      yqsk: 17.1,
+      fmswz: 18.0,
+      sqws: 17.0,
+      hsws: 11.8,
+      yqws: 16.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/1',
+      wsd: 18.2,
+      jlrdc: 25.5,
+      jlswz: 17.4,
+      yqsk: 17.3,
+      fmswz: 18.1,
+      sqws: 17.2,
+      hsws: 11.9,
+      yqws: 16.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/2',
+      wsd: 18.4,
+      jlrdc: 26.7,
+      jlswz: 17.6,
+      yqsk: 17.5,
+      fmswz: 18.2,
+      sqws: 17.3,
+      hsws: 12.4,
+      yqws: 17.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/3',
+      wsd: 18.6,
+      jlrdc: 27.0,
+      jlswz: 17.8,
+      yqsk: 17.7,
+      fmswz: 18.3,
+      sqws: 17.5,
+      hsws: 12.9,
+      yqws: 17.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/4',
+      wsd: 18.8,
+      jlrdc: 27.3,
+      jlswz: 18.0,
+      yqsk: 17.9,
+      fmswz: 18.3,
+      sqws: 17.7,
+      hsws: 13.7,
+      yqws: 17.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/5',
+      wsd: 18.6,
+      jlrdc: 27.2,
+      jlswz: 17.9,
+      yqsk: 18.0,
+      fmswz: 18.5,
+      sqws: 17.9,
+      hsws: 14.1,
+      yqws: 17.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/6',
+      wsd: 18.7,
+      jlrdc: 26.2,
+      jlswz: 18.2,
+      yqsk: 18.1,
+      fmswz: 18.6,
+      sqws: 17.9,
+      hsws: 13.6,
+      yqws: 17.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/7',
+      wsd: 18.9,
+      jlrdc: 29.2,
+      jlswz: 18.2,
+      yqsk: 18.2,
+      fmswz: 18.6,
+      sqws: 17.9,
+      hsws: 14.1,
+      yqws: 17.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/8',
+      wsd: 18.8,
+      jlrdc: 26.4,
+      jlswz: 18.2,
+      yqsk: 18.3,
+      fmswz: 18.8,
+      sqws: 18.1,
+      hsws: 13.9,
+      yqws: 18.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/9',
+      wsd: 19.9,
+      jlrdc: 27.4,
+      jlswz: 18.5,
+      yqsk: 18.4,
+      fmswz: 18.7,
+      sqws: 18.3,
+      hsws: 14.5,
+      yqws: 18.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/10',
+      wsd: 19.5,
+      jlrdc: 26.5,
+      jlswz: 18.5,
+      yqsk: 18.4,
+      fmswz: 18.7,
+      sqws: 18.1,
+      hsws: 15.1,
+      yqws: 18.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/11',
+      wsd: 19.3,
+      jlrdc: 27.5,
+      jlswz: 18.5,
+      yqsk: 18.4,
+      fmswz: 18.7,
+      sqws: 18.2,
+      hsws: 14.7,
+      yqws: 18.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/12',
+      wsd: 19.4,
+      jlrdc: 26.9,
+      jlswz: 18.7,
+      yqsk: 18.5,
+      fmswz: 18.8,
+      sqws: 18.2,
+      hsws: 15.0,
+      yqws: 18.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/13',
+      wsd: 19.7,
+      jlrdc: 26.4,
+      jlswz: 18.8,
+      yqsk: 18.6,
+      fmswz: 18.8,
+      sqws: 18.2,
+      hsws: 14.8,
+      yqws: 18.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/14',
+      wsd: 19.4,
+      jlrdc: 25.0,
+      jlswz: 18.6,
+      yqsk: 18.5,
+      fmswz: 18.7,
+      sqws: 18.2,
+      hsws: 15.4,
+      yqws: 18.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/15',
+      wsd: 19.1,
+      jlrdc: 26.0,
+      jlswz: 18.4,
+      yqsk: 18.5,
+      fmswz: 18.8,
+      sqws: 18.3,
+      hsws: 15.5,
+      yqws: 18.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/16',
+      wsd: 19.0,
+      jlrdc: 25.7,
+      jlswz: 18.4,
+      yqsk: 18.5,
+      fmswz: 18.6,
+      sqws: 18.2,
+      hsws: 16.2,
+      yqws: 18.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/17',
+      wsd: 19.1,
+      jlrdc: 25.1,
+      jlswz: 18.5,
+      yqsk: 18.5,
+      fmswz: 18.6,
+      sqws: 18.3,
+      hsws: 16.8,
+      yqws: 18.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/18',
+      wsd: 19.1,
+      jlrdc: 26.2,
+      jlswz: 18.5,
+      yqsk: 18.5,
+      fmswz: 18.5,
+      sqws: 18.4,
+      hsws: 17.0,
+      yqws: 18.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/19',
+      wsd: 19.1,
+      jlrdc: 26.2,
+      jlswz: 18.7,
+      yqsk: 18.7,
+      fmswz: 18.7,
+      sqws: 18.6,
+      hsws: 16.2,
+      yqws: 18.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/20',
+      wsd: 19.2,
+      jlrdc: 25.5,
+      jlswz: 18.8,
+      yqsk: 18.8,
+      fmswz: 18.7,
+      sqws: 18.7,
+      hsws: 16.0,
+      yqws: 18.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/21',
+      wsd: 19.2,
+      jlrdc: 25.6,
+      jlswz: 18.7,
+      yqsk: 18.6,
+      fmswz: 18.7,
+      sqws: 18.6,
+      hsws: 16.2,
+      yqws: 18.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/22',
+      wsd: 19.0,
+      jlrdc: 25.3,
+      jlswz: 18.8,
+      yqsk: 19.0,
+      fmswz: 18.7,
+      sqws: 18.7,
+      hsws: 16.3,
+      yqws: 18.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/23',
+      wsd: 19.6,
+      jlrdc: 25.1,
+      jlswz: 19.6,
+      yqsk: 19.5,
+      fmswz: 18.9,
+      sqws: 19.0,
+      hsws: 16.5,
+      yqws: 18.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/24',
+      wsd: 19.8,
+      jlrdc: 24.4,
+      jlswz: 19.7,
+      yqsk: 19.6,
+      fmswz: 19.0,
+      sqws: 19.0,
+      hsws: 16.5,
+      yqws: 18.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/25',
+      wsd: 19.9,
+      jlrdc: 24.2,
+      jlswz: 19.8,
+      yqsk: 19.8,
+      fmswz: 19.2,
+      sqws: 19.2,
+      hsws: 16.6,
+      yqws: 18.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/26',
+      wsd: 19.9,
+      jlrdc: 23.8,
+      jlswz: 19.6,
+      yqsk: 19.5,
+      fmswz: 19.2,
+      sqws: 19.3,
+      hsws: 16.4,
+      yqws: 19.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/27',
+      wsd: 19.5,
+      jlrdc: 23.4,
+      jlswz: 19.2,
+      yqsk: 19.2,
+      fmswz: 19.2,
+      sqws: 19.2,
+      hsws: 16.4,
+      yqws: 19.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/28',
+      wsd: 19.2,
+      jlrdc: 23.3,
+      jlswz: 19.0,
+      yqsk: 19.2,
+      fmswz: 19.3,
+      sqws: 19.3,
+      hsws: 16.3,
+      yqws: 19.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/29',
+      wsd: 19.0,
+      jlrdc: 22.9,
+      jlswz: 19.0,
+      yqsk: 19.2,
+      fmswz: 19.3,
+      sqws: 19.3,
+      hsws: 16.2,
+      yqws: 19.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/30',
+      wsd: 18.9,
+      jlrdc: 23.0,
+      jlswz: 19.1,
+      yqsk: 19.2,
+      fmswz: 19.2,
+      sqws: 19.3,
+      hsws: 16.2,
+      yqws: 19.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/8/31',
+      wsd: 19.1,
+      jlrdc: 23.5,
+      jlswz: 19.1,
+      yqsk: 19.3,
+      fmswz: 19.3,
+      sqws: 19.4,
+      hsws: 16.3,
+      yqws: 19.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/1',
+      wsd: 19.2,
+      jlrdc: 23.2,
+      jlswz: 19.3,
+      yqsk: 19.5,
+      fmswz: 19.5,
+      sqws: 19.5,
+      hsws: 16.4,
+      yqws: 19.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/2',
+      wsd: 19.3,
+      jlrdc: 23.1,
+      jlswz: 19.2,
+      yqsk: 19.4,
+      fmswz: 19.5,
+      sqws: 19.5,
+      hsws: 16.4,
+      yqws: 19.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/3',
+      wsd: 19.2,
+      jlrdc: 23.3,
+      jlswz: 19.4,
+      yqsk: 19.5,
+      fmswz: 19.5,
+      sqws: 19.6,
+      hsws: 16.5,
+      yqws: 19.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/4',
+      wsd: 19.5,
+      jlrdc: 23.4,
+      jlswz: 19.5,
+      yqsk: 19.6,
+      fmswz: 19.5,
+      sqws: 19.6,
+      hsws: 16.5,
+      yqws: 19.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/5',
+      wsd: 19.6,
+      jlrdc: 23.9,
+      jlswz: 19.6,
+      yqsk: 19.6,
+      fmswz: 19.5,
+      sqws: 19.6,
+      hsws: 16.5,
+      yqws: 19.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/6',
+      wsd: 19.8,
+      jlrdc: 23.6,
+      jlswz: 19.6,
+      yqsk: 19.6,
+      fmswz: 19.5,
+      sqws: 19.5,
+      hsws: 16.6,
+      yqws: 19.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/7',
+      wsd: 19.6,
+      jlrdc: 23.6,
+      jlswz: 19.4,
+      yqsk: 19.5,
+      fmswz: 19.5,
+      sqws: 19.5,
+      hsws: 16.7,
+      yqws: 19.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/8',
+      wsd: 19.5,
+      jlrdc: 23.8,
+      jlswz: 19.4,
+      yqsk: 19.5,
+      fmswz: 19.4,
+      sqws: 19.4,
+      hsws: 16.6,
+      yqws: 19.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/9',
+      wsd: 19.5,
+      jlrdc: 23.9,
+      jlswz: 19.4,
+      yqsk: 19.5,
+      fmswz: 19.4,
+      sqws: 19.4,
+      hsws: 16.6,
+      yqws: 19.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/10',
+      wsd: 19.5,
+      jlrdc: 23.8,
+      jlswz: 19.3,
+      yqsk: 19.4,
+      fmswz: 19.3,
+      sqws: 19.3,
+      hsws: 16.7,
+      yqws: 19.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/11',
+      wsd: 19.5,
+      jlrdc: 23.7,
+      jlswz: 19.3,
+      yqsk: 19.2,
+      fmswz: 19.3,
+      sqws: 19.2,
+      hsws: 16.7,
+      yqws: 19.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/12',
+      wsd: 19.4,
+      jlrdc: 23.6,
+      jlswz: 19.1,
+      yqsk: 19.2,
+      fmswz: 19.2,
+      sqws: 19.2,
+      hsws: 16.8,
+      yqws: 19.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/13',
+      wsd: 19.4,
+      jlrdc: 23.5,
+      jlswz: 19.1,
+      yqsk: 19.2,
+      fmswz: 19.3,
+      sqws: 19.2,
+      hsws: 17.0,
+      yqws: 18.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/14',
+      wsd: 19.2,
+      jlrdc: 23.9,
+      jlswz: 18.9,
+      yqsk: 19.0,
+      fmswz: 19.1,
+      sqws: 19.1,
+      hsws: 17.0,
+      yqws: 18.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/15',
+      wsd: 18.5,
+      jlrdc: 23.1,
+      jlswz: 18.6,
+      yqsk: 18.8,
+      fmswz: 19.1,
+      sqws: 19.1,
+      hsws: 16.8,
+      yqws: 18.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/16',
+      wsd: 18.5,
+      jlrdc: 23.4,
+      jlswz: 18.6,
+      yqsk: 18.8,
+      fmswz: 19.0,
+      sqws: 19.0,
+      hsws: 16.7,
+      yqws: 18.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/17',
+      wsd: 18.7,
+      jlrdc: 22.9,
+      jlswz: 18.7,
+      yqsk: 18.8,
+      fmswz: 19.0,
+      sqws: 19.0,
+      hsws: 16.8,
+      yqws: 18.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/18',
+      wsd: 18.8,
+      jlrdc: 23.6,
+      jlswz: 18.8,
+      yqsk: 18.9,
+      fmswz: 18.5,
+      sqws: 18.6,
+      hsws: 16.7,
+      yqws: 18.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/19',
+      wsd: 18.6,
+      jlrdc: 23.4,
+      jlswz: 18.7,
+      yqsk: 18.8,
+      fmswz: 18.3,
+      sqws: 18.5,
+      hsws: 16.8,
+      yqws: 18.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/20',
+      wsd: 18.7,
+      jlrdc: 23.9,
+      jlswz: 18.9,
+      yqsk: 19.0,
+      fmswz: 18.5,
+      sqws: 18.6,
+      hsws: 16.9,
+      yqws: 18.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/21',
+      wsd: 18.8,
+      jlrdc: 24.3,
+      jlswz: 18.8,
+      yqsk: 18.9,
+      fmswz: 18.4,
+      sqws: 18.6,
+      hsws: 17.1,
+      yqws: 18.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/22',
+      wsd: 18.8,
+      jlrdc: 23.5,
+      jlswz: 18.7,
+      yqsk: 18.7,
+      fmswz: 0.0,
+      sqws: 18.5,
+      hsws: 17.2,
+      yqws: 18.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/23',
+      wsd: 18.6,
+      jlrdc: 23.0,
+      jlswz: 18.3,
+      yqsk: 18.5,
+      fmswz: 0.0,
+      sqws: 18.6,
+      hsws: 17.2,
+      yqws: 18.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/24',
+      wsd: 18.0,
+      jlrdc: 23.3,
+      jlswz: 18.4,
+      yqsk: 18.6,
+      fmswz: 0.0,
+      sqws: 18.5,
+      hsws: 17.1,
+      yqws: 18.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/25',
+      wsd: 17.9,
+      jlrdc: 22.9,
+      jlswz: 18.1,
+      yqsk: 18.3,
+      fmswz: 0.0,
+      sqws: 18.4,
+      hsws: 16.9,
+      yqws: 18.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/26',
+      wsd: 17.7,
+      jlrdc: 22.4,
+      jlswz: 18.2,
+      yqsk: 18.4,
+      fmswz: 0.0,
+      sqws: 18.4,
+      hsws: 16.8,
+      yqws: 18.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/27',
+      wsd: 17.8,
+      jlrdc: 22.3,
+      jlswz: 18.2,
+      yqsk: 18.4,
+      fmswz: 0.0,
+      sqws: 18.5,
+      hsws: 16.6,
+      yqws: 18.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/28',
+      wsd: 18.1,
+      jlrdc: 23.0,
+      jlswz: 18.3,
+      yqsk: 18.6,
+      fmswz: 0.0,
+      sqws: 18.6,
+      hsws: 16.5,
+      yqws: 18.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/29',
+      wsd: 18.2,
+      jlrdc: 23.6,
+      jlswz: 18.4,
+      yqsk: 18.6,
+      fmswz: 0.0,
+      sqws: 18.6,
+      hsws: 16.4,
+      yqws: 18.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/9/30',
+      wsd: 17.9,
+      jlrdc: 23.0,
+      jlswz: 18.3,
+      yqsk: 18.7,
+      fmswz: 0.0,
+      sqws: 18.5,
+      hsws: 16.4,
+      yqws: 18.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/1',
+      wsd: 18.1,
+      jlrdc: 22.3,
+      jlswz: 18.1,
+      yqsk: 18.4,
+      fmswz: 0.0,
+      sqws: 18.4,
+      hsws: 16.4,
+      yqws: 18.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/2',
+      wsd: 17.3,
+      jlrdc: 21.4,
+      jlswz: 17.4,
+      yqsk: 18.1,
+      fmswz: 0.0,
+      sqws: 18.3,
+      hsws: 16.3,
+      yqws: 18.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/3',
+      wsd: 16.4,
+      jlrdc: 21.2,
+      jlswz: 16.7,
+      yqsk: 17.6,
+      fmswz: 0.0,
+      sqws: 18.1,
+      hsws: 16.1,
+      yqws: 18.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/4',
+      wsd: 15.7,
+      jlrdc: 21.5,
+      jlswz: 16.7,
+      yqsk: 17.5,
+      fmswz: null,
+      sqws: 18.2,
+      hsws: 15.9,
+      yqws: 18.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/5',
+      wsd: 15.9,
+      jlrdc: 22.6,
+      jlswz: 17.4,
+      yqsk: 17.9,
+      fmswz: null,
+      sqws: 18.1,
+      hsws: 15.9,
+      yqws: 18.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/6',
+      wsd: 16.7,
+      jlrdc: 23.5,
+      jlswz: 17.7,
+      yqsk: 18.1,
+      fmswz: null,
+      sqws: 18.1,
+      hsws: 15.9,
+      yqws: 18.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/7',
+      wsd: 17.4,
+      jlrdc: 23.4,
+      jlswz: 17.5,
+      yqsk: 17.8,
+      fmswz: null,
+      sqws: 17.9,
+      hsws: 15.8,
+      yqws: 18.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/8',
+      wsd: 16.8,
+      jlrdc: 22.5,
+      jlswz: 16.9,
+      yqsk: 17.6,
+      fmswz: null,
+      sqws: 17.8,
+      hsws: 15.6,
+      yqws: 18.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/9',
+      wsd: 16.4,
+      jlrdc: 23.4,
+      jlswz: 17.1,
+      yqsk: 17.7,
+      fmswz: null,
+      sqws: 17.8,
+      hsws: 15.4,
+      yqws: 17.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/10',
+      wsd: 16.7,
+      jlrdc: 24.4,
+      jlswz: 17.4,
+      yqsk: 17.8,
+      fmswz: null,
+      sqws: 17.7,
+      hsws: 15.4,
+      yqws: 17.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/11',
+      wsd: 16.8,
+      jlrdc: 23.7,
+      jlswz: 16.5,
+      yqsk: 17.1,
+      fmswz: null,
+      sqws: 17.5,
+      hsws: 15.3,
+      yqws: 17.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/12',
+      wsd: 15.6,
+      jlrdc: 22.9,
+      jlswz: 16.0,
+      yqsk: 17.0,
+      fmswz: null,
+      sqws: 17.4,
+      hsws: 15.1,
+      yqws: 17.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/13',
+      wsd: 15.3,
+      jlrdc: 22.4,
+      jlswz: 16.5,
+      yqsk: 17.1,
+      fmswz: null,
+      sqws: 17.2,
+      hsws: 15.0,
+      yqws: 17.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/14',
+      wsd: 15.7,
+      jlrdc: 23.1,
+      jlswz: 15.9,
+      yqsk: 16.5,
+      fmswz: null,
+      sqws: 17.0,
+      hsws: 14.9,
+      yqws: 17.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/15',
+      wsd: 14.7,
+      jlrdc: 21.5,
+      jlswz: 15.5,
+      yqsk: 16.4,
+      fmswz: null,
+      sqws: 16.9,
+      hsws: 14.6,
+      yqws: 17.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/16',
+      wsd: 14.4,
+      jlrdc: 22.0,
+      jlswz: 15.3,
+      yqsk: 16.2,
+      fmswz: null,
+      sqws: 16.7,
+      hsws: 14.3,
+      yqws: 16.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/17',
+      wsd: 14.6,
+      jlrdc: 20.7,
+      jlswz: 15.6,
+      yqsk: 16.3,
+      fmswz: null,
+      sqws: 16.5,
+      hsws: 14.1,
+      yqws: 16.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/18',
+      wsd: 14.9,
+      jlrdc: 21.2,
+      jlswz: 15.8,
+      yqsk: 16.1,
+      fmswz: null,
+      sqws: 16.3,
+      hsws: 13.8,
+      yqws: 16.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/19',
+      wsd: 15.2,
+      jlrdc: 22.0,
+      jlswz: 15.5,
+      yqsk: 15.9,
+      fmswz: null,
+      sqws: 16.1,
+      hsws: 13.7,
+      yqws: 16.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/20',
+      wsd: 15.1,
+      jlrdc: 22.0,
+      jlswz: 15.6,
+      yqsk: 15.9,
+      fmswz: null,
+      sqws: 16.0,
+      hsws: 13.6,
+      yqws: 16.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/21',
+      wsd: 15.1,
+      jlrdc: 21.9,
+      jlswz: 15.3,
+      yqsk: 15.7,
+      fmswz: null,
+      sqws: 15.9,
+      hsws: 13.5,
+      yqws: 15.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/22',
+      wsd: 14.8,
+      jlrdc: 21.9,
+      jlswz: 15.4,
+      yqsk: 15.7,
+      fmswz: null,
+      sqws: 15.8,
+      hsws: 13.5,
+      yqws: 15.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/23',
+      wsd: 14.8,
+      jlrdc: 21.7,
+      jlswz: 15.2,
+      yqsk: 15.5,
+      fmswz: null,
+      sqws: 15.8,
+      hsws: 13.6,
+      yqws: 15.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/24',
+      wsd: 14.4,
+      jlrdc: 20.7,
+      jlswz: 14.3,
+      yqsk: 15.2,
+      fmswz: null,
+      sqws: 15.6,
+      hsws: 13.4,
+      yqws: 15.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/25',
+      wsd: 13.2,
+      jlrdc: 21.6,
+      jlswz: 13.8,
+      yqsk: 14.9,
+      fmswz: null,
+      sqws: 15.4,
+      hsws: 13.1,
+      yqws: 15.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/26',
+      wsd: 12.6,
+      jlrdc: 21.1,
+      jlswz: 14.3,
+      yqsk: 15.0,
+      fmswz: null,
+      sqws: 15.3,
+      hsws: 13.1,
+      yqws: 15.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/27',
+      wsd: 13.5,
+      jlrdc: 21.1,
+      jlswz: 14.4,
+      yqsk: 15.0,
+      fmswz: null,
+      sqws: 15.2,
+      hsws: 13.0,
+      yqws: 15.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/28',
+      wsd: 13.7,
+      jlrdc: 21.1,
+      jlswz: 14.2,
+      yqsk: 14.7,
+      fmswz: null,
+      sqws: 15.0,
+      hsws: 12.9,
+      yqws: 15.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/29',
+      wsd: 13.2,
+      jlrdc: 20.5,
+      jlswz: 13.1,
+      yqsk: 14.1,
+      fmswz: null,
+      sqws: 14.7,
+      hsws: 12.9,
+      yqws: 14.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/30',
+      wsd: 12.3,
+      jlrdc: 20.0,
+      jlswz: 13.2,
+      yqsk: 14.2,
+      fmswz: null,
+      sqws: 14.5,
+      hsws: 12.7,
+      yqws: 14.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/10/31',
+      wsd: 12.0,
+      jlrdc: 20.1,
+      jlswz: 13.3,
+      yqsk: 14.1,
+      fmswz: null,
+      sqws: 14.5,
+      hsws: 12.5,
+      yqws: 14.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/1',
+      wsd: 12.4,
+      jlrdc: 20.5,
+      jlswz: 13.3,
+      yqsk: 14.0,
+      fmswz: null,
+      sqws: 14.3,
+      hsws: 12.4,
+      yqws: 14.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/2',
+      wsd: 12.7,
+      jlrdc: 21.7,
+      jlswz: 13.7,
+      yqsk: 14.0,
+      fmswz: null,
+      sqws: 14.1,
+      hsws: 12.3,
+      yqws: 14.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/3',
+      wsd: 13.0,
+      jlrdc: 21.6,
+      jlswz: 13.3,
+      yqsk: 13.7,
+      fmswz: null,
+      sqws: 13.9,
+      hsws: 12.2,
+      yqws: 14.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/4',
+      wsd: 12.9,
+      jlrdc: 21.1,
+      jlswz: 13.2,
+      yqsk: 13.7,
+      fmswz: null,
+      sqws: 13.8,
+      hsws: 12.2,
+      yqws: 13.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/5',
+      wsd: 12.6,
+      jlrdc: 20.6,
+      jlswz: 12.8,
+      yqsk: 13.5,
+      fmswz: null,
+      sqws: 13.8,
+      hsws: 12.0,
+      yqws: 13.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/6',
+      wsd: 12.3,
+      jlrdc: 20.8,
+      jlswz: 12.8,
+      yqsk: 13.4,
+      fmswz: null,
+      sqws: 13.7,
+      hsws: 11.9,
+      yqws: 13.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/7',
+      wsd: 11.7,
+      jlrdc: 20.1,
+      jlswz: 11.9,
+      yqsk: 12.7,
+      fmswz: null,
+      sqws: 13.4,
+      hsws: 11.8,
+      yqws: 13.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/8',
+      wsd: 10.8,
+      jlrdc: 19.2,
+      jlswz: 11.5,
+      yqsk: 12.5,
+      fmswz: null,
+      sqws: 13.3,
+      hsws: 11.5,
+      yqws: 13.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/9',
+      wsd: 10.3,
+      jlrdc: 19.5,
+      jlswz: 11.6,
+      yqsk: 12.5,
+      fmswz: null,
+      sqws: 13.2,
+      hsws: 11.4,
+      yqws: 13.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/10',
+      wsd: 9.3,
+      jlrdc: 18.8,
+      jlswz: 9.9,
+      yqsk: 11.6,
+      fmswz: null,
+      sqws: 12.9,
+      hsws: 11.0,
+      yqws: 13.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/11',
+      wsd: 7.8,
+      jlrdc: 18.8,
+      jlswz: 9.8,
+      yqsk: 11.6,
+      fmswz: null,
+      sqws: 12.7,
+      hsws: 10.6,
+      yqws: 12.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/12',
+      wsd: 7.6,
+      jlrdc: 19.1,
+      jlswz: 10.5,
+      yqsk: 11.8,
+      fmswz: null,
+      sqws: 12.4,
+      hsws: 10.3,
+      yqws: 12.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/13',
+      wsd: 8.3,
+      jlrdc: 19.7,
+      jlswz: 10.1,
+      yqsk: 11.3,
+      fmswz: null,
+      sqws: 12.2,
+      hsws: 10.0,
+      yqws: 12.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/14',
+      wsd: 8.6,
+      jlrdc: 20.3,
+      jlswz: 10.6,
+      yqsk: 11.4,
+      fmswz: null,
+      sqws: 11.9,
+      hsws: 9.8,
+      yqws: 11.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/15',
+      wsd: 9.3,
+      jlrdc: 21.0,
+      jlswz: 10.8,
+      yqsk: 11.4,
+      fmswz: null,
+      sqws: 11.7,
+      hsws: 9.6,
+      yqws: 11.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/16',
+      wsd: 9.8,
+      jlrdc: 21.2,
+      jlswz: 10.6,
+      yqsk: 11.1,
+      fmswz: null,
+      sqws: 11.5,
+      hsws: 9.3,
+      yqws: 11.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/17',
+      wsd: 9.1,
+      jlrdc: 19.3,
+      jlswz: 9.6,
+      yqsk: 10.4,
+      fmswz: null,
+      sqws: 11.1,
+      hsws: 9.1,
+      yqws: 11.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/18',
+      wsd: 7.6,
+      jlrdc: 18.6,
+      jlswz: 7.7,
+      yqsk: 9.5,
+      fmswz: null,
+      sqws: 10.9,
+      hsws: 8.3,
+      yqws: 11.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/19',
+      wsd: 6.3,
+      jlrdc: 18.1,
+      jlswz: 8.0,
+      yqsk: 9.8,
+      fmswz: null,
+      sqws: 10.8,
+      hsws: 8.1,
+      yqws: 10.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/20',
+      wsd: 6.1,
+      jlrdc: 18.2,
+      jlswz: 8.8,
+      yqsk: 9.9,
+      fmswz: null,
+      sqws: 10.7,
+      hsws: 7.9,
+      yqws: 10.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/21',
+      wsd: 6.9,
+      jlrdc: 18.7,
+      jlswz: 8.9,
+      yqsk: 10.0,
+      fmswz: null,
+      sqws: 10.4,
+      hsws: 7.6,
+      yqws: 10.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/22',
+      wsd: 7.6,
+      jlrdc: 18.9,
+      jlswz: 8.7,
+      yqsk: 9.6,
+      fmswz: null,
+      sqws: 10.2,
+      hsws: 7.3,
+      yqws: 10.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/23',
+      wsd: 7.7,
+      jlrdc: 19.1,
+      jlswz: 8.8,
+      yqsk: 9.5,
+      fmswz: null,
+      sqws: 10.0,
+      hsws: 7.2,
+      yqws: 10.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/24',
+      wsd: 7.9,
+      jlrdc: 19.0,
+      jlswz: 9.0,
+      yqsk: 9.4,
+      fmswz: null,
+      sqws: 9.8,
+      hsws: 7.1,
+      yqws: 9.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/25',
+      wsd: 7.3,
+      jlrdc: 18.5,
+      jlswz: 7.2,
+      yqsk: 8.4,
+      fmswz: null,
+      sqws: 9.4,
+      hsws: 6.9,
+      yqws: 9.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/26',
+      wsd: 5.8,
+      jlrdc: 18.1,
+      jlswz: 5.9,
+      yqsk: 7.9,
+      fmswz: null,
+      sqws: 9.3,
+      hsws: 6.5,
+      yqws: 9.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/27',
+      wsd: 4.4,
+      jlrdc: 17.3,
+      jlswz: 4.8,
+      yqsk: 7.6,
+      fmswz: null,
+      sqws: 9.2,
+      hsws: 6.2,
+      yqws: 9.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/28',
+      wsd: 3.4,
+      jlrdc: 16.6,
+      jlswz: 5.0,
+      yqsk: 7.7,
+      fmswz: null,
+      sqws: 8.9,
+      hsws: 5.9,
+      yqws: 9.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/29',
+      wsd: 3.0,
+      jlrdc: 16.9,
+      jlswz: 5.6,
+      yqsk: 7.6,
+      fmswz: null,
+      sqws: 8.7,
+      hsws: 5.6,
+      yqws: 8.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/11/30',
+      wsd: 3.8,
+      jlrdc: 17.6,
+      jlswz: 6.1,
+      yqsk: 7.6,
+      fmswz: null,
+      sqws: 8.5,
+      hsws: 5.3,
+      yqws: 8.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/1',
+      wsd: 4.6,
+      jlrdc: 17.6,
+      jlswz: 6.1,
+      yqsk: 7.3,
+      fmswz: null,
+      sqws: 8.1,
+      hsws: 5.1,
+      yqws: 8.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/2',
+      wsd: 5.1,
+      jlrdc: 18.0,
+      jlswz: 6.5,
+      yqsk: 7.4,
+      fmswz: null,
+      sqws: 7.9,
+      hsws: 4.8,
+      yqws: 7.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/3',
+      wsd: 5.9,
+      jlrdc: 18.6,
+      jlswz: 7.0,
+      yqsk: 7.4,
+      fmswz: null,
+      sqws: 7.7,
+      hsws: 4.6,
+      yqws: 7.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/4',
+      wsd: 6.4,
+      jlrdc: 18.3,
+      jlswz: 6.8,
+      yqsk: 7.2,
+      fmswz: null,
+      sqws: 7.6,
+      hsws: 4.4,
+      yqws: 7.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/5',
+      wsd: 6.1,
+      jlrdc: 18.1,
+      jlswz: 6.4,
+      yqsk: 7.0,
+      fmswz: null,
+      sqws: 7.3,
+      hsws: 4.4,
+      yqws: 7.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/6',
+      wsd: 5.6,
+      jlrdc: 17.3,
+      jlswz: 5.7,
+      yqsk: 6.7,
+      fmswz: null,
+      sqws: 7.2,
+      hsws: 4.3,
+      yqws: 7.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/7',
+      wsd: 5.0,
+      jlrdc: 17.7,
+      jlswz: 5.6,
+      yqsk: 6.6,
+      fmswz: null,
+      sqws: 7.1,
+      hsws: 4.1,
+      yqws: 7.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/8',
+      wsd: 4.6,
+      jlrdc: 17.3,
+      jlswz: 5.2,
+      yqsk: 6.1,
+      fmswz: null,
+      sqws: 7.0,
+      hsws: 3.8,
+      yqws: 7.0,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/9',
+      wsd: 4.5,
+      jlrdc: 18.3,
+      jlswz: 5.5,
+      yqsk: 6.2,
+      fmswz: null,
+      sqws: 6.9,
+      hsws: 3.7,
+      yqws: 6.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/10',
+      wsd: 4.4,
+      jlrdc: 18.0,
+      jlswz: 5.6,
+      yqsk: 6.3,
+      fmswz: null,
+      sqws: 6.8,
+      hsws: 3.5,
+      yqws: 6.8,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/11',
+      wsd: 4.4,
+      jlrdc: 17.4,
+      jlswz: 4.8,
+      yqsk: 5.6,
+      fmswz: null,
+      sqws: 6.6,
+      hsws: 3.5,
+      yqws: 6.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/12',
+      wsd: 3.7,
+      jlrdc: 15.9,
+      jlswz: 3.3,
+      yqsk: 4.9,
+      fmswz: null,
+      sqws: 6.4,
+      hsws: 3.2,
+      yqws: 6.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/13',
+      wsd: 2.3,
+      jlrdc: 15.8,
+      jlswz: 2.4,
+      yqsk: 4.6,
+      fmswz: null,
+      sqws: 6.2,
+      hsws: 3.0,
+      yqws: 6.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/14',
+      wsd: 1.1,
+      jlrdc: 15.1,
+      jlswz: 2.3,
+      yqsk: 4.3,
+      fmswz: null,
+      sqws: 6.0,
+      hsws: 2.9,
+      yqws: 6.2,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/15',
+      wsd: 0.7,
+      jlrdc: 14.5,
+      jlswz: 2.6,
+      yqsk: 4.4,
+      fmswz: null,
+      sqws: 5.8,
+      hsws: 2.8,
+      yqws: 5.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/16',
+      wsd: 0.8,
+      jlrdc: 16.5,
+      jlswz: 2.9,
+      yqsk: 4.3,
+      fmswz: null,
+      sqws: 5.6,
+      hsws: 2.7,
+      yqws: 5.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/17',
+      wsd: 0.9,
+      jlrdc: 16.0,
+      jlswz: 2.8,
+      yqsk: 4.1,
+      fmswz: null,
+      sqws: 5.3,
+      hsws: 2.8,
+      yqws: 5.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/18',
+      wsd: 1.0,
+      jlrdc: 16.7,
+      jlswz: 2.3,
+      yqsk: 3.7,
+      fmswz: null,
+      sqws: 5.2,
+      hsws: 2.8,
+      yqws: 5.3,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/19',
+      wsd: 0.8,
+      jlrdc: 16.2,
+      jlswz: 2.4,
+      yqsk: 3.7,
+      fmswz: null,
+      sqws: 5.0,
+      hsws: 2.8,
+      yqws: 5.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/20',
+      wsd: 0.8,
+      jlrdc: 15.8,
+      jlswz: 3.0,
+      yqsk: 4.1,
+      fmswz: null,
+      sqws: 4.8,
+      hsws: 2.8,
+      yqws: 4.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/21',
+      wsd: 1.4,
+      jlrdc: 15.9,
+      jlswz: 3.2,
+      yqsk: 4.1,
+      fmswz: null,
+      sqws: 4.7,
+      hsws: 2.7,
+      yqws: 4.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/22',
+      wsd: 1.7,
+      jlrdc: 15.8,
+      jlswz: 2.9,
+      yqsk: 3.8,
+      fmswz: null,
+      sqws: 4.6,
+      hsws: 2.7,
+      yqws: 4.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/23',
+      wsd: 1.6,
+      jlrdc: 16.0,
+      jlswz: 2.9,
+      yqsk: 3.7,
+      fmswz: null,
+      sqws: 4.4,
+      hsws: 2.5,
+      yqws: 4.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/24',
+      wsd: 1.6,
+      jlrdc: 15.1,
+      jlswz: 2.7,
+      yqsk: 3.6,
+      fmswz: null,
+      sqws: 4.3,
+      hsws: 2.3,
+      yqws: 4.4,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/25',
+      wsd: 1.6,
+      jlrdc: 15.0,
+      jlswz: 2.9,
+      yqsk: 3.6,
+      fmswz: null,
+      sqws: 4.1,
+      hsws: 2.3,
+      yqws: 4.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/26',
+      wsd: 1.8,
+      jlrdc: 15.0,
+      jlswz: 2.4,
+      yqsk: 3.2,
+      fmswz: null,
+      sqws: 4.0,
+      hsws: 2.2,
+      yqws: 4.1,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/27',
+      wsd: 1.2,
+      jlrdc: 15.1,
+      jlswz: 1.9,
+      yqsk: 2.9,
+      fmswz: null,
+      sqws: 3.8,
+      hsws: 2.4,
+      yqws: 3.9,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/28',
+      wsd: 0.6,
+      jlrdc: 15.0,
+      jlswz: 1.8,
+      yqsk: 2.6,
+      fmswz: null,
+      sqws: 3.6,
+      hsws: 2.4,
+      yqws: 3.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/29',
+      wsd: 0.4,
+      jlrdc: 14.1,
+      jlswz: 1.3,
+      yqsk: 2.4,
+      fmswz: null,
+      sqws: 3.5,
+      hsws: 2.4,
+      yqws: 3.6,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/30',
+      wsd: 0.3,
+      jlrdc: 14.0,
+      jlswz: 1.5,
+      yqsk: 2.5,
+      fmswz: null,
+      sqws: 3.6,
+      hsws: 2.8,
+      yqws: 3.7,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2013/12/31',
+      wsd: 0.5,
+      jlrdc: 15.2,
+      jlswz: 1.8,
+      yqsk: 2.8,
+      fmswz: null,
+      sqws: 3.4,
+      hsws: 2.7,
+      yqws: 3.5,
+      flhk: null,
+      lwm: null,
+      yssbp: null,
+      ymhk: null
+    },
+    {
+      date: '2014/1/1',
       wsd: 0.6,
       jlrdc: 14.5,
       jlswz: 1.5,
@@ -17,7 +3962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-02',
+      date: '2014/1/2',
       wsd: 0.0,
       jlrdc: 14.3,
       jlswz: 1.7,
@@ -32,7 +3977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-03',
+      date: '2014/1/3',
       wsd: 0.7,
       jlrdc: 15.4,
       jlswz: 1.6,
@@ -47,7 +3992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-04',
+      date: '2014/1/4',
       wsd: 0.6,
       jlrdc: 14.7,
       jlswz: 1.4,
@@ -62,7 +4007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-05',
+      date: '2014/1/5',
       wsd: 0.3,
       jlrdc: 14.5,
       jlswz: 1.6,
@@ -77,7 +4022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-06',
+      date: '2014/1/6',
       wsd: 0.6,
       jlrdc: 14.3,
       jlswz: 1.2,
@@ -92,7 +4037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-07',
+      date: '2014/1/7',
       wsd: 0.6,
       jlrdc: 14.5,
       jlswz: 1.3,
@@ -107,7 +4052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-08',
+      date: '2014/1/8',
       wsd: 0.4,
       jlrdc: 13.6,
       jlswz: 0.8,
@@ -122,7 +4067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-09',
+      date: '2014/1/9',
       wsd: 0.0,
       jlrdc: 13.5,
       jlswz: 1.0,
@@ -137,7 +4082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-10',
+      date: '2014/1/10',
       wsd: 0.0,
       jlrdc: 13.5,
       jlswz: 1.2,
@@ -152,7 +4097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-11',
+      date: '2014/1/11',
       wsd: 0.0,
       jlrdc: 13.5,
       jlswz: 1.1,
@@ -167,7 +4112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-12',
+      date: '2014/1/12',
       wsd: 0.0,
       jlrdc: 13.4,
       jlswz: 0.6,
@@ -182,7 +4127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-13',
+      date: '2014/1/13',
       wsd: 0.0,
       jlrdc: 13.3,
       jlswz: 0.8,
@@ -197,7 +4142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-14',
+      date: '2014/1/14',
       wsd: 0.0,
       jlrdc: 14.1,
       jlswz: 1.0,
@@ -212,7 +4157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-15',
+      date: '2014/1/15',
       wsd: 0.0,
       jlrdc: 14.2,
       jlswz: 1.1,
@@ -227,7 +4172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-16',
+      date: '2014/1/16',
       wsd: 0.0,
       jlrdc: 13.7,
       jlswz: 1.3,
@@ -242,7 +4187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-17',
+      date: '2014/1/17',
       wsd: 0.0,
       jlrdc: 13.6,
       jlswz: 1.3,
@@ -257,7 +4202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-18',
+      date: '2014/1/18',
       wsd: 0.0,
       jlrdc: 12.9,
       jlswz: 1.4,
@@ -272,7 +4217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-19',
+      date: '2014/1/19',
       wsd: 0.1,
       jlrdc: 13.7,
       jlswz: 1.2,
@@ -287,7 +4232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-20',
+      date: '2014/1/20',
       wsd: 0.2,
       jlrdc: 14.3,
       jlswz: 1.5,
@@ -302,7 +4247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-21',
+      date: '2014/1/21',
       wsd: 0.3,
       jlrdc: 12.7,
       jlswz: 1.2,
@@ -317,7 +4262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-22',
+      date: '2014/1/22',
       wsd: 0.3,
       jlrdc: 13.7,
       jlswz: 1.5,
@@ -332,7 +4277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-23',
+      date: '2014/1/23',
       wsd: 0.6,
       jlrdc: 14.9,
       jlswz: 1.7,
@@ -347,7 +4292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-24',
+      date: '2014/1/24',
       wsd: 1.1,
       jlrdc: 14.1,
       jlswz: 2.2,
@@ -362,7 +4307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-25',
+      date: '2014/1/25',
       wsd: 1.4,
       jlrdc: 14.1,
       jlswz: 1.6,
@@ -377,7 +4322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-26',
+      date: '2014/1/26',
       wsd: 0.8,
       jlrdc: 13.2,
       jlswz: 1.1,
@@ -392,7 +4337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-27',
+      date: '2014/1/27',
       wsd: 0.5,
       jlrdc: 13.4,
       jlswz: 1.2,
@@ -407,7 +4352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-28',
+      date: '2014/1/28',
       wsd: 0.2,
       jlrdc: 13.1,
       jlswz: 1.0,
@@ -422,7 +4367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-29',
+      date: '2014/1/29',
       wsd: 0.1,
       jlrdc: 13.3,
       jlswz: 1.4,
@@ -437,7 +4382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-30',
+      date: '2014/1/30',
       wsd: 0.5,
       jlrdc: 13.5,
       jlswz: 1.3,
@@ -452,7 +4397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-01-31',
+      date: '2014/1/31',
       wsd: 0.5,
       jlrdc: 13.6,
       jlswz: 1.4,
@@ -467,7 +4412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-01',
+      date: '2014/2/1',
       wsd: 0.6,
       jlrdc: 13.8,
       jlswz: 1.7,
@@ -482,7 +4427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-02',
+      date: '2014/2/2',
       wsd: 1.0,
       jlrdc: 14.7,
       jlswz: 1.7,
@@ -497,7 +4442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-03',
+      date: '2014/2/3',
       wsd: 0.5,
       jlrdc: 14.0,
       jlswz: 0.8,
@@ -512,7 +4457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-04',
+      date: '2014/2/4',
       wsd: 0.0,
       jlrdc: 12.7,
       jlswz: 1.1,
@@ -527,7 +4472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-05',
+      date: '2014/2/5',
       wsd: 0.0,
       jlrdc: 13.3,
       jlswz: 1.0,
@@ -542,7 +4487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-06',
+      date: '2014/2/6',
       wsd: 0.0,
       jlrdc: 14.3,
       jlswz: 1.1,
@@ -557,7 +4502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-07',
+      date: '2014/2/7',
       wsd: 0.1,
       jlrdc: 14.2,
       jlswz: 1.5,
@@ -572,7 +4517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-08',
+      date: '2014/2/8',
       wsd: 0.4,
       jlrdc: 14.5,
       jlswz: 1.7,
@@ -587,7 +4532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-09',
+      date: '2014/2/9',
       wsd: 0.6,
       jlrdc: 14.0,
       jlswz: 1.4,
@@ -602,7 +4547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-10',
+      date: '2014/2/10',
       wsd: 0.5,
       jlrdc: 13.6,
       jlswz: 1.3,
@@ -617,7 +4562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-11',
+      date: '2014/2/11',
       wsd: 0.4,
       jlrdc: 13.6,
       jlswz: 1.5,
@@ -632,7 +4577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-12',
+      date: '2014/2/12',
       wsd: 0.7,
       jlrdc: 14.1,
       jlswz: 1.7,
@@ -647,7 +4592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-13',
+      date: '2014/2/13',
       wsd: 0.8,
       jlrdc: 14.5,
       jlswz: 1.6,
@@ -662,7 +4607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-14',
+      date: '2014/2/14',
       wsd: 0.8,
       jlrdc: 14.2,
       jlswz: 1.6,
@@ -677,7 +4622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-15',
+      date: '2014/2/15',
       wsd: 1.4,
       jlrdc: 14.3,
       jlswz: 2.2,
@@ -692,7 +4637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-16',
+      date: '2014/2/16',
       wsd: 1.8,
       jlrdc: 15.1,
       jlswz: 2.1,
@@ -707,7 +4652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-17',
+      date: '2014/2/17',
       wsd: 1.6,
       jlrdc: 13.8,
       jlswz: 1.7,
@@ -722,7 +4667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-18',
+      date: '2014/2/18',
       wsd: 1.3,
       jlrdc: 14.7,
       jlswz: 1.6,
@@ -737,7 +4682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-19',
+      date: '2014/2/19',
       wsd: 1.1,
       jlrdc: 13.5,
       jlswz: 1.6,
@@ -752,7 +4697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-20',
+      date: '2014/2/20',
       wsd: 1.1,
       jlrdc: 13.3,
       jlswz: 1.6,
@@ -767,7 +4712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-21',
+      date: '2014/2/21',
       wsd: 1.1,
       jlrdc: 14.5,
       jlswz: 1.9,
@@ -782,7 +4727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-22',
+      date: '2014/2/22',
       wsd: 1.5,
       jlrdc: 14.7,
       jlswz: 2.1,
@@ -797,7 +4742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-23',
+      date: '2014/2/23',
       wsd: 1.7,
       jlrdc: 14.0,
       jlswz: 2.2,
@@ -812,7 +4757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-24',
+      date: '2014/2/24',
       wsd: 2.0,
       jlrdc: 15.1,
       jlswz: 2.2,
@@ -827,7 +4772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-25',
+      date: '2014/2/25',
       wsd: 2.4,
       jlrdc: 14.6,
       jlswz: 2.6,
@@ -842,7 +4787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-26',
+      date: '2014/2/26',
       wsd: 2.9,
       jlrdc: 15.7,
       jlswz: 2.9,
@@ -857,7 +4802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-27',
+      date: '2014/2/27',
       wsd: 3.5,
       jlrdc: 14.3,
       jlswz: 2.8,
@@ -872,7 +4817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-02-28',
+      date: '2014/2/28',
       wsd: 2.8,
       jlrdc: 14.0,
       jlswz: 2.2,
@@ -887,7 +4832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-01',
+      date: '2014/3/1',
       wsd: 2.1,
       jlrdc: 14.1,
       jlswz: 2.3,
@@ -902,7 +4847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-02',
+      date: '2014/3/2',
       wsd: 2.3,
       jlrdc: 12.8,
       jlswz: 2.3,
@@ -917,7 +4862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-03',
+      date: '2014/3/3',
       wsd: 2.3,
       jlrdc: 11.5,
       jlswz: 2.4,
@@ -932,7 +4877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-04',
+      date: '2014/3/4',
       wsd: 2.4,
       jlrdc: 12.1,
       jlswz: 2.5,
@@ -947,7 +4892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-05',
+      date: '2014/3/5',
       wsd: 2.3,
       jlrdc: 12.8,
       jlswz: 2.2,
@@ -962,7 +4907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-06',
+      date: '2014/3/6',
       wsd: 1.9,
       jlrdc: 12.8,
       jlswz: 1.9,
@@ -977,7 +4922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-07',
+      date: '2014/3/7',
       wsd: 1.5,
       jlrdc: 11.1,
       jlswz: 1.8,
@@ -992,7 +4937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-08',
+      date: '2014/3/8',
       wsd: 1.5,
       jlrdc: 11.6,
       jlswz: 1.9,
@@ -1007,7 +4952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-09',
+      date: '2014/3/9',
       wsd: 1.6,
       jlrdc: 11.8,
       jlswz: 2.1,
@@ -1022,7 +4967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-10',
+      date: '2014/3/10',
       wsd: 2.0,
       jlrdc: 12.1,
       jlswz: 2.5,
@@ -1037,7 +4982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-11',
+      date: '2014/3/11',
       wsd: 2.6,
       jlrdc: 11.5,
       jlswz: 2.4,
@@ -1052,7 +4997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-12',
+      date: '2014/3/12',
       wsd: 2.8,
       jlrdc: 10.9,
       jlswz: 2.3,
@@ -1067,7 +5012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-13',
+      date: '2014/3/13',
       wsd: 2.6,
       jlrdc: 13.1,
       jlswz: 2.6,
@@ -1082,7 +5027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-14',
+      date: '2014/3/14',
       wsd: 3.0,
       jlrdc: 12.7,
       jlswz: 2.7,
@@ -1097,7 +5042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-15',
+      date: '2014/3/15',
       wsd: 3.3,
       jlrdc: 12.4,
       jlswz: 3.0,
@@ -1112,7 +5057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-16',
+      date: '2014/3/16',
       wsd: 3.8,
       jlrdc: 14.6,
       jlswz: 3.2,
@@ -1127,7 +5072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-17',
+      date: '2014/3/17',
       wsd: 3.8,
       jlrdc: 13.4,
       jlswz: 2.7,
@@ -1142,7 +5087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-18',
+      date: '2014/3/18',
       wsd: 3.4,
       jlrdc: 13.0,
       jlswz: 2.9,
@@ -1157,7 +5102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-19',
+      date: '2014/3/19',
       wsd: 3.6,
       jlrdc: 13.5,
       jlswz: 2.9,
@@ -1172,7 +5117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-20',
+      date: '2014/3/20',
       wsd: 3.7,
       jlrdc: 13.2,
       jlswz: 2.9,
@@ -1187,7 +5132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-21',
+      date: '2014/3/21',
       wsd: 3.4,
       jlrdc: 12.1,
       jlswz: 2.9,
@@ -1202,7 +5147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-22',
+      date: '2014/3/22',
       wsd: 3.7,
       jlrdc: 13.1,
       jlswz: 3.1,
@@ -1217,7 +5162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-23',
+      date: '2014/3/23',
       wsd: 4.2,
       jlrdc: 12.7,
       jlswz: 3.3,
@@ -1232,7 +5177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-24',
+      date: '2014/3/24',
       wsd: 4.3,
       jlrdc: 13.3,
       jlswz: 3.2,
@@ -1247,7 +5192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-25',
+      date: '2014/3/25',
       wsd: 4.4,
       jlrdc: 14.2,
       jlswz: 3.6,
@@ -1262,7 +5207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-26',
+      date: '2014/3/26',
       wsd: 4.6,
       jlrdc: 12.8,
       jlswz: 3.4,
@@ -1277,7 +5222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-27',
+      date: '2014/3/27',
       wsd: 4.5,
       jlrdc: 13.3,
       jlswz: 3.8,
@@ -1292,7 +5237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-28',
+      date: '2014/3/28',
       wsd: 4.9,
       jlrdc: 13.3,
       jlswz: 3.2,
@@ -1307,7 +5252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-29',
+      date: '2014/3/29',
       wsd: 4.5,
       jlrdc: 12.6,
       jlswz: 3.1,
@@ -1322,7 +5267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-30',
+      date: '2014/3/30',
       wsd: 4.1,
       jlrdc: 12.2,
       jlswz: 3.4,
@@ -1337,7 +5282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-03-31',
+      date: '2014/3/31',
       wsd: 4.7,
       jlrdc: 12.3,
       jlswz: 3.5,
@@ -1352,7 +5297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-01',
+      date: '2014/4/1',
       wsd: 5.0,
       jlrdc: 12.0,
       jlswz: 3.4,
@@ -1367,7 +5312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-02',
+      date: '2014/4/2',
       wsd: 5.1,
       jlrdc: 12.2,
       jlswz: 3.3,
@@ -1382,7 +5327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-03',
+      date: '2014/4/3',
       wsd: 4.4,
       jlrdc: 12.3,
       jlswz: 2.9,
@@ -1397,7 +5342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-04',
+      date: '2014/4/4',
       wsd: 3.8,
       jlrdc: 11.8,
       jlswz: 2.7,
@@ -1412,7 +5357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-05',
+      date: '2014/4/5',
       wsd: 3.4,
       jlrdc: 11.2,
       jlswz: 2.7,
@@ -1427,7 +5372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-06',
+      date: '2014/4/6',
       wsd: 3.4,
       jlrdc: 10.9,
       jlswz: 3.1,
@@ -1442,7 +5387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-07',
+      date: '2014/4/7',
       wsd: 4.2,
       jlrdc: 12.4,
       jlswz: 3.4,
@@ -1457,7 +5402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-08',
+      date: '2014/4/8',
       wsd: 4.8,
       jlrdc: 12.4,
       jlswz: 3.4,
@@ -1472,7 +5417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-09',
+      date: '2014/4/9',
       wsd: 4.8,
       jlrdc: 11.4,
       jlswz: 3.2,
@@ -1487,7 +5432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-10',
+      date: '2014/4/10',
       wsd: 4.3,
       jlrdc: 11.9,
       jlswz: 3.4,
@@ -1502,7 +5447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-11',
+      date: '2014/4/11',
       wsd: 4.7,
       jlrdc: 12.2,
       jlswz: 3.5,
@@ -1517,7 +5462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-12',
+      date: '2014/4/12',
       wsd: 5.2,
       jlrdc: 12.7,
       jlswz: 3.7,
@@ -1532,7 +5477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-13',
+      date: '2014/4/13',
       wsd: 5.3,
       jlrdc: 13.2,
       jlswz: 3.8,
@@ -1547,7 +5492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-14',
+      date: '2014/4/14',
       wsd: 5.5,
       jlrdc: 13.9,
       jlswz: 4.4,
@@ -1562,7 +5507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-15',
+      date: '2014/4/15',
       wsd: 6.4,
       jlrdc: 14.1,
       jlswz: 4.3,
@@ -1577,7 +5522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-16',
+      date: '2014/4/16',
       wsd: 6.0,
       jlrdc: 13.0,
       jlswz: 4.1,
@@ -1592,7 +5537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-17',
+      date: '2014/4/17',
       wsd: 5.4,
       jlrdc: 13.5,
       jlswz: 3.9,
@@ -1607,7 +5552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-18',
+      date: '2014/4/18',
       wsd: 5.3,
       jlrdc: 12.9,
       jlswz: 4.1,
@@ -1622,7 +5567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-19',
+      date: '2014/4/19',
       wsd: 5.5,
       jlrdc: 13.5,
       jlswz: 4.3,
@@ -1637,7 +5582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-20',
+      date: '2014/4/20',
       wsd: 6.0,
       jlrdc: 13.3,
       jlswz: 4.3,
@@ -1652,7 +5597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-21',
+      date: '2014/4/21',
       wsd: 5.7,
       jlrdc: 13.8,
       jlswz: 4.6,
@@ -1667,7 +5612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-22',
+      date: '2014/4/22',
       wsd: 6.2,
       jlrdc: 12.9,
       jlswz: 4.5,
@@ -1682,7 +5627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-23',
+      date: '2014/4/23',
       wsd: 6.2,
       jlrdc: 13.7,
       jlswz: 4.7,
@@ -1697,7 +5642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-24',
+      date: '2014/4/24',
       wsd: 6.7,
       jlrdc: 13.5,
       jlswz: 5.4,
@@ -1712,7 +5657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-25',
+      date: '2014/4/25',
       wsd: 7.6,
       jlrdc: 15.3,
       jlswz: 5.7,
@@ -1727,7 +5672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-26',
+      date: '2014/4/26',
       wsd: 7.7,
       jlrdc: 14.8,
       jlswz: 5.7,
@@ -1742,7 +5687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-27',
+      date: '2014/4/27',
       wsd: 7.7,
       jlrdc: 13.9,
       jlswz: 5.8,
@@ -1757,7 +5702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-28',
+      date: '2014/4/28',
       wsd: 8.2,
       jlrdc: 14.7,
       jlswz: 5.5,
@@ -1772,7 +5717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-29',
+      date: '2014/4/29',
       wsd: 8.0,
       jlrdc: 14.5,
       jlswz: 6.0,
@@ -1787,7 +5732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-04-30',
+      date: '2014/4/30',
       wsd: 8.3,
       jlrdc: 15.2,
       jlswz: 6.4,
@@ -1802,7 +5747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-01',
+      date: '2014/5/1',
       wsd: 8.8,
       jlrdc: 15.0,
       jlswz: 6.3,
@@ -1817,7 +5762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-02',
+      date: '2014/5/2',
       wsd: 8.2,
       jlrdc: 13.5,
       jlswz: 5.9,
@@ -1832,7 +5777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-03',
+      date: '2014/5/3',
       wsd: 7.3,
       jlrdc: 10.9,
       jlswz: 5.2,
@@ -1847,7 +5792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-04',
+      date: '2014/5/4',
       wsd: 6.6,
       jlrdc: 12.5,
       jlswz: 5.0,
@@ -1862,7 +5807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-05',
+      date: '2014/5/5',
       wsd: 5.9,
       jlrdc: 13.0,
       jlswz: 5.4,
@@ -1877,7 +5822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-06',
+      date: '2014/5/6',
       wsd: 6.3,
       jlrdc: 12.4,
       jlswz: 5.5,
@@ -1892,7 +5837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-07',
+      date: '2014/5/7',
       wsd: 7.1,
       jlrdc: 12.9,
       jlswz: 6.0,
@@ -1907,7 +5852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-08',
+      date: '2014/5/8',
       wsd: 7.6,
       jlrdc: 12.0,
       jlswz: 6.4,
@@ -1922,7 +5867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-09',
+      date: '2014/5/9',
       wsd: 8.1,
       jlrdc: 12.7,
       jlswz: 6.5,
@@ -1937,7 +5882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-10',
+      date: '2014/5/10',
       wsd: 8.5,
       jlrdc: 12.9,
       jlswz: 6.3,
@@ -1952,7 +5897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-11',
+      date: '2014/5/11',
       wsd: 7.9,
       jlrdc: 12.4,
       jlswz: 5.9,
@@ -1967,7 +5912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-12',
+      date: '2014/5/12',
       wsd: 7.2,
       jlrdc: 12.1,
       jlswz: 6.8,
@@ -1982,7 +5927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-13',
+      date: '2014/5/13',
       wsd: 8.6,
       jlrdc: 12.3,
       jlswz: 7.7,
@@ -1997,7 +5942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-14',
+      date: '2014/5/14',
       wsd: 9.8,
       jlrdc: 12.6,
       jlswz: 7.3,
@@ -2012,7 +5957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-15',
+      date: '2014/5/15',
       wsd: 9.1,
       jlrdc: 13.4,
       jlswz: 7.1,
@@ -2027,7 +5972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-16',
+      date: '2014/5/16',
       wsd: 8.9,
       jlrdc: 11.7,
       jlswz: 6.6,
@@ -2042,7 +5987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-17',
+      date: '2014/5/17',
       wsd: 8.3,
       jlrdc: 12.1,
       jlswz: 7.0,
@@ -2057,7 +6002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-18',
+      date: '2014/5/18',
       wsd: 8.7,
       jlrdc: 13.1,
       jlswz: 6.8,
@@ -2072,7 +6017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-19',
+      date: '2014/5/19',
       wsd: 8.8,
       jlrdc: 13.5,
       jlswz: 6.7,
@@ -2087,7 +6032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-20',
+      date: '2014/5/20',
       wsd: 8.5,
       jlrdc: 14.1,
       jlswz: 7.3,
@@ -2102,7 +6047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-21',
+      date: '2014/5/21',
       wsd: 9.3,
       jlrdc: 13.3,
       jlswz: 8.0,
@@ -2117,7 +6062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-22',
+      date: '2014/5/22',
       wsd: 10.7,
       jlrdc: 13.6,
       jlswz: 8.0,
@@ -2132,7 +6077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-23',
+      date: '2014/5/23',
       wsd: 10.9,
       jlrdc: 14.0,
       jlswz: 8.0,
@@ -2147,7 +6092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-24',
+      date: '2014/5/24',
       wsd: 10.6,
       jlrdc: 14.1,
       jlswz: 7.9,
@@ -2162,7 +6107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-25',
+      date: '2014/5/25',
       wsd: 9.8,
       jlrdc: 13.7,
       jlswz: 7.7,
@@ -2177,7 +6122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-26',
+      date: '2014/5/26',
       wsd: 9.6,
       jlrdc: 13.9,
       jlswz: 7.3,
@@ -2192,7 +6137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-27',
+      date: '2014/5/27',
       wsd: 9.2,
       jlrdc: 12.9,
       jlswz: 8.0,
@@ -2207,7 +6152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-28',
+      date: '2014/5/28',
       wsd: 10.2,
       jlrdc: 13.8,
       jlswz: 8.3,
@@ -2222,7 +6167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-29',
+      date: '2014/5/29',
       wsd: 10.5,
       jlrdc: 14.8,
       jlswz: 7.8,
@@ -2237,7 +6182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-30',
+      date: '2014/5/30',
       wsd: 9.7,
       jlrdc: 14.1,
       jlswz: 8.1,
@@ -2252,7 +6197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-05-31',
+      date: '2014/5/31',
       wsd: 10.5,
       jlrdc: 14.5,
       jlswz: 8.2,
@@ -2267,7 +6212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-01',
+      date: '2014/6/1',
       wsd: 10.3,
       jlrdc: 14.9,
       jlswz: 8.7,
@@ -2282,7 +6227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-02',
+      date: '2014/6/2',
       wsd: 10.5,
       jlrdc: 15.4,
       jlswz: 8.4,
@@ -2297,7 +6242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-03',
+      date: '2014/6/3',
       wsd: 10.1,
       jlrdc: 15.2,
       jlswz: 8.4,
@@ -2312,7 +6257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-04',
+      date: '2014/6/4',
       wsd: 9.9,
       jlrdc: 13.9,
       jlswz: 8.8,
@@ -2327,7 +6272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-05',
+      date: '2014/6/5',
       wsd: 10.0,
       jlrdc: 15.9,
       jlswz: 8.9,
@@ -2342,7 +6287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-06',
+      date: '2014/6/6',
       wsd: 9.9,
       jlrdc: 16.8,
       jlswz: 8.8,
@@ -2357,7 +6302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-07',
+      date: '2014/6/7',
       wsd: 9.4,
       jlrdc: 15.0,
       jlswz: 8.6,
@@ -2372,7 +6317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-08',
+      date: '2014/6/8',
       wsd: 9.5,
       jlrdc: 16.1,
       jlswz: 9.0,
@@ -2387,7 +6332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-09',
+      date: '2014/6/9',
       wsd: 10.1,
       jlrdc: 16.9,
       jlswz: 9.6,
@@ -2402,7 +6347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-10',
+      date: '2014/6/10',
       wsd: 10.3,
       jlrdc: 17.2,
       jlswz: 9.2,
@@ -2417,7 +6362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-11',
+      date: '2014/6/11',
       wsd: 10.2,
       jlrdc: 15.6,
       jlswz: 9.4,
@@ -2432,7 +6377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-12',
+      date: '2014/6/12',
       wsd: 10.9,
       jlrdc: 16.4,
       jlswz: 10.3,
@@ -2447,7 +6392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-13',
+      date: '2014/6/13',
       wsd: 12.6,
       jlrdc: 17.1,
       jlswz: 10.4,
@@ -2462,7 +6407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-14',
+      date: '2014/6/14',
       wsd: 12.3,
       jlrdc: 16.3,
       jlswz: 10.0,
@@ -2477,7 +6422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-15',
+      date: '2014/6/15',
       wsd: 11.1,
       jlrdc: 15.6,
       jlswz: 10.3,
@@ -2492,7 +6437,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-16',
+      date: '2014/6/16',
       wsd: 11.2,
       jlrdc: 15.7,
       jlswz: 10.3,
@@ -2507,7 +6452,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-17',
+      date: '2014/6/17',
       wsd: 11.0,
       jlrdc: 16.2,
       jlswz: 10.3,
@@ -2522,7 +6467,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-18',
+      date: '2014/6/18',
       wsd: 11.0,
       jlrdc: 16.6,
       jlswz: 10.6,
@@ -2537,7 +6482,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-19',
+      date: '2014/6/19',
       wsd: 11.4,
       jlrdc: 16.1,
       jlswz: 10.8,
@@ -2552,7 +6497,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-20',
+      date: '2014/6/20',
       wsd: 11.4,
       jlrdc: 16.4,
       jlswz: 10.9,
@@ -2567,7 +6512,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-21',
+      date: '2014/6/21',
       wsd: 11.6,
       jlrdc: 16.5,
       jlswz: 11.2,
@@ -2582,7 +6527,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-22',
+      date: '2014/6/22',
       wsd: 11.8,
       jlrdc: 18.1,
       jlswz: 11.3,
@@ -2597,7 +6542,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-23',
+      date: '2014/6/23',
       wsd: 11.8,
       jlrdc: 18.9,
       jlswz: 11.4,
@@ -2612,7 +6557,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-24',
+      date: '2014/6/24',
       wsd: 11.8,
       jlrdc: 18.5,
       jlswz: 11.5,
@@ -2627,7 +6572,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-25',
+      date: '2014/6/25',
       wsd: 12.2,
       jlrdc: 18.3,
       jlswz: 12.0,
@@ -2642,7 +6587,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-26',
+      date: '2014/6/26',
       wsd: 12.4,
       jlrdc: 18.5,
       jlswz: 11.7,
@@ -2657,7 +6602,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-27',
+      date: '2014/6/27',
       wsd: 12.0,
       jlrdc: 18.3,
       jlswz: 11.9,
@@ -2672,7 +6617,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-28',
+      date: '2014/6/28',
       wsd: 12.6,
       jlrdc: 18.9,
       jlswz: 12.1,
@@ -2687,7 +6632,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-29',
+      date: '2014/6/29',
       wsd: 12.8,
       jlrdc: 18.7,
       jlswz: 12.2,
@@ -2702,7 +6647,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-06-30',
+      date: '2014/6/30',
       wsd: 13.0,
       jlrdc: 19.7,
       jlswz: 12.5,
@@ -2717,7 +6662,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-01',
+      date: '2014/7/1',
       wsd: 13.2,
       jlrdc: 19.9,
       jlswz: 12.7,
@@ -2732,7 +6677,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-02',
+      date: '2014/7/2',
       wsd: 13.8,
       jlrdc: 21.2,
       jlswz: 13.1,
@@ -2747,7 +6692,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-03',
+      date: '2014/7/3',
       wsd: 14.9,
       jlrdc: 21.3,
       jlswz: 13.2,
@@ -2762,7 +6707,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-04',
+      date: '2014/7/4',
       wsd: 14.8,
       jlrdc: 20.8,
       jlswz: 13.3,
@@ -2777,7 +6722,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-05',
+      date: '2014/7/5',
       wsd: 15.1,
       jlrdc: 20.8,
       jlswz: 13.7,
@@ -2792,7 +6737,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-06',
+      date: '2014/7/6',
       wsd: 15.5,
       jlrdc: 19.7,
       jlswz: 13.6,
@@ -2807,7 +6752,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-07',
+      date: '2014/7/7',
       wsd: 15.2,
       jlrdc: 20.0,
       jlswz: 13.8,
@@ -2822,7 +6767,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-08',
+      date: '2014/7/8',
       wsd: 15.4,
       jlrdc: 21.3,
       jlswz: 13.7,
@@ -2837,7 +6782,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-09',
+      date: '2014/7/9',
       wsd: 15.8,
       jlrdc: 21.2,
       jlswz: 14.8,
@@ -2852,7 +6797,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-10',
+      date: '2014/7/10',
       wsd: 16.6,
       jlrdc: 20.9,
       jlswz: 15.1,
@@ -2867,7 +6812,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-11',
+      date: '2014/7/11',
       wsd: 17.5,
       jlrdc: 20.2,
       jlswz: 14.3,
@@ -2882,7 +6827,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-12',
+      date: '2014/7/12',
       wsd: 16.6,
       jlrdc: 20.4,
       jlswz: 14.5,
@@ -2897,7 +6842,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-13',
+      date: '2014/7/13',
       wsd: 16.9,
       jlrdc: 20.7,
       jlswz: 14.5,
@@ -2912,7 +6857,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-14',
+      date: '2014/7/14',
       wsd: 17.1,
       jlrdc: 20.8,
       jlswz: 14.7,
@@ -2927,7 +6872,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-15',
+      date: '2014/7/15',
       wsd: 17.5,
       jlrdc: 21.0,
       jlswz: 15.1,
@@ -2942,7 +6887,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-16',
+      date: '2014/7/16',
       wsd: 18.0,
       jlrdc: 22.1,
       jlswz: 15.0,
@@ -2957,7 +6902,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-17',
+      date: '2014/7/17',
       wsd: 17.5,
       jlrdc: 21.5,
       jlswz: 14.8,
@@ -2972,7 +6917,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-18',
+      date: '2014/7/18',
       wsd: 17.9,
       jlrdc: 21.1,
       jlswz: 15.0,
@@ -2987,7 +6932,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-19',
+      date: '2014/7/19',
       wsd: 17.6,
       jlrdc: 21.5,
       jlswz: 15.4,
@@ -3002,7 +6947,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-20',
+      date: '2014/7/20',
       wsd: 19.4,
       jlrdc: 21.8,
       jlswz: 16.0,
@@ -3017,7 +6962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-21',
+      date: '2014/7/21',
       wsd: 19.9,
       jlrdc: 21.9,
       jlswz: 15.1,
@@ -3032,7 +6977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-22',
+      date: '2014/7/22',
       wsd: 18.5,
       jlrdc: 20.9,
       jlswz: 15.3,
@@ -3047,7 +6992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-23',
+      date: '2014/7/23',
       wsd: 19.4,
       jlrdc: 21.2,
       jlswz: 15.5,
@@ -3062,7 +7007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-24',
+      date: '2014/7/24',
       wsd: 19.1,
       jlrdc: 20.9,
       jlswz: 15.1,
@@ -3077,7 +7022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-25',
+      date: '2014/7/25',
       wsd: 18.2,
       jlrdc: 20.5,
       jlswz: 14.7,
@@ -3092,7 +7037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-26',
+      date: '2014/7/26',
       wsd: 17.6,
       jlrdc: 20.7,
       jlswz: 14.8,
@@ -3107,7 +7052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-27',
+      date: '2014/7/27',
       wsd: 17.6,
       jlrdc: 20.9,
       jlswz: 15.2,
@@ -3122,7 +7067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-28',
+      date: '2014/7/28',
       wsd: 18.4,
       jlrdc: 20.9,
       jlswz: 15.8,
@@ -3137,7 +7082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-29',
+      date: '2014/7/29',
       wsd: 19.2,
       jlrdc: 20.6,
       jlswz: 15.8,
@@ -3152,7 +7097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-30',
+      date: '2014/7/30',
       wsd: 18.9,
       jlrdc: 21.2,
       jlswz: 15.7,
@@ -3167,7 +7112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-07-31',
+      date: '2014/7/31',
       wsd: 18.9,
       jlrdc: 21.9,
       jlswz: 15.7,
@@ -3182,7 +7127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-01',
+      date: '2014/8/1',
       wsd: 19.0,
       jlrdc: 21.7,
       jlswz: 15.8,
@@ -3197,7 +7142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-02',
+      date: '2014/8/2',
       wsd: 18.8,
       jlrdc: 22.2,
       jlswz: 15.7,
@@ -3212,7 +7157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-03',
+      date: '2014/8/3',
       wsd: 18.5,
       jlrdc: 23.5,
       jlswz: 15.3,
@@ -3227,7 +7172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-04',
+      date: '2014/8/4',
       wsd: 17.6,
       jlrdc: 23.6,
       jlswz: 15.1,
@@ -3242,7 +7187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-05',
+      date: '2014/8/5',
       wsd: 17.4,
       jlrdc: 23.1,
       jlswz: 16.1,
@@ -3257,7 +7202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-06',
+      date: '2014/8/6',
       wsd: 18.2,
       jlrdc: 23.4,
       jlswz: 16.0,
@@ -3272,7 +7217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-07',
+      date: '2014/8/7',
       wsd: 18.7,
       jlrdc: 22.0,
       jlswz: 15.1,
@@ -3287,7 +7232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-08',
+      date: '2014/8/8',
       wsd: 17.3,
       jlrdc: 21.2,
       jlswz: 15.2,
@@ -3302,7 +7247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-09',
+      date: '2014/8/9',
       wsd: 17.2,
       jlrdc: 23.5,
       jlswz: 15.6,
@@ -3317,7 +7262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-10',
+      date: '2014/8/10',
       wsd: 17.6,
       jlrdc: 23.3,
       jlswz: 15.8,
@@ -3332,7 +7277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-11',
+      date: '2014/8/11',
       wsd: 17.7,
       jlrdc: 23.2,
       jlswz: 15.8,
@@ -3347,7 +7292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-12',
+      date: '2014/8/12',
       wsd: 17.6,
       jlrdc: 22.3,
       jlswz: 16.0,
@@ -3362,7 +7307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-13',
+      date: '2014/8/13',
       wsd: 18.2,
       jlrdc: 22.2,
       jlswz: 16.1,
@@ -3377,7 +7322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-14',
+      date: '2014/8/14',
       wsd: 18.5,
       jlrdc: 22.4,
       jlswz: 16.7,
@@ -3392,7 +7337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-15',
+      date: '2014/8/15',
       wsd: 18.8,
       jlrdc: 23.1,
       jlswz: 17.3,
@@ -3407,7 +7352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-16',
+      date: '2014/8/16',
       wsd: 19.5,
       jlrdc: 23.0,
       jlswz: 16.2,
@@ -3422,7 +7367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-17',
+      date: '2014/8/17',
       wsd: 18.6,
       jlrdc: 22.6,
       jlswz: 16.1,
@@ -3437,7 +7382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-18',
+      date: '2014/8/18',
       wsd: 18.4,
       jlrdc: 22.4,
       jlswz: 16.1,
@@ -3452,7 +7397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-19',
+      date: '2014/8/19',
       wsd: 18.3,
       jlrdc: 22.6,
       jlswz: 16.1,
@@ -3467,7 +7412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-20',
+      date: '2014/8/20',
       wsd: 18.6,
       jlrdc: 24.0,
       jlswz: 16.9,
@@ -3482,7 +7427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-21',
+      date: '2014/8/21',
       wsd: 18.9,
       jlrdc: 24.6,
       jlswz: 17.6,
@@ -3497,7 +7442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-22',
+      date: '2014/8/22',
       wsd: 19.9,
       jlrdc: 25.7,
       jlswz: 17.8,
@@ -3512,7 +7457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-23',
+      date: '2014/8/23',
       wsd: 20.6,
       jlrdc: 24.8,
       jlswz: 17.4,
@@ -3527,7 +7472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-24',
+      date: '2014/8/24',
       wsd: 21.2,
       jlrdc: 24.6,
       jlswz: 17.7,
@@ -3542,7 +7487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-25',
+      date: '2014/8/25',
       wsd: 20.7,
       jlrdc: 24.2,
       jlswz: 17.5,
@@ -3557,7 +7502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-26',
+      date: '2014/8/26',
       wsd: 20.4,
       jlrdc: 24.3,
       jlswz: 17.2,
@@ -3572,7 +7517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-27',
+      date: '2014/8/27',
       wsd: 20.3,
       jlrdc: 23.6,
       jlswz: 17.5,
@@ -3587,7 +7532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-28',
+      date: '2014/8/28',
       wsd: 20.3,
       jlrdc: 23.7,
       jlswz: 17.8,
@@ -3602,7 +7547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-29',
+      date: '2014/8/29',
       wsd: 20.6,
       jlrdc: 24.4,
       jlswz: 17.6,
@@ -3617,7 +7562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-30',
+      date: '2014/8/30',
       wsd: 20.7,
       jlrdc: 25.5,
       jlswz: 17.3,
@@ -3632,7 +7577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-08-31',
+      date: '2014/8/31',
       wsd: 20.3,
       jlrdc: 25.0,
       jlswz: 17.4,
@@ -3647,7 +7592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-01',
+      date: '2014/9/1',
       wsd: 20.1,
       jlrdc: 25.8,
       jlswz: 17.6,
@@ -3662,7 +7607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-02',
+      date: '2014/9/2',
       wsd: 20.3,
       jlrdc: 25.8,
       jlswz: 17.8,
@@ -3677,7 +7622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-03',
+      date: '2014/9/3',
       wsd: 19.9,
       jlrdc: 24.7,
       jlswz: 16.8,
@@ -3692,7 +7637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-04',
+      date: '2014/9/4',
       wsd: 19.4,
       jlrdc: 23.9,
       jlswz: 16.4,
@@ -3707,7 +7652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-05',
+      date: '2014/9/5',
       wsd: 18.6,
       jlrdc: 24.5,
       jlswz: 16.5,
@@ -3722,7 +7667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-06',
+      date: '2014/9/6',
       wsd: 18.4,
       jlrdc: 24.9,
       jlswz: 17.1,
@@ -3737,7 +7682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-07',
+      date: '2014/9/7',
       wsd: 19.0,
       jlrdc: 25.1,
       jlswz: 17.6,
@@ -3752,7 +7697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-08',
+      date: '2014/9/8',
       wsd: 19.5,
       jlrdc: 24.2,
       jlswz: 17.3,
@@ -3767,7 +7712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-09',
+      date: '2014/9/9',
       wsd: 19.2,
       jlrdc: 24.4,
       jlswz: 16.5,
@@ -3782,7 +7727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-10',
+      date: '2014/9/10',
       wsd: 18.2,
       jlrdc: 24.1,
       jlswz: 16.4,
@@ -3797,7 +7742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-11',
+      date: '2014/9/11',
       wsd: 17.9,
       jlrdc: 24.7,
       jlswz: 16.4,
@@ -3812,7 +7757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-12',
+      date: '2014/9/12',
       wsd: 17.9,
       jlrdc: 23.7,
       jlswz: 16.7,
@@ -3827,7 +7772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-13',
+      date: '2014/9/13',
       wsd: 18.2,
       jlrdc: 24.9,
       jlswz: 17.1,
@@ -3842,7 +7787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-14',
+      date: '2014/9/14',
       wsd: 18.2,
       jlrdc: 24.5,
       jlswz: 16.4,
@@ -3857,7 +7802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-15',
+      date: '2014/9/15',
       wsd: 17.6,
       jlrdc: 24.1,
       jlswz: 15.9,
@@ -3872,7 +7817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-16',
+      date: '2014/9/16',
       wsd: 16.6,
       jlrdc: 24.1,
       jlswz: 16.1,
@@ -3887,7 +7832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-17',
+      date: '2014/9/17',
       wsd: 16.5,
       jlrdc: 24.0,
       jlswz: 16.3,
@@ -3902,7 +7847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-18',
+      date: '2014/9/18',
       wsd: 17.0,
       jlrdc: 22.7,
       jlswz: 16.6,
@@ -3917,7 +7862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-19',
+      date: '2014/9/19',
       wsd: 17.4,
       jlrdc: 22.5,
       jlswz: 16.7,
@@ -3932,7 +7877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-20',
+      date: '2014/9/20',
       wsd: 17.6,
       jlrdc: 23.8,
       jlswz: 16.9,
@@ -3947,7 +7892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-21',
+      date: '2014/9/21',
       wsd: 17.7,
       jlrdc: 23.3,
       jlswz: 16.8,
@@ -3962,7 +7907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-22',
+      date: '2014/9/22',
       wsd: 17.8,
       jlrdc: 24.0,
       jlswz: 16.9,
@@ -3977,7 +7922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-23',
+      date: '2014/9/23',
       wsd: 17.8,
       jlrdc: 23.1,
       jlswz: 16.8,
@@ -3992,7 +7937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-24',
+      date: '2014/9/24',
       wsd: 17.7,
       jlrdc: 22.6,
       jlswz: 17.1,
@@ -4007,7 +7952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-25',
+      date: '2014/9/25',
       wsd: 17.4,
       jlrdc: 23.5,
       jlswz: 16.6,
@@ -4022,7 +7967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-26',
+      date: '2014/9/26',
       wsd: 17.6,
       jlrdc: 23.1,
       jlswz: 16.5,
@@ -4037,7 +7982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-27',
+      date: '2014/9/27',
       wsd: 17.1,
       jlrdc: 22.5,
       jlswz: 16.8,
@@ -4052,7 +7997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-28',
+      date: '2014/9/28',
       wsd: 17.0,
       jlrdc: 22.9,
       jlswz: 16.7,
@@ -4067,7 +8012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-29',
+      date: '2014/9/29',
       wsd: 16.1,
       jlrdc: 22.1,
       jlswz: 15.0,
@@ -4082,7 +8027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-09-30',
+      date: '2014/9/30',
       wsd: 15.1,
       jlrdc: 21.9,
       jlswz: 15.0,
@@ -4097,7 +8042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-01',
+      date: '2014/10/1',
       wsd: 14.1,
       jlrdc: 22.8,
       jlswz: 15.3,
@@ -4112,7 +8057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-02',
+      date: '2014/10/2',
       wsd: 14.3,
       jlrdc: 21.3,
       jlswz: 15.8,
@@ -4127,7 +8072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-03',
+      date: '2014/10/3',
       wsd: 14.8,
       jlrdc: 20.9,
       jlswz: 16.1,
@@ -4142,7 +8087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-04',
+      date: '2014/10/4',
       wsd: 15.4,
       jlrdc: 21.7,
       jlswz: 16.0,
@@ -4157,7 +8102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-05',
+      date: '2014/10/5',
       wsd: 15.9,
       jlrdc: 22.7,
       jlswz: 15.9,
@@ -4172,7 +8117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-06',
+      date: '2014/10/6',
       wsd: 15.9,
       jlrdc: 21.6,
       jlswz: 15.7,
@@ -4187,7 +8132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-07',
+      date: '2014/10/7',
       wsd: 15.6,
       jlrdc: 20.5,
       jlswz: 15.0,
@@ -4202,7 +8147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-08',
+      date: '2014/10/8',
       wsd: 15.3,
       jlrdc: 20.4,
       jlswz: 15.2,
@@ -4217,7 +8162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-09',
+      date: '2014/10/9',
       wsd: 15.1,
       jlrdc: 22.8,
       jlswz: 15.7,
@@ -4232,7 +8177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-10',
+      date: '2014/10/10',
       wsd: 15.3,
       jlrdc: 22.1,
       jlswz: 15.6,
@@ -4247,7 +8192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-11',
+      date: '2014/10/11',
       wsd: 15.6,
       jlrdc: 22.7,
       jlswz: 15.9,
@@ -4262,7 +8207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-12',
+      date: '2014/10/12',
       wsd: 15.8,
       jlrdc: 22.7,
       jlswz: 15.5,
@@ -4277,7 +8222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-13',
+      date: '2014/10/13',
       wsd: 15.1,
       jlrdc: 21.3,
       jlswz: 14.3,
@@ -4292,7 +8237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-14',
+      date: '2014/10/14',
       wsd: 14.0,
       jlrdc: 20.5,
       jlswz: 14.0,
@@ -4307,7 +8252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-15',
+      date: '2014/10/15',
       wsd: 13.5,
       jlrdc: 19.9,
       jlswz: 14.2,
@@ -4322,7 +8267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-16',
+      date: '2014/10/16',
       wsd: 13.3,
       jlrdc: 19.6,
       jlswz: 14.0,
@@ -4337,7 +8282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-17',
+      date: '2014/10/17',
       wsd: 13.3,
       jlrdc: 19.4,
       jlswz: 14.1,
@@ -4352,7 +8297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-18',
+      date: '2014/10/18',
       wsd: 13.5,
       jlrdc: 19.0,
       jlswz: 14.3,
@@ -4367,7 +8312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-19',
+      date: '2014/10/19',
       wsd: 14.1,
       jlrdc: 20.6,
       jlswz: 14.5,
@@ -4382,7 +8327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-20',
+      date: '2014/10/20',
       wsd: 13.8,
       jlrdc: 19.2,
       jlswz: 13.9,
@@ -4397,7 +8342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-21',
+      date: '2014/10/21',
       wsd: 13.0,
       jlrdc: 17.5,
       jlswz: 12.2,
@@ -4412,7 +8357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-22',
+      date: '2014/10/22',
       wsd: 12.1,
       jlrdc: 17.1,
       jlswz: 11.8,
@@ -4427,7 +8372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-23',
+      date: '2014/10/23',
       wsd: 11.3,
       jlrdc: 17.7,
       jlswz: 12.3,
@@ -4442,7 +8387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-24',
+      date: '2014/10/24',
       wsd: 11.5,
       jlrdc: 19.3,
       jlswz: 13.2,
@@ -4457,7 +8402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-25',
+      date: '2014/10/25',
       wsd: 12.3,
       jlrdc: 19.5,
       jlswz: 13.9,
@@ -4472,7 +8417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-26',
+      date: '2014/10/26',
       wsd: 12.3,
       jlrdc: 18.2,
       jlswz: 12.2,
@@ -4487,7 +8432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-27',
+      date: '2014/10/27',
       wsd: 11.3,
       jlrdc: 17.9,
       jlswz: 10.3,
@@ -4502,7 +8447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-28',
+      date: '2014/10/28',
       wsd: 10.8,
       jlrdc: 17.5,
       jlswz: 10.2,
@@ -4517,7 +8462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-29',
+      date: '2014/10/29',
       wsd: 9.9,
       jlrdc: 17.4,
       jlswz: 10.8,
@@ -4532,7 +8477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-30',
+      date: '2014/10/30',
       wsd: 9.4,
       jlrdc: 18.5,
       jlswz: 11.1,
@@ -4547,7 +8492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-10-31',
+      date: '2014/10/31',
       wsd: 9.6,
       jlrdc: 18.9,
       jlswz: 11.2,
@@ -4562,7 +8507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-01',
+      date: '2014/11/1',
       wsd: 10.2,
       jlrdc: 19.1,
       jlswz: 11.2,
@@ -4577,7 +8522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-02',
+      date: '2014/11/2',
       wsd: 10.0,
       jlrdc: 18.0,
       jlswz: 10.7,
@@ -4592,7 +8537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-03',
+      date: '2014/11/3',
       wsd: 9.4,
       jlrdc: 17.8,
       jlswz: 9.4,
@@ -4607,7 +8552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-04',
+      date: '2014/11/4',
       wsd: 9.3,
       jlrdc: 17.9,
       jlswz: 9.9,
@@ -4622,7 +8567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-05',
+      date: '2014/11/5',
       wsd: 9.1,
       jlrdc: 18.2,
       jlswz: 10.4,
@@ -4637,7 +8582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-06',
+      date: '2014/11/6',
       wsd: 8.8,
       jlrdc: 16.9,
       jlswz: 9.4,
@@ -4652,7 +8597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-07',
+      date: '2014/11/7',
       wsd: 8.5,
       jlrdc: 15.9,
       jlswz: 8.7,
@@ -4667,7 +8612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-08',
+      date: '2014/11/8',
       wsd: 7.9,
       jlrdc: 16.1,
       jlswz: 8.7,
@@ -4682,7 +8627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-09',
+      date: '2014/11/9',
       wsd: 7.5,
       jlrdc: 16.9,
       jlswz: 9.1,
@@ -4697,7 +8642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-10',
+      date: '2014/11/10',
       wsd: 7.7,
       jlrdc: 17.7,
       jlswz: 9.3,
@@ -4712,7 +8657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-11',
+      date: '2014/11/11',
       wsd: 8.2,
       jlrdc: 17.6,
       jlswz: 9.3,
@@ -4727,7 +8672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-12',
+      date: '2014/11/12',
       wsd: 7.9,
       jlrdc: 17.0,
       jlswz: 8.0,
@@ -4742,7 +8687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-13',
+      date: '2014/11/13',
       wsd: 6.8,
       jlrdc: 16.5,
       jlswz: 6.1,
@@ -4757,7 +8702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-14',
+      date: '2014/11/14',
       wsd: 5.6,
       jlrdc: 15.9,
       jlswz: 6.0,
@@ -4772,7 +8717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-15',
+      date: '2014/11/15',
       wsd: 4.6,
       jlrdc: 16.1,
       jlswz: 6.7,
@@ -4787,7 +8732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-16',
+      date: '2014/11/16',
       wsd: 4.4,
       jlrdc: 15.9,
       jlswz: 7.1,
@@ -4802,7 +8747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-17',
+      date: '2014/11/17',
       wsd: 4.9,
       jlrdc: 16.3,
       jlswz: 7.0,
@@ -4817,7 +8762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-18',
+      date: '2014/11/18',
       wsd: 5.2,
       jlrdc: 16.9,
       jlswz: 6.9,
@@ -4832,7 +8777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-19',
+      date: '2014/11/19',
       wsd: 5.6,
       jlrdc: 16.7,
       jlswz: 7.0,
@@ -4847,7 +8792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-20',
+      date: '2014/11/20',
       wsd: 5.8,
       jlrdc: 18.0,
       jlswz: 7.3,
@@ -4862,7 +8807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-21',
+      date: '2014/11/21',
       wsd: 6.1,
       jlrdc: 17.5,
       jlswz: 7.2,
@@ -4877,7 +8822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-22',
+      date: '2014/11/22',
       wsd: 6.2,
       jlrdc: 16.7,
       jlswz: 7.0,
@@ -4892,7 +8837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-23',
+      date: '2014/11/23',
       wsd: 6.1,
       jlrdc: 15.8,
       jlswz: 6.3,
@@ -4907,7 +8852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-24',
+      date: '2014/11/24',
       wsd: 5.7,
       jlrdc: 16.3,
       jlswz: 6.2,
@@ -4922,7 +8867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-25',
+      date: '2014/11/25',
       wsd: 5.2,
       jlrdc: 15.1,
       jlswz: 6.0,
@@ -4937,7 +8882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-26',
+      date: '2014/11/26',
       wsd: 5.2,
       jlrdc: 16.6,
       jlswz: 6.1,
@@ -4952,7 +8897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-27',
+      date: '2014/11/27',
       wsd: 5.1,
       jlrdc: 15.9,
       jlswz: 6.0,
@@ -4967,7 +8912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-28',
+      date: '2014/11/28',
       wsd: 5.1,
       jlrdc: 16.6,
       jlswz: 5.8,
@@ -4982,7 +8927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-29',
+      date: '2014/11/29',
       wsd: 5.0,
       jlrdc: 16.2,
       jlswz: 5.7,
@@ -4997,7 +8942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-11-30',
+      date: '2014/11/30',
       wsd: 4.8,
       jlrdc: 17.1,
       jlswz: 5.8,
@@ -5012,7 +8957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-01',
+      date: '2014/12/1',
       wsd: 3.8,
       jlrdc: 14.9,
       jlswz: 3.7,
@@ -5027,7 +8972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-02',
+      date: '2014/12/2',
       wsd: 2.4,
       jlrdc: 13.6,
       jlswz: 1.3,
@@ -5042,7 +8987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-03',
+      date: '2014/12/3',
       wsd: 0.8,
       jlrdc: 12.5,
       jlswz: 1.0,
@@ -5057,7 +9002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-04',
+      date: '2014/12/4',
       wsd: 0.2,
       jlrdc: 11.5,
       jlswz: 1.7,
@@ -5072,7 +9017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-05',
+      date: '2014/12/5',
       wsd: 0.0,
       jlrdc: 11.7,
       jlswz: 2.1,
@@ -5087,7 +9032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-06',
+      date: '2014/12/6',
       wsd: 0.0,
       jlrdc: 11.9,
       jlswz: 2.3,
@@ -5102,7 +9047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-07',
+      date: '2014/12/7',
       wsd: 0.0,
       jlrdc: 13.2,
       jlswz: 2.3,
@@ -5117,7 +9062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-08',
+      date: '2014/12/8',
       wsd: 0.0,
       jlrdc: 12.3,
       jlswz: 2.2,
@@ -5132,7 +9077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-09',
+      date: '2014/12/9',
       wsd: 0.0,
       jlrdc: 12.6,
       jlswz: 2.2,
@@ -5147,7 +9092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-10',
+      date: '2014/12/10',
       wsd: 0.1,
       jlrdc: 13.6,
       jlswz: 2.5,
@@ -5162,7 +9107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-11',
+      date: '2014/12/11',
       wsd: 0.1,
       jlrdc: 13.3,
       jlswz: 1.5,
@@ -5177,7 +9122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-12',
+      date: '2014/12/12',
       wsd: 0.1,
       jlrdc: 11.9,
       jlswz: 1.3,
@@ -5192,7 +9137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-13',
+      date: '2014/12/13',
       wsd: 0.0,
       jlrdc: 11.7,
       jlswz: 1.4,
@@ -5207,7 +9152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-14',
+      date: '2014/12/14',
       wsd: 0.0,
       jlrdc: 11.3,
       jlswz: 1.3,
@@ -5222,7 +9167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-15',
+      date: '2014/12/15',
       wsd: 0.0,
       jlrdc: 12.0,
       jlswz: 1.3,
@@ -5237,7 +9182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-16',
+      date: '2014/12/16',
       wsd: 0.0,
       jlrdc: 11.8,
       jlswz: 1.1,
@@ -5252,7 +9197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-17',
+      date: '2014/12/17',
       wsd: 0.0,
       jlrdc: 12.4,
       jlswz: 0.7,
@@ -5267,7 +9212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-18',
+      date: '2014/12/18',
       wsd: 0.1,
       jlrdc: 12.0,
       jlswz: 0.6,
@@ -5282,7 +9227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-19',
+      date: '2014/12/19',
       wsd: 0.1,
       jlrdc: 13.6,
       jlswz: 0.8,
@@ -5297,7 +9242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-20',
+      date: '2014/12/20',
       wsd: 0.1,
       jlrdc: 11.3,
       jlswz: 0.6,
@@ -5312,7 +9257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-21',
+      date: '2014/12/21',
       wsd: 0.1,
       jlrdc: 12.6,
       jlswz: 0.6,
@@ -5327,7 +9272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-22',
+      date: '2014/12/22',
       wsd: 0.1,
       jlrdc: 12.6,
       jlswz: 0.7,
@@ -5342,7 +9287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-23',
+      date: '2014/12/23',
       wsd: 0.1,
       jlrdc: 13.8,
       jlswz: 1.0,
@@ -5357,7 +9302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-24',
+      date: '2014/12/24',
       wsd: 0.1,
       jlrdc: 13.5,
       jlswz: 0.9,
@@ -5372,7 +9317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-25',
+      date: '2014/12/25',
       wsd: 0.1,
       jlrdc: 12.5,
       jlswz: 0.8,
@@ -5387,7 +9332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-26',
+      date: '2014/12/26',
       wsd: 0.1,
       jlrdc: 13.4,
       jlswz: 1.1,
@@ -5402,7 +9347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-27',
+      date: '2014/12/27',
       wsd: 0.1,
       jlrdc: 12.9,
       jlswz: 1.3,
@@ -5417,7 +9362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-28',
+      date: '2014/12/28',
       wsd: 0.1,
       jlrdc: 13.2,
       jlswz: 1.2,
@@ -5432,7 +9377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-29',
+      date: '2014/12/29',
       wsd: 0.1,
       jlrdc: 13.5,
       jlswz: 0.8,
@@ -5447,7 +9392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-30',
+      date: '2014/12/30',
       wsd: 0.2,
       jlrdc: 12.1,
       jlswz: 1.0,
@@ -5462,7 +9407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2014-12-31',
+      date: '2014/12/31',
       wsd: 0.1,
       jlrdc: 14.9,
       jlswz: 0.5,
@@ -5477,7 +9422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-01',
+      date: '2015/1/1',
       wsd: 0.1,
       jlrdc: 12.6,
       jlswz: 0.5,
@@ -5492,7 +9437,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-02',
+      date: '2015/1/2',
       wsd: 0.1,
       jlrdc: 14.0,
       jlswz: 0.7,
@@ -5507,7 +9452,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-03',
+      date: '2015/1/3',
       wsd: 0.0,
       jlrdc: 15.7,
       jlswz: 0.6,
@@ -5522,7 +9467,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-04',
+      date: '2015/1/4',
       wsd: 0.0,
       jlrdc: 15.3,
       jlswz: 0.7,
@@ -5537,7 +9482,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-05',
+      date: '2015/1/5',
       wsd: 0.0,
       jlrdc: 14.9,
       jlswz: 0.7,
@@ -5552,7 +9497,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-06',
+      date: '2015/1/6',
       wsd: 0.1,
       jlrdc: 13.6,
       jlswz: 0.3,
@@ -5567,7 +9512,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-07',
+      date: '2015/1/7',
       wsd: 0.0,
       jlrdc: 14.3,
       jlswz: 0.4,
@@ -5582,7 +9527,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-08',
+      date: '2015/1/8',
       wsd: 0.0,
       jlrdc: 14.9,
       jlswz: 0.5,
@@ -5597,7 +9542,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-09',
+      date: '2015/1/9',
       wsd: 0.0,
       jlrdc: 14.3,
       jlswz: 0.5,
@@ -5612,7 +9557,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-10',
+      date: '2015/1/10',
       wsd: 0.0,
       jlrdc: 13.3,
       jlswz: 0.5,
@@ -5627,7 +9572,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-11',
+      date: '2015/1/11',
       wsd: 0.0,
       jlrdc: 12.1,
       jlswz: 0.5,
@@ -5642,7 +9587,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-12',
+      date: '2015/1/12',
       wsd: 0.0,
       jlrdc: 12.1,
       jlswz: 0.5,
@@ -5657,7 +9602,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-13',
+      date: '2015/1/13',
       wsd: 0.0,
       jlrdc: 11.9,
       jlswz: 0.5,
@@ -5672,7 +9617,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-14',
+      date: '2015/1/14',
       wsd: 0.0,
       jlrdc: 12.2,
       jlswz: 0.5,
@@ -5687,7 +9632,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-15',
+      date: '2015/1/15',
       wsd: 0.0,
       jlrdc: 12.2,
       jlswz: 0.7,
@@ -5702,7 +9647,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-16',
+      date: '2015/1/16',
       wsd: 0.1,
       jlrdc: 11.4,
       jlswz: 0.6,
@@ -5717,7 +9662,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-17',
+      date: '2015/1/17',
       wsd: 0.1,
       jlrdc: 12.6,
       jlswz: 0.5,
@@ -5732,7 +9677,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-18',
+      date: '2015/1/18',
       wsd: 0.1,
       jlrdc: 12.4,
       jlswz: 0.6,
@@ -5747,7 +9692,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-19',
+      date: '2015/1/19',
       wsd: 0.1,
       jlrdc: 10.0,
       jlswz: 0.5,
@@ -5762,7 +9707,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-20',
+      date: '2015/1/20',
       wsd: 0.1,
       jlrdc: 11.5,
       jlswz: 0.6,
@@ -5777,7 +9722,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-21',
+      date: '2015/1/21',
       wsd: 0.1,
       jlrdc: 13.4,
       jlswz: 0.7,
@@ -5792,7 +9737,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-22',
+      date: '2015/1/22',
       wsd: 0.1,
       jlrdc: 14.6,
       jlswz: 0.6,
@@ -5807,7 +9752,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-23',
+      date: '2015/1/23',
       wsd: 0.0,
       jlrdc: 12.9,
       jlswz: 0.6,
@@ -5822,7 +9767,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-24',
+      date: '2015/1/24',
       wsd: 0.0,
       jlrdc: 12.2,
       jlswz: 0.6,
@@ -5837,7 +9782,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-25',
+      date: '2015/1/25',
       wsd: 0.0,
       jlrdc: 13.2,
       jlswz: 0.9,
@@ -5852,7 +9797,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-26',
+      date: '2015/1/26',
       wsd: 0.0,
       jlrdc: 12.6,
       jlswz: 0.9,
@@ -5867,7 +9812,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-27',
+      date: '2015/1/27',
       wsd: 0.0,
       jlrdc: 9.2,
       jlswz: 0.5,
@@ -5882,7 +9827,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-28',
+      date: '2015/1/28',
       wsd: 0.0,
       jlrdc: 7.4,
       jlswz: 0.5,
@@ -5897,7 +9842,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-29',
+      date: '2015/1/29',
       wsd: 0.0,
       jlrdc: 7.1,
       jlswz: 0.5,
@@ -5912,7 +9857,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-30',
+      date: '2015/1/30',
       wsd: 0.0,
       jlrdc: 7.7,
       jlswz: 0.6,
@@ -5927,7 +9872,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-01-31',
+      date: '2015/1/31',
       wsd: 0.0,
       jlrdc: 7.9,
       jlswz: 0.6,
@@ -5942,7 +9887,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-01',
+      date: '2015/2/1',
       wsd: 0.0,
       jlrdc: 7.9,
       jlswz: 0.6,
@@ -5957,7 +9902,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-02',
+      date: '2015/2/2',
       wsd: 0.0,
       jlrdc: 8.1,
       jlswz: 0.6,
@@ -5972,7 +9917,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-03',
+      date: '2015/2/3',
       wsd: 0.0,
       jlrdc: 8.5,
       jlswz: 0.7,
@@ -5987,7 +9932,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-04',
+      date: '2015/2/4',
       wsd: 0.0,
       jlrdc: 7.5,
       jlswz: 0.8,
@@ -6002,7 +9947,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-05',
+      date: '2015/2/5',
       wsd: 0.0,
       jlrdc: 7.6,
       jlswz: 0.9,
@@ -6017,7 +9962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-06',
+      date: '2015/2/6',
       wsd: 0.0,
       jlrdc: 8.2,
       jlswz: 1.0,
@@ -6032,7 +9977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-07',
+      date: '2015/2/7',
       wsd: 0.0,
       jlrdc: 8.8,
       jlswz: 0.7,
@@ -6047,7 +9992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-08',
+      date: '2015/2/8',
       wsd: 0.0,
       jlrdc: 7.8,
       jlswz: 0.4,
@@ -6062,7 +10007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-09',
+      date: '2015/2/9',
       wsd: 0.0,
       jlrdc: 6.8,
       jlswz: 0.4,
@@ -6077,7 +10022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-10',
+      date: '2015/2/10',
       wsd: 0.0,
       jlrdc: 7.3,
       jlswz: 0.5,
@@ -6092,7 +10037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-11',
+      date: '2015/2/11',
       wsd: 0.0,
       jlrdc: 8.3,
       jlswz: 0.6,
@@ -6107,7 +10052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-12',
+      date: '2015/2/12',
       wsd: 0.0,
       jlrdc: 8.2,
       jlswz: 0.5,
@@ -6122,7 +10067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-13',
+      date: '2015/2/13',
       wsd: 0.0,
       jlrdc: 8.8,
       jlswz: 0.7,
@@ -6137,7 +10082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-14',
+      date: '2015/2/14',
       wsd: 0.0,
       jlrdc: 9.0,
       jlswz: 0.8,
@@ -6152,7 +10097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-15',
+      date: '2015/2/15',
       wsd: 0.0,
       jlrdc: 9.5,
       jlswz: 1.0,
@@ -6167,7 +10112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-16',
+      date: '2015/2/16',
       wsd: 0.0,
       jlrdc: 10.3,
       jlswz: 1.5,
@@ -6182,7 +10127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-17',
+      date: '2015/2/17',
       wsd: 0.0,
       jlrdc: 10.5,
       jlswz: 1.6,
@@ -6197,7 +10142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-18',
+      date: '2015/2/18',
       wsd: 0.1,
       jlrdc: 10.1,
       jlswz: 1.5,
@@ -6212,7 +10157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-19',
+      date: '2015/2/19',
       wsd: 0.1,
       jlrdc: 10.4,
       jlswz: 1.4,
@@ -6227,7 +10172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-20',
+      date: '2015/2/20',
       wsd: 0.3,
       jlrdc: 10.5,
       jlswz: 1.6,
@@ -6242,7 +10187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-21',
+      date: '2015/2/21',
       wsd: 0.5,
       jlrdc: 10.2,
       jlswz: 1.8,
@@ -6257,7 +10202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-22',
+      date: '2015/2/22',
       wsd: 0.5,
       jlrdc: 9.7,
       jlswz: 1.5,
@@ -6272,7 +10217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-23',
+      date: '2015/2/23',
       wsd: 0.5,
       jlrdc: 9.2,
       jlswz: 1.0,
@@ -6287,7 +10232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-24',
+      date: '2015/2/24',
       wsd: 0.4,
       jlrdc: 9.2,
       jlswz: 1.3,
@@ -6302,7 +10247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-25',
+      date: '2015/2/25',
       wsd: 0.4,
       jlrdc: 9.7,
       jlswz: 1.4,
@@ -6317,7 +10262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-26',
+      date: '2015/2/26',
       wsd: 0.6,
       jlrdc: 9.8,
       jlswz: 1.1,
@@ -6332,7 +10277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-27',
+      date: '2015/2/27',
       wsd: 0.4,
       jlrdc: 9.1,
       jlswz: 1.1,
@@ -6347,7 +10292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-02-28',
+      date: '2015/2/28',
       wsd: 0.4,
       jlrdc: 10.0,
       jlswz: 1.3,
@@ -6362,7 +10307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-01',
+      date: '2015/3/1',
       wsd: 0.6,
       jlrdc: 9.5,
       jlswz: 1.3,
@@ -6377,7 +10322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-02',
+      date: '2015/3/2',
       wsd: 0.7,
       jlrdc: 10.3,
       jlswz: 1.6,
@@ -6392,7 +10337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-03',
+      date: '2015/3/3',
       wsd: 0.9,
       jlrdc: 10.0,
       jlswz: 1.7,
@@ -6407,7 +10352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-04',
+      date: '2015/3/4',
       wsd: 0.8,
       jlrdc: 9.9,
       jlswz: 1.3,
@@ -6422,7 +10367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-05',
+      date: '2015/3/5',
       wsd: 0.9,
       jlrdc: 9.5,
       jlswz: 1.3,
@@ -6437,7 +10382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-06',
+      date: '2015/3/6',
       wsd: 0.9,
       jlrdc: 10.1,
       jlswz: 1.6,
@@ -6452,7 +10397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-07',
+      date: '2015/3/7',
       wsd: 1.0,
       jlrdc: 10.3,
       jlswz: 1.6,
@@ -6467,7 +10412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-08',
+      date: '2015/3/8',
       wsd: 0.9,
       jlrdc: 10.0,
       jlswz: 1.1,
@@ -6482,7 +10427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-09',
+      date: '2015/3/9',
       wsd: 0.2,
       jlrdc: 9.8,
       jlswz: 0.8,
@@ -6497,7 +10442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-10',
+      date: '2015/3/10',
       wsd: 0.2,
       jlrdc: 9.4,
       jlswz: 0.9,
@@ -6512,7 +10457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-11',
+      date: '2015/3/11',
       wsd: 0.2,
       jlrdc: 9.7,
       jlswz: 0.9,
@@ -6527,7 +10472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-12',
+      date: '2015/3/12',
       wsd: 0.2,
       jlrdc: 9.8,
       jlswz: 1.2,
@@ -6542,7 +10487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-13',
+      date: '2015/3/13',
       wsd: 0.2,
       jlrdc: 10.2,
       jlswz: 1.4,
@@ -6557,7 +10502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-14',
+      date: '2015/3/14',
       wsd: 0.5,
       jlrdc: 10.6,
       jlswz: 1.9,
@@ -6572,7 +10517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-15',
+      date: '2015/3/15',
       wsd: 1.0,
       jlrdc: 10.8,
       jlswz: 2.2,
@@ -6587,7 +10532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-16',
+      date: '2015/3/16',
       wsd: 1.3,
       jlrdc: 10.9,
       jlswz: 2.5,
@@ -6602,7 +10547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-17',
+      date: '2015/3/17',
       wsd: 1.5,
       jlrdc: 10.8,
       jlswz: 2.8,
@@ -6617,7 +10562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-18',
+      date: '2015/3/18',
       wsd: 1.9,
       jlrdc: 10.9,
       jlswz: 2.9,
@@ -6632,7 +10577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-19',
+      date: '2015/3/19',
       wsd: 2.4,
       jlrdc: 12.1,
       jlswz: 3.1,
@@ -6647,7 +10592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-20',
+      date: '2015/3/20',
       wsd: 2.6,
       jlrdc: 11.9,
       jlswz: 3.2,
@@ -6662,7 +10607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-21',
+      date: '2015/3/21',
       wsd: 2.9,
       jlrdc: 10.7,
       jlswz: 3.3,
@@ -6677,7 +10622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-22',
+      date: '2015/3/22',
       wsd: null,
       jlrdc: 11.3,
       jlswz: 2.5,
@@ -6692,7 +10637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-23',
+      date: '2015/3/23',
       wsd: null,
       jlrdc: 11.6,
       jlswz: 1.8,
@@ -6707,7 +10652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-24',
+      date: '2015/3/24',
       wsd: null,
       jlrdc: 11.7,
       jlswz: 2.3,
@@ -6722,7 +10667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-25',
+      date: '2015/3/25',
       wsd: null,
       jlrdc: 11.7,
       jlswz: 3.1,
@@ -6737,7 +10682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-26',
+      date: '2015/3/26',
       wsd: null,
       jlrdc: 12.4,
       jlswz: 4.0,
@@ -6752,7 +10697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-27',
+      date: '2015/3/27',
       wsd: null,
       jlrdc: 12.3,
       jlswz: 4.7,
@@ -6767,7 +10712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-28',
+      date: '2015/3/28',
       wsd: null,
       jlrdc: 12.4,
       jlswz: 4.3,
@@ -6782,7 +10727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-29',
+      date: '2015/3/29',
       wsd: null,
       jlrdc: 12.1,
       jlswz: 4.2,
@@ -6797,7 +10742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-30',
+      date: '2015/3/30',
       wsd: null,
       jlrdc: 11.1,
       jlswz: 4.3,
@@ -6812,7 +10757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-03-31',
+      date: '2015/3/31',
       wsd: null,
       jlrdc: 11.0,
       jlswz: 4.2,
@@ -6827,7 +10772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-01',
+      date: '2015/4/1',
       wsd: 6.8,
       jlrdc: 10.0,
       jlswz: 3.9,
@@ -6842,7 +10787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-02',
+      date: '2015/4/2',
       wsd: 6.0,
       jlrdc: 10.5,
       jlswz: 3.3,
@@ -6857,7 +10802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-03',
+      date: '2015/4/3',
       wsd: 5.4,
       jlrdc: 10.2,
       jlswz: 2.8,
@@ -6872,7 +10817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-04',
+      date: '2015/4/4',
       wsd: 5.0,
       jlrdc: 9.6,
       jlswz: 2.9,
@@ -6887,7 +10832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-05',
+      date: '2015/4/5',
       wsd: 4.4,
       jlrdc: 9.6,
       jlswz: 3.0,
@@ -6902,7 +10847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-06',
+      date: '2015/4/6',
       wsd: 3.6,
       jlrdc: 9.2,
       jlswz: 2.6,
@@ -6917,7 +10862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-07',
+      date: '2015/4/7',
       wsd: 3.6,
       jlrdc: 9.2,
       jlswz: 2.6,
@@ -6932,7 +10877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-08',
+      date: '2015/4/8',
       wsd: 3.8,
       jlrdc: 9.5,
       jlswz: 3.4,
@@ -6947,7 +10892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-09',
+      date: '2015/4/9',
       wsd: 4.6,
       jlrdc: 10.3,
       jlswz: 4.0,
@@ -6962,7 +10907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-10',
+      date: '2015/4/10',
       wsd: 5.3,
       jlrdc: 10.5,
       jlswz: 4.3,
@@ -6977,7 +10922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-11',
+      date: '2015/4/11',
       wsd: 5.9,
       jlrdc: 10.6,
       jlswz: 4.2,
@@ -6992,7 +10937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-12',
+      date: '2015/4/12',
       wsd: 6.3,
       jlrdc: 10.9,
       jlswz: 4.1,
@@ -7007,7 +10952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-13',
+      date: '2015/4/13',
       wsd: 6.7,
       jlrdc: 11.8,
       jlswz: 4.6,
@@ -7022,7 +10967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-14',
+      date: '2015/4/14',
       wsd: 6.7,
       jlrdc: 12.7,
       jlswz: 4.8,
@@ -7037,7 +10982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-15',
+      date: '2015/4/15',
       wsd: null,
       jlrdc: 13.0,
       jlswz: 5.1,
@@ -7052,7 +10997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-16',
+      date: '2015/4/16',
       wsd: null,
       jlrdc: 11.9,
       jlswz: 5.0,
@@ -7067,7 +11012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-17',
+      date: '2015/4/17',
       wsd: 7.0,
       jlrdc: 12.6,
       jlswz: 4.6,
@@ -7082,7 +11027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-18',
+      date: '2015/4/18',
       wsd: 7.3,
       jlrdc: 13.3,
       jlswz: 4.9,
@@ -7097,7 +11042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-19',
+      date: '2015/4/19',
       wsd: 6.8,
       jlrdc: 12.8,
       jlswz: 5.4,
@@ -7112,7 +11057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-20',
+      date: '2015/4/20',
       wsd: null,
       jlrdc: 12.8,
       jlswz: 5.5,
@@ -7127,7 +11072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-21',
+      date: '2015/4/21',
       wsd: null,
       jlrdc: 11.9,
       jlswz: 5.7,
@@ -7142,7 +11087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-22',
+      date: '2015/4/22',
       wsd: null,
       jlrdc: 12.1,
       jlswz: 6.0,
@@ -7157,7 +11102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-23',
+      date: '2015/4/23',
       wsd: null,
       jlrdc: 11.7,
       jlswz: 6.1,
@@ -7172,7 +11117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-24',
+      date: '2015/4/24',
       wsd: null,
       jlrdc: 12.6,
       jlswz: 6.3,
@@ -7187,7 +11132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-25',
+      date: '2015/4/25',
       wsd: null,
       jlrdc: 12.8,
       jlswz: 6.7,
@@ -7202,7 +11147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-26',
+      date: '2015/4/26',
       wsd: null,
       jlrdc: 14.2,
       jlswz: 7.9,
@@ -7217,7 +11162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-27',
+      date: '2015/4/27',
       wsd: null,
       jlrdc: 15.3,
       jlswz: 9.0,
@@ -7232,7 +11177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-28',
+      date: '2015/4/28',
       wsd: null,
       jlrdc: 16.7,
       jlswz: 8.3,
@@ -7247,7 +11192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-29',
+      date: '2015/4/29',
       wsd: null,
       jlrdc: 16.2,
       jlswz: 7.5,
@@ -7262,7 +11207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-04-30',
+      date: '2015/4/30',
       wsd: null,
       jlrdc: 15.3,
       jlswz: 6.3,
@@ -7277,7 +11222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-01',
+      date: '2015/5/1',
       wsd: null,
       jlrdc: 15.2,
       jlswz: 6.5,
@@ -7292,7 +11237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-02',
+      date: '2015/5/2',
       wsd: null,
       jlrdc: 14.5,
       jlswz: 5.8,
@@ -7307,7 +11252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-03',
+      date: '2015/5/3',
       wsd: null,
       jlrdc: 13.2,
       jlswz: 5.6,
@@ -7322,7 +11267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-04',
+      date: '2015/5/4',
       wsd: null,
       jlrdc: 14.2,
       jlswz: 5.5,
@@ -7337,7 +11282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-05',
+      date: '2015/5/5',
       wsd: null,
       jlrdc: 14.2,
       jlswz: 5.2,
@@ -7352,7 +11297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-06',
+      date: '2015/5/6',
       wsd: null,
       jlrdc: 12.8,
       jlswz: 5.1,
@@ -7367,7 +11312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-07',
+      date: '2015/5/7',
       wsd: null,
       jlrdc: 12.7,
       jlswz: 5.4,
@@ -7382,7 +11327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-08',
+      date: '2015/5/8',
       wsd: null,
       jlrdc: 12.6,
       jlswz: 5.8,
@@ -7397,7 +11342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-09',
+      date: '2015/5/9',
       wsd: null,
       jlrdc: 12.4,
       jlswz: 5.5,
@@ -7412,7 +11357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-10',
+      date: '2015/5/10',
       wsd: null,
       jlrdc: 9.7,
       jlswz: 6.0,
@@ -7427,7 +11372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-11',
+      date: '2015/5/11',
       wsd: null,
       jlrdc: 9.8,
       jlswz: 7.3,
@@ -7442,7 +11387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-12',
+      date: '2015/5/12',
       wsd: null,
       jlrdc: 9.2,
       jlswz: 7.9,
@@ -7457,7 +11402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-13',
+      date: '2015/5/13',
       wsd: null,
       jlrdc: 9.8,
       jlswz: 8.1,
@@ -7472,7 +11417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-14',
+      date: '2015/5/14',
       wsd: null,
       jlrdc: 9.1,
       jlswz: 7.2,
@@ -7487,7 +11432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-15',
+      date: '2015/5/15',
       wsd: null,
       jlrdc: 9.2,
       jlswz: 8.7,
@@ -7502,7 +11447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-16',
+      date: '2015/5/16',
       wsd: null,
       jlrdc: 9.9,
       jlswz: 8.6,
@@ -7517,7 +11462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-17',
+      date: '2015/5/17',
       wsd: null,
       jlrdc: 9.9,
       jlswz: 6.9,
@@ -7532,7 +11477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-18',
+      date: '2015/5/18',
       wsd: null,
       jlrdc: 9.1,
       jlswz: 7.6,
@@ -7547,7 +11492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-19',
+      date: '2015/5/19',
       wsd: null,
       jlrdc: 10.3,
       jlswz: 8.3,
@@ -7562,7 +11507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-20',
+      date: '2015/5/20',
       wsd: null,
       jlrdc: 10.6,
       jlswz: 9.5,
@@ -7577,7 +11522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-21',
+      date: '2015/5/21',
       wsd: null,
       jlrdc: 11.2,
       jlswz: 9.9,
@@ -7592,7 +11537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-22',
+      date: '2015/5/22',
       wsd: null,
       jlrdc: 11.3,
       jlswz: 9.8,
@@ -7607,7 +11552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-23',
+      date: '2015/5/23',
       wsd: null,
       jlrdc: 11.4,
       jlswz: 10.2,
@@ -7622,7 +11567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-24',
+      date: '2015/5/24',
       wsd: null,
       jlrdc: 11.8,
       jlswz: 10.8,
@@ -7637,7 +11582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-25',
+      date: '2015/5/25',
       wsd: null,
       jlrdc: 12.3,
       jlswz: 11.5,
@@ -7652,7 +11597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-26',
+      date: '2015/5/26',
       wsd: null,
       jlrdc: 12.4,
       jlswz: 11.3,
@@ -7667,7 +11612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-27',
+      date: '2015/5/27',
       wsd: null,
       jlrdc: 12.7,
       jlswz: 11.9,
@@ -7682,7 +11627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-28',
+      date: '2015/5/28',
       wsd: null,
       jlrdc: 13.1,
       jlswz: 11.8,
@@ -7697,7 +11642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-29',
+      date: '2015/5/29',
       wsd: null,
       jlrdc: 13.5,
       jlswz: 11.5,
@@ -7712,7 +11657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-30',
+      date: '2015/5/30',
       wsd: null,
       jlrdc: 12.8,
       jlswz: 11.3,
@@ -7727,7 +11672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-05-31',
+      date: '2015/5/31',
       wsd: null,
       jlrdc: 12.4,
       jlswz: 11.2,
@@ -7742,7 +11687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-01',
+      date: '2015/6/1',
       wsd: null,
       jlrdc: 13.6,
       jlswz: 11.3,
@@ -7757,7 +11702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-02',
+      date: '2015/6/2',
       wsd: null,
       jlrdc: 14.0,
       jlswz: 11.4,
@@ -7772,7 +11717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-03',
+      date: '2015/6/3',
       wsd: null,
       jlrdc: 14.3,
       jlswz: 11.7,
@@ -7787,7 +11732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-04',
+      date: '2015/6/4',
       wsd: null,
       jlrdc: 14.5,
       jlswz: 12.1,
@@ -7802,7 +11747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-05',
+      date: '2015/6/5',
       wsd: null,
       jlrdc: 14.1,
       jlswz: 12.3,
@@ -7817,7 +11762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-06',
+      date: '2015/6/6',
       wsd: null,
       jlrdc: 13.3,
       jlswz: 12.8,
@@ -7832,7 +11777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-07',
+      date: '2015/6/7',
       wsd: null,
       jlrdc: 14.6,
       jlswz: 14.2,
@@ -7847,7 +11792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-08',
+      date: '2015/6/8',
       wsd: null,
       jlrdc: 15.5,
       jlswz: 13.9,
@@ -7862,7 +11807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-09',
+      date: '2015/6/9',
       wsd: null,
       jlrdc: 15.8,
       jlswz: 13.7,
@@ -7877,7 +11822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-10',
+      date: '2015/6/10',
       wsd: null,
       jlrdc: 17.9,
       jlswz: 14.4,
@@ -7892,7 +11837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-11',
+      date: '2015/6/11',
       wsd: null,
       jlrdc: 19.1,
       jlswz: 14.5,
@@ -7907,7 +11852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-12',
+      date: '2015/6/12',
       wsd: null,
       jlrdc: 20.4,
       jlswz: 15.2,
@@ -7922,7 +11867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-13',
+      date: '2015/6/13',
       wsd: null,
       jlrdc: 21.2,
       jlswz: 15.1,
@@ -7937,7 +11882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-14',
+      date: '2015/6/14',
       wsd: null,
       jlrdc: 22.7,
       jlswz: 15.7,
@@ -7952,7 +11897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-15',
+      date: '2015/6/15',
       wsd: null,
       jlrdc: 22.2,
       jlswz: 15.2,
@@ -7967,7 +11912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-16',
+      date: '2015/6/16',
       wsd: null,
       jlrdc: 21.1,
       jlswz: 14.1,
@@ -7982,7 +11927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-17',
+      date: '2015/6/17',
       wsd: null,
       jlrdc: 20.9,
       jlswz: 14.6,
@@ -7997,7 +11942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-18',
+      date: '2015/6/18',
       wsd: null,
       jlrdc: 20.7,
       jlswz: 14.6,
@@ -8012,7 +11957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-19',
+      date: '2015/6/19',
       wsd: null,
       jlrdc: 20.6,
       jlswz: 13.8,
@@ -8027,7 +11972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-20',
+      date: '2015/6/20',
       wsd: null,
       jlrdc: 20.2,
       jlswz: 14.1,
@@ -8042,7 +11987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-21',
+      date: '2015/6/21',
       wsd: null,
       jlrdc: 21.3,
       jlswz: 14.7,
@@ -8057,7 +12002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-22',
+      date: '2015/6/22',
       wsd: null,
       jlrdc: 20.8,
       jlswz: 14.5,
@@ -8072,7 +12017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-23',
+      date: '2015/6/23',
       wsd: null,
       jlrdc: 21.2,
       jlswz: 15.2,
@@ -8087,7 +12032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-24',
+      date: '2015/6/24',
       wsd: null,
       jlrdc: 20.8,
       jlswz: 14.9,
@@ -8102,7 +12047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-25',
+      date: '2015/6/25',
       wsd: null,
       jlrdc: 20.8,
       jlswz: 14.8,
@@ -8117,7 +12062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-26',
+      date: '2015/6/26',
       wsd: null,
       jlrdc: 19.7,
       jlswz: 13.7,
@@ -8132,7 +12077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-27',
+      date: '2015/6/27',
       wsd: 17.4,
       jlrdc: 20.7,
       jlswz: 14.4,
@@ -8147,7 +12092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-28',
+      date: '2015/6/28',
       wsd: 17.4,
       jlrdc: 22.4,
       jlswz: 15.3,
@@ -8162,7 +12107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-29',
+      date: '2015/6/29',
       wsd: 17.8,
       jlrdc: 22.4,
       jlswz: 14.9,
@@ -8177,7 +12122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-06-30',
+      date: '2015/6/30',
       wsd: 18.8,
       jlrdc: 21.4,
       jlswz: 14.2,
@@ -8192,7 +12137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-01',
+      date: '2015/7/1',
       wsd: 18.9,
       jlrdc: 20.8,
       jlswz: 14.2,
@@ -8207,7 +12152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-02',
+      date: '2015/7/2',
       wsd: 18.8,
       jlrdc: 20.8,
       jlswz: 14.6,
@@ -8222,7 +12167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-03',
+      date: '2015/7/3',
       wsd: 18.6,
       jlrdc: 20.6,
       jlswz: 14.2,
@@ -8237,7 +12182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-04',
+      date: '2015/7/4',
       wsd: 18.2,
       jlrdc: 21.3,
       jlswz: 14.7,
@@ -8252,7 +12197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-05',
+      date: '2015/7/5',
       wsd: 18.9,
       jlrdc: 21.7,
       jlswz: 15.5,
@@ -8267,7 +12212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-06',
+      date: '2015/7/6',
       wsd: 19.6,
       jlrdc: 22.0,
       jlswz: 16.0,
@@ -8282,7 +12227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-07',
+      date: '2015/7/7',
       wsd: 20.4,
       jlrdc: 22.8,
       jlswz: 16.4,
@@ -8297,7 +12242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-08',
+      date: '2015/7/8',
       wsd: 21.0,
       jlrdc: 23.8,
       jlswz: 15.8,
@@ -8312,7 +12257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-09',
+      date: '2015/7/9',
       wsd: 21.6,
       jlrdc: 24.4,
       jlswz: 15.2,
@@ -8327,7 +12272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-10',
+      date: '2015/7/10',
       wsd: 20.0,
       jlrdc: 23.9,
       jlswz: 15.4,
@@ -8342,7 +12287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-11',
+      date: '2015/7/11',
       wsd: 19.6,
       jlrdc: 24.3,
       jlswz: 15.7,
@@ -8357,7 +12302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-12',
+      date: '2015/7/12',
       wsd: 19.3,
       jlrdc: 23.6,
       jlswz: 14.9,
@@ -8372,7 +12317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-13',
+      date: '2015/7/13',
       wsd: 18.8,
       jlrdc: 22.9,
       jlswz: 15.0,
@@ -8387,7 +12332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-14',
+      date: '2015/7/14',
       wsd: 18.3,
       jlrdc: 23.1,
       jlswz: 15.5,
@@ -8402,7 +12347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-15',
+      date: '2015/7/15',
       wsd: 18.3,
       jlrdc: 23.5,
       jlswz: 15.2,
@@ -8417,7 +12362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-16',
+      date: '2015/7/16',
       wsd: 18.6,
       jlrdc: 22.8,
       jlswz: 16.0,
@@ -8432,7 +12377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-17',
+      date: '2015/7/17',
       wsd: 19.3,
       jlrdc: 22.8,
       jlswz: 16.3,
@@ -8447,7 +12392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-18',
+      date: '2015/7/18',
       wsd: 20.1,
       jlrdc: 23.0,
       jlswz: 15.9,
@@ -8462,7 +12407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-19',
+      date: '2015/7/19',
       wsd: 20.8,
       jlrdc: 24.1,
       jlswz: 16.4,
@@ -8477,7 +12422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-20',
+      date: '2015/7/20',
       wsd: 21.5,
       jlrdc: 23.7,
       jlswz: 16.3,
@@ -8492,7 +12437,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-21',
+      date: '2015/7/21',
       wsd: 21.5,
       jlrdc: 23.9,
       jlswz: 15.8,
@@ -8507,7 +12452,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-22',
+      date: '2015/7/22',
       wsd: 21.7,
       jlrdc: 23.7,
       jlswz: 15.7,
@@ -8522,7 +12467,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-23',
+      date: '2015/7/23',
       wsd: 21.7,
       jlrdc: 23.5,
       jlswz: 15.8,
@@ -8537,7 +12482,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-24',
+      date: '2015/7/24',
       wsd: 21.0,
       jlrdc: 24.3,
       jlswz: 14.7,
@@ -8552,7 +12497,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-25',
+      date: '2015/7/25',
       wsd: 19.5,
       jlrdc: 23.8,
       jlswz: 15.1,
@@ -8567,7 +12512,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-26',
+      date: '2015/7/26',
       wsd: 18.4,
       jlrdc: 24.0,
       jlswz: 15.2,
@@ -8582,7 +12527,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-27',
+      date: '2015/7/27',
       wsd: 18.6,
       jlrdc: 24.2,
       jlswz: 15.6,
@@ -8597,7 +12542,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-28',
+      date: '2015/7/28',
       wsd: 18.6,
       jlrdc: 23.6,
       jlswz: 15.3,
@@ -8612,7 +12557,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-29',
+      date: '2015/7/29',
       wsd: 18.8,
       jlrdc: 24.6,
       jlswz: 15.4,
@@ -8627,7 +12572,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-30',
+      date: '2015/7/30',
       wsd: 18.7,
       jlrdc: 24.8,
       jlswz: 15.7,
@@ -8642,7 +12587,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-07-31',
+      date: '2015/7/31',
       wsd: 19.0,
       jlrdc: 24.5,
       jlswz: 15.6,
@@ -8657,7 +12602,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-01',
+      date: '2015/8/1',
       wsd: 19.8,
       jlrdc: 24.9,
       jlswz: 16.2,
@@ -8672,7 +12617,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-02',
+      date: '2015/8/2',
       wsd: 20.5,
       jlrdc: 24.8,
       jlswz: 16.5,
@@ -8687,7 +12632,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-03',
+      date: '2015/8/3',
       wsd: 21.1,
       jlrdc: 24.6,
       jlswz: 17.3,
@@ -8702,7 +12647,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-04',
+      date: '2015/8/4',
       wsd: 21.3,
       jlrdc: 24.5,
       jlswz: 17.0,
@@ -8717,7 +12662,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-05',
+      date: '2015/8/5',
       wsd: 21.8,
       jlrdc: 24.4,
       jlswz: 16.7,
@@ -8732,7 +12677,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-06',
+      date: '2015/8/6',
       wsd: 21.9,
       jlrdc: 24.6,
       jlswz: 16.2,
@@ -8747,7 +12692,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-07',
+      date: '2015/8/7',
       wsd: 21.1,
       jlrdc: 23.9,
       jlswz: 14.8,
@@ -8762,7 +12707,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-08',
+      date: '2015/8/8',
       wsd: 19.3,
       jlrdc: 23.9,
       jlswz: 15.1,
@@ -8777,7 +12722,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-09',
+      date: '2015/8/9',
       wsd: 18.3,
       jlrdc: 22.2,
       jlswz: 15.5,
@@ -8792,7 +12737,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-10',
+      date: '2015/8/10',
       wsd: 18.5,
       jlrdc: 22.6,
       jlswz: 15.5,
@@ -8807,7 +12752,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-11',
+      date: '2015/8/11',
       wsd: 18.6,
       jlrdc: 22.9,
       jlswz: 15.1,
@@ -8822,7 +12767,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-12',
+      date: '2015/8/12',
       wsd: 18.4,
       jlrdc: 22.4,
       jlswz: 15.4,
@@ -8837,7 +12782,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-13',
+      date: '2015/8/13',
       wsd: 18.7,
       jlrdc: 23.7,
       jlswz: 16.5,
@@ -8852,7 +12797,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-14',
+      date: '2015/8/14',
       wsd: 19.3,
       jlrdc: 24.0,
       jlswz: 16.9,
@@ -8867,7 +12812,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-15',
+      date: '2015/8/15',
       wsd: 19.8,
       jlrdc: 24.2,
       jlswz: 16.7,
@@ -8882,7 +12827,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-16',
+      date: '2015/8/16',
       wsd: 20.5,
       jlrdc: 23.5,
       jlswz: 16.3,
@@ -8897,7 +12842,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-17',
+      date: '2015/8/17',
       wsd: 20.9,
       jlrdc: 23.6,
       jlswz: 16.8,
@@ -8912,7 +12857,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-18',
+      date: '2015/8/18',
       wsd: 20.5,
       jlrdc: 23.6,
       jlswz: 16.6,
@@ -8927,7 +12872,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-19',
+      date: '2015/8/19',
       wsd: 20.7,
       jlrdc: 23.5,
       jlswz: 16.4,
@@ -8942,7 +12887,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-20',
+      date: '2015/8/20',
       wsd: 20.4,
       jlrdc: 23.4,
       jlswz: 15.7,
@@ -8957,7 +12902,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-21',
+      date: '2015/8/21',
       wsd: 19.8,
       jlrdc: 23.0,
       jlswz: 15.0,
@@ -8972,7 +12917,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-22',
+      date: '2015/8/22',
       wsd: 18.1,
       jlrdc: 22.7,
       jlswz: 15.6,
@@ -8987,7 +12932,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-23',
+      date: '2015/8/23',
       wsd: 17.7,
       jlrdc: 22.4,
       jlswz: 15.7,
@@ -9002,7 +12947,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-24',
+      date: '2015/8/24',
       wsd: 18.1,
       jlrdc: 22.3,
       jlswz: 16.1,
@@ -9017,7 +12962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-25',
+      date: '2015/8/25',
       wsd: 18.5,
       jlrdc: 22.9,
       jlswz: 16.3,
@@ -9032,7 +12977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-26',
+      date: '2015/8/26',
       wsd: 18.6,
       jlrdc: 24.4,
       jlswz: 16.3,
@@ -9047,7 +12992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-27',
+      date: '2015/8/27',
       wsd: 18.3,
       jlrdc: 22.3,
       jlswz: 15.5,
@@ -9062,7 +13007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-28',
+      date: '2015/8/28',
       wsd: 18.2,
       jlrdc: 22.2,
       jlswz: 14.9,
@@ -9077,7 +13022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-29',
+      date: '2015/8/29',
       wsd: 17.8,
       jlrdc: 22.8,
       jlswz: 15.6,
@@ -9092,7 +13037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-30',
+      date: '2015/8/30',
       wsd: 17.6,
       jlrdc: 23.3,
       jlswz: 16.1,
@@ -9107,7 +13052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-08-31',
+      date: '2015/8/31',
       wsd: 18.3,
       jlrdc: 23.5,
       jlswz: 16.4,
@@ -9122,7 +13067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-01',
+      date: '2015/9/1',
       wsd: 18.8,
       jlrdc: 23.6,
       jlswz: 16.5,
@@ -9137,7 +13082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-02',
+      date: '2015/9/2',
       wsd: 19.4,
       jlrdc: 24.5,
       jlswz: 16.5,
@@ -9152,7 +13097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-03',
+      date: '2015/9/3',
       wsd: 19.4,
       jlrdc: 23.6,
       jlswz: 16.3,
@@ -9167,7 +13112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-04',
+      date: '2015/9/4',
       wsd: 19.4,
       jlrdc: 23.4,
       jlswz: 15.9,
@@ -9182,7 +13127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-05',
+      date: '2015/9/5',
       wsd: 18.8,
       jlrdc: 23.3,
       jlswz: 15.9,
@@ -9197,7 +13142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-06',
+      date: '2015/9/6',
       wsd: 18.2,
       jlrdc: 23.0,
       jlswz: 15.9,
@@ -9212,7 +13157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-07',
+      date: '2015/9/7',
       wsd: 18.0,
       jlrdc: 22.6,
       jlswz: 16.0,
@@ -9227,7 +13172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-08',
+      date: '2015/9/8',
       wsd: 18.2,
       jlrdc: 22.7,
       jlswz: 16.4,
@@ -9242,7 +13187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-09',
+      date: '2015/9/9',
       wsd: 18.3,
       jlrdc: 21.9,
       jlswz: 16.7,
@@ -9257,7 +13202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-10',
+      date: '2015/9/10',
       wsd: 18.2,
       jlrdc: 22.5,
       jlswz: 16.6,
@@ -9272,7 +13217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-11',
+      date: '2015/9/11',
       wsd: 18.1,
       jlrdc: 21.3,
       jlswz: 15.9,
@@ -9287,7 +13232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-12',
+      date: '2015/9/12',
       wsd: 17.7,
       jlrdc: 20.2,
       jlswz: 14.9,
@@ -9302,7 +13247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-13',
+      date: '2015/9/13',
       wsd: 17.2,
       jlrdc: 20.2,
       jlswz: 15.4,
@@ -9317,7 +13262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-14',
+      date: '2015/9/14',
       wsd: 16.7,
       jlrdc: 21.8,
       jlswz: 15.9,
@@ -9332,7 +13277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-15',
+      date: '2015/9/15',
       wsd: 16.9,
       jlrdc: 22.4,
       jlswz: 16.9,
@@ -9347,7 +13292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-16',
+      date: '2015/9/16',
       wsd: 17.8,
       jlrdc: 22.0,
       jlswz: 17.2,
@@ -9362,7 +13307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-17',
+      date: '2015/9/17',
       wsd: 18.6,
       jlrdc: 21.7,
       jlswz: 16.9,
@@ -9377,7 +13322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-18',
+      date: '2015/9/18',
       wsd: 19.2,
       jlrdc: 21.6,
       jlswz: 16.7,
@@ -9392,7 +13337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-19',
+      date: '2015/9/19',
       wsd: 19.1,
       jlrdc: 21.4,
       jlswz: 16.4,
@@ -9407,7 +13352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-20',
+      date: '2015/9/20',
       wsd: 18.9,
       jlrdc: 21.7,
       jlswz: 15.7,
@@ -9422,7 +13367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-21',
+      date: '2015/9/21',
       wsd: 18.3,
       jlrdc: 21.2,
       jlswz: 15.4,
@@ -9437,7 +13382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-22',
+      date: '2015/9/22',
       wsd: 17.9,
       jlrdc: 21.0,
       jlswz: 16.1,
@@ -9452,7 +13397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-23',
+      date: '2015/9/23',
       wsd: 17.1,
       jlrdc: 21.5,
       jlswz: 16.3,
@@ -9467,7 +13412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-24',
+      date: '2015/9/24',
       wsd: 16.5,
       jlrdc: 20.0,
       jlswz: 15.1,
@@ -9482,7 +13427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-25',
+      date: '2015/9/25',
       wsd: 16.3,
       jlrdc: 20.0,
       jlswz: 15.1,
@@ -9497,7 +13442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-26',
+      date: '2015/9/26',
       wsd: 16.2,
       jlrdc: 19.9,
       jlswz: 15.1,
@@ -9512,7 +13457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-27',
+      date: '2015/9/27',
       wsd: 15.6,
       jlrdc: 20.4,
       jlswz: 14.8,
@@ -9527,7 +13472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-28',
+      date: '2015/9/28',
       wsd: 15.3,
       jlrdc: 20.1,
       jlswz: 14.7,
@@ -9542,7 +13487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-29',
+      date: '2015/9/29',
       wsd: 15.1,
       jlrdc: 19.5,
       jlswz: 15.1,
@@ -9557,7 +13502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-09-30',
+      date: '2015/9/30',
       wsd: 14.9,
       jlrdc: 18.8,
       jlswz: 14.5,
@@ -9572,7 +13517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-01',
+      date: '2015/10/1',
       wsd: 14.5,
       jlrdc: 18.6,
       jlswz: 14.1,
@@ -9587,7 +13532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-02',
+      date: '2015/10/2',
       wsd: 13.7,
       jlrdc: 19.1,
       jlswz: 13.3,
@@ -9602,7 +13547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-03',
+      date: '2015/10/3',
       wsd: 12.8,
       jlrdc: 19.2,
       jlswz: 12.6,
@@ -9617,7 +13562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-04',
+      date: '2015/10/4',
       wsd: 12.4,
       jlrdc: 18.3,
       jlswz: 12.3,
@@ -9632,7 +13577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-05',
+      date: '2015/10/5',
       wsd: 12.7,
       jlrdc: 19.0,
       jlswz: 13.9,
@@ -9647,7 +13592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-06',
+      date: '2015/10/6',
       wsd: 13.4,
       jlrdc: 20.2,
       jlswz: 15.5,
@@ -9662,7 +13607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-07',
+      date: '2015/10/7',
       wsd: 13.9,
       jlrdc: 21.5,
       jlswz: 16.3,
@@ -9677,7 +13622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-08',
+      date: '2015/10/8',
       wsd: 14.5,
       jlrdc: 20.9,
       jlswz: 15.7,
@@ -9692,7 +13637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-09',
+      date: '2015/10/9',
       wsd: 14.9,
       jlrdc: 19.7,
       jlswz: 14.6,
@@ -9707,7 +13652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-10',
+      date: '2015/10/10',
       wsd: 15.0,
       jlrdc: 20.5,
       jlswz: 13.9,
@@ -9722,7 +13667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-11',
+      date: '2015/10/11',
       wsd: 14.2,
       jlrdc: 19.5,
       jlswz: 13.3,
@@ -9737,7 +13682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-12',
+      date: '2015/10/12',
       wsd: 13.6,
       jlrdc: 19.4,
       jlswz: 13.2,
@@ -9752,7 +13697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-13',
+      date: '2015/10/13',
       wsd: 12.9,
       jlrdc: 17.6,
       jlswz: 13.0,
@@ -9767,7 +13712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-14',
+      date: '2015/10/14',
       wsd: 12.7,
       jlrdc: 18.7,
       jlswz: 12.8,
@@ -9782,7 +13727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-15',
+      date: '2015/10/15',
       wsd: 12.8,
       jlrdc: 19.3,
       jlswz: 13.4,
@@ -9797,7 +13742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-16',
+      date: '2015/10/16',
       wsd: 13.3,
       jlrdc: 19.7,
       jlswz: 14.2,
@@ -9812,7 +13757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-17',
+      date: '2015/10/17',
       wsd: 13.7,
       jlrdc: 19.6,
       jlswz: 14.5,
@@ -9827,7 +13772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-18',
+      date: '2015/10/18',
       wsd: 13.9,
       jlrdc: 19.7,
       jlswz: 13.9,
@@ -9842,7 +13787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-19',
+      date: '2015/10/19',
       wsd: 13.8,
       jlrdc: 19.0,
       jlswz: 12.7,
@@ -9857,7 +13802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-20',
+      date: '2015/10/20',
       wsd: 13.3,
       jlrdc: 18.7,
       jlswz: 12.2,
@@ -9872,7 +13817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-21',
+      date: '2015/10/21',
       wsd: 12.5,
       jlrdc: 18.5,
       jlswz: 12.1,
@@ -9887,7 +13832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-22',
+      date: '2015/10/22',
       wsd: 11.9,
       jlrdc: 18.6,
       jlswz: 12.0,
@@ -9902,7 +13847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-23',
+      date: '2015/10/23',
       wsd: 11.5,
       jlrdc: 19.2,
       jlswz: 12.1,
@@ -9917,7 +13862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-24',
+      date: '2015/10/24',
       wsd: 11.0,
       jlrdc: 20.4,
       jlswz: 11.7,
@@ -9932,7 +13877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-25',
+      date: '2015/10/25',
       wsd: 10.7,
       jlrdc: 19.5,
       jlswz: 11.0,
@@ -9947,7 +13892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-26',
+      date: '2015/10/26',
       wsd: 10.5,
       jlrdc: 19.1,
       jlswz: 10.6,
@@ -9962,7 +13907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-27',
+      date: '2015/10/27',
       wsd: 10.0,
       jlrdc: 18.1,
       jlswz: 10.0,
@@ -9977,7 +13922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-28',
+      date: '2015/10/28',
       wsd: 9.1,
       jlrdc: 19.2,
       jlswz: 9.5,
@@ -9992,7 +13937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-29',
+      date: '2015/10/29',
       wsd: 8.3,
       jlrdc: 18.2,
       jlswz: 8.4,
@@ -10007,7 +13952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-30',
+      date: '2015/10/30',
       wsd: 7.5,
       jlrdc: 16.4,
       jlswz: 8.0,
@@ -10022,7 +13967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-10-31',
+      date: '2015/10/31',
       wsd: 7.0,
       jlrdc: 15.8,
       jlswz: 8.5,
@@ -10037,7 +13982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-01',
+      date: '2015/11/1',
       wsd: 7.0,
       jlrdc: 16.9,
       jlswz: 9.3,
@@ -10052,7 +13997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-02',
+      date: '2015/11/2',
       wsd: 7.3,
       jlrdc: 16.0,
       jlswz: 9.7,
@@ -10067,7 +14012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-03',
+      date: '2015/11/3',
       wsd: 8.2,
       jlrdc: 17.5,
       jlswz: 10.0,
@@ -10082,7 +14027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-04',
+      date: '2015/11/4',
       wsd: 9.2,
       jlrdc: 17.4,
       jlswz: 10.2,
@@ -10097,7 +14042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-05',
+      date: '2015/11/5',
       wsd: 9.4,
       jlrdc: 16.7,
       jlswz: 10.0,
@@ -10112,7 +14057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-06',
+      date: '2015/11/6',
       wsd: 9.0,
       jlrdc: 16.7,
       jlswz: 8.3,
@@ -10127,7 +14072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-07',
+      date: '2015/11/7',
       wsd: 8.0,
       jlrdc: 15.8,
       jlswz: 8.0,
@@ -10142,7 +14087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-08',
+      date: '2015/11/8',
       wsd: 7.3,
       jlrdc: 15.5,
       jlswz: 8.3,
@@ -10157,7 +14102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-09',
+      date: '2015/11/9',
       wsd: 6.8,
       jlrdc: 15.9,
       jlswz: 7.7,
@@ -10172,7 +14117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-10',
+      date: '2015/11/10',
       wsd: 6.7,
       jlrdc: 15.5,
       jlswz: 7.5,
@@ -10187,7 +14132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-11',
+      date: '2015/11/11',
       wsd: 6.6,
       jlrdc: 15.7,
       jlswz: 7.9,
@@ -10202,7 +14147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-12',
+      date: '2015/11/12',
       wsd: 6.4,
       jlrdc: 15.5,
       jlswz: 7.9,
@@ -10217,7 +14162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-13',
+      date: '2015/11/13',
       wsd: 6.7,
       jlrdc: 17.0,
       jlswz: 8.3,
@@ -10232,7 +14177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-14',
+      date: '2015/11/14',
       wsd: 7.5,
       jlrdc: 17.3,
       jlswz: 8.8,
@@ -10247,7 +14192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-15',
+      date: '2015/11/15',
       wsd: 8.1,
       jlrdc: 16.8,
       jlswz: 8.8,
@@ -10262,7 +14207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-16',
+      date: '2015/11/16',
       wsd: 7.8,
       jlrdc: 15.9,
       jlswz: 7.5,
@@ -10277,7 +14222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-17',
+      date: '2015/11/17',
       wsd: 7.4,
       jlrdc: 15.2,
       jlswz: 6.5,
@@ -10292,7 +14237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-18',
+      date: '2015/11/18',
       wsd: 6.5,
       jlrdc: 14.7,
       jlswz: 5.9,
@@ -10307,7 +14252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-19',
+      date: '2015/11/19',
       wsd: 5.5,
       jlrdc: 14.4,
       jlswz: 5.8,
@@ -10322,7 +14267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-20',
+      date: '2015/11/20',
       wsd: 4.6,
       jlrdc: 14.9,
       jlswz: 5.5,
@@ -10337,7 +14282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-21',
+      date: '2015/11/21',
       wsd: 4.0,
       jlrdc: 14.1,
       jlswz: 5.0,
@@ -10352,7 +14297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-22',
+      date: '2015/11/22',
       wsd: 3.5,
       jlrdc: 13.8,
       jlswz: 4.6,
@@ -10367,7 +14312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-23',
+      date: '2015/11/23',
       wsd: 2.7,
       jlrdc: 13.9,
       jlswz: 4.2,
@@ -10382,7 +14327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-24',
+      date: '2015/11/24',
       wsd: 2.2,
       jlrdc: 13.7,
       jlswz: 3.5,
@@ -10397,7 +14342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-25',
+      date: '2015/11/25',
       wsd: 1.5,
       jlrdc: 13.9,
       jlswz: 3.3,
@@ -10412,7 +14357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-26',
+      date: '2015/11/26',
       wsd: 1.0,
       jlrdc: 14.2,
       jlswz: 3.2,
@@ -10427,7 +14372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-27',
+      date: '2015/11/27',
       wsd: 0.9,
       jlrdc: 12.6,
       jlswz: 2.9,
@@ -10442,7 +14387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-28',
+      date: '2015/11/28',
       wsd: 0.9,
       jlrdc: 11.6,
       jlswz: 3.4,
@@ -10457,7 +14402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-29',
+      date: '2015/11/29',
       wsd: 1.0,
       jlrdc: 12.4,
       jlswz: 3.5,
@@ -10472,7 +14417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-11-30',
+      date: '2015/11/30',
       wsd: 1.3,
       jlrdc: 13.0,
       jlswz: 3.6,
@@ -10487,7 +14432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-01',
+      date: '2015/12/1',
       wsd: 1.6,
       jlrdc: 12.2,
       jlswz: 3.6,
@@ -10502,7 +14447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-02',
+      date: '2015/12/2',
       wsd: 2.0,
       jlrdc: 12.3,
       jlswz: 3.6,
@@ -10517,7 +14462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-03',
+      date: '2015/12/3',
       wsd: 2.0,
       jlrdc: 13.1,
       jlswz: 2.7,
@@ -10532,7 +14477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-04',
+      date: '2015/12/4',
       wsd: 1.7,
       jlrdc: 12.1,
       jlswz: 2.2,
@@ -10547,7 +14492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-05',
+      date: '2015/12/5',
       wsd: 1.3,
       jlrdc: 12.6,
       jlswz: 2.5,
@@ -10562,7 +14507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-06',
+      date: '2015/12/6',
       wsd: 0.6,
       jlrdc: 11.8,
       jlswz: 2.4,
@@ -10577,7 +14522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-07',
+      date: '2015/12/7',
       wsd: 0.6,
       jlrdc: 9.3,
       jlswz: 2.2,
@@ -10592,7 +14537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-08',
+      date: '2015/12/8',
       wsd: 0.7,
       jlrdc: 9.8,
       jlswz: 2.3,
@@ -10607,7 +14552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-09',
+      date: '2015/12/9',
       wsd: 1.1,
       jlrdc: 10.0,
       jlswz: 3.2,
@@ -10622,7 +14567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-10',
+      date: '2015/12/10',
       wsd: 1.4,
       jlrdc: 10.6,
       jlswz: 3.8,
@@ -10637,7 +14582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-11',
+      date: '2015/12/11',
       wsd: 1.8,
       jlrdc: 10.7,
       jlswz: 3.0,
@@ -10652,7 +14597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-12',
+      date: '2015/12/12',
       wsd: 2.2,
       jlrdc: 9.4,
       jlswz: 2.5,
@@ -10667,7 +14612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-13',
+      date: '2015/12/13',
       wsd: 2.1,
       jlrdc: 10.1,
       jlswz: 2.7,
@@ -10682,7 +14627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-14',
+      date: '2015/12/14',
       wsd: 1.7,
       jlrdc: 9.5,
       jlswz: 2.7,
@@ -10697,7 +14642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-15',
+      date: '2015/12/15',
       wsd: 1.5,
       jlrdc: 9.8,
       jlswz: 2.4,
@@ -10712,7 +14657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-16',
+      date: '2015/12/16',
       wsd: 1.3,
       jlrdc: 10.0,
       jlswz: 1.5,
@@ -10727,7 +14672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-17',
+      date: '2015/12/17',
       wsd: 0.9,
       jlrdc: 9.7,
       jlswz: 1.2,
@@ -10742,7 +14687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-18',
+      date: '2015/12/18',
       wsd: 0.8,
       jlrdc: 9.5,
       jlswz: 1.8,
@@ -10757,7 +14702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-19',
+      date: '2015/12/19',
       wsd: 0.6,
       jlrdc: 10.2,
       jlswz: 2.5,
@@ -10772,7 +14717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-20',
+      date: '2015/12/20',
       wsd: 1.3,
       jlrdc: 10.4,
       jlswz: 2.3,
@@ -10787,7 +14732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-21',
+      date: '2015/12/21',
       wsd: 1.8,
       jlrdc: 10.4,
       jlswz: 2.1,
@@ -10802,7 +14747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-22',
+      date: '2015/12/22',
       wsd: 1.6,
       jlrdc: 9.2,
       jlswz: 1.4,
@@ -10817,7 +14762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-23',
+      date: '2015/12/23',
       wsd: 1.7,
       jlrdc: 9.7,
       jlswz: 1.4,
@@ -10832,7 +14777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-24',
+      date: '2015/12/24',
       wsd: 1.1,
       jlrdc: 9.0,
       jlswz: 0.7,
@@ -10847,7 +14792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-25',
+      date: '2015/12/25',
       wsd: 0.6,
       jlrdc: 8.7,
       jlswz: 0.8,
@@ -10862,7 +14807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-26',
+      date: '2015/12/26',
       wsd: 0.2,
       jlrdc: 8.5,
       jlswz: 0.7,
@@ -10877,7 +14822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-27',
+      date: '2015/12/27',
       wsd: 0.1,
       jlrdc: 8.6,
       jlswz: 0.2,
@@ -10892,7 +14837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-28',
+      date: '2015/12/28',
       wsd: 0.1,
       jlrdc: 8.0,
       jlswz: 0.3,
@@ -10907,7 +14852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-29',
+      date: '2015/12/29',
       wsd: 0.2,
       jlrdc: 7.2,
       jlswz: 0.3,
@@ -10922,7 +14867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-30',
+      date: '2015/12/30',
       wsd: 0.3,
       jlrdc: 7.2,
       jlswz: 0.4,
@@ -10937,7 +14882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2015-12-31',
+      date: '2015/12/31',
       wsd: 0.3,
       jlrdc: 7.4,
       jlswz: 0.5,
@@ -10952,7 +14897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-01',
+      date: '2016/1/1',
       wsd: 0.1,
       jlrdc: 8.0,
       jlswz: 1.0,
@@ -10967,7 +14912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-02',
+      date: '2016/1/2',
       wsd: 0.0,
       jlrdc: 8.8,
       jlswz: 1.5,
@@ -10982,7 +14927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-03',
+      date: '2016/1/3',
       wsd: 0.0,
       jlrdc: 9.6,
       jlswz: 1.3,
@@ -10997,7 +14942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-04',
+      date: '2016/1/4',
       wsd: 0.3,
       jlrdc: 9.4,
       jlswz: 0.8,
@@ -11012,7 +14957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-05',
+      date: '2016/1/5',
       wsd: 0.3,
       jlrdc: 8.4,
       jlswz: 0.5,
@@ -11027,7 +14972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-06',
+      date: '2016/1/6',
       wsd: 0.2,
       jlrdc: 8.2,
       jlswz: 0.6,
@@ -11042,7 +14987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-07',
+      date: '2016/1/7',
       wsd: 0.0,
       jlrdc: 9.4,
       jlswz: 0.6,
@@ -11057,7 +15002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-08',
+      date: '2016/1/8',
       wsd: 0.0,
       jlrdc: 11.5,
       jlswz: 0.7,
@@ -11072,7 +15017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-09',
+      date: '2016/1/9',
       wsd: 0.0,
       jlrdc: 10.5,
       jlswz: 0.7,
@@ -11087,7 +15032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-10',
+      date: '2016/1/10',
       wsd: 0.0,
       jlrdc: 9.7,
       jlswz: 0.6,
@@ -11102,7 +15047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-11',
+      date: '2016/1/11',
       wsd: 0.0,
       jlrdc: 9.9,
       jlswz: 0.5,
@@ -11117,7 +15062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-12',
+      date: '2016/1/12',
       wsd: 0.0,
       jlrdc: 10.1,
       jlswz: 0.5,
@@ -11132,7 +15077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-13',
+      date: '2016/1/13',
       wsd: 0.0,
       jlrdc: 10.0,
       jlswz: 0.6,
@@ -11147,7 +15092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-14',
+      date: '2016/1/14',
       wsd: 0.0,
       jlrdc: 10.1,
       jlswz: 0.6,
@@ -11162,7 +15107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-15',
+      date: '2016/1/15',
       wsd: 0.0,
       jlrdc: 10.8,
       jlswz: 0.7,
@@ -11177,7 +15122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-16',
+      date: '2016/1/16',
       wsd: 0.0,
       jlrdc: 11.1,
       jlswz: 0.5,
@@ -11192,7 +15137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-17',
+      date: '2016/1/17',
       wsd: 0.0,
       jlrdc: 10.8,
       jlswz: 0.5,
@@ -11207,7 +15152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-18',
+      date: '2016/1/18',
       wsd: 0.0,
       jlrdc: 10.2,
       jlswz: 0.5,
@@ -11222,7 +15167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-19',
+      date: '2016/1/19',
       wsd: 0.0,
       jlrdc: 8.9,
       jlswz: 0.2,
@@ -11237,7 +15182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-20',
+      date: '2016/1/20',
       wsd: 0.0,
       jlrdc: 9.2,
       jlswz: 0.3,
@@ -11252,7 +15197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-21',
+      date: '2016/1/21',
       wsd: 0.0,
       jlrdc: 9.7,
       jlswz: 0.4,
@@ -11267,7 +15212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-22',
+      date: '2016/1/22',
       wsd: 0.0,
       jlrdc: 11.2,
       jlswz: 0.3,
@@ -11282,7 +15227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-23',
+      date: '2016/1/23',
       wsd: 0.0,
       jlrdc: 10.0,
       jlswz: 0.3,
@@ -11297,7 +15242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-24',
+      date: '2016/1/24',
       wsd: 0.0,
       jlrdc: 9.7,
       jlswz: 0.3,
@@ -11312,7 +15257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-25',
+      date: '2016/1/25',
       wsd: 0.0,
       jlrdc: 11.3,
       jlswz: 0.4,
@@ -11327,7 +15272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-26',
+      date: '2016/1/26',
       wsd: 0.0,
       jlrdc: 10.7,
       jlswz: 0.5,
@@ -11342,7 +15287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-27',
+      date: '2016/1/27',
       wsd: 0.0,
       jlrdc: 9.8,
       jlswz: 0.6,
@@ -11357,7 +15302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-28',
+      date: '2016/1/28',
       wsd: 0.0,
       jlrdc: 10.3,
       jlswz: 0.7,
@@ -11372,7 +15317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-29',
+      date: '2016/1/29',
       wsd: 0.0,
       jlrdc: 10.1,
       jlswz: 0.6,
@@ -11387,7 +15332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-30',
+      date: '2016/1/30',
       wsd: 0.0,
       jlrdc: 10.2,
       jlswz: 0.6,
@@ -11402,7 +15347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-01-31',
+      date: '2016/1/31',
       wsd: 0.0,
       jlrdc: 9.8,
       jlswz: 0.5,
@@ -11417,7 +15362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-01',
+      date: '2016/2/1',
       wsd: 0.0,
       jlrdc: 9.7,
       jlswz: 0.4,
@@ -11432,7 +15377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-02',
+      date: '2016/2/2',
       wsd: 0.0,
       jlrdc: 10.4,
       jlswz: 0.6,
@@ -11447,7 +15392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-03',
+      date: '2016/2/3',
       wsd: 0.0,
       jlrdc: 10.3,
       jlswz: 0.7,
@@ -11462,7 +15407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-04',
+      date: '2016/2/4',
       wsd: 0.0,
       jlrdc: 10.2,
       jlswz: 0.8,
@@ -11477,7 +15422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-05',
+      date: '2016/2/5',
       wsd: 0.0,
       jlrdc: 10.4,
       jlswz: 1.0,
@@ -11492,7 +15437,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-06',
+      date: '2016/2/6',
       wsd: 0.0,
       jlrdc: 9.4,
       jlswz: 1.0,
@@ -11507,7 +15452,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-07',
+      date: '2016/2/7',
       wsd: 0.0,
       jlrdc: 9.5,
       jlswz: 1.1,
@@ -11522,7 +15467,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-08',
+      date: '2016/2/8',
       wsd: 0.0,
       jlrdc: 10.0,
       jlswz: 1.3,
@@ -11537,7 +15482,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-09',
+      date: '2016/2/9',
       wsd: 0.0,
       jlrdc: 10.5,
       jlswz: 1.2,
@@ -11552,7 +15497,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-10',
+      date: '2016/2/10',
       wsd: 0.1,
       jlrdc: 11.0,
       jlswz: 1.4,
@@ -11567,7 +15512,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-11',
+      date: '2016/2/11',
       wsd: 0.1,
       jlrdc: 11.1,
       jlswz: 1.6,
@@ -11582,7 +15527,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-12',
+      date: '2016/2/12',
       wsd: 0.3,
       jlrdc: 11.8,
       jlswz: 2.3,
@@ -11597,7 +15542,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-13',
+      date: '2016/2/13',
       wsd: 0.4,
       jlrdc: 10.8,
       jlswz: 1.5,
@@ -11612,7 +15557,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-14',
+      date: '2016/2/14',
       wsd: 0.6,
       jlrdc: 11.5,
       jlswz: 0.6,
@@ -11627,7 +15572,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-15',
+      date: '2016/2/15',
       wsd: 0.6,
       jlrdc: 10.2,
       jlswz: 0.5,
@@ -11642,7 +15587,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-16',
+      date: '2016/2/16',
       wsd: 0.3,
       jlrdc: 9.6,
       jlswz: 1.0,
@@ -11657,7 +15602,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-17',
+      date: '2016/2/17',
       wsd: 0.3,
       jlrdc: 10.0,
       jlswz: 1.1,
@@ -11672,7 +15617,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-18',
+      date: '2016/2/18',
       wsd: 0.4,
       jlrdc: 14.0,
       jlswz: 1.7,
@@ -11687,7 +15632,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-19',
+      date: '2016/2/19',
       wsd: 0.5,
       jlrdc: 12.7,
       jlswz: 1.6,
@@ -11702,7 +15647,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-20',
+      date: '2016/2/20',
       wsd: 0.8,
       jlrdc: 13.3,
       jlswz: 1.2,
@@ -11717,7 +15662,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-21',
+      date: '2016/2/21',
       wsd: 0.8,
       jlrdc: 14.3,
       jlswz: 1.0,
@@ -11732,7 +15677,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-22',
+      date: '2016/2/22',
       wsd: 0.7,
       jlrdc: 14.2,
       jlswz: 1.0,
@@ -11747,7 +15692,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-23',
+      date: '2016/2/23',
       wsd: 0.5,
       jlrdc: 14.5,
       jlswz: 0.7,
@@ -11762,7 +15707,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-24',
+      date: '2016/2/24',
       wsd: 0.4,
       jlrdc: 14.0,
       jlswz: 1.0,
@@ -11777,7 +15722,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-25',
+      date: '2016/2/25',
       wsd: 0.3,
       jlrdc: 13.6,
       jlswz: 1.1,
@@ -11792,7 +15737,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-26',
+      date: '2016/2/26',
       wsd: 0.3,
       jlrdc: 13.6,
       jlswz: 1.3,
@@ -11807,7 +15752,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-27',
+      date: '2016/2/27',
       wsd: 0.5,
       jlrdc: 14.1,
       jlswz: 1.3,
@@ -11822,7 +15767,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-28',
+      date: '2016/2/28',
       wsd: 0.6,
       jlrdc: 14.5,
       jlswz: 1.4,
@@ -11837,7 +15782,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-02-29',
+      date: '2016/2/29',
       wsd: 0.8,
       jlrdc: 14.2,
       jlswz: 1.0,
@@ -11852,7 +15797,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-01',
+      date: '2016/3/1',
       wsd: 0.8,
       jlrdc: 14.3,
       jlswz: 1.1,
@@ -11867,7 +15812,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-02',
+      date: '2016/3/2',
       wsd: 0.8,
       jlrdc: 15.1,
       jlswz: 1.4,
@@ -11882,7 +15827,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-03',
+      date: '2016/3/3',
       wsd: 0.9,
       jlrdc: 13.8,
       jlswz: 1.6,
@@ -11897,7 +15842,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-04',
+      date: '2016/3/4',
       wsd: 1.3,
       jlrdc: 14.7,
       jlswz: 2.0,
@@ -11912,7 +15857,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-05',
+      date: '2016/3/5',
       wsd: 1.8,
       jlrdc: 13.5,
       jlswz: 2.3,
@@ -11927,7 +15872,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-06',
+      date: '2016/3/6',
       wsd: 2.2,
       jlrdc: 13.3,
       jlswz: 2.1,
@@ -11942,7 +15887,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-07',
+      date: '2016/3/7',
       wsd: 2.5,
       jlrdc: 14.5,
       jlswz: 1.9,
@@ -11957,7 +15902,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-08',
+      date: '2016/3/8',
       wsd: 2.0,
       jlrdc: 14.7,
       jlswz: 1.1,
@@ -11972,7 +15917,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-09',
+      date: '2016/3/9',
       wsd: 1.6,
       jlrdc: 14.0,
       jlswz: 1.3,
@@ -11987,7 +15932,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-10',
+      date: '2016/3/10',
       wsd: 1.1,
       jlrdc: 15.1,
       jlswz: 1.4,
@@ -12002,7 +15947,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-11',
+      date: '2016/3/11',
       wsd: 1.0,
       jlrdc: 14.6,
       jlswz: 1.7,
@@ -12017,7 +15962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-12',
+      date: '2016/3/12',
       wsd: 1.4,
       jlrdc: 15.7,
       jlswz: 2.1,
@@ -12032,7 +15977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-13',
+      date: '2016/3/13',
       wsd: 1.9,
       jlrdc: 14.3,
       jlswz: 2.4,
@@ -12047,7 +15992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-14',
+      date: '2016/3/14',
       wsd: 2.4,
       jlrdc: 14.0,
       jlswz: 2.5,
@@ -12062,7 +16007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-15',
+      date: '2016/3/15',
       wsd: 3.0,
       jlrdc: 14.1,
       jlswz: 3.0,
@@ -12077,7 +16022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-16',
+      date: '2016/3/16',
       wsd: 3.6,
       jlrdc: 12.8,
       jlswz: 3.5,
@@ -12092,7 +16037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-17',
+      date: '2016/3/17',
       wsd: 4.3,
       jlrdc: 11.5,
       jlswz: 3.6,
@@ -12107,7 +16052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-18',
+      date: '2016/3/18',
       wsd: 4.9,
       jlrdc: 12.1,
       jlswz: 3.5,
@@ -12122,7 +16067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-19',
+      date: '2016/3/19',
       wsd: 4.9,
       jlrdc: 12.8,
       jlswz: 3.3,
@@ -12137,7 +16082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-20',
+      date: '2016/3/20',
       wsd: 4.9,
       jlrdc: 12.8,
       jlswz: 3.5,
@@ -12152,7 +16097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-21',
+      date: '2016/3/21',
       wsd: 4.8,
       jlrdc: 11.1,
       jlswz: 3.6,
@@ -12167,7 +16112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-22',
+      date: '2016/3/22',
       wsd: 4.8,
       jlrdc: 11.6,
       jlswz: 3.6,
@@ -12182,7 +16127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-23',
+      date: '2016/3/23',
       wsd: 4.9,
       jlrdc: 11.8,
       jlswz: 3.1,
@@ -12197,7 +16142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-24',
+      date: '2016/3/24',
       wsd: 4.9,
       jlrdc: 12.1,
       jlswz: 3.2,
@@ -12212,7 +16157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-25',
+      date: '2016/3/25',
       wsd: 4.7,
       jlrdc: 11.5,
       jlswz: 3.5,
@@ -12227,7 +16172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-26',
+      date: '2016/3/26',
       wsd: 4.8,
       jlrdc: 10.9,
       jlswz: 3.8,
@@ -12242,7 +16187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-27',
+      date: '2016/3/27',
       wsd: 5.3,
       jlrdc: 13.1,
       jlswz: 4.1,
@@ -12257,7 +16202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-28',
+      date: '2016/3/28',
       wsd: 5.8,
       jlrdc: 12.7,
       jlswz: 4.2,
@@ -12272,7 +16217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-29',
+      date: '2016/3/29',
       wsd: 6.2,
       jlrdc: 12.4,
       jlswz: 3.6,
@@ -12287,7 +16232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-30',
+      date: '2016/3/30',
       wsd: 5.4,
       jlrdc: 14.6,
       jlswz: 3.3,
@@ -12302,7 +16247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-03-31',
+      date: '2016/3/31',
       wsd: 4.4,
       jlrdc: 13.4,
       jlswz: 3.4,
@@ -12317,7 +16262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-01',
+      date: '2016/4/1',
       wsd: 5.0,
       jlrdc: 13.0,
       jlswz: 3.7,
@@ -12332,7 +16277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-02',
+      date: '2016/4/2',
       wsd: 5.2,
       jlrdc: 13.5,
       jlswz: 3.4,
@@ -12347,7 +16292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-03',
+      date: '2016/4/3',
       wsd: 4.9,
       jlrdc: 13.2,
       jlswz: 3.3,
@@ -12362,7 +16307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-04',
+      date: '2016/4/4',
       wsd: 4.6,
       jlrdc: 12.1,
       jlswz: 3.5,
@@ -12377,7 +16322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-05',
+      date: '2016/4/5',
       wsd: 5.0,
       jlrdc: 13.1,
       jlswz: 3.6,
@@ -12392,7 +16337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-06',
+      date: '2016/4/6',
       wsd: 5.1,
       jlrdc: 12.7,
       jlswz: 3.6,
@@ -12407,7 +16352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-07',
+      date: '2016/4/7',
       wsd: 5.2,
       jlrdc: 13.3,
       jlswz: 4.1,
@@ -12422,7 +16367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-08',
+      date: '2016/4/8',
       wsd: 5.2,
       jlrdc: 14.2,
       jlswz: 3.9,
@@ -12437,7 +16382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-09',
+      date: '2016/4/9',
       wsd: 5.3,
       jlrdc: 12.8,
       jlswz: 3.8,
@@ -12452,7 +16397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-10',
+      date: '2016/4/10',
       wsd: 5.3,
       jlrdc: 13.3,
       jlswz: 3.7,
@@ -12467,7 +16412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-11',
+      date: '2016/4/11',
       wsd: 5.5,
       jlrdc: 13.3,
       jlswz: 3.9,
@@ -12482,7 +16427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-12',
+      date: '2016/4/12',
       wsd: 5.4,
       jlrdc: 12.6,
       jlswz: 3.6,
@@ -12497,7 +16442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-13',
+      date: '2016/4/13',
       wsd: 5.5,
       jlrdc: 12.2,
       jlswz: 3.9,
@@ -12512,7 +16457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-14',
+      date: '2016/4/14',
       wsd: 5.7,
       jlrdc: 12.3,
       jlswz: 4.3,
@@ -12527,7 +16472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-15',
+      date: '2016/4/15',
       wsd: 6.1,
       jlrdc: 12.0,
       jlswz: 4.1,
@@ -12542,7 +16487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-16',
+      date: '2016/4/16',
       wsd: 6.5,
       jlrdc: 12.2,
       jlswz: 4.4,
@@ -12557,7 +16502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-17',
+      date: '2016/4/17',
       wsd: 6.5,
       jlrdc: 12.3,
       jlswz: 4.0,
@@ -12572,7 +16517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-18',
+      date: '2016/4/18',
       wsd: 6.6,
       jlrdc: 11.8,
       jlswz: 4.4,
@@ -12587,7 +16532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-19',
+      date: '2016/4/19',
       wsd: 6.7,
       jlrdc: 11.2,
       jlswz: 5.4,
@@ -12602,7 +16547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-20',
+      date: '2016/4/20',
       wsd: 7.5,
       jlrdc: 10.9,
       jlswz: 5.8,
@@ -12617,7 +16562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-21',
+      date: '2016/4/21',
       wsd: 8.8,
       jlrdc: 12.4,
       jlswz: 6.0,
@@ -12632,7 +16577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-22',
+      date: '2016/4/22',
       wsd: 9.1,
       jlrdc: 12.4,
       jlswz: 6.2,
@@ -12647,7 +16592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-23',
+      date: '2016/4/23',
       wsd: 8.8,
       jlrdc: 11.4,
       jlswz: 5.3,
@@ -12662,7 +16607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-24',
+      date: '2016/4/24',
       wsd: 7.9,
       jlrdc: 11.9,
       jlswz: 4.4,
@@ -12677,7 +16622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-25',
+      date: '2016/4/25',
       wsd: 6.4,
       jlrdc: 12.2,
       jlswz: 4.7,
@@ -12692,7 +16637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-26',
+      date: '2016/4/26',
       wsd: 6.5,
       jlrdc: 12.7,
       jlswz: 4.6,
@@ -12707,7 +16652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-27',
+      date: '2016/4/27',
       wsd: 6.5,
       jlrdc: 13.2,
       jlswz: 5.0,
@@ -12722,7 +16667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-28',
+      date: '2016/4/28',
       wsd: 6.9,
       jlrdc: 13.9,
       jlswz: 5.2,
@@ -12737,7 +16682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-29',
+      date: '2016/4/29',
       wsd: 7.4,
       jlrdc: 14.1,
       jlswz: 5.2,
@@ -12752,7 +16697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-04-30',
+      date: '2016/4/30',
       wsd: 7.2,
       jlrdc: 13.0,
       jlswz: 4.7,
@@ -12767,7 +16712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-01',
+      date: '2016/5/1',
       wsd: 6.5,
       jlrdc: 13.5,
       jlswz: 5.3,
@@ -12782,7 +16727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-02',
+      date: '2016/5/2',
       wsd: 6.7,
       jlrdc: 12.9,
       jlswz: 6.2,
@@ -12797,7 +16742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-03',
+      date: '2016/5/3',
       wsd: 7.6,
       jlrdc: 13.5,
       jlswz: 5.4,
@@ -12812,7 +16757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-04',
+      date: '2016/5/4',
       wsd: 7.2,
       jlrdc: 13.3,
       jlswz: 5.6,
@@ -12827,7 +16772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-05',
+      date: '2016/5/5',
       wsd: 7.6,
       jlrdc: 13.8,
       jlswz: 5.5,
@@ -12842,7 +16787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-06',
+      date: '2016/5/6',
       wsd: 7.9,
       jlrdc: 12.9,
       jlswz: 6.1,
@@ -12857,7 +16802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-07',
+      date: '2016/5/7',
       wsd: 8.5,
       jlrdc: 13.7,
       jlswz: 6.0,
@@ -12872,7 +16817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-08',
+      date: '2016/5/8',
       wsd: 8.3,
       jlrdc: 13.5,
       jlswz: 5.2,
@@ -12887,7 +16832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-09',
+      date: '2016/5/9',
       wsd: 7.8,
       jlrdc: 15.3,
       jlswz: 6.1,
@@ -12902,7 +16847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-10',
+      date: '2016/5/10',
       wsd: 8.6,
       jlrdc: 14.8,
       jlswz: 7.0,
@@ -12917,7 +16862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-11',
+      date: '2016/5/11',
       wsd: 9.7,
       jlrdc: 13.9,
       jlswz: 7.6,
@@ -12932,7 +16877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-12',
+      date: '2016/5/12',
       wsd: 10.0,
       jlrdc: 14.7,
       jlswz: 7.1,
@@ -12947,7 +16892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-13',
+      date: '2016/5/13',
       wsd: 9.2,
       jlrdc: 14.5,
       jlswz: 7.4,
@@ -12962,7 +16907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-14',
+      date: '2016/5/14',
       wsd: 9.5,
       jlrdc: 15.2,
       jlswz: 7.2,
@@ -12977,7 +16922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-15',
+      date: '2016/5/15',
       wsd: 9.2,
       jlrdc: 15.0,
       jlswz: 7.3,
@@ -12992,7 +16937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-16',
+      date: '2016/5/16',
       wsd: 9.0,
       jlrdc: 13.5,
       jlswz: 7.5,
@@ -13007,7 +16952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-17',
+      date: '2016/5/17',
       wsd: 9.4,
       jlrdc: 10.9,
       jlswz: 8.2,
@@ -13022,7 +16967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-18',
+      date: '2016/5/18',
       wsd: 10.7,
       jlrdc: 12.5,
       jlswz: 8.9,
@@ -13037,7 +16982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-19',
+      date: '2016/5/19',
       wsd: 11.6,
       jlrdc: 13.0,
       jlswz: 9.0,
@@ -13052,7 +16997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-20',
+      date: '2016/5/20',
       wsd: 11.6,
       jlrdc: 12.4,
       jlswz: 9.5,
@@ -13067,7 +17012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-21',
+      date: '2016/5/21',
       wsd: 11.9,
       jlrdc: 12.9,
       jlswz: 9.4,
@@ -13082,7 +17027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-22',
+      date: '2016/5/22',
       wsd: 11.7,
       jlrdc: 12.0,
       jlswz: 8.6,
@@ -13097,7 +17042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-23',
+      date: '2016/5/23',
       wsd: 10.9,
       jlrdc: 12.7,
       jlswz: 7.8,
@@ -13112,7 +17057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-24',
+      date: '2016/5/24',
       wsd: 9.6,
       jlrdc: 12.9,
       jlswz: 9.6,
@@ -13127,7 +17072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-25',
+      date: '2016/5/25',
       wsd: 10.3,
       jlrdc: 12.4,
       jlswz: 9.3,
@@ -13142,7 +17087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-26',
+      date: '2016/5/26',
       wsd: 10.1,
       jlrdc: 12.1,
       jlswz: 9.6,
@@ -13157,7 +17102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-27',
+      date: '2016/5/27',
       wsd: 10.0,
       jlrdc: 12.3,
       jlswz: 9.2,
@@ -13172,7 +17117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-28',
+      date: '2016/5/28',
       wsd: 10.4,
       jlrdc: 12.6,
       jlswz: 9.8,
@@ -13187,7 +17132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-29',
+      date: '2016/5/29',
       wsd: 11.0,
       jlrdc: 13.4,
       jlswz: 10.5,
@@ -13202,7 +17147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-30',
+      date: '2016/5/30',
       wsd: 10.6,
       jlrdc: 11.7,
       jlswz: 10.2,
@@ -13217,7 +17162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-05-31',
+      date: '2016/5/31',
       wsd: 10.5,
       jlrdc: 12.1,
       jlswz: 9.1,
@@ -13232,7 +17177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-01',
+      date: '2016/6/1',
       wsd: 9.7,
       jlrdc: 13.1,
       jlswz: 9.7,
@@ -13247,7 +17192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-02',
+      date: '2016/6/2',
       wsd: 10.6,
       jlrdc: 13.5,
       jlswz: 10.6,
@@ -13262,7 +17207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-03',
+      date: '2016/6/3',
       wsd: 11.7,
       jlrdc: 14.1,
       jlswz: 11.7,
@@ -13277,7 +17222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-04',
+      date: '2016/6/4',
       wsd: 12.3,
       jlrdc: 13.3,
       jlswz: 11.5,
@@ -13292,7 +17237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-05',
+      date: '2016/6/5',
       wsd: 12.1,
       jlrdc: 13.6,
       jlswz: 11.8,
@@ -13307,7 +17252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-06',
+      date: '2016/6/6',
       wsd: 12.7,
       jlrdc: 14.0,
       jlswz: 12.5,
@@ -13322,7 +17267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-07',
+      date: '2016/6/7',
       wsd: 13.2,
       jlrdc: 14.1,
       jlswz: 12.5,
@@ -13337,7 +17282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-08',
+      date: '2016/6/8',
       wsd: 12.8,
       jlrdc: 13.7,
       jlswz: 12.2,
@@ -13352,7 +17297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-09',
+      date: '2016/6/9',
       wsd: 12.7,
       jlrdc: 13.9,
       jlswz: 12.5,
@@ -13367,7 +17312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-10',
+      date: '2016/6/10',
       wsd: 13.2,
       jlrdc: 12.9,
       jlswz: 13.0,
@@ -13382,7 +17327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-11',
+      date: '2016/6/11',
       wsd: 13.1,
       jlrdc: 13.8,
       jlswz: 12.7,
@@ -13397,7 +17342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-12',
+      date: '2016/6/12',
       wsd: 13.0,
       jlrdc: 14.8,
       jlswz: 12.9,
@@ -13412,7 +17357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-13',
+      date: '2016/6/13',
       wsd: 13.8,
       jlrdc: 14.1,
       jlswz: 13.4,
@@ -13427,7 +17372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-14',
+      date: '2016/6/14',
       wsd: 14.0,
       jlrdc: 14.5,
       jlswz: 13.3,
@@ -13442,7 +17387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-15',
+      date: '2016/6/15',
       wsd: 13.9,
       jlrdc: 14.9,
       jlswz: 13.4,
@@ -13457,7 +17402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-16',
+      date: '2016/6/16',
       wsd: 14.4,
       jlrdc: 15.4,
       jlswz: 12.0,
@@ -13472,7 +17417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-17',
+      date: '2016/6/17',
       wsd: 13.8,
       jlrdc: 15.2,
       jlswz: 11.9,
@@ -13487,7 +17432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-18',
+      date: '2016/6/18',
       wsd: 13.6,
       jlrdc: 13.9,
       jlswz: 11.9,
@@ -13502,7 +17447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-19',
+      date: '2016/6/19',
       wsd: 13.3,
       jlrdc: 15.9,
       jlswz: 11.7,
@@ -13517,7 +17462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-20',
+      date: '2016/6/20',
       wsd: 13.8,
       jlrdc: 16.8,
       jlswz: 12.2,
@@ -13532,7 +17477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-21',
+      date: '2016/6/21',
       wsd: 14.4,
       jlrdc: 15.0,
       jlswz: 11.8,
@@ -13547,7 +17492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-22',
+      date: '2016/6/22',
       wsd: 13.6,
       jlrdc: 16.1,
       jlswz: 11.8,
@@ -13562,7 +17507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-23',
+      date: '2016/6/23',
       wsd: 13.7,
       jlrdc: 16.9,
       jlswz: 12.1,
@@ -13577,7 +17522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-24',
+      date: '2016/6/24',
       wsd: 14.3,
       jlrdc: 17.2,
       jlswz: 11.9,
@@ -13592,7 +17537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-25',
+      date: '2016/6/25',
       wsd: 13.6,
       jlrdc: 17.4,
       jlswz: 13.3,
@@ -13607,7 +17552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-26',
+      date: '2016/6/26',
       wsd: 14.2,
       jlrdc: 18.0,
       jlswz: 13.6,
@@ -13622,7 +17567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-27',
+      date: '2016/6/27',
       wsd: 14.6,
       jlrdc: 18.3,
       jlswz: 14.9,
@@ -13637,7 +17582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-28',
+      date: '2016/6/28',
       wsd: 16.2,
       jlrdc: 18.7,
       jlswz: 16.1,
@@ -13652,7 +17597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-29',
+      date: '2016/6/29',
       wsd: 16.3,
       jlrdc: 18.9,
       jlswz: 14.9,
@@ -13667,7 +17612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-06-30',
+      date: '2016/6/30',
       wsd: 15.4,
       jlrdc: 18.5,
       jlswz: 15.0,
@@ -13682,7 +17627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-01',
+      date: '2016/7/1',
       wsd: 15.6,
       jlrdc: 18.9,
       jlswz: 15.0,
@@ -13697,7 +17642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-02',
+      date: '2016/7/2',
       wsd: 15.6,
       jlrdc: 19.2,
       jlswz: 14.7,
@@ -13712,7 +17657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-03',
+      date: '2016/7/3',
       wsd: 15.3,
       jlrdc: 19.5,
       jlswz: 15.0,
@@ -13727,7 +17672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-04',
+      date: '2016/7/4',
       wsd: 16.2,
       jlrdc: 19.9,
       jlswz: 15.8,
@@ -13742,7 +17687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-05',
+      date: '2016/7/5',
       wsd: 17.4,
       jlrdc: 20.2,
       jlswz: 14.0,
@@ -13757,7 +17702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-06',
+      date: '2016/7/6',
       wsd: 16.3,
       jlrdc: 20.0,
       jlswz: 14.4,
@@ -13772,7 +17717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-07',
+      date: '2016/7/7',
       wsd: 16.6,
       jlrdc: 19.9,
       jlswz: 14.0,
@@ -13787,7 +17732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-08',
+      date: '2016/7/8',
       wsd: 16.4,
       jlrdc: 20.0,
       jlswz: 14.1,
@@ -13802,7 +17747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-09',
+      date: '2016/7/9',
       wsd: 16.3,
       jlrdc: 20.4,
       jlswz: 14.0,
@@ -13817,7 +17762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-10',
+      date: '2016/7/10',
       wsd: 16.1,
       jlrdc: 21.5,
       jlswz: 14.2,
@@ -13832,7 +17777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-11',
+      date: '2016/7/11',
       wsd: 16.4,
       jlrdc: 21.2,
       jlswz: 14.7,
@@ -13847,7 +17792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-12',
+      date: '2016/7/12',
       wsd: 17.0,
       jlrdc: 20.7,
       jlswz: 14.8,
@@ -13862,7 +17807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-13',
+      date: '2016/7/13',
       wsd: 16.7,
       jlrdc: 20.4,
       jlswz: 14.2,
@@ -13877,7 +17822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-14',
+      date: '2016/7/14',
       wsd: 16.0,
       jlrdc: 20.3,
       jlswz: 14.5,
@@ -13892,7 +17837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-15',
+      date: '2016/7/15',
       wsd: 16.3,
       jlrdc: 20.2,
       jlswz: 14.6,
@@ -13907,7 +17852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-16',
+      date: '2016/7/16',
       wsd: 16.1,
       jlrdc: 20.1,
       jlswz: 14.2,
@@ -13922,7 +17867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-17',
+      date: '2016/7/17',
       wsd: 15.4,
       jlrdc: 19.9,
       jlswz: 14.6,
@@ -13937,7 +17882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-18',
+      date: '2016/7/18',
       wsd: 16.0,
       jlrdc: 20.9,
       jlswz: 14.7,
@@ -13952,7 +17897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-19',
+      date: '2016/7/19',
       wsd: 16.4,
       jlrdc: 21.0,
       jlswz: 14.8,
@@ -13967,7 +17912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-20',
+      date: '2016/7/20',
       wsd: 16.4,
       jlrdc: 20.9,
       jlswz: 14.9,
@@ -13982,7 +17927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-21',
+      date: '2016/7/21',
       wsd: 16.3,
       jlrdc: 21.3,
       jlswz: 14.8,
@@ -13997,7 +17942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-22',
+      date: '2016/7/22',
       wsd: 16.1,
       jlrdc: 21.6,
       jlswz: 15.3,
@@ -14012,7 +17957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-23',
+      date: '2016/7/23',
       wsd: 16.7,
       jlrdc: 21.9,
       jlswz: 16.4,
@@ -14027,7 +17972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-24',
+      date: '2016/7/24',
       wsd: 18.1,
       jlrdc: 22.6,
       jlswz: 16.3,
@@ -14042,7 +17987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-25',
+      date: '2016/7/25',
       wsd: 18.2,
       jlrdc: 21.8,
       jlswz: 15.7,
@@ -14057,7 +18002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-26',
+      date: '2016/7/26',
       wsd: 17.4,
       jlrdc: 22.0,
       jlswz: 16.0,
@@ -14072,7 +18017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-27',
+      date: '2016/7/27',
       wsd: 18.8,
       jlrdc: 22.5,
       jlswz: 16.4,
@@ -14087,7 +18032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-28',
+      date: '2016/7/28',
       wsd: 20.4,
       jlrdc: 22.3,
       jlswz: 16.7,
@@ -14102,7 +18047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-29',
+      date: '2016/7/29',
       wsd: 19.9,
       jlrdc: 22.5,
       jlswz: 16.8,
@@ -14117,7 +18062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-30',
+      date: '2016/7/30',
       wsd: 20.1,
       jlrdc: 22.1,
       jlswz: 16.6,
@@ -14132,7 +18077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-07-31',
+      date: '2016/7/31',
       wsd: 20.6,
       jlrdc: 22.8,
       jlswz: 16.7,
@@ -14147,7 +18092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-01',
+      date: '2016/8/1',
       wsd: 20.3,
       jlrdc: 22.9,
       jlswz: 16.9,
@@ -14162,7 +18107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-02',
+      date: '2016/8/2',
       wsd: 20.3,
       jlrdc: 23.3,
       jlswz: 17.1,
@@ -14177,7 +18122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-03',
+      date: '2016/8/3',
       wsd: 20.1,
       jlrdc: 22.4,
       jlswz: 16.9,
@@ -14192,7 +18137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-04',
+      date: '2016/8/4',
       wsd: 19.4,
       jlrdc: 22.3,
       jlswz: 17.1,
@@ -14207,7 +18152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-05',
+      date: '2016/8/5',
       wsd: 19.7,
       jlrdc: 22.3,
       jlswz: 17.2,
@@ -14222,7 +18167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-06',
+      date: '2016/8/6',
       wsd: 19.7,
       jlrdc: 22.7,
       jlswz: 17.3,
@@ -14237,7 +18182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-07',
+      date: '2016/8/7',
       wsd: 19.4,
       jlrdc: 22.0,
       jlswz: 17.2,
@@ -14252,7 +18197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-08',
+      date: '2016/8/8',
       wsd: 19.6,
       jlrdc: 21.3,
       jlswz: 17.1,
@@ -14267,7 +18212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-09',
+      date: '2016/8/9',
       wsd: 19.3,
       jlrdc: 22.2,
       jlswz: 17.2,
@@ -14282,7 +18227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-10',
+      date: '2016/8/10',
       wsd: 19.7,
       jlrdc: 23.3,
       jlswz: 18.1,
@@ -14297,7 +18242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-11',
+      date: '2016/8/11',
       wsd: 20.0,
       jlrdc: 23.8,
       jlswz: 19.0,
@@ -14312,7 +18257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-12',
+      date: '2016/8/12',
       wsd: 20.8,
       jlrdc: 24.9,
       jlswz: 18.1,
@@ -14327,7 +18272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-13',
+      date: '2016/8/13',
       wsd: 22.2,
       jlrdc: 23.9,
       jlswz: 18.1,
@@ -14342,7 +18287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-14',
+      date: '2016/8/14',
       wsd: 22.4,
       jlrdc: 23.4,
       jlswz: 18.1,
@@ -14357,7 +18302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-15',
+      date: '2016/8/15',
       wsd: 21.9,
       jlrdc: 23.0,
       jlswz: 17.8,
@@ -14372,7 +18317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-16',
+      date: '2016/8/16',
       wsd: 21.4,
       jlrdc: 23.9,
       jlswz: 17.6,
@@ -14387,7 +18332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-17',
+      date: '2016/8/17',
       wsd: 21.3,
       jlrdc: 22.6,
       jlswz: 17.3,
@@ -14402,7 +18347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-18',
+      date: '2016/8/18',
       wsd: 19.3,
       jlrdc: 21.6,
       jlswz: 17.4,
@@ -14417,7 +18362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-19',
+      date: '2016/8/19',
       wsd: 18.4,
       jlrdc: 21.3,
       jlswz: 18.7,
@@ -14432,7 +18377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-20',
+      date: '2016/8/20',
       wsd: 19.1,
       jlrdc: 23.3,
       jlswz: 25.1,
@@ -14447,7 +18392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-21',
+      date: '2016/8/21',
       wsd: 21.8,
       jlrdc: 25.8,
       jlswz: 26.1,
@@ -14462,7 +18407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-22',
+      date: '2016/8/22',
       wsd: 25.5,
       jlrdc: 26.6,
       jlswz: 25.6,
@@ -14477,7 +18422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-23',
+      date: '2016/8/23',
       wsd: 25.8,
       jlrdc: 26.5,
       jlswz: 25.1,
@@ -14492,7 +18437,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-24',
+      date: '2016/8/24',
       wsd: 25.3,
       jlrdc: 26.2,
       jlswz: 24.3,
@@ -14507,7 +18452,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-25',
+      date: '2016/8/25',
       wsd: 24.0,
       jlrdc: 24.6,
       jlswz: 23.6,
@@ -14522,7 +18467,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-26',
+      date: '2016/8/26',
       wsd: 23.1,
       jlrdc: 24.5,
       jlswz: 23.0,
@@ -14537,7 +18482,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-27',
+      date: '2016/8/27',
       wsd: 22.9,
       jlrdc: 24.4,
       jlswz: 23.2,
@@ -14552,7 +18497,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-28',
+      date: '2016/8/28',
       wsd: 23.0,
       jlrdc: 24.5,
       jlswz: 23.3,
@@ -14567,7 +18512,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-29',
+      date: '2016/8/29',
       wsd: 22.5,
       jlrdc: 24.7,
       jlswz: 23.3,
@@ -14582,7 +18527,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-30',
+      date: '2016/8/30',
       wsd: 20.8,
       jlrdc: 23.1,
       jlswz: 21.2,
@@ -14597,7 +18542,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-08-31',
+      date: '2016/8/31',
       wsd: 20.8,
       jlrdc: 22.4,
       jlswz: 20.3,
@@ -14612,7 +18557,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-01',
+      date: '2016/9/1',
       wsd: 20.3,
       jlrdc: 22.4,
       jlswz: 19.5,
@@ -14627,7 +18572,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-02',
+      date: '2016/9/2',
       wsd: 19.7,
       jlrdc: 22.1,
       jlswz: 19.5,
@@ -14642,7 +18587,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-03',
+      date: '2016/9/3',
       wsd: 20.0,
       jlrdc: 22.8,
       jlswz: 19.4,
@@ -14657,7 +18602,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-04',
+      date: '2016/9/4',
       wsd: 20.7,
       jlrdc: 22.6,
       jlswz: 19.4,
@@ -14672,7 +18617,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-05',
+      date: '2016/9/5',
       wsd: 21.4,
       jlrdc: 22.1,
       jlswz: 19.0,
@@ -14687,7 +18632,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-06',
+      date: '2016/9/6',
       wsd: 21.3,
       jlrdc: 21.7,
       jlswz: 18.2,
@@ -14702,7 +18647,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-07',
+      date: '2016/9/7',
       wsd: 21.0,
       jlrdc: 21.4,
       jlswz: 17.3,
@@ -14717,7 +18662,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-08',
+      date: '2016/9/8',
       wsd: 20.3,
       jlrdc: 21.2,
       jlswz: 17.2,
@@ -14732,7 +18677,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-09',
+      date: '2016/9/9',
       wsd: 19.4,
       jlrdc: 20.5,
       jlswz: 16.5,
@@ -14747,7 +18692,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-10',
+      date: '2016/9/10',
       wsd: 18.8,
       jlrdc: 20.4,
       jlswz: 16.7,
@@ -14762,7 +18707,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-11',
+      date: '2016/9/11',
       wsd: 18.5,
       jlrdc: 20.8,
       jlswz: 16.8,
@@ -14777,7 +18722,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-12',
+      date: '2016/9/12',
       wsd: 18.8,
       jlrdc: 20.7,
       jlswz: 16.9,
@@ -14792,7 +18737,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-13',
+      date: '2016/9/13',
       wsd: 18.6,
       jlrdc: 20.9,
       jlswz: 16.9,
@@ -14807,7 +18752,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-14',
+      date: '2016/9/14',
       wsd: 18.8,
       jlrdc: 20.3,
       jlswz: 16.6,
@@ -14822,7 +18767,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-15',
+      date: '2016/9/15',
       wsd: 18.9,
       jlrdc: 20.7,
       jlswz: 17.1,
@@ -14837,7 +18782,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-16',
+      date: '2016/9/16',
       wsd: 19.0,
       jlrdc: 20.6,
       jlswz: 17.3,
@@ -14852,7 +18797,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-17',
+      date: '2016/9/17',
       wsd: 18.7,
       jlrdc: 21.6,
       jlswz: 17.1,
@@ -14867,7 +18812,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-18',
+      date: '2016/9/18',
       wsd: 18.1,
       jlrdc: 21.4,
       jlswz: 16.5,
@@ -14882,7 +18827,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-19',
+      date: '2016/9/19',
       wsd: 17.6,
       jlrdc: 21.0,
       jlswz: 16.8,
@@ -14897,7 +18842,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-20',
+      date: '2016/9/20',
       wsd: 17.2,
       jlrdc: 21.9,
       jlswz: 16.8,
@@ -14912,7 +18857,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-21',
+      date: '2016/9/21',
       wsd: 17.6,
       jlrdc: 22.6,
       jlswz: 17.4,
@@ -14927,7 +18872,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-22',
+      date: '2016/9/22',
       wsd: 17.6,
       jlrdc: 22.8,
       jlswz: 17.3,
@@ -14942,7 +18887,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-23',
+      date: '2016/9/23',
       wsd: 18.0,
       jlrdc: 22.5,
       jlswz: 17.8,
@@ -14957,7 +18902,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-24',
+      date: '2016/9/24',
       wsd: 18.0,
       jlrdc: 22.6,
       jlswz: 17.9,
@@ -14972,7 +18917,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-25',
+      date: '2016/9/25',
       wsd: 18.2,
       jlrdc: 22.1,
       jlswz: 17.6,
@@ -14987,7 +18932,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-26',
+      date: '2016/9/26',
       wsd: 18.2,
       jlrdc: 22.2,
       jlswz: 17.5,
@@ -15002,7 +18947,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-27',
+      date: '2016/9/27',
       wsd: 17.8,
       jlrdc: 21.5,
       jlswz: 17.1,
@@ -15017,7 +18962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-28',
+      date: '2016/9/28',
       wsd: 16.6,
       jlrdc: 21.2,
       jlswz: 16.3,
@@ -15032,7 +18977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-29',
+      date: '2016/9/29',
       wsd: 16.1,
       jlrdc: 19.6,
       jlswz: 16.6,
@@ -15047,7 +18992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-09-30',
+      date: '2016/9/30',
       wsd: 16.3,
       jlrdc: 19.8,
       jlswz: 16.9,
@@ -15062,7 +19007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-01',
+      date: '2016/10/1',
       wsd: 16.8,
       jlrdc: 19.8,
       jlswz: 17.1,
@@ -15077,7 +19022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-02',
+      date: '2016/10/2',
       wsd: 16.9,
       jlrdc: 20.5,
       jlswz: 17.6,
@@ -15092,7 +19037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-03',
+      date: '2016/10/3',
       wsd: 17.1,
       jlrdc: 20.1,
       jlswz: 17.0,
@@ -15107,7 +19052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-04',
+      date: '2016/10/4',
       wsd: 16.3,
       jlrdc: 19.6,
       jlswz: 15.9,
@@ -15122,7 +19067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-05',
+      date: '2016/10/5',
       wsd: 15.1,
       jlrdc: 19.4,
       jlswz: 15.5,
@@ -15137,7 +19082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-06',
+      date: '2016/10/6',
       wsd: 14.6,
       jlrdc: 19.8,
       jlswz: 15.6,
@@ -15152,7 +19097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-07',
+      date: '2016/10/7',
       wsd: 14.6,
       jlrdc: 19.5,
       jlswz: 15.2,
@@ -15167,7 +19112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-08',
+      date: '2016/10/8',
       wsd: 14.3,
       jlrdc: 19.9,
       jlswz: 15.4,
@@ -15182,7 +19127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-09',
+      date: '2016/10/9',
       wsd: 13.8,
       jlrdc: 21.6,
       jlswz: 14.9,
@@ -15197,7 +19142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-10',
+      date: '2016/10/10',
       wsd: 13.7,
       jlrdc: 20.9,
       jlswz: 14.8,
@@ -15212,7 +19157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-11',
+      date: '2016/10/11',
       wsd: 13.7,
       jlrdc: 20.5,
       jlswz: 14.9,
@@ -15227,7 +19172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-12',
+      date: '2016/10/12',
       wsd: 13.6,
       jlrdc: 20.0,
       jlswz: 14.3,
@@ -15242,7 +19187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-13',
+      date: '2016/10/13',
       wsd: 13.5,
       jlrdc: 18.7,
       jlswz: 14.6,
@@ -15257,7 +19202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-14',
+      date: '2016/10/14',
       wsd: 13.9,
       jlrdc: 19.7,
       jlswz: 15.3,
@@ -15272,7 +19217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-15',
+      date: '2016/10/15',
       wsd: 15.0,
       jlrdc: 21.4,
       jlswz: 15.6,
@@ -15287,7 +19232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-16',
+      date: '2016/10/16',
       wsd: 15.6,
       jlrdc: 22.0,
       jlswz: 15.4,
@@ -15302,7 +19247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-17',
+      date: '2016/10/17',
       wsd: 15.1,
       jlrdc: 22.2,
       jlswz: 14.9,
@@ -15317,7 +19262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-18',
+      date: '2016/10/18',
       wsd: 14.4,
       jlrdc: 22.1,
       jlswz: 14.5,
@@ -15332,7 +19277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-19',
+      date: '2016/10/19',
       wsd: 14.0,
       jlrdc: 22.6,
       jlswz: 14.3,
@@ -15347,7 +19292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-20',
+      date: '2016/10/20',
       wsd: 13.4,
       jlrdc: 20.4,
       jlswz: 13.8,
@@ -15362,7 +19307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-21',
+      date: '2016/10/21',
       wsd: 12.8,
       jlrdc: 19.6,
       jlswz: 13.6,
@@ -15377,7 +19322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-22',
+      date: '2016/10/22',
       wsd: 12.4,
       jlrdc: 19.0,
       jlswz: 13.2,
@@ -15392,7 +19337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-23',
+      date: '2016/10/23',
       wsd: 12.2,
       jlrdc: 19.3,
       jlswz: 13.2,
@@ -15407,7 +19352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-24',
+      date: '2016/10/24',
       wsd: 12.4,
       jlrdc: 19.8,
       jlswz: 13.3,
@@ -15422,7 +19367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-25',
+      date: '2016/10/25',
       wsd: 12.8,
       jlrdc: 20.2,
       jlswz: 13.4,
@@ -15437,7 +19382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-26',
+      date: '2016/10/26',
       wsd: 12.7,
       jlrdc: 19.1,
       jlswz: 12.8,
@@ -15452,7 +19397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-27',
+      date: '2016/10/27',
       wsd: 12.0,
       jlrdc: 18.4,
       jlswz: 12.6,
@@ -15467,7 +19412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-28',
+      date: '2016/10/28',
       wsd: 12.2,
       jlrdc: 18.9,
       jlswz: 12.5,
@@ -15482,7 +19427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-29',
+      date: '2016/10/29',
       wsd: 11.5,
       jlrdc: 18.3,
       jlswz: 11.9,
@@ -15497,7 +19442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-30',
+      date: '2016/10/30',
       wsd: 11.1,
       jlrdc: 17.8,
       jlswz: 11.6,
@@ -15512,7 +19457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-10-31',
+      date: '2016/10/31',
       wsd: 10.6,
       jlrdc: 18.1,
       jlswz: 11.3,
@@ -15527,7 +19472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-01',
+      date: '2016/11/1',
       wsd: 10.4,
       jlrdc: 17.1,
       jlswz: 11.0,
@@ -15542,7 +19487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-02',
+      date: '2016/11/2',
       wsd: 10.3,
       jlrdc: 17.4,
       jlswz: 11.0,
@@ -15557,7 +19502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-03',
+      date: '2016/11/3',
       wsd: 10.3,
       jlrdc: 16.7,
       jlswz: 10.8,
@@ -15572,7 +19517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-04',
+      date: '2016/11/4',
       wsd: 10.3,
       jlrdc: 17.5,
       jlswz: 10.7,
@@ -15587,7 +19532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-05',
+      date: '2016/11/5',
       wsd: 9.8,
       jlrdc: 16.0,
       jlswz: 10.3,
@@ -15602,7 +19547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-06',
+      date: '2016/11/6',
       wsd: 9.2,
       jlrdc: 16.4,
       jlswz: 9.9,
@@ -15617,7 +19562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-07',
+      date: '2016/11/7',
       wsd: 9.0,
       jlrdc: 16.6,
       jlswz: 9.5,
@@ -15632,7 +19577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-08',
+      date: '2016/11/8',
       wsd: 8.3,
       jlrdc: 17.3,
       jlswz: 8.9,
@@ -15647,7 +19592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-09',
+      date: '2016/11/9',
       wsd: 7.8,
       jlrdc: 17.6,
       jlswz: 8.5,
@@ -15662,7 +19607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-10',
+      date: '2016/11/10',
       wsd: 7.5,
       jlrdc: 16.1,
       jlswz: 8.4,
@@ -15677,7 +19622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-11',
+      date: '2016/11/11',
       wsd: 7.7,
       jlrdc: 16.0,
       jlswz: 8.6,
@@ -15692,7 +19637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-12',
+      date: '2016/11/12',
       wsd: 7.8,
       jlrdc: 14.6,
       jlswz: 8.5,
@@ -15707,7 +19652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-13',
+      date: '2016/11/13',
       wsd: 7.8,
       jlrdc: 14.4,
       jlswz: 8.3,
@@ -15722,7 +19667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-14',
+      date: '2016/11/14',
       wsd: 7.8,
       jlrdc: 15.6,
       jlswz: 8.2,
@@ -15737,7 +19682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-15',
+      date: '2016/11/15',
       wsd: 7.2,
       jlrdc: 14.3,
       jlswz: 7.5,
@@ -15752,7 +19697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-16',
+      date: '2016/11/16',
       wsd: 6.8,
       jlrdc: 13.1,
       jlswz: 7.7,
@@ -15767,7 +19712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-17',
+      date: '2016/11/17',
       wsd: 6.8,
       jlrdc: 13.5,
       jlswz: 7.5,
@@ -15782,7 +19727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-18',
+      date: '2016/11/18',
       wsd: 7.0,
       jlrdc: 16.0,
       jlswz: 7.6,
@@ -15797,7 +19742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-19',
+      date: '2016/11/19',
       wsd: 6.3,
       jlrdc: 15.0,
       jlswz: 6.8,
@@ -15812,7 +19757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-20',
+      date: '2016/11/20',
       wsd: 5.6,
       jlrdc: 14.8,
       jlswz: 6.6,
@@ -15827,7 +19772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-21',
+      date: '2016/11/21',
       wsd: 5.4,
       jlrdc: 14.5,
       jlswz: 6.3,
@@ -15842,7 +19787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-22',
+      date: '2016/11/22',
       wsd: 4.8,
       jlrdc: 14.3,
       jlswz: 6.0,
@@ -15857,7 +19802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-23',
+      date: '2016/11/23',
       wsd: 4.6,
       jlrdc: 14.7,
       jlswz: 5.9,
@@ -15872,7 +19817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-24',
+      date: '2016/11/24',
       wsd: 4.8,
       jlrdc: 14.8,
       jlswz: 5.7,
@@ -15887,7 +19832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-25',
+      date: '2016/11/25',
       wsd: 4.9,
       jlrdc: 13.8,
       jlswz: 5.7,
@@ -15902,7 +19847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-26',
+      date: '2016/11/26',
       wsd: 5.1,
       jlrdc: 13.0,
       jlswz: 5.6,
@@ -15917,7 +19862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-27',
+      date: '2016/11/27',
       wsd: 4.9,
       jlrdc: 12.4,
       jlswz: 5.3,
@@ -15932,7 +19877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-28',
+      date: '2016/11/28',
       wsd: 4.4,
       jlrdc: 12.4,
       jlswz: 4.9,
@@ -15947,7 +19892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-29',
+      date: '2016/11/29',
       wsd: 4.1,
       jlrdc: 11.9,
       jlswz: 4.9,
@@ -15962,7 +19907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-11-30',
+      date: '2016/11/30',
       wsd: 4.3,
       jlrdc: 12.0,
       jlswz: 4.8,
@@ -15977,7 +19922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-01',
+      date: '2016/12/1',
       wsd: 4.1,
       jlrdc: 12.1,
       jlswz: 4.5,
@@ -15992,7 +19937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-02',
+      date: '2016/12/2',
       wsd: 3.7,
       jlrdc: 12.1,
       jlswz: 4.5,
@@ -16007,7 +19952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-03',
+      date: '2016/12/3',
       wsd: 4.2,
       jlrdc: 11.8,
       jlswz: 4.6,
@@ -16022,7 +19967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-04',
+      date: '2016/12/4',
       wsd: 4.6,
       jlrdc: 11.9,
       jlswz: 4.6,
@@ -16037,7 +19982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-05',
+      date: '2016/12/5',
       wsd: 3.9,
       jlrdc: 10.9,
       jlswz: 3.9,
@@ -16052,7 +19997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-06',
+      date: '2016/12/6',
       wsd: 3.0,
       jlrdc: 10.8,
       jlswz: 3.6,
@@ -16067,7 +20012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-07',
+      date: '2016/12/7',
       wsd: 2.8,
       jlrdc: 10.8,
       jlswz: 3.6,
@@ -16082,7 +20027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-08',
+      date: '2016/12/8',
       wsd: 2.9,
       jlrdc: 10.7,
       jlswz: 3.5,
@@ -16097,7 +20042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-09',
+      date: '2016/12/9',
       wsd: 2.6,
       jlrdc: 10.3,
       jlswz: 3.2,
@@ -16112,7 +20057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-10',
+      date: '2016/12/10',
       wsd: 2.4,
       jlrdc: 10.3,
       jlswz: 3.0,
@@ -16127,7 +20072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-11',
+      date: '2016/12/11',
       wsd: 2.3,
       jlrdc: 10.3,
       jlswz: 2.9,
@@ -16142,7 +20087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-12',
+      date: '2016/12/12',
       wsd: 2.4,
       jlrdc: 9.7,
       jlswz: 2.8,
@@ -16157,7 +20102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-13',
+      date: '2016/12/13',
       wsd: 2.0,
       jlrdc: 10.2,
       jlswz: 2.4,
@@ -16172,7 +20117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-14',
+      date: '2016/12/14',
       wsd: 1.3,
       jlrdc: 10.4,
       jlswz: 2.2,
@@ -16187,7 +20132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-15',
+      date: '2016/12/15',
       wsd: 1.1,
       jlrdc: 10.5,
       jlswz: 1.9,
@@ -16202,7 +20147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-16',
+      date: '2016/12/16',
       wsd: 0.8,
       jlrdc: 9.5,
       jlswz: 1.2,
@@ -16217,7 +20162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-17',
+      date: '2016/12/17',
       wsd: 0.7,
       jlrdc: 9.0,
       jlswz: 1.7,
@@ -16232,7 +20177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-18',
+      date: '2016/12/18',
       wsd: 1.4,
       jlrdc: 9.9,
       jlswz: 2.2,
@@ -16247,7 +20192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-19',
+      date: '2016/12/19',
       wsd: 2.1,
       jlrdc: 9.9,
       jlswz: 2.2,
@@ -16262,7 +20207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-20',
+      date: '2016/12/20',
       wsd: 2.2,
       jlrdc: 10.0,
       jlswz: 2.4,
@@ -16277,7 +20222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-21',
+      date: '2016/12/21',
       wsd: 2.1,
       jlrdc: 9.2,
       jlswz: 2.1,
@@ -16292,7 +20237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-22',
+      date: '2016/12/22',
       wsd: 1.3,
       jlrdc: 8.3,
       jlswz: 1.8,
@@ -16307,7 +20252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-23',
+      date: '2016/12/23',
       wsd: 0.8,
       jlrdc: 8.4,
       jlswz: 1.6,
@@ -16322,7 +20267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-24',
+      date: '2016/12/24',
       wsd: 0.7,
       jlrdc: 8.0,
       jlswz: 1.6,
@@ -16337,7 +20282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-25',
+      date: '2016/12/25',
       wsd: 0.9,
       jlrdc: 8.4,
       jlswz: 1.4,
@@ -16352,7 +20297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-26',
+      date: '2016/12/26',
       wsd: 0.8,
       jlrdc: 9.1,
       jlswz: 1.5,
@@ -16367,7 +20312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-27',
+      date: '2016/12/27',
       wsd: 0.7,
       jlrdc: 7.7,
       jlswz: 0.6,
@@ -16382,7 +20327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-28',
+      date: '2016/12/28',
       wsd: 0.5,
       jlrdc: 8.5,
       jlswz: 0.4,
@@ -16397,7 +20342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-29',
+      date: '2016/12/29',
       wsd: 0.3,
       jlrdc: 9.1,
       jlswz: 0.3,
@@ -16412,7 +20357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-30',
+      date: '2016/12/30',
       wsd: 0.2,
       jlrdc: 7.4,
       jlswz: 0.4,
@@ -16427,7 +20372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2016-12-31',
+      date: '2016/12/31',
       wsd: 0.3,
       jlrdc: 7.7,
       jlswz: 0.5,
@@ -16442,7 +20387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-01',
+      date: '2017/1/1',
       wsd: 0.4,
       jlrdc: 7.6,
       jlswz: 0.9,
@@ -16457,7 +20402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-02',
+      date: '2017/1/2',
       wsd: 0.4,
       jlrdc: 7.6,
       jlswz: 1.0,
@@ -16472,7 +20417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-03',
+      date: '2017/1/3',
       wsd: 0.3,
       jlrdc: 8.1,
       jlswz: 0.8,
@@ -16487,7 +20432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-04',
+      date: '2017/1/4',
       wsd: 0.4,
       jlrdc: 7.8,
       jlswz: 0.6,
@@ -16502,7 +20447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-05',
+      date: '2017/1/5',
       wsd: 0.3,
       jlrdc: 7.7,
       jlswz: 0.6,
@@ -16517,7 +20462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-06',
+      date: '2017/1/6',
       wsd: 0.3,
       jlrdc: 7.8,
       jlswz: 0.5,
@@ -16532,7 +20477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-07',
+      date: '2017/1/7',
       wsd: 0.2,
       jlrdc: 7.8,
       jlswz: 0.4,
@@ -16547,7 +20492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-08',
+      date: '2017/1/8',
       wsd: 0.2,
       jlrdc: 7.9,
       jlswz: 0.6,
@@ -16562,7 +20507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-09',
+      date: '2017/1/9',
       wsd: 0.2,
       jlrdc: 9.0,
       jlswz: 0.6,
@@ -16577,7 +20522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-10',
+      date: '2017/1/10',
       wsd: 0.1,
       jlrdc: 8.5,
       jlswz: 0.3,
@@ -16592,7 +20537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-11',
+      date: '2017/1/11',
       wsd: 0.1,
       jlrdc: 8.0,
       jlswz: 0.2,
@@ -16607,7 +20552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-12',
+      date: '2017/1/12',
       wsd: 0.0,
       jlrdc: 7.8,
       jlswz: 0.2,
@@ -16622,7 +20567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-13',
+      date: '2017/1/13',
       wsd: -0.1,
       jlrdc: 8.9,
       jlswz: 0.3,
@@ -16637,7 +20582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-14',
+      date: '2017/1/14',
       wsd: -0.1,
       jlrdc: 8.6,
       jlswz: 0.3,
@@ -16652,7 +20597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-15',
+      date: '2017/1/15',
       wsd: -0.1,
       jlrdc: 8.6,
       jlswz: 0.4,
@@ -16667,7 +20612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-16',
+      date: '2017/1/16',
       wsd: -0.1,
       jlrdc: 8.8,
       jlswz: 0.4,
@@ -16682,7 +20627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-17',
+      date: '2017/1/17',
       wsd: 0.0,
       jlrdc: 9.2,
       jlswz: 0.5,
@@ -16697,7 +20642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-18',
+      date: '2017/1/18',
       wsd: 0.0,
       jlrdc: 9.8,
       jlswz: 0.5,
@@ -16712,7 +20657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-19',
+      date: '2017/1/19',
       wsd: 0.1,
       jlrdc: 10.1,
       jlswz: 0.5,
@@ -16727,7 +20672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-20',
+      date: '2017/1/20',
       wsd: 0.1,
       jlrdc: 11.0,
       jlswz: 0.4,
@@ -16742,7 +20687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-21',
+      date: '2017/1/21',
       wsd: 0.1,
       jlrdc: 9.2,
       jlswz: 0.3,
@@ -16757,7 +20702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-22',
+      date: '2017/1/22',
       wsd: 0.1,
       jlrdc: 8.6,
       jlswz: 0.2,
@@ -16772,7 +20717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-23',
+      date: '2017/1/23',
       wsd: 0.0,
       jlrdc: 9.0,
       jlswz: 0.3,
@@ -16787,7 +20732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-24',
+      date: '2017/1/24',
       wsd: 0.1,
       jlrdc: 8.6,
       jlswz: 0.2,
@@ -16802,7 +20747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-25',
+      date: '2017/1/25',
       wsd: 0.0,
       jlrdc: 9.4,
       jlswz: 0.3,
@@ -16817,7 +20762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-26',
+      date: '2017/1/26',
       wsd: 0.0,
       jlrdc: 9.5,
       jlswz: 0.2,
@@ -16832,7 +20777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-27',
+      date: '2017/1/27',
       wsd: 0.0,
       jlrdc: 8.4,
       jlswz: 0.3,
@@ -16847,7 +20792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-28',
+      date: '2017/1/28',
       wsd: 0.1,
       jlrdc: 7.8,
       jlswz: 0.3,
@@ -16862,7 +20807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-29',
+      date: '2017/1/29',
       wsd: 0.0,
       jlrdc: 9.0,
       jlswz: 0.4,
@@ -16877,7 +20822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-30',
+      date: '2017/1/30',
       wsd: 0.0,
       jlrdc: 9.0,
       jlswz: 0.3,
@@ -16892,7 +20837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-01-31',
+      date: '2017/1/31',
       wsd: 0.0,
       jlrdc: 7.9,
       jlswz: 0.2,
@@ -16907,7 +20852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-01',
+      date: '2017/2/1',
       wsd: -0.1,
       jlrdc: 7.0,
       jlswz: 0.3,
@@ -16922,7 +20867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-02',
+      date: '2017/2/2',
       wsd: 0.0,
       jlrdc: 7.9,
       jlswz: 0.3,
@@ -16937,7 +20882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-03',
+      date: '2017/2/3',
       wsd: 0.1,
       jlrdc: 8.5,
       jlswz: 0.3,
@@ -16952,7 +20897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-04',
+      date: '2017/2/4',
       wsd: 0.2,
       jlrdc: 8.7,
       jlswz: 0.4,
@@ -16967,7 +20912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-05',
+      date: '2017/2/5',
       wsd: 0.1,
       jlrdc: 8.2,
       jlswz: 0.5,
@@ -16982,7 +20927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-06',
+      date: '2017/2/6',
       wsd: 0.1,
       jlrdc: 8.1,
       jlswz: 0.4,
@@ -16997,7 +20942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-07',
+      date: '2017/2/7',
       wsd: 0.1,
       jlrdc: 8.8,
       jlswz: 0.3,
@@ -17012,7 +20957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-08',
+      date: '2017/2/8',
       wsd: 0.1,
       jlrdc: 8.4,
       jlswz: 0.3,
@@ -17027,7 +20972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-09',
+      date: '2017/2/9',
       wsd: 0.1,
       jlrdc: 9.6,
       jlswz: 0.3,
@@ -17042,7 +20987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-10',
+      date: '2017/2/10',
       wsd: 0.1,
       jlrdc: 9.5,
       jlswz: 0.3,
@@ -17057,7 +21002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-11',
+      date: '2017/2/11',
       wsd: 0.1,
       jlrdc: 10.1,
       jlswz: 0.3,
@@ -17072,7 +21017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-12',
+      date: '2017/2/12',
       wsd: 0.1,
       jlrdc: 9.2,
       jlswz: 0.4,
@@ -17087,7 +21032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-13',
+      date: '2017/2/13',
       wsd: 0.1,
       jlrdc: 9.0,
       jlswz: 0.4,
@@ -17102,7 +21047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-14',
+      date: '2017/2/14',
       wsd: 0.1,
       jlrdc: 10.3,
       jlswz: 0.4,
@@ -17117,7 +21062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-15',
+      date: '2017/2/15',
       wsd: 0.2,
       jlrdc: 9.6,
       jlswz: 0.6,
@@ -17132,7 +21077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-16',
+      date: '2017/2/16',
       wsd: 0.3,
       jlrdc: 9.8,
       jlswz: 0.8,
@@ -17147,7 +21092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-17',
+      date: '2017/2/17',
       wsd: 0.2,
       jlrdc: 8.8,
       jlswz: 0.5,
@@ -17162,7 +21107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-18',
+      date: '2017/2/18',
       wsd: 0.2,
       jlrdc: 8.6,
       jlswz: 0.3,
@@ -17177,7 +21122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-19',
+      date: '2017/2/19',
       wsd: 0.1,
       jlrdc: 8.1,
       jlswz: 0.2,
@@ -17192,7 +21137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-20',
+      date: '2017/2/20',
       wsd: 0.1,
       jlrdc: 8.4,
       jlswz: 0.2,
@@ -17207,7 +21152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-21',
+      date: '2017/2/21',
       wsd: 0.1,
       jlrdc: 7.9,
       jlswz: 0.3,
@@ -17222,7 +21167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-22',
+      date: '2017/2/22',
       wsd: 0.1,
       jlrdc: 9.6,
       jlswz: 0.3,
@@ -17237,7 +21182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-23',
+      date: '2017/2/23',
       wsd: 0.1,
       jlrdc: 8.8,
       jlswz: 0.3,
@@ -17252,7 +21197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-24',
+      date: '2017/2/24',
       wsd: 0.1,
       jlrdc: 8.7,
       jlswz: 0.4,
@@ -17267,7 +21212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-25',
+      date: '2017/2/25',
       wsd: 0.2,
       jlrdc: 8.6,
       jlswz: 0.6,
@@ -17282,7 +21227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-26',
+      date: '2017/2/26',
       wsd: 0.3,
       jlrdc: 8.8,
       jlswz: 0.8,
@@ -17297,7 +21242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-27',
+      date: '2017/2/27',
       wsd: 0.5,
       jlrdc: 9.6,
       jlswz: 1.0,
@@ -17312,7 +21257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-02-28',
+      date: '2017/2/28',
       wsd: 0.8,
       jlrdc: 9.1,
       jlswz: 1.3,
@@ -17327,7 +21272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-01',
+      date: '2017/3/1',
       wsd: 1.0,
       jlrdc: 9.6,
       jlswz: 1.4,
@@ -17342,7 +21287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-02',
+      date: '2017/3/2',
       wsd: 1.2,
       jlrdc: 8.7,
       jlswz: 1.0,
@@ -17357,7 +21302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-03',
+      date: '2017/3/3',
       wsd: 1.3,
       jlrdc: 8.8,
       jlswz: 1.2,
@@ -17372,7 +21317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-04',
+      date: '2017/3/4',
       wsd: 1.0,
       jlrdc: 8.2,
       jlswz: 1.0,
@@ -17387,7 +21332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-05',
+      date: '2017/3/5',
       wsd: 1.1,
       jlrdc: 8.8,
       jlswz: 0.8,
@@ -17402,7 +21347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-06',
+      date: '2017/3/6',
       wsd: 1.1,
       jlrdc: 8.2,
       jlswz: 0.9,
@@ -17417,7 +21362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-07',
+      date: '2017/3/7',
       wsd: 1.1,
       jlrdc: 8.7,
       jlswz: 0.7,
@@ -17432,7 +21377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-08',
+      date: '2017/3/8',
       wsd: 1.2,
       jlrdc: 8.3,
       jlswz: 1.0,
@@ -17447,7 +21392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-09',
+      date: '2017/3/9',
       wsd: 1.2,
       jlrdc: 9.0,
       jlswz: 1.4,
@@ -17462,7 +21407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-10',
+      date: '2017/3/10',
       wsd: 1.7,
       jlrdc: 9.4,
       jlswz: 1.6,
@@ -17477,7 +21422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-11',
+      date: '2017/3/11',
       wsd: 2.3,
       jlrdc: 9.0,
       jlswz: 1.7,
@@ -17492,7 +21437,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-12',
+      date: '2017/3/12',
       wsd: 2.7,
       jlrdc: 9.1,
       jlswz: 1.6,
@@ -17507,7 +21452,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-13',
+      date: '2017/3/13',
       wsd: 2.9,
       jlrdc: 9.3,
       jlswz: 1.4,
@@ -17522,7 +21467,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-14',
+      date: '2017/3/14',
       wsd: 3.0,
       jlrdc: 8.4,
       jlswz: 1.5,
@@ -17537,7 +21482,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-15',
+      date: '2017/3/15',
       wsd: 3.0,
       jlrdc: 9.0,
       jlswz: 1.7,
@@ -17552,7 +21497,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-16',
+      date: '2017/3/16',
       wsd: 3.1,
       jlrdc: 8.1,
       jlswz: 2.0,
@@ -17567,7 +21512,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-17',
+      date: '2017/3/17',
       wsd: 3.5,
       jlrdc: 8.7,
       jlswz: 2.0,
@@ -17582,7 +21527,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-18',
+      date: '2017/3/18',
       wsd: 3.9,
       jlrdc: 9.1,
       jlswz: 2.1,
@@ -17597,7 +21542,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-19',
+      date: '2017/3/19',
       wsd: 3.8,
       jlrdc: 9.9,
       jlswz: 2.1,
@@ -17612,7 +21557,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-20',
+      date: '2017/3/20',
       wsd: 3.5,
       jlrdc: 10.1,
       jlswz: 2.3,
@@ -17627,7 +21572,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-21',
+      date: '2017/3/21',
       wsd: 3.4,
       jlrdc: 9.3,
       jlswz: 2.2,
@@ -17642,7 +21587,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-22',
+      date: '2017/3/22',
       wsd: 3.6,
       jlrdc: 8.5,
       jlswz: 2.2,
@@ -17657,7 +21602,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-23',
+      date: '2017/3/23',
       wsd: 3.6,
       jlrdc: 8.5,
       jlswz: 2.0,
@@ -17672,7 +21617,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-24',
+      date: '2017/3/24',
       wsd: 3.7,
       jlrdc: 9.5,
       jlswz: 2.2,
@@ -17687,7 +21632,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-25',
+      date: '2017/3/25',
       wsd: 3.9,
       jlrdc: 10.2,
       jlswz: 2.5,
@@ -17702,7 +21647,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-26',
+      date: '2017/3/26',
       wsd: 4.2,
       jlrdc: 9.4,
       jlswz: 2.6,
@@ -17717,7 +21662,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-27',
+      date: '2017/3/27',
       wsd: 4.5,
       jlrdc: 9.0,
       jlswz: 2.7,
@@ -17732,7 +21677,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-28',
+      date: '2017/3/28',
       wsd: 4.8,
       jlrdc: 9.6,
       jlswz: 2.9,
@@ -17747,7 +21692,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-29',
+      date: '2017/3/29',
       wsd: 5.0,
       jlrdc: 10.3,
       jlswz: 3.0,
@@ -17762,7 +21707,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-30',
+      date: '2017/3/30',
       wsd: 5.1,
       jlrdc: 9.0,
       jlswz: 3.0,
@@ -17777,7 +21722,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-03-31',
+      date: '2017/3/31',
       wsd: 5.3,
       jlrdc: 9.8,
       jlswz: 2.9,
@@ -17792,7 +21737,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-01',
+      date: '2017/4/1',
       wsd: 5.5,
       jlrdc: 9.7,
       jlswz: 3.2,
@@ -17807,7 +21752,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-02',
+      date: '2017/4/2',
       wsd: 5.8,
       jlrdc: 9.9,
       jlswz: 3.6,
@@ -17822,7 +21767,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-03',
+      date: '2017/4/3',
       wsd: 6.1,
       jlrdc: 9.9,
       jlswz: 3.9,
@@ -17837,7 +21782,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-04',
+      date: '2017/4/4',
       wsd: 6.7,
       jlrdc: 10.9,
       jlswz: 4.4,
@@ -17852,7 +21797,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-05',
+      date: '2017/4/5',
       wsd: 7.5,
       jlrdc: 11.2,
       jlswz: 4.8,
@@ -17867,7 +21812,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-06',
+      date: '2017/4/6',
       wsd: 7.9,
       jlrdc: 11.7,
       jlswz: 4.0,
@@ -17882,7 +21827,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-07',
+      date: '2017/4/7',
       wsd: 7.6,
       jlrdc: 11.0,
       jlswz: 3.1,
@@ -17897,7 +21842,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-08',
+      date: '2017/4/8',
       wsd: 5.7,
       jlrdc: 10.7,
       jlswz: 3.4,
@@ -17912,7 +21857,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-09',
+      date: '2017/4/9',
       wsd: 5.5,
       jlrdc: 10.6,
       jlswz: 3.4,
@@ -17927,7 +21872,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-10',
+      date: '2017/4/10',
       wsd: 5.5,
       jlrdc: 11.6,
       jlswz: 3.8,
@@ -17942,7 +21887,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-11',
+      date: '2017/4/11',
       wsd: 5.7,
       jlrdc: 11.9,
       jlswz: 3.5,
@@ -17957,7 +21902,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-12',
+      date: '2017/4/12',
       wsd: 5.0,
       jlrdc: 11.3,
       jlswz: 3.2,
@@ -17972,7 +21917,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-13',
+      date: '2017/4/13',
       wsd: 4.5,
       jlrdc: 12.2,
       jlswz: 3.7,
@@ -17987,7 +21932,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-14',
+      date: '2017/4/14',
       wsd: 5.4,
       jlrdc: 11.1,
       jlswz: 4.5,
@@ -18002,7 +21947,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-15',
+      date: '2017/4/15',
       wsd: 6.8,
       jlrdc: 10.6,
       jlswz: 5.3,
@@ -18017,7 +21962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-16',
+      date: '2017/4/16',
       wsd: 7.5,
       jlrdc: 11.4,
       jlswz: 5.9,
@@ -18032,7 +21977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-17',
+      date: '2017/4/17',
       wsd: 7.7,
       jlrdc: 12.7,
       jlswz: 5.0,
@@ -18047,7 +21992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-18',
+      date: '2017/4/18',
       wsd: 8.3,
       jlrdc: 12.2,
       jlswz: 4.6,
@@ -18062,7 +22007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-19',
+      date: '2017/4/19',
       wsd: 8.0,
       jlrdc: 12.0,
       jlswz: 5.0,
@@ -18077,7 +22022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-20',
+      date: '2017/4/20',
       wsd: 7.7,
       jlrdc: 12.6,
       jlswz: 4.8,
@@ -18092,7 +22037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-21',
+      date: '2017/4/21',
       wsd: 7.9,
       jlrdc: 12.1,
       jlswz: 4.6,
@@ -18107,7 +22052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-22',
+      date: '2017/4/22',
       wsd: 7.5,
       jlrdc: 12.1,
       jlswz: 5.3,
@@ -18122,7 +22067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-23',
+      date: '2017/4/23',
       wsd: 7.4,
       jlrdc: 13.2,
       jlswz: 4.9,
@@ -18137,7 +22082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-24',
+      date: '2017/4/24',
       wsd: 7.4,
       jlrdc: 12.4,
       jlswz: 4.1,
@@ -18152,7 +22097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-25',
+      date: '2017/4/25',
       wsd: 7.2,
       jlrdc: 12.2,
       jlswz: 4.5,
@@ -18167,7 +22112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-26',
+      date: '2017/4/26',
       wsd: 7.0,
       jlrdc: 12.4,
       jlswz: 5.0,
@@ -18182,7 +22127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-27',
+      date: '2017/4/27',
       wsd: 7.2,
       jlrdc: 12.5,
       jlswz: 5.4,
@@ -18197,7 +22142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-28',
+      date: '2017/4/28',
       wsd: 7.8,
       jlrdc: 12.6,
       jlswz: 5.3,
@@ -18212,7 +22157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-29',
+      date: '2017/4/29',
       wsd: 8.3,
       jlrdc: 12.7,
       jlswz: 5.8,
@@ -18227,7 +22172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-04-30',
+      date: '2017/4/30',
       wsd: 8.4,
       jlrdc: 12.1,
       jlswz: 5.8,
@@ -18242,7 +22187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-01',
+      date: '2017/5/1',
       wsd: 8.8,
       jlrdc: 11.9,
       jlswz: 5.9,
@@ -18257,7 +22202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-02',
+      date: '2017/5/2',
       wsd: 9.3,
       jlrdc: 14.0,
       jlswz: 6.8,
@@ -18272,7 +22217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-03',
+      date: '2017/5/3',
       wsd: 10.1,
       jlrdc: 16.3,
       jlswz: 8.0,
@@ -18287,7 +22232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-04',
+      date: '2017/5/4',
       wsd: 10.8,
       jlrdc: 15.5,
       jlswz: 7.6,
@@ -18302,7 +22247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-05',
+      date: '2017/5/5',
       wsd: 10.9,
       jlrdc: 14.1,
       jlswz: 6.9,
@@ -18317,7 +22262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-06',
+      date: '2017/5/6',
       wsd: 9.3,
       jlrdc: 11.7,
       jlswz: 6.3,
@@ -18332,7 +22277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-07',
+      date: '2017/5/7',
       wsd: 8.1,
       jlrdc: 11.7,
       jlswz: 5.8,
@@ -18347,7 +22292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-08',
+      date: '2017/5/8',
       wsd: 8.1,
       jlrdc: 13.8,
       jlswz: 6.6,
@@ -18362,7 +22307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-09',
+      date: '2017/5/9',
       wsd: 9.0,
       jlrdc: 13.6,
       jlswz: 8.0,
@@ -18377,7 +22322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-10',
+      date: '2017/5/10',
       wsd: 10.6,
       jlrdc: 14.6,
       jlswz: 8.6,
@@ -18392,7 +22337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-11',
+      date: '2017/5/11',
       wsd: 10.4,
       jlrdc: 14.7,
       jlswz: 8.4,
@@ -18407,7 +22352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-12',
+      date: '2017/5/12',
       wsd: 9.5,
       jlrdc: 14.2,
       jlswz: 8.0,
@@ -18422,7 +22367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-13',
+      date: '2017/5/13',
       wsd: 8.7,
       jlrdc: 13.7,
       jlswz: 8.1,
@@ -18437,7 +22382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-14',
+      date: '2017/5/14',
       wsd: 8.7,
       jlrdc: 13.6,
       jlswz: 7.8,
@@ -18452,7 +22397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-15',
+      date: '2017/5/15',
       wsd: 8.6,
       jlrdc: 13.1,
       jlswz: 7.7,
@@ -18467,7 +22412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-16',
+      date: '2017/5/16',
       wsd: 8.8,
       jlrdc: 13.3,
       jlswz: 8.1,
@@ -18482,7 +22427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-17',
+      date: '2017/5/17',
       wsd: 9.7,
       jlrdc: 14.2,
       jlswz: 9.0,
@@ -18497,7 +22442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-18',
+      date: '2017/5/18',
       wsd: 10.7,
       jlrdc: 15.4,
       jlswz: 10.0,
@@ -18512,7 +22457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-19',
+      date: '2017/5/19',
       wsd: 12.0,
       jlrdc: 16.0,
       jlswz: 10.9,
@@ -18527,7 +22472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-20',
+      date: '2017/5/20',
       wsd: 11.7,
       jlrdc: 16.2,
       jlswz: 10.3,
@@ -18542,7 +22487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-21',
+      date: '2017/5/21',
       wsd: 11.4,
       jlrdc: 15.7,
       jlswz: 10.2,
@@ -18557,7 +22502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-22',
+      date: '2017/5/22',
       wsd: 10.7,
       jlrdc: 15.8,
       jlswz: 9.4,
@@ -18572,7 +22517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-23',
+      date: '2017/5/23',
       wsd: 10.4,
       jlrdc: 16.0,
       jlswz: 9.7,
@@ -18587,7 +22532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-24',
+      date: '2017/5/24',
       wsd: 10.8,
       jlrdc: 16.4,
       jlswz: 9.8,
@@ -18602,7 +22547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-25',
+      date: '2017/5/25',
       wsd: 10.7,
       jlrdc: 15.2,
       jlswz: 9.7,
@@ -18617,7 +22562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-26',
+      date: '2017/5/26',
       wsd: 10.8,
       jlrdc: 15.4,
       jlswz: 9.8,
@@ -18632,7 +22577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-27',
+      date: '2017/5/27',
       wsd: 11.1,
       jlrdc: 15.6,
       jlswz: 10.4,
@@ -18647,7 +22592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-28',
+      date: '2017/5/28',
       wsd: 11.8,
       jlrdc: 16.0,
       jlswz: 11.3,
@@ -18662,7 +22607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-29',
+      date: '2017/5/29',
       wsd: 12.1,
       jlrdc: 15.6,
       jlswz: 11.5,
@@ -18677,7 +22622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-30',
+      date: '2017/5/30',
       wsd: 12.3,
       jlrdc: 15.6,
       jlswz: 11.6,
@@ -18692,7 +22637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-05-31',
+      date: '2017/5/31',
       wsd: 11.9,
       jlrdc: 15.5,
       jlswz: 11.0,
@@ -18707,7 +22652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-01',
+      date: '2017/6/1',
       wsd: 11.9,
       jlrdc: 16.1,
       jlswz: 11.7,
@@ -18722,7 +22667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-02',
+      date: '2017/6/2',
       wsd: 11.6,
       jlrdc: 16.4,
       jlswz: 10.6,
@@ -18737,7 +22682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-03',
+      date: '2017/6/3',
       wsd: 11.1,
       jlrdc: 15.9,
       jlswz: 10.8,
@@ -18752,7 +22697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-04',
+      date: '2017/6/4',
       wsd: 11.6,
       jlrdc: 16.6,
       jlswz: 11.6,
@@ -18767,7 +22712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-05',
+      date: '2017/6/5',
       wsd: 12.5,
       jlrdc: 16.9,
       jlswz: 12.2,
@@ -18782,7 +22727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-06',
+      date: '2017/6/6',
       wsd: 12.9,
       jlrdc: 17.1,
       jlswz: 12.4,
@@ -18797,7 +22742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-07',
+      date: '2017/6/7',
       wsd: 12.8,
       jlrdc: 16.5,
       jlswz: 12.4,
@@ -18812,7 +22757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-08',
+      date: '2017/6/8',
       wsd: 12.9,
       jlrdc: 17.1,
       jlswz: 12.1,
@@ -18827,7 +22772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-09',
+      date: '2017/6/9',
       wsd: 12.1,
       jlrdc: 16.5,
       jlswz: 10.9,
@@ -18842,7 +22787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-10',
+      date: '2017/6/10',
       wsd: 10.6,
       jlrdc: 14.4,
       jlswz: 9.8,
@@ -18857,7 +22802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-11',
+      date: '2017/6/11',
       wsd: 10.8,
       jlrdc: 15.1,
       jlswz: 10.9,
@@ -18872,7 +22817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-12',
+      date: '2017/6/12',
       wsd: 12.2,
       jlrdc: 17.3,
       jlswz: 11.5,
@@ -18887,7 +22832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-13',
+      date: '2017/6/13',
       wsd: 13.2,
       jlrdc: 18.3,
       jlswz: 11.9,
@@ -18902,7 +22847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-14',
+      date: '2017/6/14',
       wsd: 13.6,
       jlrdc: 18.4,
       jlswz: 11.9,
@@ -18917,7 +22862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-15',
+      date: '2017/6/15',
       wsd: 13.4,
       jlrdc: 17.3,
       jlswz: 12.9,
@@ -18932,7 +22877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-16',
+      date: '2017/6/16',
       wsd: 14.1,
       jlrdc: null,
       jlswz: null,
@@ -18947,7 +22892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-17',
+      date: '2017/6/17',
       wsd: 15.1,
       jlrdc: null,
       jlswz: null,
@@ -18962,7 +22907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-18',
+      date: '2017/6/18',
       wsd: 15.0,
       jlrdc: null,
       jlswz: null,
@@ -18977,7 +22922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-19',
+      date: '2017/6/19',
       wsd: 15.2,
       jlrdc: null,
       jlswz: null,
@@ -18992,7 +22937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-20',
+      date: '2017/6/20',
       wsd: 15.6,
       jlrdc: null,
       jlswz: null,
@@ -19007,7 +22952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-21',
+      date: '2017/6/21',
       wsd: 14.2,
       jlrdc: null,
       jlswz: null,
@@ -19022,7 +22967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-22',
+      date: '2017/6/22',
       wsd: 13.3,
       jlrdc: null,
       jlswz: null,
@@ -19037,7 +22982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-23',
+      date: '2017/6/23',
       wsd: 13.8,
       jlrdc: null,
       jlswz: null,
@@ -19052,7 +22997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-24',
+      date: '2017/6/24',
       wsd: 14.1,
       jlrdc: null,
       jlswz: null,
@@ -19067,7 +23012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-25',
+      date: '2017/6/25',
       wsd: 13.9,
       jlrdc: null,
       jlswz: null,
@@ -19082,7 +23027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-26',
+      date: '2017/6/26',
       wsd: 13.7,
       jlrdc: null,
       jlswz: null,
@@ -19097,7 +23042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-27',
+      date: '2017/6/27',
       wsd: 14.0,
       jlrdc: null,
       jlswz: null,
@@ -19112,7 +23057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-28',
+      date: '2017/6/28',
       wsd: 14.3,
       jlrdc: null,
       jlswz: null,
@@ -19127,7 +23072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-29',
+      date: '2017/6/29',
       wsd: 14.8,
       jlrdc: null,
       jlswz: null,
@@ -19142,7 +23087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-06-30',
+      date: '2017/6/30',
       wsd: 14.7,
       jlrdc: null,
       jlswz: null,
@@ -19157,7 +23102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-01',
+      date: '2017/7/1',
       wsd: 13.8,
       jlrdc: null,
       jlswz: null,
@@ -19172,7 +23117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-02',
+      date: '2017/7/2',
       wsd: 14.0,
       jlrdc: null,
       jlswz: null,
@@ -19187,7 +23132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-03',
+      date: '2017/7/3',
       wsd: 15.1,
       jlrdc: null,
       jlswz: null,
@@ -19202,7 +23147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-04',
+      date: '2017/7/4',
       wsd: 15.2,
       jlrdc: null,
       jlswz: null,
@@ -19217,7 +23162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-05',
+      date: '2017/7/5',
       wsd: 15.5,
       jlrdc: null,
       jlswz: null,
@@ -19232,7 +23177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-06',
+      date: '2017/7/6',
       wsd: 16.0,
       jlrdc: null,
       jlswz: null,
@@ -19247,7 +23192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-07',
+      date: '2017/7/7',
       wsd: 16.0,
       jlrdc: null,
       jlswz: null,
@@ -19262,7 +23207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-08',
+      date: '2017/7/8',
       wsd: 16.1,
       jlrdc: null,
       jlswz: null,
@@ -19277,7 +23222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-09',
+      date: '2017/7/9',
       wsd: 16.3,
       jlrdc: null,
       jlswz: null,
@@ -19292,7 +23237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-10',
+      date: '2017/7/10',
       wsd: 15.8,
       jlrdc: null,
       jlswz: null,
@@ -19307,7 +23252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-11',
+      date: '2017/7/11',
       wsd: 15.0,
       jlrdc: null,
       jlswz: null,
@@ -19322,7 +23267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-12',
+      date: '2017/7/12',
       wsd: 15.9,
       jlrdc: null,
       jlswz: null,
@@ -19337,7 +23282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-13',
+      date: '2017/7/13',
       wsd: 16.0,
       jlrdc: null,
       jlswz: null,
@@ -19352,7 +23297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-14',
+      date: '2017/7/14',
       wsd: 18.0,
       jlrdc: null,
       jlswz: null,
@@ -19367,7 +23312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-15',
+      date: '2017/7/15',
       wsd: 18.5,
       jlrdc: null,
       jlswz: null,
@@ -19382,7 +23327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-16',
+      date: '2017/7/16',
       wsd: 18.1,
       jlrdc: null,
       jlswz: null,
@@ -19397,7 +23342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-17',
+      date: '2017/7/17',
       wsd: 17.9,
       jlrdc: null,
       jlswz: null,
@@ -19412,7 +23357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-18',
+      date: '2017/7/18',
       wsd: 18.6,
       jlrdc: null,
       jlswz: null,
@@ -19427,7 +23372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-19',
+      date: '2017/7/19',
       wsd: 18.5,
       jlrdc: null,
       jlswz: null,
@@ -19442,7 +23387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-20',
+      date: '2017/7/20',
       wsd: 19.3,
       jlrdc: null,
       jlswz: null,
@@ -19457,7 +23402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-21',
+      date: '2017/7/21',
       wsd: 20.3,
       jlrdc: null,
       jlswz: null,
@@ -19472,7 +23417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-22',
+      date: '2017/7/22',
       wsd: 17.3,
       jlrdc: null,
       jlswz: null,
@@ -19487,7 +23432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-23',
+      date: '2017/7/23',
       wsd: 17.6,
       jlrdc: null,
       jlswz: null,
@@ -19502,7 +23447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-24',
+      date: '2017/7/24',
       wsd: 18.0,
       jlrdc: null,
       jlswz: null,
@@ -19517,7 +23462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-25',
+      date: '2017/7/25',
       wsd: 17.1,
       jlrdc: null,
       jlswz: null,
@@ -19532,7 +23477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-26',
+      date: '2017/7/26',
       wsd: 17.1,
       jlrdc: null,
       jlswz: null,
@@ -19547,7 +23492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-27',
+      date: '2017/7/27',
       wsd: 18.2,
       jlrdc: null,
       jlswz: null,
@@ -19562,7 +23507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-28',
+      date: '2017/7/28',
       wsd: 19.1,
       jlrdc: null,
       jlswz: null,
@@ -19577,7 +23522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-29',
+      date: '2017/7/29',
       wsd: 19.2,
       jlrdc: null,
       jlswz: null,
@@ -19592,7 +23537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-30',
+      date: '2017/7/30',
       wsd: 20.0,
       jlrdc: null,
       jlswz: null,
@@ -19607,7 +23552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-07-31',
+      date: '2017/7/31',
       wsd: 20.6,
       jlrdc: null,
       jlswz: null,
@@ -19622,7 +23567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-01',
+      date: '2017/8/1',
       wsd: 20.8,
       jlrdc: null,
       jlswz: null,
@@ -19637,7 +23582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-02',
+      date: '2017/8/2',
       wsd: 21.3,
       jlrdc: null,
       jlswz: null,
@@ -19652,7 +23597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-03',
+      date: '2017/8/3',
       wsd: 20.2,
       jlrdc: null,
       jlswz: null,
@@ -19667,7 +23612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-04',
+      date: '2017/8/4',
       wsd: 21.2,
       jlrdc: null,
       jlswz: null,
@@ -19682,7 +23627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-05',
+      date: '2017/8/5',
       wsd: 20.6,
       jlrdc: null,
       jlswz: null,
@@ -19697,7 +23642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-06',
+      date: '2017/8/6',
       wsd: 20.7,
       jlrdc: null,
       jlswz: null,
@@ -19712,7 +23657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-07',
+      date: '2017/8/7',
       wsd: 20.7,
       jlrdc: null,
       jlswz: null,
@@ -19727,7 +23672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-08',
+      date: '2017/8/8',
       wsd: 20.8,
       jlrdc: null,
       jlswz: null,
@@ -19742,7 +23687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-09',
+      date: '2017/8/9',
       wsd: 21.0,
       jlrdc: null,
       jlswz: null,
@@ -19757,7 +23702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-10',
+      date: '2017/8/10',
       wsd: 21.4,
       jlrdc: null,
       jlswz: null,
@@ -19772,7 +23717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-11',
+      date: '2017/8/11',
       wsd: 20.7,
       jlrdc: null,
       jlswz: null,
@@ -19787,7 +23732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-12',
+      date: '2017/8/12',
       wsd: 20.3,
       jlrdc: null,
       jlswz: null,
@@ -19802,7 +23747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-13',
+      date: '2017/8/13',
       wsd: 20.3,
       jlrdc: null,
       jlswz: null,
@@ -19817,7 +23762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-14',
+      date: '2017/8/14',
       wsd: 20.6,
       jlrdc: null,
       jlswz: null,
@@ -19832,7 +23777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-15',
+      date: '2017/8/15',
       wsd: 20.5,
       jlrdc: null,
       jlswz: null,
@@ -19847,7 +23792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-16',
+      date: '2017/8/16',
       wsd: 20.5,
       jlrdc: null,
       jlswz: null,
@@ -19862,7 +23807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-17',
+      date: '2017/8/17',
       wsd: 21.0,
       jlrdc: null,
       jlswz: null,
@@ -19877,7 +23822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-18',
+      date: '2017/8/18',
       wsd: 21.4,
       jlrdc: null,
       jlswz: null,
@@ -19892,7 +23837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-19',
+      date: '2017/8/19',
       wsd: 22.3,
       jlrdc: null,
       jlswz: null,
@@ -19907,7 +23852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-20',
+      date: '2017/8/20',
       wsd: 22.5,
       jlrdc: null,
       jlswz: null,
@@ -19922,7 +23867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-21',
+      date: '2017/8/21',
       wsd: 22.9,
       jlrdc: null,
       jlswz: null,
@@ -19937,7 +23882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-22',
+      date: '2017/8/22',
       wsd: 22.6,
       jlrdc: null,
       jlswz: null,
@@ -19952,7 +23897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-23',
+      date: '2017/8/23',
       wsd: 22.0,
       jlrdc: null,
       jlswz: null,
@@ -19967,7 +23912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-24',
+      date: '2017/8/24',
       wsd: 21.7,
       jlrdc: null,
       jlswz: null,
@@ -19982,7 +23927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-25',
+      date: '2017/8/25',
       wsd: 20.4,
       jlrdc: null,
       jlswz: null,
@@ -19997,7 +23942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-26',
+      date: '2017/8/26',
       wsd: 19.5,
       jlrdc: null,
       jlswz: null,
@@ -20012,7 +23957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-27',
+      date: '2017/8/27',
       wsd: 19.2,
       jlrdc: null,
       jlswz: null,
@@ -20027,7 +23972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-28',
+      date: '2017/8/28',
       wsd: 18.5,
       jlrdc: null,
       jlswz: null,
@@ -20042,7 +23987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-29',
+      date: '2017/8/29',
       wsd: 17.8,
       jlrdc: null,
       jlswz: null,
@@ -20057,7 +24002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-30',
+      date: '2017/8/30',
       wsd: 17.4,
       jlrdc: null,
       jlswz: null,
@@ -20072,7 +24017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-08-31',
+      date: '2017/8/31',
       wsd: 17.2,
       jlrdc: null,
       jlswz: null,
@@ -20087,7 +24032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-01',
+      date: '2017/9/1',
       wsd: 18.1,
       jlrdc: null,
       jlswz: null,
@@ -20102,7 +24047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-02',
+      date: '2017/9/2',
       wsd: 18.8,
       jlrdc: null,
       jlswz: null,
@@ -20117,7 +24062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-03',
+      date: '2017/9/3',
       wsd: 19.7,
       jlrdc: null,
       jlswz: null,
@@ -20132,7 +24077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-04',
+      date: '2017/9/4',
       wsd: 19.7,
       jlrdc: null,
       jlswz: null,
@@ -20147,7 +24092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-05',
+      date: '2017/9/5',
       wsd: 19.9,
       jlrdc: null,
       jlswz: null,
@@ -20162,7 +24107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-06',
+      date: '2017/9/6',
       wsd: 20.0,
       jlrdc: null,
       jlswz: null,
@@ -20177,7 +24122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-07',
+      date: '2017/9/7',
       wsd: 19.9,
       jlrdc: null,
       jlswz: null,
@@ -20192,7 +24137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-08',
+      date: '2017/9/8',
       wsd: 19.7,
       jlrdc: null,
       jlswz: null,
@@ -20207,7 +24152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-09',
+      date: '2017/9/9',
       wsd: 19.7,
       jlrdc: null,
       jlswz: null,
@@ -20222,7 +24167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-10',
+      date: '2017/9/10',
       wsd: 19.5,
       jlrdc: null,
       jlswz: null,
@@ -20237,7 +24182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-11',
+      date: '2017/9/11',
       wsd: 19.1,
       jlrdc: null,
       jlswz: null,
@@ -20252,7 +24197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-12',
+      date: '2017/9/12',
       wsd: 18.4,
       jlrdc: null,
       jlswz: null,
@@ -20267,7 +24212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-13',
+      date: '2017/9/13',
       wsd: 18.3,
       jlrdc: null,
       jlswz: null,
@@ -20282,7 +24227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-14',
+      date: '2017/9/14',
       wsd: 18.3,
       jlrdc: null,
       jlswz: null,
@@ -20297,7 +24242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-15',
+      date: '2017/9/15',
       wsd: 17.9,
       jlrdc: null,
       jlswz: null,
@@ -20312,7 +24257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-16',
+      date: '2017/9/16',
       wsd: 18.6,
       jlrdc: null,
       jlswz: null,
@@ -20327,7 +24272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-17',
+      date: '2017/9/17',
       wsd: 18.8,
       jlrdc: null,
       jlswz: null,
@@ -20342,7 +24287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-18',
+      date: '2017/9/18',
       wsd: 19.2,
       jlrdc: null,
       jlswz: null,
@@ -20357,7 +24302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-19',
+      date: '2017/9/19',
       wsd: 19.2,
       jlrdc: null,
       jlswz: null,
@@ -20372,7 +24317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-20',
+      date: '2017/9/20',
       wsd: 19.2,
       jlrdc: null,
       jlswz: null,
@@ -20387,7 +24332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-21',
+      date: '2017/9/21',
       wsd: 19.2,
       jlrdc: null,
       jlswz: null,
@@ -20402,7 +24347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-22',
+      date: '2017/9/22',
       wsd: 18.2,
       jlrdc: null,
       jlswz: null,
@@ -20417,7 +24362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-23',
+      date: '2017/9/23',
       wsd: 18.0,
       jlrdc: null,
       jlswz: null,
@@ -20432,7 +24377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-24',
+      date: '2017/9/24',
       wsd: 17.9,
       jlrdc: 21.9,
       jlswz: 18.7,
@@ -20447,7 +24392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-25',
+      date: '2017/9/25',
       wsd: 17.6,
       jlrdc: 22.8,
       jlswz: 18.4,
@@ -20462,7 +24407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-26',
+      date: '2017/9/26',
       wsd: 16.9,
       jlrdc: 23.1,
       jlswz: 17.9,
@@ -20477,7 +24422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-27',
+      date: '2017/9/27',
       wsd: 16.5,
       jlrdc: 21.4,
       jlswz: 17.0,
@@ -20492,7 +24437,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-28',
+      date: '2017/9/28',
       wsd: 15.6,
       jlrdc: 20.4,
       jlswz: 16.3,
@@ -20507,7 +24452,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-29',
+      date: '2017/9/29',
       wsd: 14.7,
       jlrdc: 19.5,
       jlswz: 15.7,
@@ -20522,7 +24467,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-09-30',
+      date: '2017/9/30',
       wsd: 14.4,
       jlrdc: 20.4,
       jlswz: 15.3,
@@ -20537,7 +24482,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-01',
+      date: '2017/10/1',
       wsd: 14.4,
       jlrdc: 20.3,
       jlswz: 15.8,
@@ -20552,7 +24497,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-02',
+      date: '2017/10/2',
       wsd: 13.8,
       jlrdc: 19.2,
       jlswz: 15.5,
@@ -20567,7 +24512,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-03',
+      date: '2017/10/3',
       wsd: 13.5,
       jlrdc: 19.2,
       jlswz: 14.8,
@@ -20582,7 +24527,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-04',
+      date: '2017/10/4',
       wsd: 13.2,
       jlrdc: 18.3,
       jlswz: 14.8,
@@ -20597,7 +24542,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-05',
+      date: '2017/10/5',
       wsd: 13.4,
       jlrdc: 19.1,
       jlswz: 15.1,
@@ -20612,7 +24557,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-06',
+      date: '2017/10/6',
       wsd: 13.5,
       jlrdc: 20.3,
       jlswz: 15.5,
@@ -20627,7 +24572,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-07',
+      date: '2017/10/7',
       wsd: 13.7,
       jlrdc: 20.2,
       jlswz: 16.1,
@@ -20642,7 +24587,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-08',
+      date: '2017/10/8',
       wsd: 14.6,
       jlrdc: 20.6,
       jlswz: 16.7,
@@ -20657,7 +24602,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-09',
+      date: '2017/10/9',
       wsd: 14.8,
       jlrdc: 20.2,
       jlswz: 16.2,
@@ -20672,7 +24617,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-10',
+      date: '2017/10/10',
       wsd: 14.4,
       jlrdc: 19.5,
       jlswz: 14.8,
@@ -20687,7 +24632,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-11',
+      date: '2017/10/11',
       wsd: 14.3,
       jlrdc: 18.7,
       jlswz: 14.2,
@@ -20702,7 +24647,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-12',
+      date: '2017/10/12',
       wsd: 13.4,
       jlrdc: 18.5,
       jlswz: 13.9,
@@ -20717,7 +24662,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-13',
+      date: '2017/10/13',
       wsd: 12.7,
       jlrdc: 20.5,
       jlswz: 13.7,
@@ -20732,7 +24677,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-14',
+      date: '2017/10/14',
       wsd: 12.1,
       jlrdc: 20.2,
       jlswz: 13.6,
@@ -20747,7 +24692,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-15',
+      date: '2017/10/15',
       wsd: 11.9,
       jlrdc: 20.7,
       jlswz: 13.3,
@@ -20762,7 +24707,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-16',
+      date: '2017/10/16',
       wsd: 12.2,
       jlrdc: 20.6,
       jlswz: 13.6,
@@ -20777,7 +24722,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-17',
+      date: '2017/10/17',
       wsd: 11.8,
       jlrdc: 20.3,
       jlswz: 13.0,
@@ -20792,7 +24737,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-18',
+      date: '2017/10/18',
       wsd: 11.9,
       jlrdc: 19.4,
       jlswz: 12.6,
@@ -20807,7 +24752,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-19',
+      date: '2017/10/19',
       wsd: 12.0,
       jlrdc: 18.9,
       jlswz: 13.0,
@@ -20822,7 +24767,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-20',
+      date: '2017/10/20',
       wsd: 11.9,
       jlrdc: 18.5,
       jlswz: 13.2,
@@ -20837,7 +24782,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-21',
+      date: '2017/10/21',
       wsd: 11.6,
       jlrdc: 18.4,
       jlswz: 13.0,
@@ -20852,7 +24797,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-22',
+      date: '2017/10/22',
       wsd: 11.0,
       jlrdc: 17.4,
       jlswz: 11.8,
@@ -20867,7 +24812,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-23',
+      date: '2017/10/23',
       wsd: 10.4,
       jlrdc: 16.8,
       jlswz: 11.3,
@@ -20882,7 +24827,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-24',
+      date: '2017/10/24',
       wsd: 10.1,
       jlrdc: 16.7,
       jlswz: 11.2,
@@ -20897,7 +24842,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-25',
+      date: '2017/10/25',
       wsd: 10.0,
       jlrdc: 17.3,
       jlswz: 11.7,
@@ -20912,7 +24857,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-26',
+      date: '2017/10/26',
       wsd: 10.2,
       jlrdc: 17.3,
       jlswz: 12.0,
@@ -20927,7 +24872,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-27',
+      date: '2017/10/27',
       wsd: 11.0,
       jlrdc: 17.8,
       jlswz: 12.4,
@@ -20942,7 +24887,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-28',
+      date: '2017/10/28',
       wsd: 11.3,
       jlrdc: 19.3,
       jlswz: 12.3,
@@ -20957,7 +24902,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-29',
+      date: '2017/10/29',
       wsd: 10.8,
       jlrdc: 17.3,
       jlswz: 11.0,
@@ -20972,7 +24917,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-30',
+      date: '2017/10/30',
       wsd: 10.2,
       jlrdc: 16.6,
       jlswz: 10.2,
@@ -20987,7 +24932,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-10-31',
+      date: '2017/10/31',
       wsd: 9.6,
       jlrdc: 17.3,
       jlswz: 10.3,
@@ -21002,7 +24947,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-01',
+      date: '2017/11/1',
       wsd: 9.4,
       jlrdc: 19.5,
       jlswz: 10.9,
@@ -21017,7 +24962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-02',
+      date: '2017/11/2',
       wsd: 9.0,
       jlrdc: 18.7,
       jlswz: 10.4,
@@ -21032,7 +24977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-03',
+      date: '2017/11/3',
       wsd: 8.8,
       jlrdc: 17.9,
       jlswz: 9.5,
@@ -21047,7 +24992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-04',
+      date: '2017/11/4',
       wsd: 8.3,
       jlrdc: 17.7,
       jlswz: 9.0,
@@ -21062,7 +25007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-05',
+      date: '2017/11/5',
       wsd: 8.0,
       jlrdc: 18.8,
       jlswz: 9.3,
@@ -21077,7 +25022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-06',
+      date: '2017/11/6',
       wsd: 8.0,
       jlrdc: 18.1,
       jlswz: 9.9,
@@ -21092,7 +25037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-07',
+      date: '2017/11/7',
       wsd: 8.5,
       jlrdc: 18.0,
       jlswz: 10.5,
@@ -21107,7 +25052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-08',
+      date: '2017/11/8',
       wsd: 8.9,
       jlrdc: 15.8,
       jlswz: 9.9,
@@ -21122,7 +25067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-09',
+      date: '2017/11/9',
       wsd: 9.2,
       jlrdc: 15.6,
       jlswz: 8.9,
@@ -21137,7 +25082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-10',
+      date: '2017/11/10',
       wsd: 8.9,
       jlrdc: 16.1,
       jlswz: 8.9,
@@ -21152,7 +25097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-11',
+      date: '2017/11/11',
       wsd: 7.8,
       jlrdc: 15.5,
       jlswz: 8.0,
@@ -21167,7 +25112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-12',
+      date: '2017/11/12',
       wsd: 7.4,
       jlrdc: 15.5,
       jlswz: 7.9,
@@ -21182,7 +25127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-13',
+      date: '2017/11/13',
       wsd: 7.0,
       jlrdc: 16.6,
       jlswz: 8.1,
@@ -21197,7 +25142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-14',
+      date: '2017/11/14',
       wsd: 6.1,
       jlrdc: 15.1,
       jlswz: 7.2,
@@ -21212,7 +25157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-15',
+      date: '2017/11/15',
       wsd: 5.4,
       jlrdc: 13.8,
       jlswz: 6.4,
@@ -21227,7 +25172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-16',
+      date: '2017/11/16',
       wsd: 4.6,
       jlrdc: 13.7,
       jlswz: 6.4,
@@ -21242,7 +25187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-17',
+      date: '2017/11/17',
       wsd: 4.0,
       jlrdc: 14.3,
       jlswz: 6.5,
@@ -21257,7 +25202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-18',
+      date: '2017/11/18',
       wsd: 3.6,
       jlrdc: 13.1,
       jlswz: 5.7,
@@ -21272,7 +25217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-19',
+      date: '2017/11/19',
       wsd: 3.5,
       jlrdc: 13.7,
       jlswz: 5.3,
@@ -21287,7 +25232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-20',
+      date: '2017/11/20',
       wsd: 3.2,
       jlrdc: 13.1,
       jlswz: 5.2,
@@ -21302,7 +25247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-21',
+      date: '2017/11/21',
       wsd: 3.1,
       jlrdc: 13.5,
       jlswz: 5.2,
@@ -21317,7 +25262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-22',
+      date: '2017/11/22',
       wsd: 3.0,
       jlrdc: 13.8,
       jlswz: 5.3,
@@ -21332,7 +25277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-23',
+      date: '2017/11/23',
       wsd: 2.9,
       jlrdc: 13.1,
       jlswz: 5.0,
@@ -21347,7 +25292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-24',
+      date: '2017/11/24',
       wsd: 2.7,
       jlrdc: 12.8,
       jlswz: 4.7,
@@ -21362,7 +25307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-25',
+      date: '2017/11/25',
       wsd: 2.6,
       jlrdc: 12.8,
       jlswz: 4.6,
@@ -21377,7 +25322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-26',
+      date: '2017/11/26',
       wsd: 2.5,
       jlrdc: 12.3,
       jlswz: 4.4,
@@ -21392,7 +25337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-27',
+      date: '2017/11/27',
       wsd: 2.4,
       jlrdc: 13.1,
       jlswz: 4.2,
@@ -21407,7 +25352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-28',
+      date: '2017/11/28',
       wsd: 2.3,
       jlrdc: 13.6,
       jlswz: 4.4,
@@ -21422,7 +25367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-29',
+      date: '2017/11/29',
       wsd: 2.2,
       jlrdc: 12.6,
       jlswz: 3.4,
@@ -21437,7 +25382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-11-30',
+      date: '2017/11/30',
       wsd: 2.0,
       jlrdc: 12.4,
       jlswz: 2.9,
@@ -21452,7 +25397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-01',
+      date: '2017/12/1',
       wsd: 1.9,
       jlrdc: 13.0,
       jlswz: 3.2,
@@ -21467,7 +25412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-02',
+      date: '2017/12/2',
       wsd: 1.8,
       jlrdc: 12.9,
       jlswz: 3.4,
@@ -21482,7 +25427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-03',
+      date: '2017/12/3',
       wsd: 1.7,
       jlrdc: 12.9,
       jlswz: 3.6,
@@ -21497,7 +25442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-04',
+      date: '2017/12/4',
       wsd: 1.6,
       jlrdc: 13.7,
       jlswz: 3.2,
@@ -21512,7 +25457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-05',
+      date: '2017/12/5',
       wsd: 1.5,
       jlrdc: 12.8,
       jlswz: 2.9,
@@ -21527,7 +25472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-06',
+      date: '2017/12/6',
       wsd: 1.3,
       jlrdc: 12.5,
       jlswz: 2.9,
@@ -21542,7 +25487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-07',
+      date: '2017/12/7',
       wsd: 1.2,
       jlrdc: 13.2,
       jlswz: 2.7,
@@ -21557,7 +25502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-08',
+      date: '2017/12/8',
       wsd: 1.1,
       jlrdc: 13.1,
       jlswz: 2.3,
@@ -21572,7 +25517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-09',
+      date: '2017/12/9',
       wsd: 1.0,
       jlrdc: 12.9,
       jlswz: 2.6,
@@ -21587,7 +25532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-10',
+      date: '2017/12/10',
       wsd: 0.9,
       jlrdc: 12.5,
       jlswz: 2.6,
@@ -21602,7 +25547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-11',
+      date: '2017/12/11',
       wsd: 0.8,
       jlrdc: 12.1,
       jlswz: 1.4,
@@ -21617,7 +25562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-12',
+      date: '2017/12/12',
       wsd: 0.6,
       jlrdc: 12.2,
       jlswz: 1.1,
@@ -21632,7 +25577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-13',
+      date: '2017/12/13',
       wsd: 0.5,
       jlrdc: 13.2,
       jlswz: 1.4,
@@ -21647,7 +25592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-14',
+      date: '2017/12/14',
       wsd: 0.4,
       jlrdc: 13.9,
       jlswz: 1.6,
@@ -21662,7 +25607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-15',
+      date: '2017/12/15',
       wsd: 0.4,
       jlrdc: 12.9,
       jlswz: 1.4,
@@ -21677,7 +25622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-16',
+      date: '2017/12/16',
       wsd: 0.4,
       jlrdc: 10.7,
       jlswz: 0.9,
@@ -21692,7 +25637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-17',
+      date: '2017/12/17',
       wsd: 0.4,
       jlrdc: 9.6,
       jlswz: 0.9,
@@ -21707,7 +25652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-18',
+      date: '2017/12/18',
       wsd: 0.4,
       jlrdc: 9.2,
       jlswz: 1.3,
@@ -21722,7 +25667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-19',
+      date: '2017/12/19',
       wsd: 0.4,
       jlrdc: 9.2,
       jlswz: 1.0,
@@ -21737,7 +25682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-20',
+      date: '2017/12/20',
       wsd: 0.4,
       jlrdc: 9.9,
       jlswz: 1.1,
@@ -21752,7 +25697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-21',
+      date: '2017/12/21',
       wsd: 0.4,
       jlrdc: 10.2,
       jlswz: 1.2,
@@ -21767,7 +25712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-22',
+      date: '2017/12/22',
       wsd: 0.4,
       jlrdc: 10.5,
       jlswz: 1.5,
@@ -21782,7 +25727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-23',
+      date: '2017/12/23',
       wsd: 0.4,
       jlrdc: 9.6,
       jlswz: 1.4,
@@ -21797,7 +25742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-24',
+      date: '2017/12/24',
       wsd: 0.4,
       jlrdc: 10.1,
       jlswz: 1.3,
@@ -21812,7 +25757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-25',
+      date: '2017/12/25',
       wsd: 0.4,
       jlrdc: 9.4,
       jlswz: 1.0,
@@ -21827,7 +25772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-26',
+      date: '2017/12/26',
       wsd: 0.4,
       jlrdc: 9.1,
       jlswz: 0.8,
@@ -21842,7 +25787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-27',
+      date: '2017/12/27',
       wsd: 0.4,
       jlrdc: 8.6,
       jlswz: 0.8,
@@ -21857,7 +25802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-28',
+      date: '2017/12/28',
       wsd: 0.4,
       jlrdc: 9.8,
       jlswz: 1.0,
@@ -21872,7 +25817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-29',
+      date: '2017/12/29',
       wsd: 0.4,
       jlrdc: 9.1,
       jlswz: 0.8,
@@ -21887,7 +25832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-30',
+      date: '2017/12/30',
       wsd: 0.4,
       jlrdc: 8.8,
       jlswz: 1.0,
@@ -21902,7 +25847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2017-12-31',
+      date: '2017/12/31',
       wsd: 0.4,
       jlrdc: 9.0,
       jlswz: 1.5,
@@ -21917,7 +25862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-01',
+      date: '2018/1/1',
       wsd: 0.4,
       jlrdc: 10.1,
       jlswz: 1.2,
@@ -21932,7 +25877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-02',
+      date: '2018/1/2',
       wsd: 0.4,
       jlrdc: 9.0,
       jlswz: 0.9,
@@ -21947,7 +25892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-03',
+      date: '2018/1/3',
       wsd: 0.4,
       jlrdc: 10.2,
       jlswz: 1.2,
@@ -21962,7 +25907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-04',
+      date: '2018/1/4',
       wsd: 0.3,
       jlrdc: 9.9,
       jlswz: 1.2,
@@ -21977,7 +25922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-05',
+      date: '2018/1/5',
       wsd: 0.1,
       jlrdc: 10.0,
       jlswz: 1.1,
@@ -21992,7 +25937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-06',
+      date: '2018/1/6',
       wsd: 0.1,
       jlrdc: 9.7,
       jlswz: 1.1,
@@ -22007,7 +25952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-07',
+      date: '2018/1/7',
       wsd: 0.1,
       jlrdc: 10.2,
       jlswz: 1.4,
@@ -22022,7 +25967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-08',
+      date: '2018/1/8',
       wsd: 0.1,
       jlrdc: 11.3,
       jlswz: 1.6,
@@ -22037,7 +25982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-09',
+      date: '2018/1/9',
       wsd: 0.1,
       jlrdc: 10.5,
       jlswz: 1.5,
@@ -22052,7 +25997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-10',
+      date: '2018/1/10',
       wsd: 0.2,
       jlrdc: 9.6,
       jlswz: 0.8,
@@ -22067,7 +26012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-11',
+      date: '2018/1/11',
       wsd: 0.2,
       jlrdc: 9.3,
       jlswz: 0.5,
@@ -22082,7 +26027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-12',
+      date: '2018/1/12',
       wsd: 0.2,
       jlrdc: 9.8,
       jlswz: 0.6,
@@ -22097,7 +26042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-13',
+      date: '2018/1/13',
       wsd: 0.2,
       jlrdc: 8.6,
       jlswz: 0.6,
@@ -22112,7 +26057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-14',
+      date: '2018/1/14',
       wsd: 0.2,
       jlrdc: 9.2,
       jlswz: 1.1,
@@ -22127,7 +26072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-15',
+      date: '2018/1/15',
       wsd: 0.3,
       jlrdc: 8.7,
       jlswz: 1.5,
@@ -22142,7 +26087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-16',
+      date: '2018/1/16',
       wsd: 0.3,
       jlrdc: 10.3,
       jlswz: 1.7,
@@ -22157,7 +26102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-17',
+      date: '2018/1/17',
       wsd: 0.2,
       jlrdc: 9.9,
       jlswz: 1.5,
@@ -22172,7 +26117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-18',
+      date: '2018/1/18',
       wsd: 0.0,
       jlrdc: 10.3,
       jlswz: 1.4,
@@ -22187,7 +26132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-19',
+      date: '2018/1/19',
       wsd: 0.0,
       jlrdc: 9.6,
       jlswz: 1.5,
@@ -22202,7 +26147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-20',
+      date: '2018/1/20',
       wsd: 0.0,
       jlrdc: 9.7,
       jlswz: 1.2,
@@ -22217,7 +26162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-21',
+      date: '2018/1/21',
       wsd: 0.0,
       jlrdc: 9.3,
       jlswz: 1.0,
@@ -22232,7 +26177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-22',
+      date: '2018/1/22',
       wsd: 0.0,
       jlrdc: 8.9,
       jlswz: 0.9,
@@ -22247,7 +26192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-23',
+      date: '2018/1/23',
       wsd: 0.0,
       jlrdc: 8.3,
       jlswz: 0.6,
@@ -22262,7 +26207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-24',
+      date: '2018/1/24',
       wsd: 0.0,
       jlrdc: 9.4,
       jlswz: 0.5,
@@ -22277,7 +26222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-25',
+      date: '2018/1/25',
       wsd: 0.0,
       jlrdc: 9.1,
       jlswz: 0.5,
@@ -22292,7 +26237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-26',
+      date: '2018/1/26',
       wsd: 0.0,
       jlrdc: 9.1,
       jlswz: 0.5,
@@ -22307,7 +26252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-27',
+      date: '2018/1/27',
       wsd: 0.0,
       jlrdc: 9.7,
       jlswz: 0.6,
@@ -22322,7 +26267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-28',
+      date: '2018/1/28',
       wsd: 0.0,
       jlrdc: 8.8,
       jlswz: 0.7,
@@ -22337,7 +26282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-29',
+      date: '2018/1/29',
       wsd: 0.0,
       jlrdc: 9.6,
       jlswz: 0.8,
@@ -22352,7 +26297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-30',
+      date: '2018/1/30',
       wsd: 0.0,
       jlrdc: 9.9,
       jlswz: 0.8,
@@ -22367,7 +26312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-01-31',
+      date: '2018/1/31',
       wsd: 0.0,
       jlrdc: 9.4,
       jlswz: 1.1,
@@ -22382,7 +26327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-01',
+      date: '2018/2/1',
       wsd: 0.0,
       jlrdc: 9.4,
       jlswz: 1.3,
@@ -22397,7 +26342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-02',
+      date: '2018/2/2',
       wsd: 0.0,
       jlrdc: 9.2,
       jlswz: 1.2,
@@ -22412,7 +26357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-03',
+      date: '2018/2/3',
       wsd: 0.1,
       jlrdc: 9.2,
       jlswz: 1.1,
@@ -22427,7 +26372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-04',
+      date: '2018/2/4',
       wsd: 0.1,
       jlrdc: 8.9,
       jlswz: 1.0,
@@ -22442,7 +26387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-05',
+      date: '2018/2/5',
       wsd: 0.1,
       jlrdc: 9.5,
       jlswz: 0.9,
@@ -22457,7 +26402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-06',
+      date: '2018/2/6',
       wsd: 0.1,
       jlrdc: 9.8,
       jlswz: 0.8,
@@ -22472,7 +26417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-07',
+      date: '2018/2/7',
       wsd: 0.1,
       jlrdc: 10.4,
       jlswz: 0.9,
@@ -22487,7 +26432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-08',
+      date: '2018/2/8',
       wsd: 0.1,
       jlrdc: 9.3,
       jlswz: 1.0,
@@ -22502,7 +26447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-09',
+      date: '2018/2/9',
       wsd: 0.1,
       jlrdc: 10.6,
       jlswz: 1.2,
@@ -22517,7 +26462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-10',
+      date: '2018/2/10',
       wsd: 0.1,
       jlrdc: 8.8,
       jlswz: 1.3,
@@ -22532,7 +26477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-11',
+      date: '2018/2/11',
       wsd: 0.1,
       jlrdc: 9.3,
       jlswz: 0.8,
@@ -22547,7 +26492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-12',
+      date: '2018/2/12',
       wsd: 0.1,
       jlrdc: 9.0,
       jlswz: 0.8,
@@ -22562,7 +26507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-13',
+      date: '2018/2/13',
       wsd: 0.1,
       jlrdc: 10.1,
       jlswz: 1.3,
@@ -22577,7 +26522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-14',
+      date: '2018/2/14',
       wsd: 0.1,
       jlrdc: 9.9,
       jlswz: 1.6,
@@ -22592,7 +26537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-15',
+      date: '2018/2/15',
       wsd: 0.1,
       jlrdc: 9.7,
       jlswz: 1.3,
@@ -22607,7 +26552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-16',
+      date: '2018/2/16',
       wsd: 0.1,
       jlrdc: 10.0,
       jlswz: 1.4,
@@ -22622,7 +26567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-17',
+      date: '2018/2/17',
       wsd: 0.1,
       jlrdc: 9.8,
       jlswz: 1.2,
@@ -22637,7 +26582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-18',
+      date: '2018/2/18',
       wsd: 0.1,
       jlrdc: 8.6,
       jlswz: 1.2,
@@ -22652,7 +26597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-19',
+      date: '2018/2/19',
       wsd: 0.1,
       jlrdc: 9.5,
       jlswz: 1.2,
@@ -22667,7 +26612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-20',
+      date: '2018/2/20',
       wsd: 0.1,
       jlrdc: 9.5,
       jlswz: 1.4,
@@ -22682,7 +26627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-21',
+      date: '2018/2/21',
       wsd: 0.1,
       jlrdc: 8.9,
       jlswz: 1.4,
@@ -22697,7 +26642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-22',
+      date: '2018/2/22',
       wsd: 0.1,
       jlrdc: 9.3,
       jlswz: 1.6,
@@ -22712,7 +26657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-23',
+      date: '2018/2/23',
       wsd: 0.1,
       jlrdc: 9.2,
       jlswz: 1.4,
@@ -22727,7 +26672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-24',
+      date: '2018/2/24',
       wsd: 0.1,
       jlrdc: 8.2,
       jlswz: 1.2,
@@ -22742,7 +26687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-25',
+      date: '2018/2/25',
       wsd: 0.1,
       jlrdc: 8.7,
       jlswz: 1.5,
@@ -22757,7 +26702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-26',
+      date: '2018/2/26',
       wsd: 0.1,
       jlrdc: 8.7,
       jlswz: 1.4,
@@ -22772,7 +26717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-27',
+      date: '2018/2/27',
       wsd: 0.1,
       jlrdc: 9.8,
       jlswz: 1.6,
@@ -22787,7 +26732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-02-28',
+      date: '2018/2/28',
       wsd: 0.0,
       jlrdc: 9.2,
       jlswz: 1.6,
@@ -22802,7 +26747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-01',
+      date: '2018/3/1',
       wsd: 0.3,
       jlrdc: 9.8,
       jlswz: 1.1,
@@ -22817,7 +26762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-02',
+      date: '2018/3/2',
       wsd: 0.4,
       jlrdc: 9.2,
       jlswz: 1.2,
@@ -22832,7 +26777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-03',
+      date: '2018/3/3',
       wsd: 0.5,
       jlrdc: 10.9,
       jlswz: 1.6,
@@ -22847,7 +26792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-04',
+      date: '2018/3/4',
       wsd: 0.5,
       jlrdc: 11.5,
       jlswz: 1.6,
@@ -22862,7 +26807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-05',
+      date: '2018/3/5',
       wsd: 0.5,
       jlrdc: 10.0,
       jlswz: 1.5,
@@ -22877,7 +26822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-06',
+      date: '2018/3/6',
       wsd: 0.6,
       jlrdc: 8.8,
       jlswz: 1.4,
@@ -22892,7 +26837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-07',
+      date: '2018/3/7',
       wsd: 0.6,
       jlrdc: 8.2,
       jlswz: 1.2,
@@ -22907,7 +26852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-08',
+      date: '2018/3/8',
       wsd: 0.5,
       jlrdc: 8.4,
       jlswz: 1.2,
@@ -22922,7 +26867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-09',
+      date: '2018/3/9',
       wsd: 0.5,
       jlrdc: 8.4,
       jlswz: 1.5,
@@ -22937,7 +26882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-10',
+      date: '2018/3/10',
       wsd: 0.5,
       jlrdc: 8.9,
       jlswz: 1.8,
@@ -22952,7 +26897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-11',
+      date: '2018/3/11',
       wsd: 0.4,
       jlrdc: 8.6,
       jlswz: 1.9,
@@ -22967,7 +26912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-12',
+      date: '2018/3/12',
       wsd: 0.4,
       jlrdc: 8.6,
       jlswz: 2.2,
@@ -22982,7 +26927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-13',
+      date: '2018/3/13',
       wsd: 0.7,
       jlrdc: 9.5,
       jlswz: 2.4,
@@ -22997,7 +26942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-14',
+      date: '2018/3/14',
       wsd: 0.9,
       jlrdc: 9.6,
       jlswz: 1.7,
@@ -23012,7 +26957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-15',
+      date: '2018/3/15',
       wsd: 0.5,
       jlrdc: 9.7,
       jlswz: 1.7,
@@ -23027,7 +26972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-16',
+      date: '2018/3/16',
       wsd: 0.7,
       jlrdc: 8.5,
       jlswz: 1.7,
@@ -23042,7 +26987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-17',
+      date: '2018/3/17',
       wsd: 0.9,
       jlrdc: 9.4,
       jlswz: 2.2,
@@ -23057,7 +27002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-18',
+      date: '2018/3/18',
       wsd: 1.1,
       jlrdc: 10.2,
       jlswz: 2.6,
@@ -23072,7 +27017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-19',
+      date: '2018/3/19',
       wsd: 1.2,
       jlrdc: 10.2,
       jlswz: 2.0,
@@ -23087,7 +27032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-20',
+      date: '2018/3/20',
       wsd: 1.4,
       jlrdc: 8.9,
       jlswz: 2.0,
@@ -23102,7 +27047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-21',
+      date: '2018/3/21',
       wsd: 1.6,
       jlrdc: 11.0,
       jlswz: 2.1,
@@ -23117,7 +27062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-22',
+      date: '2018/3/22',
       wsd: 1.8,
       jlrdc: 12.8,
       jlswz: 2.3,
@@ -23132,7 +27077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-23',
+      date: '2018/3/23',
       wsd: 2.0,
       jlrdc: 13.0,
       jlswz: 2.2,
@@ -23147,7 +27092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-24',
+      date: '2018/3/24',
       wsd: 2.2,
       jlrdc: 10.9,
       jlswz: 2.3,
@@ -23162,7 +27107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-25',
+      date: '2018/3/25',
       wsd: 2.4,
       jlrdc: 13.2,
       jlswz: 2.4,
@@ -23177,7 +27122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-26',
+      date: '2018/3/26',
       wsd: 2.6,
       jlrdc: 13.3,
       jlswz: 2.6,
@@ -23192,7 +27137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-27',
+      date: '2018/3/27',
       wsd: 2.7,
       jlrdc: 13.6,
       jlswz: 3.5,
@@ -23207,7 +27152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-28',
+      date: '2018/3/28',
       wsd: 2.9,
       jlrdc: 13.4,
       jlswz: 4.4,
@@ -23222,7 +27167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-29',
+      date: '2018/3/29',
       wsd: 3.1,
       jlrdc: 13.2,
       jlswz: 3.7,
@@ -23237,7 +27182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-30',
+      date: '2018/3/30',
       wsd: 3.3,
       jlrdc: 12.8,
       jlswz: 3.7,
@@ -23252,7 +27197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-03-31',
+      date: '2018/3/31',
       wsd: 3.5,
       jlrdc: 12.5,
       jlswz: 4.0,
@@ -23267,7 +27212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-01',
+      date: '2018/4/1',
       wsd: 3.7,
       jlrdc: 12.8,
       jlswz: 4.4,
@@ -23282,7 +27227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-02',
+      date: '2018/4/2',
       wsd: 3.9,
       jlrdc: 14.2,
       jlswz: 5.9,
@@ -23297,7 +27242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-03',
+      date: '2018/4/3',
       wsd: 4.0,
       jlrdc: 11.3,
       jlswz: 4.8,
@@ -23312,7 +27257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-04',
+      date: '2018/4/4',
       wsd: 4.2,
       jlrdc: 10.1,
       jlswz: 3.7,
@@ -23327,7 +27272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-05',
+      date: '2018/4/5',
       wsd: 4.4,
       jlrdc: 11.6,
       jlswz: 3.1,
@@ -23342,7 +27287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-06',
+      date: '2018/4/6',
       wsd: 4.6,
       jlrdc: 12.5,
       jlswz: 2.9,
@@ -23357,7 +27302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-07',
+      date: '2018/4/7',
       wsd: 3.8,
       jlrdc: 12.2,
       jlswz: 3.1,
@@ -23372,7 +27317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-08',
+      date: '2018/4/8',
       wsd: 3.7,
       jlrdc: 13.1,
       jlswz: 3.4,
@@ -23387,7 +27332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-09',
+      date: '2018/4/9',
       wsd: 4.4,
       jlrdc: 13.0,
       jlswz: 3.8,
@@ -23402,7 +27347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-10',
+      date: '2018/4/10',
       wsd: 4.8,
       jlrdc: 12.1,
       jlswz: 3.9,
@@ -23417,7 +27362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-11',
+      date: '2018/4/11',
       wsd: 5.1,
       jlrdc: 12.8,
       jlswz: 4.8,
@@ -23432,7 +27377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-12',
+      date: '2018/4/12',
       wsd: 4.8,
       jlrdc: 13.3,
       jlswz: 4.1,
@@ -23447,7 +27392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-13',
+      date: '2018/4/13',
       wsd: 4.9,
       jlrdc: 14.1,
       jlswz: 4.1,
@@ -23462,7 +27407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-14',
+      date: '2018/4/14',
       wsd: 4.9,
       jlrdc: 13.8,
       jlswz: 4.1,
@@ -23477,7 +27422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-15',
+      date: '2018/4/15',
       wsd: 5.2,
       jlrdc: 14.2,
       jlswz: 4.8,
@@ -23492,7 +27437,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-16',
+      date: '2018/4/16',
       wsd: 5.4,
       jlrdc: 14.0,
       jlswz: 5.3,
@@ -23507,7 +27452,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-17',
+      date: '2018/4/17',
       wsd: 5.7,
       jlrdc: 15.3,
       jlswz: 6.4,
@@ -23522,7 +27467,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-18',
+      date: '2018/4/18',
       wsd: 5.9,
       jlrdc: 15.9,
       jlswz: 6.5,
@@ -23537,7 +27482,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-19',
+      date: '2018/4/19',
       wsd: 6.1,
       jlrdc: 16.1,
       jlswz: 6.8,
@@ -23552,7 +27497,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-20',
+      date: '2018/4/20',
       wsd: 6.3,
       jlrdc: 15.0,
       jlswz: 7.2,
@@ -23567,7 +27512,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-21',
+      date: '2018/4/21',
       wsd: 6.6,
       jlrdc: 14.5,
       jlswz: 6.6,
@@ -23582,7 +27527,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-22',
+      date: '2018/4/22',
       wsd: 6.8,
       jlrdc: 14.5,
       jlswz: 6.6,
@@ -23597,7 +27542,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-23',
+      date: '2018/4/23',
       wsd: 7.0,
       jlrdc: 14.5,
       jlswz: 6.8,
@@ -23612,7 +27557,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-24',
+      date: '2018/4/24',
       wsd: 7.2,
       jlrdc: 15.3,
       jlswz: 7.1,
@@ -23627,7 +27572,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-25',
+      date: '2018/4/25',
       wsd: 7.5,
       jlrdc: 15.5,
       jlswz: 7.6,
@@ -23642,7 +27587,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-26',
+      date: '2018/4/26',
       wsd: 7.7,
       jlrdc: 14.3,
       jlswz: 7.6,
@@ -23657,7 +27602,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-27',
+      date: '2018/4/27',
       wsd: 7.9,
       jlrdc: 16.0,
       jlswz: 7.4,
@@ -23672,7 +27617,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-28',
+      date: '2018/4/28',
       wsd: 8.1,
       jlrdc: 16.2,
       jlswz: 7.8,
@@ -23687,7 +27632,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-29',
+      date: '2018/4/29',
       wsd: 8.4,
       jlrdc: 12.8,
       jlswz: 8.8,
@@ -23702,7 +27647,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-04-30',
+      date: '2018/4/30',
       wsd: 8.6,
       jlrdc: 13.6,
       jlswz: 8.9,
@@ -23717,7 +27662,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-01',
+      date: '2018/5/1',
       wsd: 8.8,
       jlrdc: 14.3,
       jlswz: 8.5,
@@ -23732,7 +27677,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-02',
+      date: '2018/5/2',
       wsd: 9.0,
       jlrdc: 13.6,
       jlswz: 7.4,
@@ -23747,7 +27692,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-03',
+      date: '2018/5/3',
       wsd: 9.3,
       jlrdc: 12.2,
       jlswz: 7.4,
@@ -23762,7 +27707,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-04',
+      date: '2018/5/4',
       wsd: 9.5,
       jlrdc: 12.2,
       jlswz: 8.1,
@@ -23777,7 +27722,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-05',
+      date: '2018/5/5',
       wsd: 9.7,
       jlrdc: 12.5,
       jlswz: 7.1,
@@ -23792,7 +27737,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-06',
+      date: '2018/5/6',
       wsd: 9.8,
       jlrdc: 12.5,
       jlswz: 7.2,
@@ -23807,7 +27752,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-07',
+      date: '2018/5/7',
       wsd: 8.9,
       jlrdc: 12.7,
       jlswz: 7.0,
@@ -23822,7 +27767,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-08',
+      date: '2018/5/8',
       wsd: 8.8,
       jlrdc: 11.7,
       jlswz: 7.1,
@@ -23837,7 +27782,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-09',
+      date: '2018/5/9',
       wsd: 8.7,
       jlrdc: 11.3,
       jlswz: 8.0,
@@ -23852,7 +27797,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-10',
+      date: '2018/5/10',
       wsd: 9.0,
       jlrdc: 12.1,
       jlswz: 8.3,
@@ -23867,7 +27812,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-11',
+      date: '2018/5/11',
       wsd: 9.8,
       jlrdc: 12.5,
       jlswz: 8.5,
@@ -23882,7 +27827,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-12',
+      date: '2018/5/12',
       wsd: 10.1,
       jlrdc: 12.2,
       jlswz: 8.3,
@@ -23897,7 +27842,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-13',
+      date: '2018/5/13',
       wsd: 10.2,
       jlrdc: 11.9,
       jlswz: 9.1,
@@ -23912,7 +27857,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-14',
+      date: '2018/5/14',
       wsd: 10.4,
       jlrdc: 11.9,
       jlswz: 9.6,
@@ -23927,7 +27872,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-15',
+      date: '2018/5/15',
       wsd: 11.6,
       jlrdc: 12.0,
       jlswz: 9.9,
@@ -23942,7 +27887,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-16',
+      date: '2018/5/16',
       wsd: 12.2,
       jlrdc: 12.3,
       jlswz: 10.5,
@@ -23957,7 +27902,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-17',
+      date: '2018/5/17',
       wsd: 12.2,
       jlrdc: 11.9,
       jlswz: 10.4,
@@ -23972,7 +27917,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-18',
+      date: '2018/5/18',
       wsd: 12.3,
       jlrdc: 12.4,
       jlswz: 10.8,
@@ -23987,7 +27932,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-19',
+      date: '2018/5/19',
       wsd: 12.7,
       jlrdc: 12.1,
       jlswz: 11.5,
@@ -24002,7 +27947,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-20',
+      date: '2018/5/20',
       wsd: 13.1,
       jlrdc: 13.2,
       jlswz: 11.7,
@@ -24017,7 +27962,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-21',
+      date: '2018/5/21',
       wsd: 13.7,
       jlrdc: 12.2,
       jlswz: 10.7,
@@ -24032,7 +27977,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-22',
+      date: '2018/5/22',
       wsd: 12.8,
       jlrdc: 11.4,
       jlswz: 9.7,
@@ -24047,7 +27992,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-23',
+      date: '2018/5/23',
       wsd: 11.2,
       jlrdc: 11.1,
       jlswz: 10.0,
@@ -24062,7 +28007,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-24',
+      date: '2018/5/24',
       wsd: 10.6,
       jlrdc: 12.0,
       jlswz: 10.1,
@@ -24077,7 +28022,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-25',
+      date: '2018/5/25',
       wsd: 11.3,
       jlrdc: 10.6,
       jlswz: 10.3,
@@ -24092,7 +28037,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-26',
+      date: '2018/5/26',
       wsd: 11.6,
       jlrdc: 10.7,
       jlswz: 10.6,
@@ -24107,7 +28052,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-27',
+      date: '2018/5/27',
       wsd: 11.9,
       jlrdc: 12.3,
       jlswz: 10.5,
@@ -24122,7 +28067,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-28',
+      date: '2018/5/28',
       wsd: 11.2,
       jlrdc: 11.3,
       jlswz: 10.8,
@@ -24137,7 +28082,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-29',
+      date: '2018/5/29',
       wsd: 11.2,
       jlrdc: 11.2,
       jlswz: 11.2,
@@ -24152,7 +28097,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-30',
+      date: '2018/5/30',
       wsd: 12.0,
       jlrdc: 12.3,
       jlswz: 12.1,
@@ -24167,7 +28112,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-05-31',
+      date: '2018/5/31',
       wsd: 13.2,
       jlrdc: 12.1,
       jlswz: 12.0,
@@ -24182,7 +28127,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-01',
+      date: '2018/6/1',
       wsd: 14.5,
       jlrdc: 12.6,
       jlswz: 11.3,
@@ -24197,7 +28142,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-02',
+      date: '2018/6/2',
       wsd: 14.8,
       jlrdc: 13.1,
       jlswz: 11.7,
@@ -24212,7 +28157,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-03',
+      date: '2018/6/3',
       wsd: 14.5,
       jlrdc: 13.3,
       jlswz: 11.9,
@@ -24227,7 +28172,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-04',
+      date: '2018/6/4',
       wsd: 14.8,
       jlrdc: 13.7,
       jlswz: 11.8,
@@ -24242,7 +28187,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-05',
+      date: '2018/6/5',
       wsd: 14.7,
       jlrdc: 13.9,
       jlswz: 11.5,
@@ -24257,7 +28202,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-06',
+      date: '2018/6/6',
       wsd: 14.3,
       jlrdc: 14.6,
       jlswz: 12.9,
@@ -24272,7 +28217,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-07',
+      date: '2018/6/7',
       wsd: 13.8,
       jlrdc: 15.1,
       jlswz: 12.6,
@@ -24287,7 +28232,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-08',
+      date: '2018/6/8',
       wsd: 14.2,
       jlrdc: 15.5,
       jlswz: 12.0,
@@ -24302,7 +28247,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-09',
+      date: '2018/6/9',
       wsd: 12.4,
       jlrdc: 16.4,
       jlswz: 12.7,
@@ -24317,7 +28262,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-10',
+      date: '2018/6/10',
       wsd: 12.7,
       jlrdc: 17.8,
       jlswz: 12.9,
@@ -24332,7 +28277,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-11',
+      date: '2018/6/11',
       wsd: 12.9,
       jlrdc: 20.5,
       jlswz: 12.1,
@@ -24347,7 +28292,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-12',
+      date: '2018/6/12',
       wsd: 13.2,
       jlrdc: 21.9,
       jlswz: 12.0,
@@ -24362,7 +28307,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-13',
+      date: '2018/6/13',
       wsd: 13.4,
       jlrdc: 18.8,
       jlswz: 12.2,
@@ -24377,7 +28322,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-14',
+      date: '2018/6/14',
       wsd: 13.7,
       jlrdc: 18.6,
       jlswz: 12.7,
@@ -24392,7 +28337,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-15',
+      date: '2018/6/15',
       wsd: 13.7,
       jlrdc: 20.5,
       jlswz: 12.4,
@@ -24407,7 +28352,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-16',
+      date: '2018/6/16',
       wsd: 13.9,
       jlrdc: 20.1,
       jlswz: 12.1,
@@ -24422,7 +28367,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-17',
+      date: '2018/6/17',
       wsd: 14.0,
       jlrdc: 20.2,
       jlswz: 13.5,
@@ -24437,7 +28382,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-18',
+      date: '2018/6/18',
       wsd: 13.7,
       jlrdc: 19.5,
       jlswz: 14.0,
@@ -24452,7 +28397,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-19',
+      date: '2018/6/19',
       wsd: 14.2,
       jlrdc: 18.3,
       jlswz: 15.6,
@@ -24467,7 +28412,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-20',
+      date: '2018/6/20',
       wsd: 14.6,
       jlrdc: 16.6,
       jlswz: 14.9,
@@ -24482,7 +28427,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-21',
+      date: '2018/6/21',
       wsd: 13.9,
       jlrdc: 18.0,
       jlswz: 14.1,
@@ -24497,7 +28442,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-22',
+      date: '2018/6/22',
       wsd: 14.5,
       jlrdc: 19.0,
       jlswz: 14.7,
@@ -24512,7 +28457,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-23',
+      date: '2018/6/23',
       wsd: 14.9,
       jlrdc: 18.6,
       jlswz: 14.6,
@@ -24527,7 +28472,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-24',
+      date: '2018/6/24',
       wsd: 14.5,
       jlrdc: 19.6,
       jlswz: 14.3,
@@ -24542,7 +28487,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-25',
+      date: '2018/6/25',
       wsd: 14.5,
       jlrdc: 19.8,
       jlswz: 13.9,
@@ -24557,7 +28502,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-26',
+      date: '2018/6/26',
       wsd: 14.1,
       jlrdc: 19.4,
       jlswz: 14.5,
@@ -24572,7 +28517,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-27',
+      date: '2018/6/27',
       wsd: 14.4,
       jlrdc: 19.9,
       jlswz: 14.7,
@@ -24587,7 +28532,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-28',
+      date: '2018/6/28',
       wsd: 14.7,
       jlrdc: 20.3,
       jlswz: 15.9,
@@ -24602,7 +28547,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-29',
+      date: '2018/6/29',
       wsd: 15.1,
       jlrdc: 21.3,
       jlswz: 15.1,
@@ -24617,7 +28562,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-06-30',
+      date: '2018/6/30',
       wsd: 15.5,
       jlrdc: 22.6,
       jlswz: 15.3,
@@ -24632,7 +28577,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-01',
+      date: '2018/7/1',
       wsd: 16.0,
       jlrdc: 23.5,
       jlswz: 15.3,
@@ -24647,7 +28592,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-02',
+      date: '2018/7/2',
       wsd: 15.7,
       jlrdc: 23.1,
       jlswz: 14.8,
@@ -24662,7 +28607,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-03',
+      date: '2018/7/3',
       wsd: 15.1,
       jlrdc: 22.9,
       jlswz: 14.6,
@@ -24677,7 +28622,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-04',
+      date: '2018/7/4',
       wsd: 15.4,
       jlrdc: 21.4,
       jlswz: 14.3,
@@ -24692,7 +28637,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-05',
+      date: '2018/7/5',
       wsd: 15.2,
       jlrdc: 21.9,
       jlswz: 14.4,
@@ -24707,7 +28652,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-06',
+      date: '2018/7/6',
       wsd: 15.1,
       jlrdc: 21.8,
       jlswz: 16.0,
@@ -24722,7 +28667,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-07',
+      date: '2018/7/7',
       wsd: 15.2,
       jlrdc: 22.6,
       jlswz: 15.1,
@@ -24737,7 +28682,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-08',
+      date: '2018/7/8',
       wsd: 15.5,
       jlrdc: 23.1,
       jlswz: 14.6,
@@ -24752,7 +28697,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-09',
+      date: '2018/7/9',
       wsd: 15.0,
       jlrdc: 22.3,
       jlswz: 14.8,
@@ -24767,7 +28712,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-10',
+      date: '2018/7/10',
       wsd: 15.3,
       jlrdc: 23.6,
       jlswz: 15.2,
@@ -24782,7 +28727,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-11',
+      date: '2018/7/11',
       wsd: 16.0,
       jlrdc: 23.4,
       jlswz: 15.4,
@@ -24797,7 +28742,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-12',
+      date: '2018/7/12',
       wsd: 16.0,
       jlrdc: 23.7,
       jlswz: 17.4,
@@ -24812,7 +28757,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-13',
+      date: '2018/7/13',
       wsd: 16.2,
       jlrdc: 23.9,
       jlswz: 16.7,
@@ -24827,7 +28772,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-14',
+      date: '2018/7/14',
       wsd: 16.5,
       jlrdc: 23.7,
       jlswz: 18.1,
@@ -24842,7 +28787,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-15',
+      date: '2018/7/15',
       wsd: 17.0,
       jlrdc: 23.3,
       jlswz: 17.5,
@@ -24857,7 +28802,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-16',
+      date: '2018/7/16',
       wsd: 17.5,
       jlrdc: 24.3,
       jlswz: 17.5,
@@ -24872,7 +28817,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-17',
+      date: '2018/7/17',
       wsd: 17.2,
       jlrdc: 23.7,
       jlswz: 17.3,
@@ -24887,7 +28832,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-18',
+      date: '2018/7/18',
       wsd: 17.9,
       jlrdc: 24.7,
       jlswz: 22.0,
@@ -24902,7 +28847,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-19',
+      date: '2018/7/19',
       wsd: 22.4,
       jlrdc: 25.4,
       jlswz: 22.1,
@@ -24917,7 +28862,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-20',
+      date: '2018/7/20',
       wsd: 22.5,
       jlrdc: 25.5,
       jlswz: 22.2,
@@ -24932,7 +28877,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-21',
+      date: '2018/7/21',
       wsd: 22.9,
       jlrdc: 26.7,
       jlswz: 22.3,
@@ -24947,7 +28892,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-22',
+      date: '2018/7/22',
       wsd: 22.9,
       jlrdc: 26.1,
       jlswz: 22.4,
@@ -24962,7 +28907,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-23',
+      date: '2018/7/23',
       wsd: 23.1,
       jlrdc: 26.7,
       jlswz: 22.3,
@@ -24977,7 +28922,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-24',
+      date: '2018/7/24',
       wsd: 23.0,
       jlrdc: 25.4,
       jlswz: 20.0,
@@ -24992,7 +28937,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-25',
+      date: '2018/7/25',
       wsd: 20.6,
       jlrdc: 25.4,
       jlswz: 19.5,
@@ -25007,7 +28952,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-26',
+      date: '2018/7/26',
       wsd: 20.1,
       jlrdc: 25.2,
       jlswz: 19.0,
@@ -25022,7 +28967,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-27',
+      date: '2018/7/27',
       wsd: 20.0,
       jlrdc: 25.7,
       jlswz: 17.4,
@@ -25037,7 +28982,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-28',
+      date: '2018/7/28',
       wsd: 18.3,
       jlrdc: 25.7,
       jlswz: 17.1,
@@ -25052,7 +28997,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-29',
+      date: '2018/7/29',
       wsd: 18.3,
       jlrdc: 26.0,
       jlswz: 17.2,
@@ -25067,7 +29012,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-30',
+      date: '2018/7/30',
       wsd: 18.6,
       jlrdc: 26.0,
       jlswz: 17.2,
@@ -25082,7 +29027,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-07-31',
+      date: '2018/7/31',
       wsd: 18.9,
       jlrdc: 25.3,
       jlswz: 17.1,
@@ -25097,7 +29042,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-01',
+      date: '2018/8/1',
       wsd: 18.9,
       jlrdc: 24.3,
       jlswz: 17.0,
@@ -25112,7 +29057,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-02',
+      date: '2018/8/2',
       wsd: 18.7,
       jlrdc: 24.0,
       jlswz: 16.7,
@@ -25127,7 +29072,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-03',
+      date: '2018/8/3',
       wsd: 18.4,
       jlrdc: 24.8,
       jlswz: 17.1,
@@ -25142,7 +29087,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-04',
+      date: '2018/8/4',
       wsd: 19.0,
       jlrdc: 25.3,
       jlswz: 17.7,
@@ -25157,7 +29102,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-05',
+      date: '2018/8/5',
       wsd: 18.6,
       jlrdc: 24.1,
       jlswz: 17.3,
@@ -25172,7 +29117,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-06',
+      date: '2018/8/6',
       wsd: 17.6,
       jlrdc: 23.7,
       jlswz: 16.8,
@@ -25187,7 +29132,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-07',
+      date: '2018/8/7',
       wsd: 17.5,
       jlrdc: 24.1,
       jlswz: 16.9,
@@ -25202,7 +29147,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-08',
+      date: '2018/8/8',
       wsd: 17.8,
       jlrdc: 23.8,
       jlswz: 16.9,
@@ -25217,7 +29162,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-09',
+      date: '2018/8/9',
       wsd: 19.0,
       jlrdc: 23.8,
       jlswz: 17.2,
@@ -25232,7 +29177,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-10',
+      date: '2018/8/10',
       wsd: 18.7,
       jlrdc: 24.7,
       jlswz: 17.7,
@@ -25247,7 +29192,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-11',
+      date: '2018/8/11',
       wsd: 19.4,
       jlrdc: 24.1,
       jlswz: 17.5,
@@ -25262,7 +29207,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-12',
+      date: '2018/8/12',
       wsd: 20.1,
       jlrdc: 24.9,
       jlswz: 17.0,
@@ -25277,7 +29222,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-13',
+      date: '2018/8/13',
       wsd: 20.5,
       jlrdc: 23.4,
       jlswz: 16.7,
@@ -25292,7 +29237,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-14',
+      date: '2018/8/14',
       wsd: 20.9,
       jlrdc: 24.1,
       jlswz: 17.9,
@@ -25307,7 +29252,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-15',
+      date: '2018/8/15',
       wsd: 19.7,
       jlrdc: 24.2,
       jlswz: 19.0,
@@ -25322,7 +29267,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-16',
+      date: '2018/8/16',
       wsd: 19.4,
       jlrdc: 23.5,
       jlswz: 18.6,
@@ -25337,7 +29282,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-17',
+      date: '2018/8/17',
       wsd: 19.2,
       jlrdc: 24.2,
       jlswz: 18.1,
@@ -25352,7 +29297,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-18',
+      date: '2018/8/18',
       wsd: 19.0,
       jlrdc: 24.0,
       jlswz: 18.0,
@@ -25367,7 +29312,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-19',
+      date: '2018/8/19',
       wsd: 19.5,
       jlrdc: 24.7,
       jlswz: 18.1,
@@ -25382,7 +29327,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-20',
+      date: '2018/8/20',
       wsd: 19.3,
       jlrdc: 24.4,
       jlswz: 17.6,
@@ -25397,7 +29342,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-21',
+      date: '2018/8/21',
       wsd: 18.6,
       jlrdc: 23.7,
       jlswz: 17.8,
@@ -25412,7 +29357,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-22',
+      date: '2018/8/22',
       wsd: 18.0,
       jlrdc: 24.9,
       jlswz: 17.9,
@@ -25427,7 +29372,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-23',
+      date: '2018/8/23',
       wsd: 18.1,
       jlrdc: 26.1,
       jlswz: 17.7,
@@ -25442,7 +29387,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-24',
+      date: '2018/8/24',
       wsd: 17.5,
       jlrdc: 24.0,
       jlswz: 18.0,
@@ -25457,7 +29402,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-25',
+      date: '2018/8/25',
       wsd: 17.5,
       jlrdc: 24.7,
       jlswz: 18.6,
@@ -25472,7 +29417,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-26',
+      date: '2018/8/26',
       wsd: 17.9,
       jlrdc: 24.0,
       jlswz: 18.3,
@@ -25487,7 +29432,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-27',
+      date: '2018/8/27',
       wsd: 17.8,
       jlrdc: 24.8,
       jlswz: 18.5,
@@ -25502,7 +29447,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-28',
+      date: '2018/8/28',
       wsd: 18.3,
       jlrdc: 24.9,
       jlswz: 18.4,
@@ -25517,7 +29462,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-29',
+      date: '2018/8/29',
       wsd: 18.2,
       jlrdc: 24.0,
       jlswz: 18.7,
@@ -25532,7 +29477,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-30',
+      date: '2018/8/30',
       wsd: 18.3,
       jlrdc: 23.3,
       jlswz: 19.6,
@@ -25547,7 +29492,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-08-31',
+      date: '2018/8/31',
       wsd: 18.6,
       jlrdc: 23.3,
       jlswz: 19.2,
@@ -25562,7 +29507,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-01',
+      date: '2018/9/1',
       wsd: 18.5,
       jlrdc: 24.5,
       jlswz: 19.2,
@@ -25577,7 +29522,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-02',
+      date: '2018/9/2',
       wsd: 18.8,
       jlrdc: 24.7,
       jlswz: 18.6,
@@ -25592,7 +29537,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-03',
+      date: '2018/9/3',
       wsd: 18.5,
       jlrdc: 24.8,
       jlswz: 18.8,
@@ -25607,7 +29552,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-04',
+      date: '2018/9/4',
       wsd: 18.4,
       jlrdc: 23.9,
       jlswz: 18.4,
@@ -25622,7 +29567,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-05',
+      date: '2018/9/5',
       wsd: 18.2,
       jlrdc: 22.7,
       jlswz: 17.5,
@@ -25637,7 +29582,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-06',
+      date: '2018/9/6',
       wsd: 17.5,
       jlrdc: 22.9,
       jlswz: 17.6,
@@ -25652,7 +29597,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-07',
+      date: '2018/9/7',
       wsd: 17.5,
       jlrdc: 22.2,
       jlswz: 17.1,
@@ -25667,7 +29612,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-08',
+      date: '2018/9/8',
       wsd: 17.3,
       jlrdc: 22.2,
       jlswz: 16.7,
@@ -25682,7 +29627,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-09',
+      date: '2018/9/9',
       wsd: 17.1,
       jlrdc: 22.4,
       jlswz: 16.4,
@@ -25697,7 +29642,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-10',
+      date: '2018/9/10',
       wsd: 17.2,
       jlrdc: 22.4,
       jlswz: 16.8,
@@ -25712,7 +29657,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-11',
+      date: '2018/9/11',
       wsd: 17.6,
       jlrdc: 22.7,
       jlswz: 17.6,
@@ -25727,7 +29672,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-12',
+      date: '2018/9/12',
       wsd: 18.3,
       jlrdc: 23.3,
       jlswz: 18.8,
@@ -25742,7 +29687,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-13',
+      date: '2018/9/13',
       wsd: 19.1,
       jlrdc: 23.6,
       jlswz: 18.9,
@@ -25757,7 +29702,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-14',
+      date: '2018/9/14',
       wsd: 19.6,
       jlrdc: 23.9,
       jlswz: 19.6,
@@ -25772,7 +29717,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-15',
+      date: '2018/9/15',
       wsd: 19.7,
       jlrdc: 23.3,
       jlswz: 19.0,
@@ -25787,7 +29732,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-16',
+      date: '2018/9/16',
       wsd: 18.8,
       jlrdc: 23.0,
       jlswz: 18.2,
@@ -25802,7 +29747,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-17',
+      date: '2018/9/17',
       wsd: 18.6,
       jlrdc: 22.9,
       jlswz: 18.2,
@@ -25817,7 +29762,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-18',
+      date: '2018/9/18',
       wsd: 18.7,
       jlrdc: 23.8,
       jlswz: 18.4,
@@ -25832,7 +29777,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-19',
+      date: '2018/9/19',
       wsd: 18.9,
       jlrdc: 23.7,
       jlswz: 18.5,
@@ -25847,7 +29792,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-20',
+      date: '2018/9/20',
       wsd: 18.9,
       jlrdc: 22.5,
       jlswz: 18.6,
@@ -25862,7 +29807,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-21',
+      date: '2018/9/21',
       wsd: 18.8,
       jlrdc: 21.8,
       jlswz: 18.3,
@@ -25877,7 +29822,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-22',
+      date: '2018/9/22',
       wsd: 18.2,
       jlrdc: 21.4,
       jlswz: 17.7,
@@ -25892,7 +29837,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-23',
+      date: '2018/9/23',
       wsd: 17.7,
       jlrdc: 21.0,
       jlswz: 17.3,
@@ -25907,7 +29852,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-24',
+      date: '2018/9/24',
       wsd: 17.3,
       jlrdc: 21.2,
       jlswz: 17.0,
@@ -25922,7 +29867,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-25',
+      date: '2018/9/25',
       wsd: 17.2,
       jlrdc: 21.2,
       jlswz: 17.1,
@@ -25937,7 +29882,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-26',
+      date: '2018/9/26',
       wsd: 17.6,
       jlrdc: 20.9,
       jlswz: 17.3,
@@ -25952,7 +29897,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-27',
+      date: '2018/9/27',
       wsd: 17.7,
       jlrdc: 21.0,
       jlswz: 17.4,
@@ -25967,7 +29912,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-28',
+      date: '2018/9/28',
       wsd: 17.6,
       jlrdc: 21.3,
       jlswz: 17.3,
@@ -25982,7 +29927,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-29',
+      date: '2018/9/29',
       wsd: 17.6,
       jlrdc: 21.8,
       jlswz: 17.5,
@@ -25997,7 +29942,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-09-30',
+      date: '2018/9/30',
       wsd: 17.5,
       jlrdc: 20.9,
       jlswz: 17.1,
@@ -26012,7 +29957,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-01',
+      date: '2018/10/1',
       wsd: 16.9,
       jlrdc: 19.7,
       jlswz: 15.5,
@@ -26027,7 +29972,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-02',
+      date: '2018/10/2',
       wsd: 16.2,
       jlrdc: 20.6,
       jlswz: 15.4,
@@ -26042,7 +29987,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-03',
+      date: '2018/10/3',
       wsd: 16.2,
       jlrdc: 21.8,
       jlswz: 16.0,
@@ -26057,7 +30002,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-04',
+      date: '2018/10/4',
       wsd: 16.8,
       jlrdc: 22.6,
       jlswz: 16.4,
@@ -26072,7 +30017,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-05',
+      date: '2018/10/5',
       wsd: 17.1,
       jlrdc: 22.7,
       jlswz: 16.7,
@@ -26087,7 +30032,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-06',
+      date: '2018/10/6',
       wsd: 17.2,
       jlrdc: 22.5,
       jlswz: 16.4,
@@ -26102,7 +30047,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-07',
+      date: '2018/10/7',
       wsd: 16.4,
       jlrdc: 22.0,
       jlswz: 15.7,
@@ -26117,7 +30062,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-08',
+      date: '2018/10/8',
       wsd: 15.6,
       jlrdc: 21.8,
       jlswz: 15.3,
@@ -26132,7 +30077,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-09',
+      date: '2018/10/9',
       wsd: 15.1,
       jlrdc: 21.2,
       jlswz: 15.0,
@@ -26147,7 +30092,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-10',
+      date: '2018/10/10',
       wsd: 14.7,
       jlrdc: 19.6,
       jlswz: 14.4,
@@ -26162,7 +30107,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-11',
+      date: '2018/10/11',
       wsd: 14.0,
       jlrdc: 21.4,
       jlswz: 13.3,
@@ -26177,7 +30122,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-12',
+      date: '2018/10/12',
       wsd: 13.9,
       jlrdc: 23.1,
       jlswz: 13.9,
@@ -26192,7 +30137,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-13',
+      date: '2018/10/13',
       wsd: 14.5,
       jlrdc: 23.6,
       jlswz: 14.3,
@@ -26207,7 +30152,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-14',
+      date: '2018/10/14',
       wsd: 14.8,
       jlrdc: 23.6,
       jlswz: 14.2,
@@ -26222,7 +30167,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-15',
+      date: '2018/10/15',
       wsd: 14.3,
       jlrdc: 23.5,
       jlswz: 13.8,
@@ -26237,7 +30182,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-16',
+      date: '2018/10/16',
       wsd: 13.9,
       jlrdc: 23.6,
       jlswz: 13.4,
@@ -26252,7 +30197,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-17',
+      date: '2018/10/17',
       wsd: 13.8,
       jlrdc: 24.2,
       jlswz: 13.3,
@@ -26267,7 +30212,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-18',
+      date: '2018/10/18',
       wsd: 13.7,
       jlrdc: 24.8,
       jlswz: 13.3,
@@ -26282,7 +30227,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-19',
+      date: '2018/10/19',
       wsd: 13.6,
       jlrdc: 25.6,
       jlswz: 13.3,
@@ -26297,7 +30242,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-20',
+      date: '2018/10/20',
       wsd: 13.6,
       jlrdc: 25.0,
       jlswz: 13.4,
@@ -26312,7 +30257,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-21',
+      date: '2018/10/21',
       wsd: 13.8,
       jlrdc: 25.1,
       jlswz: 13.3,
@@ -26327,7 +30272,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-22',
+      date: '2018/10/22',
       wsd: 13.7,
       jlrdc: 25.2,
       jlswz: 13.3,
@@ -26342,7 +30287,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-23',
+      date: '2018/10/23',
       wsd: 13.5,
       jlrdc: 24.8,
       jlswz: 13.4,
@@ -26357,7 +30302,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-24',
+      date: '2018/10/24',
       wsd: 13.2,
       jlrdc: 23.6,
       jlswz: 13.1,
@@ -26372,7 +30317,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-25',
+      date: '2018/10/25',
       wsd: 12.9,
       jlrdc: 24.1,
       jlswz: 13.1,
@@ -26387,7 +30332,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-26',
+      date: '2018/10/26',
       wsd: 12.6,
       jlrdc: 23.5,
       jlswz: 12.8,
@@ -26402,7 +30347,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-27',
+      date: '2018/10/27',
       wsd: 12.3,
       jlrdc: 23.1,
       jlswz: 11.6,
@@ -26417,7 +30362,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-28',
+      date: '2018/10/28',
       wsd: 12.0,
       jlrdc: 21.9,
       jlswz: 10.6,
@@ -26432,7 +30377,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-29',
+      date: '2018/10/29',
       wsd: 11.7,
       jlrdc: 19.6,
       jlswz: 10.7,
@@ -26447,7 +30392,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-30',
+      date: '2018/10/30',
       wsd: 11.4,
       jlrdc: 17.6,
       jlswz: 10.7,
@@ -26462,7 +30407,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-10-31',
+      date: '2018/10/31',
       wsd: 11.2,
       jlrdc: 17.8,
       jlswz: 10.8,
@@ -26477,7 +30422,7 @@ export class OnlinePoint {
       ymhk: null
     },
     {
-      date: '2018-11-01',
+      date: '2018/11/1',
       wsd: 10.9,
       jlrdc: 18.1,
       jlswz: 10.8,
@@ -26486,13 +30431,13 @@ export class OnlinePoint {
       sqws: 12.0,
       hsws: 10.9,
       yqws: null,
-      flhk: 4.3,
-      lwm: 7.7,
-      yssbp: 7.9,
-      ymhk: 7.4
+      flhk: null,
+      lwm: 4.3,
+      yssbp: 7.7,
+      ymhk: 7.9
     },
     {
-      date: '2018-11-02',
+      date: '2018/11/2',
       wsd: 10.6,
       jlrdc: 17.4,
       jlswz: 10.9,
@@ -26501,13 +30446,13 @@ export class OnlinePoint {
       sqws: 11.9,
       hsws: 10.8,
       yqws: null,
-      flhk: 4.6,
-      lwm: 7.8,
+      flhk: null,
+      lwm: 4.6,
       yssbp: 7.8,
-      ymhk: 7.7
+      ymhk: 7.8
     },
     {
-      date: '2018-11-03',
+      date: '2018/11/3',
       wsd: 10.3,
       jlrdc: 18.7,
       jlswz: 11.0,
@@ -26516,13 +30461,13 @@ export class OnlinePoint {
       sqws: 11.9,
       hsws: 10.7,
       yqws: null,
-      flhk: 5.3,
-      lwm: 7.9,
-      yssbp: 8.1,
-      ymhk: 7.8
+      flhk: null,
+      lwm: 5.3,
+      yssbp: 7.9,
+      ymhk: 8.1
     },
     {
-      date: '2018-11-04',
+      date: '2018/11/4',
       wsd: 10.0,
       jlrdc: 18.0,
       jlswz: 10.7,
@@ -26531,13 +30476,13 @@ export class OnlinePoint {
       sqws: 11.7,
       hsws: 10.5,
       yqws: null,
-      flhk: 5.2,
-      lwm: 7.6,
-      yssbp: 7.3,
-      ymhk: 7.2
+      flhk: null,
+      lwm: 5.2,
+      yssbp: 7.6,
+      ymhk: 7.3
     },
     {
-      date: '2018-11-05',
+      date: '2018/11/5',
       wsd: 9.7,
       jlrdc: 15.4,
       jlswz: 9.8,
@@ -26546,13 +30491,13 @@ export class OnlinePoint {
       sqws: 11.4,
       hsws: 10.3,
       yqws: null,
-      flhk: 4.1,
-      lwm: 6.5,
-      yssbp: 6.6,
-      ymhk: 6.3
+      flhk: null,
+      lwm: 4.1,
+      yssbp: 6.5,
+      ymhk: 6.6
     },
     {
-      date: '2018-11-06',
+      date: '2018/11/6',
       wsd: 9.4,
       jlrdc: 16.5,
       jlswz: 9.8,
@@ -26561,13 +30506,13 @@ export class OnlinePoint {
       sqws: 11.3,
       hsws: 10.2,
       yqws: null,
-      flhk: 2.5,
-      lwm: 6.6,
-      yssbp: 6.8,
-      ymhk: 5.9
+      flhk: null,
+      lwm: 2.5,
+      yssbp: 6.6,
+      ymhk: 6.8
     },
     {
-      date: '2018-11-07',
+      date: '2018/11/7',
       wsd: 9.1,
       jlrdc: 18.6,
       jlswz: 10.1,
@@ -26576,13 +30521,13 @@ export class OnlinePoint {
       sqws: 11.1,
       hsws: 10.0,
       yqws: null,
-      flhk: 1.4,
-      lwm: 6.6,
-      yssbp: 6.8,
-      ymhk: 6.1
+      flhk: null,
+      lwm: 1.4,
+      yssbp: 6.6,
+      ymhk: 6.8
     },
     {
-      date: '2018-11-08',
+      date: '2018/11/8',
       wsd: 9.8,
       jlrdc: 18.8,
       jlswz: 10.1,
@@ -26591,13 +30536,13 @@ export class OnlinePoint {
       sqws: 11.1,
       hsws: 10.0,
       yqws: null,
-      flhk: 3.0,
-      lwm: 6.7,
-      yssbp: 6.9,
-      ymhk: 6.3
+      flhk: null,
+      lwm: 3.0,
+      yssbp: 6.7,
+      ymhk: 6.9
     },
     {
-      date: '2018-11-09',
+      date: '2018/11/9',
       wsd: 10.1,
       jlrdc: 17.9,
       jlswz: 9.9,
@@ -26606,13 +30551,13 @@ export class OnlinePoint {
       sqws: 11.0,
       hsws: 10.0,
       yqws: null,
-      flhk: 3.8,
-      lwm: 7.1,
+      flhk: null,
+      lwm: 3.8,
       yssbp: 7.1,
-      ymhk: 6.7
+      ymhk: 7.1
     },
     {
-      date: '2018-11-10',
+      date: '2018/11/10',
       wsd: 9.7,
       jlrdc: 18.0,
       jlswz: 9.6,
@@ -26621,13 +30566,13 @@ export class OnlinePoint {
       sqws: 10.6,
       hsws: 9.9,
       yqws: null,
-      flhk: 3.7,
-      lwm: 6.8,
+      flhk: null,
+      lwm: 3.7,
       yssbp: 6.8,
-      ymhk: 6.5
+      ymhk: 6.8
     },
     {
-      date: '2018-11-11',
+      date: '2018/11/11',
       wsd: 9.5,
       jlrdc: 18.3,
       jlswz: 9.4,
@@ -26636,13 +30581,13 @@ export class OnlinePoint {
       sqws: 10.5,
       hsws: 9.8,
       yqws: null,
-      flhk: 3.2,
-      lwm: 7.0,
-      yssbp: 7.1,
-      ymhk: 6.5
+      flhk: null,
+      lwm: 3.2,
+      yssbp: 7.0,
+      ymhk: 7.1
     },
     {
-      date: '2018-11-12',
+      date: '2018/11/12',
       wsd: 9.4,
       jlrdc: 18.0,
       jlswz: 9.2,
@@ -26651,13 +30596,13 @@ export class OnlinePoint {
       sqws: 10.4,
       hsws: 9.7,
       yqws: null,
-      flhk: 2.7,
-      lwm: 7.1,
-      yssbp: 7.0,
-      ymhk: 6.4
+      flhk: null,
+      lwm: 2.7,
+      yssbp: 7.1,
+      ymhk: 7.0
     },
     {
-      date: '2018-11-13',
+      date: '2018/11/13',
       wsd: 9.1,
       jlrdc: 17.9,
       jlswz: 9.0,
@@ -26666,13 +30611,13 @@ export class OnlinePoint {
       sqws: 10.3,
       hsws: 9.6,
       yqws: null,
-      flhk: 2.1,
-      lwm: 7.1,
+      flhk: null,
+      lwm: 2.1,
       yssbp: 7.1,
-      ymhk: 6.6
+      ymhk: 7.1
     },
     {
-      date: '2018-11-14',
+      date: '2018/11/14',
       wsd: 8.9,
       jlrdc: 17.5,
       jlswz: 8.7,
@@ -26681,13 +30626,13 @@ export class OnlinePoint {
       sqws: 10.1,
       hsws: 9.5,
       yqws: null,
-      flhk: 1.7,
-      lwm: 7.1,
-      yssbp: 7.0,
-      ymhk: 6.6
+      flhk: null,
+      lwm: 1.7,
+      yssbp: 7.1,
+      ymhk: 7.0
     },
     {
-      date: '2018-11-15',
+      date: '2018/11/15',
       wsd: 9.0,
       jlrdc: 16.9,
       jlswz: 8.4,
@@ -26696,13 +30641,13 @@ export class OnlinePoint {
       sqws: 10.0,
       hsws: 9.1,
       yqws: null,
-      flhk: 1.7,
-      lwm: 7.0,
-      yssbp: 6.8,
-      ymhk: 6.4
+      flhk: null,
+      lwm: 1.7,
+      yssbp: 7.0,
+      ymhk: 6.8
     },
     {
-      date: '2018-11-16',
+      date: '2018/11/16',
       wsd: 8.2,
       jlrdc: 17.3,
       jlswz: 7.9,
@@ -26711,13 +30656,13 @@ export class OnlinePoint {
       sqws: 9.8,
       hsws: 8.8,
       yqws: null,
-      flhk: 0.9,
-      lwm: 5.9,
-      yssbp: 5.7,
-      ymhk: 5.3
+      flhk: null,
+      lwm: 0.9,
+      yssbp: 5.9,
+      ymhk: 5.7
     },
     {
-      date: '2018-11-17',
+      date: '2018/11/17',
       wsd: 7.7,
       jlrdc: 16.2,
       jlswz: 7.7,
@@ -26726,13 +30671,13 @@ export class OnlinePoint {
       sqws: 9.5,
       hsws: 8.6,
       yqws: null,
-      flhk: 0.4,
-      lwm: 5.4,
+      flhk: null,
+      lwm: 0.4,
       yssbp: 5.4,
-      ymhk: 4.6
+      ymhk: 5.4
     },
     {
-      date: '2018-11-18',
+      date: '2018/11/18',
       wsd: 7.9,
       jlrdc: 17.5,
       jlswz: 7.6,
@@ -26741,13 +30686,13 @@ export class OnlinePoint {
       sqws: 9.4,
       hsws: 8.5,
       yqws: null,
-      flhk: 0.4,
-      lwm: 5.5,
+      flhk: null,
+      lwm: 0.4,
       yssbp: 5.5,
-      ymhk: 5.0
+      ymhk: 5.5
     },
     {
-      date: '2018-11-19',
+      date: '2018/11/19',
       wsd: 8.0,
       jlrdc: 16.0,
       jlswz: 7.5,
@@ -26756,13 +30701,13 @@ export class OnlinePoint {
       sqws: 9.2,
       hsws: 8.5,
       yqws: null,
-      flhk: 0.3,
-      lwm: 5.3,
-      yssbp: 5.1,
-      ymhk: 4.8
+      flhk: null,
+      lwm: 0.3,
+      yssbp: 5.3,
+      ymhk: 5.1
     },
     {
-      date: '2018-11-20',
+      date: '2018/11/20',
       wsd: 7.7,
       jlrdc: 16.3,
       jlswz: 7.0,
@@ -26771,13 +30716,13 @@ export class OnlinePoint {
       sqws: 8.9,
       hsws: 8.4,
       yqws: null,
-      flhk: 0.2,
-      lwm: 4.9,
-      yssbp: 4.7,
-      ymhk: 4.2
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 4.9,
+      ymhk: 4.7
     },
     {
-      date: '2018-11-21',
+      date: '2018/11/21',
       wsd: 6.8,
       jlrdc: 15.6,
       jlswz: 6.3,
@@ -26786,13 +30731,13 @@ export class OnlinePoint {
       sqws: 8.6,
       hsws: 8.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 4.3,
-      yssbp: 4.1,
-      ymhk: 3.4
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 4.3,
+      ymhk: 4.1
     },
     {
-      date: '2018-11-22',
+      date: '2018/11/22',
       wsd: 5.7,
       jlrdc: 15.6,
       jlswz: 5.7,
@@ -26801,13 +30746,13 @@ export class OnlinePoint {
       sqws: 8.3,
       hsws: 8.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 3.6,
-      yssbp: 3.2,
-      ymhk: 2.8
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 3.6,
+      ymhk: 3.2
     },
     {
-      date: '2018-11-23',
+      date: '2018/11/23',
       wsd: 5.4,
       jlrdc: 15.3,
       jlswz: 4.4,
@@ -26816,13 +30761,13 @@ export class OnlinePoint {
       sqws: 8.1,
       hsws: 8.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 2.8,
+      flhk: null,
+      lwm: 0.1,
       yssbp: 2.8,
-      ymhk: 2.1
+      ymhk: 2.8
     },
     {
-      date: '2018-11-24',
+      date: '2018/11/24',
       wsd: 5.1,
       jlrdc: 15.2,
       jlswz: 6.5,
@@ -26831,13 +30776,13 @@ export class OnlinePoint {
       sqws: 7.9,
       hsws: 8.4,
       yqws: null,
-      flhk: 0.1,
-      lwm: 2.9,
-      yssbp: 3.0,
-      ymhk: 2.3
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 2.9,
+      ymhk: 3.0
     },
     {
-      date: '2018-11-25',
+      date: '2018/11/25',
       wsd: 6.5,
       jlrdc: 15.7,
       jlswz: 6.7,
@@ -26846,13 +30791,13 @@ export class OnlinePoint {
       sqws: 7.8,
       hsws: 8.4,
       yqws: null,
-      flhk: 0.2,
-      lwm: 2.9,
-      yssbp: 2.8,
-      ymhk: 2.5
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 2.9,
+      ymhk: 2.8
     },
     {
-      date: '2018-11-26',
+      date: '2018/11/26',
       wsd: 6.6,
       jlrdc: 16.4,
       jlswz: 6.9,
@@ -26861,13 +30806,13 @@ export class OnlinePoint {
       sqws: 7.6,
       hsws: 8.3,
       yqws: null,
-      flhk: 0.3,
-      lwm: 2.9,
-      yssbp: 3.0,
-      ymhk: 2.6
+      flhk: null,
+      lwm: 0.3,
+      yssbp: 2.9,
+      ymhk: 3.0
     },
     {
-      date: '2018-11-27',
+      date: '2018/11/27',
       wsd: 6.4,
       jlrdc: 15.9,
       jlswz: 6.3,
@@ -26876,13 +30821,13 @@ export class OnlinePoint {
       sqws: 7.3,
       hsws: 8.1,
       yqws: null,
-      flhk: 0.2,
-      lwm: 2.8,
-      yssbp: 2.3,
-      ymhk: 2.0
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 2.8,
+      ymhk: 2.3
     },
     {
-      date: '2018-11-28',
+      date: '2018/11/28',
       wsd: 5.4,
       jlrdc: 14.9,
       jlswz: 6.2,
@@ -26891,13 +30836,13 @@ export class OnlinePoint {
       sqws: 7.2,
       hsws: 8.0,
       yqws: null,
-      flhk: 0.1,
-      lwm: 2.0,
+      flhk: null,
+      lwm: 0.1,
       yssbp: 2.0,
-      ymhk: 1.1
+      ymhk: 2.0
     },
     {
-      date: '2018-11-29',
+      date: '2018/11/29',
       wsd: 4.8,
       jlrdc: 14.4,
       jlswz: 6.1,
@@ -26906,13 +30851,13 @@ export class OnlinePoint {
       sqws: 7.0,
       hsws: 8.0,
       yqws: null,
-      flhk: 0.2,
-      lwm: 2.1,
-      yssbp: 2.0,
-      ymhk: 1.0
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 2.1,
+      ymhk: 2.0
     },
     {
-      date: '2018-11-30',
+      date: '2018/11/30',
       wsd: 4.9,
       jlrdc: 15.2,
       jlswz: 5.8,
@@ -26921,13 +30866,13 @@ export class OnlinePoint {
       sqws: 6.8,
       hsws: 7.9,
       yqws: null,
-      flhk: 0.2,
-      lwm: 1.9,
-      yssbp: 1.8,
-      ymhk: 1.2
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 1.9,
+      ymhk: 1.8
     },
     {
-      date: '2018-12-01',
+      date: '2018/12/1',
       wsd: 4.8,
       jlrdc: 15.2,
       jlswz: 5.9,
@@ -26936,13 +30881,13 @@ export class OnlinePoint {
       sqws: 6.6,
       hsws: 7.6,
       yqws: null,
-      flhk: 0.2,
-      lwm: 1.7,
+      flhk: null,
+      lwm: 0.2,
       yssbp: 1.7,
-      ymhk: 1.2
+      ymhk: 1.7
     },
     {
-      date: '2018-12-02',
+      date: '2018/12/2',
       wsd: 5.2,
       jlrdc: 15.4,
       jlswz: 5.9,
@@ -26951,13 +30896,13 @@ export class OnlinePoint {
       sqws: 6.5,
       hsws: 7.4,
       yqws: null,
-      flhk: 0.2,
-      lwm: 2.0,
+      flhk: null,
+      lwm: 0.2,
       yssbp: 2.0,
-      ymhk: 1.7
+      ymhk: 2.0
     },
     {
-      date: '2018-12-03',
+      date: '2018/12/3',
       wsd: 5.8,
       jlrdc: 15.4,
       jlswz: 6.1,
@@ -26966,13 +30911,13 @@ export class OnlinePoint {
       sqws: 6.5,
       hsws: 7.4,
       yqws: null,
-      flhk: 0.2,
-      lwm: 2.8,
+      flhk: null,
+      lwm: 0.2,
       yssbp: 2.8,
-      ymhk: 2.4
+      ymhk: 2.8
     },
     {
-      date: '2018-12-04',
+      date: '2018/12/4',
       wsd: 5.3,
       jlrdc: 14.2,
       jlswz: 5.3,
@@ -26981,13 +30926,13 @@ export class OnlinePoint {
       sqws: 6.2,
       hsws: 7.0,
       yqws: null,
-      flhk: 0.2,
-      lwm: 1.8,
-      yssbp: 1.5,
-      ymhk: 1.3
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 1.8,
+      ymhk: 1.5
     },
     {
-      date: '2018-12-05',
+      date: '2018/12/5',
       wsd: 4.2,
       jlrdc: 15.2,
       jlswz: 4.4,
@@ -26996,13 +30941,13 @@ export class OnlinePoint {
       sqws: 6.0,
       hsws: 6.7,
       yqws: null,
-      flhk: 0.1,
-      lwm: 1.2,
+      flhk: null,
+      lwm: 0.1,
       yssbp: 1.2,
-      ymhk: 0.6
+      ymhk: 1.2
     },
     {
-      date: '2018-12-06',
+      date: '2018/12/6',
       wsd: 3.9,
       jlrdc: 14.4,
       jlswz: 4.0,
@@ -27011,13 +30956,13 @@ export class OnlinePoint {
       sqws: 5.8,
       hsws: 6.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 1.1,
-      yssbp: 0.8,
-      ymhk: 0.4
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 1.1,
+      ymhk: 0.8
     },
     {
-      date: '2018-12-07',
+      date: '2018/12/7',
       wsd: 3.6,
       jlrdc: 13.9,
       jlswz: 3.3,
@@ -27026,13 +30971,13 @@ export class OnlinePoint {
       sqws: 5.6,
       hsws: 6.0,
       yqws: null,
-      flhk: 0.1,
-      lwm: 0.3,
-      yssbp: 0.2,
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 0.3,
       ymhk: 0.2
     },
     {
-      date: '2018-12-08',
+      date: '2018/12/8',
       wsd: 3.3,
       jlrdc: 13.6,
       jlswz: 2.9,
@@ -27041,13 +30986,13 @@ export class OnlinePoint {
       sqws: 5.3,
       hsws: 5.6,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2018-12-09',
+      date: '2018/12/9',
       wsd: 3.0,
       jlrdc: 13.9,
       jlswz: 3.4,
@@ -27056,13 +31001,13 @@ export class OnlinePoint {
       sqws: 5.0,
       hsws: 5.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2018-12-10',
+      date: '2018/12/10',
       wsd: 2.7,
       jlrdc: 13.6,
       jlswz: 3.4,
@@ -27071,13 +31016,13 @@ export class OnlinePoint {
       sqws: 4.9,
       hsws: 5.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2018-12-11',
+      date: '2018/12/11',
       wsd: 2.4,
       jlrdc: 14.3,
       jlswz: 3.3,
@@ -27086,13 +31031,13 @@ export class OnlinePoint {
       sqws: 4.6,
       hsws: 4.9,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-12',
+      date: '2018/12/12',
       wsd: 2.1,
       jlrdc: 13.4,
       jlswz: 3.2,
@@ -27101,13 +31046,13 @@ export class OnlinePoint {
       sqws: 4.4,
       hsws: 4.6,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-13',
+      date: '2018/12/13',
       wsd: 1.8,
       jlrdc: 13.2,
       jlswz: 3.7,
@@ -27116,13 +31061,13 @@ export class OnlinePoint {
       sqws: 4.1,
       hsws: 4.4,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-14',
+      date: '2018/12/14',
       wsd: 2.3,
       jlrdc: 13.8,
       jlswz: 3.5,
@@ -27131,13 +31076,13 @@ export class OnlinePoint {
       sqws: 3.9,
       hsws: 4.5,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-15',
+      date: '2018/12/15',
       wsd: 2.4,
       jlrdc: 14.3,
       jlswz: 3.4,
@@ -27146,13 +31091,13 @@ export class OnlinePoint {
       sqws: 3.7,
       hsws: 4.6,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-16',
+      date: '2018/12/16',
       wsd: 2.7,
       jlrdc: 15.7,
       jlswz: 3.6,
@@ -27161,13 +31106,13 @@ export class OnlinePoint {
       sqws: 3.5,
       hsws: 4.9,
       yqws: null,
-      flhk: 0.2,
-      lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-17',
+      date: '2018/12/17',
       wsd: 2.8,
       jlrdc: 15.0,
       jlswz: 3.3,
@@ -27176,13 +31121,13 @@ export class OnlinePoint {
       sqws: 3.4,
       hsws: 4.9,
       yqws: null,
-      flhk: 0.2,
-      lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-18',
+      date: '2018/12/18',
       wsd: 2.5,
       jlrdc: 14.4,
       jlswz: 3.0,
@@ -27191,13 +31136,13 @@ export class OnlinePoint {
       sqws: 3.3,
       hsws: 4.8,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-19',
+      date: '2018/12/19',
       wsd: 2.3,
       jlrdc: 14.1,
       jlswz: 2.6,
@@ -27206,13 +31151,13 @@ export class OnlinePoint {
       sqws: 3.2,
       hsws: 4.7,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-20',
+      date: '2018/12/20',
       wsd: 2.0,
       jlrdc: 15.3,
       jlswz: 2.6,
@@ -27221,13 +31166,13 @@ export class OnlinePoint {
       sqws: 3.0,
       hsws: 4.6,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-21',
+      date: '2018/12/21',
       wsd: 1.7,
       jlrdc: 15.1,
       jlswz: 2.6,
@@ -27236,13 +31181,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 4.4,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-22',
+      date: '2018/12/22',
       wsd: 1.4,
       jlrdc: 15.7,
       jlswz: 2.4,
@@ -27251,13 +31196,13 @@ export class OnlinePoint {
       sqws: 2.4,
       hsws: 4.5,
       yqws: null,
-      flhk: 0.1,
-      lwm: 0.0,
+      flhk: null,
+      lwm: 0.1,
       yssbp: 0.0,
-      ymhk: 0.2
+      ymhk: 0.0
     },
     {
-      date: '2018-12-23',
+      date: '2018/12/23',
       wsd: 1.1,
       jlrdc: 14.4,
       jlswz: 1.7,
@@ -27266,13 +31211,13 @@ export class OnlinePoint {
       sqws: 2.7,
       hsws: 4.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 0.0,
+      flhk: null,
+      lwm: 0.1,
       yssbp: 0.0,
-      ymhk: 0.2
+      ymhk: 0.0
     },
     {
-      date: '2018-12-24',
+      date: '2018/12/24',
       wsd: 0.8,
       jlrdc: 13.8,
       jlswz: 1.8,
@@ -27281,13 +31226,13 @@ export class OnlinePoint {
       sqws: 2.8,
       hsws: 4.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-25',
+      date: '2018/12/25',
       wsd: 0.5,
       jlrdc: 14.3,
       jlswz: 2.1,
@@ -27296,13 +31241,13 @@ export class OnlinePoint {
       sqws: 2.3,
       hsws: 3.6,
       yqws: null,
-      flhk: 0.1,
-      lwm: 0.0,
+      flhk: null,
+      lwm: 0.1,
       yssbp: 0.0,
-      ymhk: 0.2
+      ymhk: 0.0
     },
     {
-      date: '2018-12-26',
+      date: '2018/12/26',
       wsd: 0.6,
       jlrdc: 13.5,
       jlswz: 1.8,
@@ -27311,13 +31256,13 @@ export class OnlinePoint {
       sqws: 2.7,
       hsws: 3.1,
       yqws: null,
-      flhk: 0.1,
-      lwm: 0.0,
+      flhk: null,
+      lwm: 0.1,
       yssbp: 0.0,
-      ymhk: 0.2
+      ymhk: 0.0
     },
     {
-      date: '2018-12-27',
+      date: '2018/12/27',
       wsd: 0.4,
       jlrdc: 13.0,
       jlswz: 1.9,
@@ -27326,13 +31271,13 @@ export class OnlinePoint {
       sqws: 2.3,
       hsws: 3.0,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-28',
+      date: '2018/12/28',
       wsd: 0.4,
       jlrdc: 13.1,
       jlswz: 1.7,
@@ -27341,13 +31286,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 2.8,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-29',
+      date: '2018/12/29',
       wsd: 0.4,
       jlrdc: 12.0,
       jlswz: 1.4,
@@ -27356,13 +31301,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 2.8,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-30',
+      date: '2018/12/30',
       wsd: 0.4,
       jlrdc: 11.9,
       jlswz: 0.9,
@@ -27371,13 +31316,13 @@ export class OnlinePoint {
       sqws: 1.6,
       hsws: 2.9,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2018-12-31',
+      date: '2018/12/31',
       wsd: 0.4,
       jlrdc: 13.0,
       jlswz: 0.8,
@@ -27386,13 +31331,13 @@ export class OnlinePoint {
       sqws: 1.4,
       hsws: 2.6,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-01',
+      date: '2019/1/1',
       wsd: 0.4,
       jlrdc: 10.7,
       jlswz: 0.7,
@@ -27401,13 +31346,13 @@ export class OnlinePoint {
       sqws: 1.4,
       hsws: 2.4,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-02',
+      date: '2019/1/2',
       wsd: 0.4,
       jlrdc: 11.1,
       jlswz: 0.8,
@@ -27416,13 +31361,13 @@ export class OnlinePoint {
       sqws: 1.4,
       hsws: 2.4,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-03',
+      date: '2019/1/3',
       wsd: 0.4,
       jlrdc: 13.1,
       jlswz: 0.9,
@@ -27431,13 +31376,13 @@ export class OnlinePoint {
       sqws: 1.5,
       hsws: 2.4,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-04',
+      date: '2019/1/4',
       wsd: 0.4,
       jlrdc: 10.7,
       jlswz: 1.0,
@@ -27446,13 +31391,13 @@ export class OnlinePoint {
       sqws: 1.5,
       hsws: 2.3,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-01-05',
+      date: '2019/1/5',
       wsd: 0.4,
       jlrdc: 13.6,
       jlswz: 0.9,
@@ -27461,13 +31406,13 @@ export class OnlinePoint {
       sqws: 1.6,
       hsws: 2.2,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-06',
+      date: '2019/1/6',
       wsd: 0.4,
       jlrdc: 11.4,
       jlswz: 0.9,
@@ -27476,13 +31421,13 @@ export class OnlinePoint {
       sqws: 1.6,
       hsws: 2.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-07',
+      date: '2019/1/7',
       wsd: 0.4,
       jlrdc: 10.1,
       jlswz: 0.9,
@@ -27491,13 +31436,13 @@ export class OnlinePoint {
       sqws: 1.7,
       hsws: 2.0,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-08',
+      date: '2019/1/8',
       wsd: 0.4,
       jlrdc: 10.2,
       jlswz: 0.8,
@@ -27506,13 +31451,13 @@ export class OnlinePoint {
       sqws: 1.7,
       hsws: 2.0,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-09',
+      date: '2019/1/9',
       wsd: 0.4,
       jlrdc: 10.2,
       jlswz: 0.9,
@@ -27521,13 +31466,13 @@ export class OnlinePoint {
       sqws: 1.8,
       hsws: 2.0,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-10',
+      date: '2019/1/10',
       wsd: 0.4,
       jlrdc: 10.9,
       jlswz: 1.4,
@@ -27536,13 +31481,13 @@ export class OnlinePoint {
       sqws: 1.8,
       hsws: 2.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-11',
+      date: '2019/1/11',
       wsd: 0.4,
       jlrdc: 9.9,
       jlswz: 1.5,
@@ -27551,13 +31496,13 @@ export class OnlinePoint {
       sqws: 1.8,
       hsws: 2.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-12',
+      date: '2019/1/12',
       wsd: 0.3,
       jlrdc: 11.0,
       jlswz: 1.4,
@@ -27566,13 +31511,13 @@ export class OnlinePoint {
       sqws: 1.8,
       hsws: 2.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-13',
+      date: '2019/1/13',
       wsd: 0.2,
       jlrdc: 11.4,
       jlswz: 1.4,
@@ -27581,13 +31526,13 @@ export class OnlinePoint {
       sqws: 1.8,
       hsws: 2.0,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-14',
+      date: '2019/1/14',
       wsd: 0.0,
       jlrdc: 10.8,
       jlswz: 1.6,
@@ -27596,13 +31541,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 2.0,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-15',
+      date: '2019/1/15',
       wsd: 0.1,
       jlrdc: 10.4,
       jlswz: 1.3,
@@ -27611,13 +31556,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 2.0,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-16',
+      date: '2019/1/16',
       wsd: 0.1,
       jlrdc: 10.3,
       jlswz: 1.1,
@@ -27626,13 +31571,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 1.9,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-17',
+      date: '2019/1/17',
       wsd: 0.1,
       jlrdc: 10.4,
       jlswz: 1.2,
@@ -27641,13 +31586,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 1.9,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-18',
+      date: '2019/1/18',
       wsd: 0.1,
       jlrdc: 10.3,
       jlswz: 1.1,
@@ -27656,13 +31601,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 1.8,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-19',
+      date: '2019/1/19',
       wsd: 0.1,
       jlrdc: 10.6,
       jlswz: 1.2,
@@ -27671,13 +31616,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 1.7,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-20',
+      date: '2019/1/20',
       wsd: 0.1,
       jlrdc: 10.8,
       jlswz: 1.4,
@@ -27686,13 +31631,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 1.7,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-21',
+      date: '2019/1/21',
       wsd: 0.1,
       jlrdc: 10.9,
       jlswz: 1.7,
@@ -27701,13 +31646,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 1.7,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-22',
+      date: '2019/1/22',
       wsd: 0.1,
       jlrdc: 10.9,
       jlswz: 1.6,
@@ -27716,13 +31661,13 @@ export class OnlinePoint {
       sqws: 1.9,
       hsws: 1.7,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-23',
+      date: '2019/1/23',
       wsd: 0.1,
       jlrdc: 9.8,
       jlswz: 1.7,
@@ -27731,13 +31676,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.6,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-24',
+      date: '2019/1/24',
       wsd: 0.1,
       jlrdc: 10.5,
       jlswz: 1.5,
@@ -27746,13 +31691,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.6,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-25',
+      date: '2019/1/25',
       wsd: 0.1,
       jlrdc: 10.2,
       jlswz: 1.5,
@@ -27761,13 +31706,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.5,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-26',
+      date: '2019/1/26',
       wsd: 0.1,
       jlrdc: 10.5,
       jlswz: 1.6,
@@ -27776,13 +31721,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.4,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-27',
+      date: '2019/1/27',
       wsd: 0.1,
       jlrdc: 10.3,
       jlswz: 1.6,
@@ -27791,13 +31736,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.3,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-01-28',
+      date: '2019/1/28',
       wsd: 0.1,
       jlrdc: 10.6,
       jlswz: 1.6,
@@ -27806,13 +31751,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.2,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-01-29',
+      date: '2019/1/29',
       wsd: 0.1,
       jlrdc: 10.4,
       jlswz: 1.6,
@@ -27821,13 +31766,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.2,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-01-30',
+      date: '2019/1/30',
       wsd: 0.1,
       jlrdc: 10.8,
       jlswz: 1.5,
@@ -27836,13 +31781,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.2,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-01-31',
+      date: '2019/1/31',
       wsd: 0.1,
       jlrdc: 9.8,
       jlswz: 1.2,
@@ -27851,13 +31796,13 @@ export class OnlinePoint {
       sqws: 2.0,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-01',
+      date: '2019/2/1',
       wsd: 0.1,
       jlrdc: 9.9,
       jlswz: 1.6,
@@ -27866,13 +31811,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-02',
+      date: '2019/2/2',
       wsd: 0.1,
       jlrdc: 9.9,
       jlswz: 1.9,
@@ -27881,13 +31826,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-03',
+      date: '2019/2/3',
       wsd: 0.1,
       jlrdc: 10.6,
       jlswz: 2.0,
@@ -27896,13 +31841,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-04',
+      date: '2019/2/4',
       wsd: 0.1,
       jlrdc: 10.8,
       jlswz: 1.4,
@@ -27911,13 +31856,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.1,
+      ymhk: 0.0
     },
     {
-      date: '2019-02-05',
+      date: '2019/2/5',
       wsd: 0.1,
       jlrdc: 10.1,
       jlswz: 1.5,
@@ -27926,13 +31871,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-06',
+      date: '2019/2/6',
       wsd: 0.1,
       jlrdc: 10.3,
       jlswz: 1.4,
@@ -27941,13 +31886,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-07',
+      date: '2019/2/7',
       wsd: 0.1,
       jlrdc: 9.3,
       jlswz: 0.9,
@@ -27956,13 +31901,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-08',
+      date: '2019/2/8',
       wsd: 0.1,
       jlrdc: 10.6,
       jlswz: 1.1,
@@ -27971,13 +31916,13 @@ export class OnlinePoint {
       sqws: 2.1,
       hsws: 1.0,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-09',
+      date: '2019/2/9',
       wsd: 0.1,
       jlrdc: 10.8,
       jlswz: 1.4,
@@ -27986,13 +31931,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-10',
+      date: '2019/2/10',
       wsd: 0.1,
       jlrdc: 10.7,
       jlswz: 1.6,
@@ -28001,13 +31946,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-11',
+      date: '2019/2/11',
       wsd: 0.1,
       jlrdc: 10.4,
       jlswz: 1.5,
@@ -28016,13 +31961,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-12',
+      date: '2019/2/12',
       wsd: 0.1,
       jlrdc: 10.4,
       jlswz: 1.2,
@@ -28031,13 +31976,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-13',
+      date: '2019/2/13',
       wsd: 0.1,
       jlrdc: 10.7,
       jlswz: 1.2,
@@ -28046,13 +31991,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-14',
+      date: '2019/2/14',
       wsd: 0.1,
       jlrdc: 10.8,
       jlswz: 1.3,
@@ -28061,13 +32006,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-15',
+      date: '2019/2/15',
       wsd: 0.1,
       jlrdc: 11.3,
       jlswz: 1.6,
@@ -28076,13 +32021,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-16',
+      date: '2019/2/16',
       wsd: 0.1,
       jlrdc: 11.6,
       jlswz: 1.8,
@@ -28091,13 +32036,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.0,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-17',
+      date: '2019/2/17',
       wsd: 0.1,
       jlrdc: 11.4,
       jlswz: 1.9,
@@ -28106,13 +32051,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 0.9,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-18',
+      date: '2019/2/18',
       wsd: 0.3,
       jlrdc: 12.3,
       jlswz: 2.1,
@@ -28121,13 +32066,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 0.8,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-19',
+      date: '2019/2/19',
       wsd: 0.1,
       jlrdc: 11.6,
       jlswz: 2.3,
@@ -28136,13 +32081,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 0.7,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-20',
+      date: '2019/2/20',
       wsd: 0.2,
       jlrdc: 10.6,
       jlswz: 2.2,
@@ -28151,13 +32096,13 @@ export class OnlinePoint {
       sqws: 2.3,
       hsws: 0.9,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-21',
+      date: '2019/2/21',
       wsd: 0.3,
       jlrdc: 11.1,
       jlswz: 2.2,
@@ -28166,13 +32111,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-22',
+      date: '2019/2/22',
       wsd: 0.4,
       jlrdc: 11.2,
       jlswz: 2.4,
@@ -28181,13 +32126,13 @@ export class OnlinePoint {
       sqws: 2.2,
       hsws: 1.2,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2019-02-23',
+      date: '2019/2/23',
       wsd: 0.3,
       jlrdc: 11.4,
       jlswz: 2.5,
@@ -28196,13 +32141,13 @@ export class OnlinePoint {
       sqws: 2.3,
       hsws: 1.4,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-24',
+      date: '2019/2/24',
       wsd: 0.7,
       jlrdc: 11.3,
       jlswz: 2.6,
@@ -28211,13 +32156,13 @@ export class OnlinePoint {
       sqws: 2.3,
       hsws: 1.5,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-25',
+      date: '2019/2/25',
       wsd: 1.0,
       jlrdc: 11.4,
       jlswz: 2.4,
@@ -28226,13 +32171,13 @@ export class OnlinePoint {
       sqws: 2.3,
       hsws: 1.7,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-26',
+      date: '2019/2/26',
       wsd: 1.4,
       jlrdc: 11.5,
       jlswz: 2.3,
@@ -28241,13 +32186,13 @@ export class OnlinePoint {
       sqws: 2.3,
       hsws: 1.7,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2019-02-27',
+      date: '2019/2/27',
       wsd: 1.8,
       jlrdc: 11.3,
       jlswz: 2.1,
@@ -28256,13 +32201,13 @@ export class OnlinePoint {
       sqws: 2.4,
       hsws: 1.8,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-02-28',
+      date: '2019/2/28',
       wsd: 1.9,
       jlrdc: 10.4,
       jlswz: 2.5,
@@ -28271,13 +32216,13 @@ export class OnlinePoint {
       sqws: 2.4,
       hsws: 2.0,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2019-03-01',
+      date: '2019/3/1',
       wsd: 2.0,
       jlrdc: 10.8,
       jlswz: 2.7,
@@ -28286,13 +32231,13 @@ export class OnlinePoint {
       sqws: 2.4,
       hsws: 1.9,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.2,
-      ymhk: 0.3
+      ymhk: 0.2
     },
     {
-      date: '2019-03-02',
+      date: '2019/3/2',
       wsd: 2.0,
       jlrdc: 10.7,
       jlswz: 2.8,
@@ -28301,13 +32246,13 @@ export class OnlinePoint {
       sqws: 2.5,
       hsws: 2.0,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.2,
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.2
     },
     {
-      date: '2019-03-03',
+      date: '2019/3/3',
       wsd: 2.1,
       jlrdc: 11.0,
       jlswz: 3.0,
@@ -28316,13 +32261,13 @@ export class OnlinePoint {
       sqws: 2.5,
       hsws: 2.2,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.2,
-      ymhk: 0.3
+      ymhk: 0.2
     },
     {
-      date: '2019-03-04',
+      date: '2019/3/4',
       wsd: 2.2,
       jlrdc: 10.4,
       jlswz: 2.8,
@@ -28331,13 +32276,13 @@ export class OnlinePoint {
       sqws: 2.5,
       hsws: 2.2,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.3
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2019-03-05',
+      date: '2019/3/5',
       wsd: 2.3,
       jlrdc: 10.9,
       jlswz: 2.9,
@@ -28346,13 +32291,13 @@ export class OnlinePoint {
       sqws: 2.5,
       hsws: 2.4,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.2,
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.2
     },
     {
-      date: '2019-03-06',
+      date: '2019/3/6',
       wsd: 2.4,
       jlrdc: 11.3,
       jlswz: 2.9,
@@ -28361,13 +32306,13 @@ export class OnlinePoint {
       sqws: 2.5,
       hsws: 2.5,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.2,
       ymhk: 0.2
     },
     {
-      date: '2019-03-07',
+      date: '2019/3/7',
       wsd: 2.5,
       jlrdc: 11.2,
       jlswz: 2.7,
@@ -28376,13 +32321,13 @@ export class OnlinePoint {
       sqws: 2.5,
       hsws: 2.6,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.2,
-      ymhk: 0.3
+      ymhk: 0.2
     },
     {
-      date: '2019-03-08',
+      date: '2019/3/8',
       wsd: 2.6,
       jlrdc: 11.8,
       jlswz: 2.9,
@@ -28391,13 +32336,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 2.9,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.2,
-      ymhk: 0.3
+      ymhk: 0.2
     },
     {
-      date: '2019-03-09',
+      date: '2019/3/9',
       wsd: 2.7,
       jlrdc: 11.2,
       jlswz: 3.0,
@@ -28406,13 +32351,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 3.0,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
+      flhk: null,
+      lwm: 0.0,
       yssbp: 0.2,
-      ymhk: 0.3
+      ymhk: 0.2
     },
     {
-      date: '2019-03-10',
+      date: '2019/3/10',
       wsd: 2.8,
       jlrdc: 10.8,
       jlswz: 2.7,
@@ -28421,13 +32366,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 3.1,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.2,
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.2
     },
     {
-      date: '2019-03-11',
+      date: '2019/3/11',
       wsd: 2.9,
       jlrdc: 10.9,
       jlswz: 3.1,
@@ -28436,13 +32381,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 3.2,
       yqws: null,
-      flhk: 0.1,
-      lwm: 0.2,
+      flhk: null,
+      lwm: 0.1,
       yssbp: 0.2,
       ymhk: 0.2
     },
     {
-      date: '2019-03-12',
+      date: '2019/3/12',
       wsd: 3.0,
       jlrdc: 11.0,
       jlswz: 2.7,
@@ -28451,13 +32396,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 3.3,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.2,
+      yssbp: 0.1,
       ymhk: 0.2
     },
     {
-      date: '2019-03-13',
+      date: '2019/3/13',
       wsd: 3.1,
       jlrdc: 10.6,
       jlswz: 1.9,
@@ -28466,13 +32411,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 3.2,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
       yssbp: 0.1,
-      ymhk: 0.2
+      ymhk: 0.1
     },
     {
-      date: '2019-03-14',
+      date: '2019/3/14',
       wsd: 3.2,
       jlrdc: 9.8,
       jlswz: 2.0,
@@ -28481,13 +32426,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 3.1,
       yqws: null,
-      flhk: 0.1,
+      flhk: null,
       lwm: 0.1,
-      yssbp: 0.2,
+      yssbp: 0.1,
       ymhk: 0.2
     },
     {
-      date: '2019-03-15',
+      date: '2019/3/15',
       wsd: 3.2,
       jlrdc: 10.8,
       jlswz: 2.6,
@@ -28496,13 +32441,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 3.0,
       yqws: null,
-      flhk: 0.1,
-      lwm: 0.2,
-      yssbp: 0.5,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 0.2,
+      ymhk: 0.5
     },
     {
-      date: '2019-03-16',
+      date: '2019/3/16',
       wsd: 3.3,
       jlrdc: 11.3,
       jlswz: 3.0,
@@ -28511,13 +32456,13 @@ export class OnlinePoint {
       sqws: 2.6,
       hsws: 3.0,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 1.0,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 1.0
     },
     {
-      date: '2019-03-17',
+      date: '2019/3/17',
       wsd: 3.4,
       jlrdc: 12.0,
       jlswz: 3.2,
@@ -28526,13 +32471,13 @@ export class OnlinePoint {
       sqws: 2.7,
       hsws: 3.0,
       yqws: null,
-      flhk: 0.0,
-      lwm: 0.4,
-      yssbp: 1.1,
-      ymhk: 0.2
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 0.4,
+      ymhk: 1.1
     },
     {
-      date: '2019-03-18',
+      date: '2019/3/18',
       wsd: 3.5,
       jlrdc: 12.4,
       jlswz: 3.7,
@@ -28541,13 +32486,13 @@ export class OnlinePoint {
       sqws: 2.7,
       hsws: 3.1,
       yqws: null,
-      flhk: 0.2,
-      lwm: 1.1,
-      yssbp: 1.6,
-      ymhk: 0.3
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 1.1,
+      ymhk: 1.6
     },
     {
-      date: '2019-03-19',
+      date: '2019/3/19',
       wsd: 3.6,
       jlrdc: 13.0,
       jlswz: 4.1,
@@ -28556,13 +32501,13 @@ export class OnlinePoint {
       sqws: 2.8,
       hsws: 3.3,
       yqws: null,
-      flhk: 0.2,
-      lwm: 2.5,
-      yssbp: 2.8,
-      ymhk: 0.3
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 2.5,
+      ymhk: 2.8
     },
     {
-      date: '2019-03-20',
+      date: '2019/3/20',
       wsd: 3.7,
       jlrdc: 12.9,
       jlswz: 3.8,
@@ -28571,13 +32516,13 @@ export class OnlinePoint {
       sqws: 2.8,
       hsws: 3.3,
       yqws: null,
-      flhk: 0.2,
-      lwm: 3.3,
+      flhk: null,
+      lwm: 0.2,
       yssbp: 3.3,
-      ymhk: 0.2
+      ymhk: 3.3
     },
     {
-      date: '2019-03-21',
+      date: '2019/3/21',
       wsd: 3.8,
       jlrdc: 12.0,
       jlswz: 2.5,
@@ -28586,13 +32531,13 @@ export class OnlinePoint {
       sqws: 2.8,
       hsws: 3.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 2.9,
-      yssbp: 3.4,
-      ymhk: 0.9
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 2.9,
+      ymhk: 3.4
     },
     {
-      date: '2019-03-22',
+      date: '2019/3/22',
       wsd: 3.9,
       jlrdc: 11.4,
       jlswz: 2.5,
@@ -28601,13 +32546,13 @@ export class OnlinePoint {
       sqws: 2.8,
       hsws: 3.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 2.5,
-      yssbp: 3.6,
-      ymhk: 1.8
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 2.5,
+      ymhk: 3.6
     },
     {
-      date: '2019-03-23',
+      date: '2019/3/23',
       wsd: 4.0,
       jlrdc: 11.2,
       jlswz: 3.0,
@@ -28616,13 +32561,13 @@ export class OnlinePoint {
       sqws: 2.8,
       hsws: 3.3,
       yqws: null,
-      flhk: 0.0,
-      lwm: 3.3,
-      yssbp: 3.7,
-      ymhk: 2.4
+      flhk: null,
+      lwm: 0.0,
+      yssbp: 3.3,
+      ymhk: 3.7
     },
     {
-      date: '2019-03-24',
+      date: '2019/3/24',
       wsd: 4.1,
       jlrdc: 11.1,
       jlswz: 3.1,
@@ -28631,13 +32576,13 @@ export class OnlinePoint {
       sqws: 2.8,
       hsws: 3.3,
       yqws: null,
-      flhk: 0.1,
-      lwm: 3.5,
-      yssbp: 3.8,
-      ymhk: 3.1
+      flhk: null,
+      lwm: 0.1,
+      yssbp: 3.5,
+      ymhk: 3.8
     },
     {
-      date: '2019-03-25',
+      date: '2019/3/25',
       wsd: 4.2,
       jlrdc: 11.6,
       jlswz: 3.8,
@@ -28646,13 +32591,13 @@ export class OnlinePoint {
       sqws: 2.8,
       hsws: 3.4,
       yqws: null,
-      flhk: 0.2,
-      lwm: 3.9,
-      yssbp: 4.0,
-      ymhk: 3.6
+      flhk: null,
+      lwm: 0.2,
+      yssbp: 3.9,
+      ymhk: 4.0
     },
     {
-      date: '2019-03-26',
+      date: '2019/3/26',
       wsd: 4.3,
       jlrdc: 12.4,
       jlswz: 3.7,
@@ -28662,12 +32607,12 @@ export class OnlinePoint {
       hsws: 3.4,
       yqws: null,
       flhk: null,
-      lwm: 4.2,
-      yssbp: 4.1,
-      ymhk: 3.8
+      lwm: null,
+      yssbp: 4.2,
+      ymhk: 4.1
     },
     {
-      date: '2019-03-27',
+      date: '2019/3/27',
       wsd: 4.4,
       jlrdc: 13.1,
       jlswz: 3.8,
@@ -28677,12 +32622,12 @@ export class OnlinePoint {
       hsws: 3.4,
       yqws: null,
       flhk: null,
-      lwm: 4.4,
-      yssbp: 4.2,
+      lwm: null,
+      yssbp: 4.4,
       ymhk: 4.2
     },
     {
-      date: '2019-03-28',
+      date: '2019/3/28',
       wsd: 4.4,
       jlrdc: 12.9,
       jlswz: 3.6,
@@ -28692,12 +32637,12 @@ export class OnlinePoint {
       hsws: 3.4,
       yqws: null,
       flhk: null,
-      lwm: 4.7,
-      yssbp: 4.3,
+      lwm: null,
+      yssbp: 4.7,
       ymhk: 4.3
     },
     {
-      date: '2019-03-29',
+      date: '2019/3/29',
       wsd: 4.5,
       jlrdc: 12.5,
       jlswz: 3.9,
@@ -28707,12 +32652,12 @@ export class OnlinePoint {
       hsws: 3.4,
       yqws: null,
       flhk: null,
-      lwm: 4.8,
-      yssbp: 4.5,
-      ymhk: 4.7
+      lwm: null,
+      yssbp: 4.8,
+      ymhk: 4.5
     },
     {
-      date: '2019-03-30',
+      date: '2019/3/30',
       wsd: 4.6,
       jlrdc: 13.0,
       jlswz: 4.0,
@@ -28722,12 +32667,12 @@ export class OnlinePoint {
       hsws: 3.5,
       yqws: null,
       flhk: null,
-      lwm: 4.8,
-      yssbp: 4.6,
-      ymhk: 4.3
+      lwm: null,
+      yssbp: 4.8,
+      ymhk: 4.6
     },
     {
-      date: '2019-03-31',
+      date: '2019/3/31',
       wsd: 4.7,
       jlrdc: 12.8,
       jlswz: 3.7,
@@ -28737,12 +32682,12 @@ export class OnlinePoint {
       hsws: 3.7,
       yqws: null,
       flhk: null,
-      lwm: 4.6,
+      lwm: null,
       yssbp: 4.6,
-      ymhk: 4.2
+      ymhk: 4.6
     },
     {
-      date: '2019-04-01',
+      date: '2019/4/1',
       wsd: 4.8,
       jlrdc: 13.0,
       jlswz: 3.7,
@@ -28752,12 +32697,12 @@ export class OnlinePoint {
       hsws: 3.7,
       yqws: null,
       flhk: null,
-      lwm: 4.7,
-      yssbp: 4.6,
-      ymhk: 4.1
+      lwm: null,
+      yssbp: 4.7,
+      ymhk: 4.6
     },
     {
-      date: '2019-04-02',
+      date: '2019/4/2',
       wsd: 4.9,
       jlrdc: 12.9,
       jlswz: 3.7,
@@ -28767,12 +32712,12 @@ export class OnlinePoint {
       hsws: 3.7,
       yqws: null,
       flhk: null,
-      lwm: 4.5,
-      yssbp: 4.6,
-      ymhk: 4.4
+      lwm: null,
+      yssbp: 4.5,
+      ymhk: 4.6
     },
     {
-      date: '2019-04-03',
+      date: '2019/4/3',
       wsd: 5.0,
       jlrdc: 11.7,
       jlswz: 3.9,
@@ -28782,12 +32727,12 @@ export class OnlinePoint {
       hsws: 3.8,
       yqws: null,
       flhk: null,
-      lwm: 5.1,
-      yssbp: 5.2,
-      ymhk: 4.9
+      lwm: null,
+      yssbp: 5.1,
+      ymhk: 5.2
     },
     {
-      date: '2019-04-04',
+      date: '2019/4/4',
       wsd: 4.9,
       jlrdc: 12.8,
       jlswz: 4.2,
@@ -28797,12 +32742,12 @@ export class OnlinePoint {
       hsws: 4.0,
       yqws: null,
       flhk: null,
-      lwm: 5.2,
-      yssbp: 5.3,
-      ymhk: 5.1
+      lwm: null,
+      yssbp: 5.2,
+      ymhk: 5.3
     },
     {
-      date: '2019-04-05',
+      date: '2019/4/5',
       wsd: 4.6,
       jlrdc: 12.7,
       jlswz: 3.4,
@@ -28812,12 +32757,12 @@ export class OnlinePoint {
       hsws: 4.1,
       yqws: null,
       flhk: null,
-      lwm: 4.4,
-      yssbp: 4.3,
-      ymhk: 4.7
+      lwm: null,
+      yssbp: 4.4,
+      ymhk: 4.3
     },
     {
-      date: '2019-04-06',
+      date: '2019/4/6',
       wsd: 3.9,
       jlrdc: 12.5,
       jlswz: 3.6,
@@ -28827,12 +32772,12 @@ export class OnlinePoint {
       hsws: 4.1,
       yqws: null,
       flhk: null,
-      lwm: 4.3,
+      lwm: null,
       yssbp: 4.3,
       ymhk: 4.3
     },
     {
-      date: '2019-04-07',
+      date: '2019/4/7',
       wsd: 4.8,
       jlrdc: 12.6,
       jlswz: 4.1,
@@ -28842,12 +32787,12 @@ export class OnlinePoint {
       hsws: 4.2,
       yqws: null,
       flhk: null,
-      lwm: 4.8,
+      lwm: null,
       yssbp: 4.8,
       ymhk: 4.8
     },
     {
-      date: '2019-04-08',
+      date: '2019/4/8',
       wsd: 4.7,
       jlrdc: 12.9,
       jlswz: 4.1,
@@ -28857,12 +32802,12 @@ export class OnlinePoint {
       hsws: 4.4,
       yqws: null,
       flhk: null,
-      lwm: 5.4,
-      yssbp: 5.5,
-      ymhk: 5.4
+      lwm: null,
+      yssbp: 5.4,
+      ymhk: 5.5
     },
     {
-      date: '2019-04-09',
+      date: '2019/4/9',
       wsd: 5.2,
       jlrdc: 13.0,
       jlswz: 4.3,
@@ -28872,12 +32817,12 @@ export class OnlinePoint {
       hsws: 4.5,
       yqws: null,
       flhk: null,
-      lwm: 5.9,
+      lwm: null,
       yssbp: 5.9,
       ymhk: 5.9
     },
     {
-      date: '2019-04-10',
+      date: '2019/4/10',
       wsd: 5.0,
       jlrdc: 12.9,
       jlswz: 4.3,
@@ -28887,12 +32832,12 @@ export class OnlinePoint {
       hsws: 4.6,
       yqws: null,
       flhk: null,
-      lwm: 6.2,
+      lwm: null,
       yssbp: 6.2,
-      ymhk: 6.4
+      ymhk: 6.2
     },
     {
-      date: '2019-04-11',
+      date: '2019/4/11',
       wsd: 5.6,
       jlrdc: 12.0,
       jlswz: 4.3,
@@ -28902,12 +32847,12 @@ export class OnlinePoint {
       hsws: 4.7,
       yqws: null,
       flhk: null,
-      lwm: 6.6,
-      yssbp: 6.5,
-      ymhk: 6.8
+      lwm: null,
+      yssbp: 6.6,
+      ymhk: 6.5
     },
     {
-      date: '2019-04-12',
+      date: '2019/4/12',
       wsd: 5.4,
       jlrdc: 13.4,
       jlswz: 4.7,
@@ -28917,12 +32862,12 @@ export class OnlinePoint {
       hsws: 4.8,
       yqws: null,
       flhk: null,
-      lwm: 7.3,
+      lwm: null,
       yssbp: 7.3,
       ymhk: 7.3
     },
     {
-      date: '2019-04-13',
+      date: '2019/4/13',
       wsd: 6.0,
       jlrdc: 12.4,
       jlswz: 4.9,
@@ -28932,12 +32877,12 @@ export class OnlinePoint {
       hsws: 4.7,
       yqws: null,
       flhk: null,
-      lwm: 7.8,
-      yssbp: 7.7,
-      ymhk: 8.1
+      lwm: null,
+      yssbp: 7.8,
+      ymhk: 7.7
     },
     {
-      date: '2019-04-14',
+      date: '2019/4/14',
       wsd: 6.1,
       jlrdc: 11.8,
       jlswz: 5.2,
@@ -28947,12 +32892,12 @@ export class OnlinePoint {
       hsws: 4.8,
       yqws: null,
       flhk: null,
-      lwm: 7.8,
-      yssbp: 7.7,
-      ymhk: 8.1
+      lwm: null,
+      yssbp: 7.8,
+      ymhk: 7.7
     },
     {
-      date: '2019-04-15',
+      date: '2019/4/15',
       wsd: 6.2,
       jlrdc: 12.4,
       jlswz: 5.8,
@@ -28962,12 +32907,12 @@ export class OnlinePoint {
       hsws: 4.9,
       yqws: null,
       flhk: null,
-      lwm: 8.2,
-      yssbp: 8.1,
-      ymhk: 8.5
+      lwm: null,
+      yssbp: 8.2,
+      ymhk: 8.1
     },
     {
-      date: '2019-04-16',
+      date: '2019/4/16',
       wsd: 6.4,
       jlrdc: 13.1,
       jlswz: 6.4,
@@ -28977,12 +32922,12 @@ export class OnlinePoint {
       hsws: 5.2,
       yqws: null,
       flhk: null,
-      lwm: 9.2,
-      yssbp: 9.3,
-      ymhk: 8.9
+      lwm: null,
+      yssbp: 9.2,
+      ymhk: 9.3
     },
     {
-      date: '2019-04-17',
+      date: '2019/4/17',
       wsd: 6.5,
       jlrdc: 13.2,
       jlswz: 6.7,
@@ -28992,12 +32937,12 @@ export class OnlinePoint {
       hsws: 5.3,
       yqws: null,
       flhk: null,
-      lwm: 9.2,
-      yssbp: 9.1,
-      ymhk: 9.2
+      lwm: null,
+      yssbp: 9.2,
+      ymhk: 9.1
     },
     {
-      date: '2019-04-18',
+      date: '2019/4/18',
       wsd: 6.6,
       jlrdc: 13.3,
       jlswz: 5.9,
@@ -29007,12 +32952,12 @@ export class OnlinePoint {
       hsws: 5.4,
       yqws: null,
       flhk: null,
-      lwm: 7.9,
-      yssbp: 7.5,
-      ymhk: 8.9
+      lwm: null,
+      yssbp: 7.9,
+      ymhk: 7.5
     },
     {
-      date: '2019-04-19',
+      date: '2019/4/19',
       wsd: 6.7,
       jlrdc: 13.1,
       jlswz: 5.8,
@@ -29022,12 +32967,12 @@ export class OnlinePoint {
       hsws: 5.4,
       yqws: null,
       flhk: null,
-      lwm: 8.7,
+      lwm: null,
       yssbp: 8.7,
-      ymhk: 8.8
+      ymhk: 8.7
     },
     {
-      date: '2019-04-20',
+      date: '2019/4/20',
       wsd: 6.9,
       jlrdc: 13.2,
       jlswz: 5.9,
@@ -29037,12 +32982,12 @@ export class OnlinePoint {
       hsws: 5.5,
       yqws: null,
       flhk: null,
-      lwm: 8.6,
-      yssbp: 8.5,
-      ymhk: 9.0
+      lwm: null,
+      yssbp: 8.6,
+      ymhk: 8.5
     },
     {
-      date: '2019-04-21',
+      date: '2019/4/21',
       wsd: 7.0,
       jlrdc: 12.9,
       jlswz: 6.0,
@@ -29052,12 +32997,12 @@ export class OnlinePoint {
       hsws: 5.6,
       yqws: null,
       flhk: null,
-      lwm: 8.7,
-      yssbp: 8.5,
-      ymhk: 9.3
+      lwm: null,
+      yssbp: 8.7,
+      ymhk: 8.5
     },
     {
-      date: '2019-04-22',
+      date: '2019/4/22',
       wsd: 7.1,
       jlrdc: 13.3,
       jlswz: 6.4,
@@ -29067,12 +33012,12 @@ export class OnlinePoint {
       hsws: 5.7,
       yqws: null,
       flhk: null,
-      lwm: 9.7,
-      yssbp: 9.8,
-      ymhk: 9.7
+      lwm: null,
+      yssbp: 9.7,
+      ymhk: 9.8
     },
     {
-      date: '2019-04-23',
+      date: '2019/4/23',
       wsd: 7.3,
       jlrdc: 13.3,
       jlswz: 7.0,
@@ -29082,12 +33027,12 @@ export class OnlinePoint {
       hsws: 5.8,
       yqws: null,
       flhk: null,
-      lwm: 11.1,
-      yssbp: 11.4,
-      ymhk: 10.6
+      lwm: null,
+      yssbp: 11.1,
+      ymhk: 11.4
     },
     {
-      date: '2019-04-24',
+      date: '2019/4/24',
       wsd: 7.4,
       jlrdc: 12.5,
       jlswz: 6.4,
@@ -29097,12 +33042,12 @@ export class OnlinePoint {
       hsws: 5.9,
       yqws: null,
       flhk: null,
-      lwm: 10.1,
-      yssbp: 9.8,
-      ymhk: 10.7
+      lwm: null,
+      yssbp: 10.1,
+      ymhk: 9.8
     },
     {
-      date: '2019-04-25',
+      date: '2019/4/25',
       wsd: 7.5,
       jlrdc: 12.4,
       jlswz: 5.8,
@@ -29112,12 +33057,12 @@ export class OnlinePoint {
       hsws: 5.7,
       yqws: null,
       flhk: null,
-      lwm: 9.4,
-      yssbp: 8.9,
-      ymhk: 10.5
+      lwm: null,
+      yssbp: 9.4,
+      ymhk: 8.9
     },
     {
-      date: '2019-04-26',
+      date: '2019/4/26',
       wsd: 7.7,
       jlrdc: 12.6,
       jlswz: 6.2,
@@ -29127,12 +33072,12 @@ export class OnlinePoint {
       hsws: 5.5,
       yqws: null,
       flhk: null,
-      lwm: 10.6,
+      lwm: null,
       yssbp: 10.6,
-      ymhk: 10.5
+      ymhk: 10.6
     },
     {
-      date: '2019-04-27',
+      date: '2019/4/27',
       wsd: 7.8,
       jlrdc: 12.8,
       jlswz: 6.7,
@@ -29142,12 +33087,12 @@ export class OnlinePoint {
       hsws: 5.5,
       yqws: null,
       flhk: null,
-      lwm: 11.0,
-      yssbp: 10.9,
-      ymhk: 11.1
+      lwm: null,
+      yssbp: 11.0,
+      ymhk: 10.9
     },
     {
-      date: '2019-04-28',
+      date: '2019/4/28',
       wsd: 7.9,
       jlrdc: 13.6,
       jlswz: 6.9,
@@ -29157,12 +33102,12 @@ export class OnlinePoint {
       hsws: 5.5,
       yqws: null,
       flhk: null,
-      lwm: 11.5,
+      lwm: null,
       yssbp: 11.5,
-      ymhk: 11.4
+      ymhk: 11.5
     },
     {
-      date: '2019-04-29',
+      date: '2019/4/29',
       wsd: 8.1,
       jlrdc: 13.7,
       jlswz: 7.6,
@@ -29172,12 +33117,12 @@ export class OnlinePoint {
       hsws: 5.6,
       yqws: null,
       flhk: null,
-      lwm: 12.3,
-      yssbp: 12.4,
-      ymhk: 12.0
+      lwm: null,
+      yssbp: 12.3,
+      ymhk: 12.4
     },
     {
-      date: '2019-04-30',
+      date: '2019/4/30',
       wsd: 8.2,
       jlrdc: 13.4,
       jlswz: 7.7,
@@ -29187,12 +33132,12 @@ export class OnlinePoint {
       hsws: 5.7,
       yqws: null,
       flhk: null,
-      lwm: 12.7,
-      yssbp: 12.8,
-      ymhk: 12.6
+      lwm: null,
+      yssbp: 12.7,
+      ymhk: 12.8
     },
     {
-      date: '2019-05-01',
+      date: '2019/5/1',
       wsd: 8.3,
       jlrdc: 13.5,
       jlswz: 7.3,
@@ -29202,12 +33147,12 @@ export class OnlinePoint {
       hsws: 5.8,
       yqws: null,
       flhk: null,
-      lwm: 11.5,
-      yssbp: 11.1,
-      ymhk: 12.4
+      lwm: null,
+      yssbp: 11.5,
+      ymhk: 11.1
     },
     {
-      date: '2019-05-02',
+      date: '2019/5/2',
       wsd: 8.5,
       jlrdc: 13.6,
       jlswz: 7.2,
@@ -29217,12 +33162,12 @@ export class OnlinePoint {
       hsws: 5.9,
       yqws: null,
       flhk: null,
-      lwm: 11.6,
-      yssbp: 11.3,
-      ymhk: 12.4
+      lwm: null,
+      yssbp: 11.6,
+      ymhk: 11.3
     },
     {
-      date: '2019-05-03',
+      date: '2019/5/3',
       wsd: 8.6,
       jlrdc: 13.6,
       jlswz: 7.4,
@@ -29232,12 +33177,12 @@ export class OnlinePoint {
       hsws: 6.2,
       yqws: null,
       flhk: null,
-      lwm: 13.2,
-      yssbp: 13.4,
-      ymhk: 12.9
+      lwm: null,
+      yssbp: 13.2,
+      ymhk: 13.4
     },
     {
-      date: '2019-05-04',
+      date: '2019/5/4',
       wsd: 8.7,
       jlrdc: 13.4,
       jlswz: 7.9,
@@ -29247,12 +33192,12 @@ export class OnlinePoint {
       hsws: 6.3,
       yqws: null,
       flhk: null,
-      lwm: 14.0,
-      yssbp: 14.2,
-      ymhk: 13.7
+      lwm: null,
+      yssbp: 14.0,
+      ymhk: 14.2
     },
     {
-      date: '2019-05-05',
+      date: '2019/5/5',
       wsd: 8.9,
       jlrdc: 13.7,
       jlswz: 7.6,
@@ -29262,12 +33207,12 @@ export class OnlinePoint {
       hsws: 6.1,
       yqws: null,
       flhk: null,
-      lwm: 10.4,
-      yssbp: 9.5,
-      ymhk: 12.7
+      lwm: null,
+      yssbp: 10.4,
+      ymhk: 9.5
     },
     {
-      date: '2019-05-06',
+      date: '2019/5/6',
       wsd: 9.0,
       jlrdc: 13.4,
       jlswz: 5.9,
@@ -29277,12 +33222,12 @@ export class OnlinePoint {
       hsws: 6.1,
       yqws: null,
       flhk: null,
-      lwm: 10.6,
-      yssbp: 10.0,
-      ymhk: 12.1
+      lwm: null,
+      yssbp: 10.6,
+      ymhk: 10.0
     },
     {
-      date: '2019-05-07',
+      date: '2019/5/7',
       wsd: 9.1,
       jlrdc: 13.3,
       jlswz: 6.8,
@@ -29292,12 +33237,12 @@ export class OnlinePoint {
       hsws: 6.3,
       yqws: null,
       flhk: null,
-      lwm: 12.3,
+      lwm: null,
       yssbp: 12.3,
-      ymhk: 12.2
+      ymhk: 12.3
     },
     {
-      date: '2019-05-08',
+      date: '2019/5/8',
       wsd: 9.3,
       jlrdc: 13.2,
       jlswz: 6.9,
@@ -29307,12 +33252,12 @@ export class OnlinePoint {
       hsws: 6.6,
       yqws: null,
       flhk: null,
-      lwm: 12.9,
-      yssbp: 12.8,
-      ymhk: 13.1
+      lwm: null,
+      yssbp: 12.9,
+      ymhk: 12.8
     },
     {
-      date: '2019-05-09',
+      date: '2019/5/9',
       wsd: 9.4,
       jlrdc: 13.3,
       jlswz: 7.0,
@@ -29322,12 +33267,12 @@ export class OnlinePoint {
       hsws: 7.1,
       yqws: null,
       flhk: null,
-      lwm: 13.3,
-      yssbp: 13.1,
-      ymhk: 13.7
+      lwm: null,
+      yssbp: 13.3,
+      ymhk: 13.1
     },
     {
-      date: '2019-05-10',
+      date: '2019/5/10',
       wsd: 9.9,
       jlrdc: 13.6,
       jlswz: 6.9,
@@ -29337,12 +33282,12 @@ export class OnlinePoint {
       hsws: 6.5,
       yqws: null,
       flhk: null,
-      lwm: 13.8,
-      yssbp: 13.6,
-      ymhk: 14.3
+      lwm: null,
+      yssbp: 13.8,
+      ymhk: 13.6
     },
     {
-      date: '2019-05-11',
+      date: '2019/5/11',
       wsd: 9.4,
       jlrdc: 13.6,
       jlswz: 8.2,
@@ -29352,12 +33297,12 @@ export class OnlinePoint {
       hsws: 7.0,
       yqws: null,
       flhk: null,
-      lwm: 14.2,
-      yssbp: 14.0,
-      ymhk: 14.9
+      lwm: null,
+      yssbp: 14.2,
+      ymhk: 14.0
     },
     {
-      date: '2019-05-12',
+      date: '2019/5/12',
       wsd: 9.3,
       jlrdc: 14.6,
       jlswz: 9.1,
@@ -29367,12 +33312,12 @@ export class OnlinePoint {
       hsws: 7.4,
       yqws: null,
       flhk: null,
-      lwm: 14.4,
-      yssbp: 14.1,
-      ymhk: 15.0
+      lwm: null,
+      yssbp: 14.4,
+      ymhk: 14.1
     },
     {
-      date: '2019-05-13',
+      date: '2019/5/13',
       wsd: 10.3,
       jlrdc: 15.2,
       jlswz: 9.8,
@@ -29382,12 +33327,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 13.6,
-      yssbp: 13.4,
-      ymhk: 14.0
+      lwm: null,
+      yssbp: 13.6,
+      ymhk: 13.4
     },
     {
-      date: '2019-05-14',
+      date: '2019/5/14',
       wsd: 10.4,
       jlrdc: 15.0,
       jlswz: 10.8,
@@ -29397,12 +33342,12 @@ export class OnlinePoint {
       hsws: 7.2,
       yqws: null,
       flhk: null,
-      lwm: 13.1,
-      yssbp: 13.0,
-      ymhk: 13.4
+      lwm: null,
+      yssbp: 13.1,
+      ymhk: 13.0
     },
     {
-      date: '2019-05-15',
+      date: '2019/5/15',
       wsd: 11.9,
       jlrdc: 16.9,
       jlswz: 11.1,
@@ -29412,12 +33357,12 @@ export class OnlinePoint {
       hsws: 6.9,
       yqws: null,
       flhk: null,
-      lwm: 13.5,
-      yssbp: 13.3,
-      ymhk: 13.9
+      lwm: null,
+      yssbp: 13.5,
+      ymhk: 13.3
     },
     {
-      date: '2019-05-16',
+      date: '2019/5/16',
       wsd: 12.8,
       jlrdc: 16.7,
       jlswz: 11.7,
@@ -29427,12 +33372,12 @@ export class OnlinePoint {
       hsws: 7.0,
       yqws: null,
       flhk: null,
-      lwm: 14.1,
-      yssbp: 14.0,
-      ymhk: 14.5
+      lwm: null,
+      yssbp: 14.1,
+      ymhk: 14.0
     },
     {
-      date: '2019-05-17',
+      date: '2019/5/17',
       wsd: 14.3,
       jlrdc: 17.3,
       jlswz: 11.7,
@@ -29442,12 +33387,12 @@ export class OnlinePoint {
       hsws: 6.6,
       yqws: null,
       flhk: null,
-      lwm: 14.8,
-      yssbp: 14.6,
-      ymhk: 15.3
+      lwm: null,
+      yssbp: 14.8,
+      ymhk: 14.6
     },
     {
-      date: '2019-05-18',
+      date: '2019/5/18',
       wsd: 13.4,
       jlrdc: 17.5,
       jlswz: 11.5,
@@ -29457,12 +33402,12 @@ export class OnlinePoint {
       hsws: 6.6,
       yqws: null,
       flhk: null,
-      lwm: 14.6,
-      yssbp: 14.4,
-      ymhk: 14.9
+      lwm: null,
+      yssbp: 14.6,
+      ymhk: 14.4
     },
     {
-      date: '2019-05-19',
+      date: '2019/5/19',
       wsd: 12.8,
       jlrdc: 17.1,
       jlswz: 11.1,
@@ -29472,12 +33417,12 @@ export class OnlinePoint {
       hsws: 6.8,
       yqws: null,
       flhk: null,
-      lwm: 14.2,
+      lwm: null,
       yssbp: 14.2,
-      ymhk: 14.4
+      ymhk: 14.2
     },
     {
-      date: '2019-05-20',
+      date: '2019/5/20',
       wsd: 11.8,
       jlrdc: 16.7,
       jlswz: 11.4,
@@ -29487,12 +33432,12 @@ export class OnlinePoint {
       hsws: 6.3,
       yqws: null,
       flhk: null,
-      lwm: 13.2,
+      lwm: null,
       yssbp: 13.2,
       ymhk: 13.2
     },
     {
-      date: '2019-05-21',
+      date: '2019/5/21',
       wsd: 11.2,
       jlrdc: 16.5,
       jlswz: 10.4,
@@ -29502,12 +33447,12 @@ export class OnlinePoint {
       hsws: 6.0,
       yqws: null,
       flhk: null,
-      lwm: 12.7,
+      lwm: null,
       yssbp: 12.7,
-      ymhk: 12.6
+      ymhk: 12.7
     },
     {
-      date: '2019-05-22',
+      date: '2019/5/22',
       wsd: 11.3,
       jlrdc: 15.9,
       jlswz: 10.6,
@@ -29517,12 +33462,12 @@ export class OnlinePoint {
       hsws: 5.8,
       yqws: null,
       flhk: null,
-      lwm: 13.5,
-      yssbp: 13.4,
-      ymhk: 13.6
+      lwm: null,
+      yssbp: 13.5,
+      ymhk: 13.4
     },
     {
-      date: '2019-05-23',
+      date: '2019/5/23',
       wsd: 12.0,
       jlrdc: 16.8,
       jlswz: 11.0,
@@ -29532,12 +33477,12 @@ export class OnlinePoint {
       hsws: 6.1,
       yqws: null,
       flhk: null,
-      lwm: 14.6,
-      yssbp: 14.4,
-      ymhk: 14.9
+      lwm: null,
+      yssbp: 14.6,
+      ymhk: 14.4
     },
     {
-      date: '2019-05-24',
+      date: '2019/5/24',
       wsd: 12.8,
       jlrdc: 16.7,
       jlswz: 12.8,
@@ -29547,12 +33492,12 @@ export class OnlinePoint {
       hsws: 6.3,
       yqws: null,
       flhk: null,
-      lwm: 15.7,
-      yssbp: 15.5,
-      ymhk: 16.1
+      lwm: null,
+      yssbp: 15.7,
+      ymhk: 15.5
     },
     {
-      date: '2019-05-25',
+      date: '2019/5/25',
       wsd: 14.3,
       jlrdc: 18.3,
       jlswz: 13.9,
@@ -29562,12 +33507,12 @@ export class OnlinePoint {
       hsws: 6.7,
       yqws: null,
       flhk: null,
-      lwm: 16.5,
-      yssbp: 16.3,
-      ymhk: 17.0
+      lwm: null,
+      yssbp: 16.5,
+      ymhk: 16.3
     },
     {
-      date: '2019-05-26',
+      date: '2019/5/26',
       wsd: 14.1,
       jlrdc: 18.4,
       jlswz: 13.2,
@@ -29577,12 +33522,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 15.6,
-      yssbp: 15.4,
-      ymhk: 16.1
+      lwm: null,
+      yssbp: 15.6,
+      ymhk: 15.4
     },
     {
-      date: '2019-05-27',
+      date: '2019/5/27',
       wsd: 13.9,
       jlrdc: 17.2,
       jlswz: 12.4,
@@ -29592,12 +33537,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 14.1,
+      lwm: null,
       yssbp: 14.1,
-      ymhk: 14.3
+      ymhk: 14.1
     },
     {
-      date: '2019-05-28',
+      date: '2019/5/28',
       wsd: 13.4,
       jlrdc: 17.1,
       jlswz: 11.9,
@@ -29607,12 +33552,12 @@ export class OnlinePoint {
       hsws: 6.9,
       yqws: null,
       flhk: null,
-      lwm: 14.2,
+      lwm: null,
       yssbp: 14.2,
-      ymhk: 14.1
+      ymhk: 14.2
     },
     {
-      date: '2019-05-29',
+      date: '2019/5/29',
       wsd: 12.6,
       jlrdc: 17.3,
       jlswz: 11.0,
@@ -29622,12 +33567,12 @@ export class OnlinePoint {
       hsws: 7.7,
       yqws: null,
       flhk: null,
-      lwm: 14.9,
+      lwm: null,
       yssbp: 14.9,
       ymhk: 14.9
     },
     {
-      date: '2019-05-30',
+      date: '2019/5/30',
       wsd: 12.1,
       jlrdc: 17.3,
       jlswz: 11.2,
@@ -29637,12 +33582,12 @@ export class OnlinePoint {
       hsws: 7.6,
       yqws: null,
       flhk: null,
-      lwm: 15.5,
+      lwm: null,
       yssbp: 15.5,
-      ymhk: 15.7
+      ymhk: 15.5
     },
     {
-      date: '2019-05-31',
+      date: '2019/5/31',
       wsd: 12.5,
       jlrdc: 17.5,
       jlswz: 11.5,
@@ -29652,12 +33597,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 15.7,
-      yssbp: 15.6,
-      ymhk: 16.0
+      lwm: null,
+      yssbp: 15.7,
+      ymhk: 15.6
     },
     {
-      date: '2019-06-01',
+      date: '2019/6/1',
       wsd: 13.6,
       jlrdc: 17.1,
       jlswz: 12.6,
@@ -29667,12 +33612,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 16.3,
-      yssbp: 16.2,
-      ymhk: 16.7
+      lwm: null,
+      yssbp: 16.3,
+      ymhk: 16.2
     },
     {
-      date: '2019-06-02',
+      date: '2019/6/2',
       wsd: 14.7,
       jlrdc: 17.9,
       jlswz: 13.9,
@@ -29682,12 +33627,12 @@ export class OnlinePoint {
       hsws: 7.8,
       yqws: null,
       flhk: null,
-      lwm: 16.8,
-      yssbp: 16.6,
-      ymhk: 17.3
+      lwm: null,
+      yssbp: 16.8,
+      ymhk: 16.6
     },
     {
-      date: '2019-06-03',
+      date: '2019/6/3',
       wsd: 16.6,
       jlrdc: 19.2,
       jlswz: 14.4,
@@ -29697,12 +33642,12 @@ export class OnlinePoint {
       hsws: 7.7,
       yqws: null,
       flhk: null,
-      lwm: 16.8,
-      yssbp: 16.5,
-      ymhk: 17.4
+      lwm: null,
+      yssbp: 16.8,
+      ymhk: 16.5
     },
     {
-      date: '2019-06-04',
+      date: '2019/6/4',
       wsd: 15.4,
       jlrdc: 18.9,
       jlswz: 16.0,
@@ -29712,12 +33657,12 @@ export class OnlinePoint {
       hsws: 7.4,
       yqws: null,
       flhk: null,
-      lwm: 17.3,
-      yssbp: 17.0,
-      ymhk: 17.9
+      lwm: null,
+      yssbp: 17.3,
+      ymhk: 17.0
     },
     {
-      date: '2019-06-05',
+      date: '2019/6/5',
       wsd: 15.5,
       jlrdc: 19.7,
       jlswz: 15.8,
@@ -29727,12 +33672,12 @@ export class OnlinePoint {
       hsws: 7.9,
       yqws: null,
       flhk: null,
-      lwm: 17.4,
-      yssbp: 17.3,
-      ymhk: 17.8
+      lwm: null,
+      yssbp: 17.4,
+      ymhk: 17.3
     },
     {
-      date: '2019-06-06',
+      date: '2019/6/6',
       wsd: 15.9,
       jlrdc: 20.2,
       jlswz: 16.2,
@@ -29742,12 +33687,12 @@ export class OnlinePoint {
       hsws: 7.5,
       yqws: null,
       flhk: null,
-      lwm: 18.2,
-      yssbp: 18.0,
-      ymhk: 18.5
+      lwm: null,
+      yssbp: 18.2,
+      ymhk: 18.0
     },
     {
-      date: '2019-06-07',
+      date: '2019/6/7',
       wsd: 16.3,
       jlrdc: 20.7,
       jlswz: 16.6,
@@ -29757,12 +33702,12 @@ export class OnlinePoint {
       hsws: 7.2,
       yqws: null,
       flhk: null,
-      lwm: 19.2,
-      yssbp: 19.0,
-      ymhk: 19.6
+      lwm: null,
+      yssbp: 19.2,
+      ymhk: 19.0
     },
     {
-      date: '2019-06-08',
+      date: '2019/6/8',
       wsd: 16.7,
       jlrdc: 20.7,
       jlswz: 16.8,
@@ -29772,12 +33717,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 18.5,
+      lwm: null,
       yssbp: 18.5,
-      ymhk: 18.4
+      ymhk: 18.5
     },
     {
-      date: '2019-06-09',
+      date: '2019/6/9',
       wsd: 15.7,
       jlrdc: 20.9,
       jlswz: 18.6,
@@ -29787,12 +33732,12 @@ export class OnlinePoint {
       hsws: 7.4,
       yqws: null,
       flhk: null,
-      lwm: 18.4,
-      yssbp: 18.1,
-      ymhk: 19.0
+      lwm: null,
+      yssbp: 18.4,
+      ymhk: 18.1
     },
     {
-      date: '2019-06-10',
+      date: '2019/6/10',
       wsd: 16.4,
       jlrdc: 20.1,
       jlswz: 18.5,
@@ -29802,12 +33747,12 @@ export class OnlinePoint {
       hsws: 7.4,
       yqws: null,
       flhk: null,
-      lwm: 19.7,
-      yssbp: 19.5,
-      ymhk: 20.2
+      lwm: null,
+      yssbp: 19.7,
+      ymhk: 19.5
     },
     {
-      date: '2019-06-11',
+      date: '2019/6/11',
       wsd: 17.2,
       jlrdc: 20.1,
       jlswz: 16.4,
@@ -29817,12 +33762,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 20.3,
-      yssbp: 19.8,
-      ymhk: 21.4
+      lwm: null,
+      yssbp: 20.3,
+      ymhk: 19.8
     },
     {
-      date: '2019-06-12',
+      date: '2019/6/12',
       wsd: 17.2,
       jlrdc: 20.4,
       jlswz: 16.4,
@@ -29832,12 +33777,12 @@ export class OnlinePoint {
       hsws: 7.5,
       yqws: null,
       flhk: null,
-      lwm: 20.7,
-      yssbp: 20.5,
-      ymhk: 21.4
+      lwm: null,
+      yssbp: 20.7,
+      ymhk: 20.5
     },
     {
-      date: '2019-06-13',
+      date: '2019/6/13',
       wsd: 17.3,
       jlrdc: 20.9,
       jlswz: 16.3,
@@ -29847,12 +33792,12 @@ export class OnlinePoint {
       hsws: 7.4,
       yqws: null,
       flhk: null,
-      lwm: 20.0,
-      yssbp: 20.4,
-      ymhk: 19.2
+      lwm: null,
+      yssbp: 20.0,
+      ymhk: 20.4
     },
     {
-      date: '2019-06-14',
+      date: '2019/6/14',
       wsd: 16.6,
       jlrdc: 21.1,
       jlswz: 16.4,
@@ -29862,12 +33807,12 @@ export class OnlinePoint {
       hsws: 7.4,
       yqws: null,
       flhk: null,
-      lwm: 19.7,
-      yssbp: 19.6,
-      ymhk: 20.1
+      lwm: null,
+      yssbp: 19.7,
+      ymhk: 19.6
     },
     {
-      date: '2019-06-15',
+      date: '2019/6/15',
       wsd: 16.3,
       jlrdc: 20.1,
       jlswz: 16.0,
@@ -29877,12 +33822,12 @@ export class OnlinePoint {
       hsws: 7.4,
       yqws: null,
       flhk: null,
-      lwm: 18.6,
-      yssbp: 18.5,
-      ymhk: 18.7
+      lwm: null,
+      yssbp: 18.6,
+      ymhk: 18.5
     },
     {
-      date: '2019-06-16',
+      date: '2019/6/16',
       wsd: 16.2,
       jlrdc: 19.8,
       jlswz: 15.7,
@@ -29892,12 +33837,12 @@ export class OnlinePoint {
       hsws: 7.5,
       yqws: null,
       flhk: null,
-      lwm: 18.1,
-      yssbp: 18.0,
-      ymhk: 18.4
+      lwm: null,
+      yssbp: 18.1,
+      ymhk: 18.0
     },
     {
-      date: '2019-06-17',
+      date: '2019/6/17',
       wsd: 16.7,
       jlrdc: 19.6,
       jlswz: 15.4,
@@ -29907,12 +33852,12 @@ export class OnlinePoint {
       hsws: 8.1,
       yqws: null,
       flhk: null,
-      lwm: 18.5,
-      yssbp: 18.4,
-      ymhk: 19.0
+      lwm: null,
+      yssbp: 18.5,
+      ymhk: 18.4
     },
     {
-      date: '2019-06-18',
+      date: '2019/6/18',
       wsd: 16.3,
       jlrdc: 20.5,
       jlswz: 16.0,
@@ -29922,12 +33867,12 @@ export class OnlinePoint {
       hsws: 8.9,
       yqws: null,
       flhk: null,
-      lwm: 19.1,
-      yssbp: 19.0,
-      ymhk: 19.5
+      lwm: null,
+      yssbp: 19.1,
+      ymhk: 19.0
     },
     {
-      date: '2019-06-19',
+      date: '2019/6/19',
       wsd: 15.9,
       jlrdc: 21.2,
       jlswz: 15.5,
@@ -29937,12 +33882,12 @@ export class OnlinePoint {
       hsws: 7.9,
       yqws: null,
       flhk: null,
-      lwm: 19.2,
-      yssbp: 19.1,
-      ymhk: 19.5
+      lwm: null,
+      yssbp: 19.2,
+      ymhk: 19.1
     },
     {
-      date: '2019-06-20',
+      date: '2019/6/20',
       wsd: 15.2,
       jlrdc: 20.9,
       jlswz: 15.6,
@@ -29952,12 +33897,12 @@ export class OnlinePoint {
       hsws: 6.7,
       yqws: null,
       flhk: null,
-      lwm: 18.9,
-      yssbp: 19.0,
-      ymhk: 18.7
+      lwm: null,
+      yssbp: 18.9,
+      ymhk: 19.0
     },
     {
-      date: '2019-06-21',
+      date: '2019/6/21',
       wsd: 16.0,
       jlrdc: 20.8,
       jlswz: 15.4,
@@ -29967,12 +33912,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 18.8,
-      yssbp: 19.0,
-      ymhk: 18.4
+      lwm: null,
+      yssbp: 18.8,
+      ymhk: 19.0
     },
     {
-      date: '2019-06-22',
+      date: '2019/6/22',
       wsd: 16.9,
       jlrdc: 20.7,
       jlswz: 15.1,
@@ -29982,12 +33927,12 @@ export class OnlinePoint {
       hsws: 7.6,
       yqws: null,
       flhk: null,
-      lwm: 19.9,
-      yssbp: 19.5,
-      ymhk: 20.9
+      lwm: null,
+      yssbp: 19.9,
+      ymhk: 19.5
     },
     {
-      date: '2019-06-23',
+      date: '2019/6/23',
       wsd: 17.8,
       jlrdc: 20.5,
       jlswz: 16.0,
@@ -29997,12 +33942,12 @@ export class OnlinePoint {
       hsws: 7.5,
       yqws: null,
       flhk: null,
-      lwm: 21.3,
-      yssbp: 20.9,
-      ymhk: 22.2
+      lwm: null,
+      yssbp: 21.3,
+      ymhk: 20.9
     },
     {
-      date: '2019-06-24',
+      date: '2019/6/24',
       wsd: 18.7,
       jlrdc: 21.8,
       jlswz: 16.7,
@@ -30012,12 +33957,12 @@ export class OnlinePoint {
       hsws: 7.1,
       yqws: null,
       flhk: null,
-      lwm: 22.4,
-      yssbp: 22.2,
-      ymhk: 22.9
+      lwm: null,
+      yssbp: 22.4,
+      ymhk: 22.2
     },
     {
-      date: '2019-06-25',
+      date: '2019/6/25',
       wsd: 19.6,
       jlrdc: 22.1,
       jlswz: 15.9,
@@ -30027,12 +33972,12 @@ export class OnlinePoint {
       hsws: 7.6,
       yqws: null,
       flhk: null,
-      lwm: 22.9,
-      yssbp: 22.8,
-      ymhk: 23.1
+      lwm: null,
+      yssbp: 22.9,
+      ymhk: 22.8
     },
     {
-      date: '2019-06-26',
+      date: '2019/6/26',
       wsd: 20.5,
       jlrdc: 21.5,
       jlswz: 15.4,
@@ -30042,12 +33987,12 @@ export class OnlinePoint {
       hsws: 8.0,
       yqws: null,
       flhk: null,
-      lwm: 22.4,
-      yssbp: 22.3,
-      ymhk: 22.8
+      lwm: null,
+      yssbp: 22.4,
+      ymhk: 22.3
     },
     {
-      date: '2019-06-27',
+      date: '2019/6/27',
       wsd: 18.7,
       jlrdc: 21.6,
       jlswz: 15.4,
@@ -30057,12 +34002,12 @@ export class OnlinePoint {
       hsws: 8.0,
       yqws: null,
       flhk: null,
-      lwm: 23.1,
-      yssbp: 23.0,
-      ymhk: 23.5
+      lwm: null,
+      yssbp: 23.1,
+      ymhk: 23.0
     },
     {
-      date: '2019-06-28',
+      date: '2019/6/28',
       wsd: 18.0,
       jlrdc: 21.5,
       jlswz: 14.8,
@@ -30072,12 +34017,12 @@ export class OnlinePoint {
       hsws: 8.8,
       yqws: null,
       flhk: null,
-      lwm: 22.2,
-      yssbp: 22.0,
-      ymhk: 22.7
+      lwm: null,
+      yssbp: 22.2,
+      ymhk: 22.0
     },
     {
-      date: '2019-06-29',
+      date: '2019/6/29',
       wsd: 17.2,
       jlrdc: 20.8,
       jlswz: 14.1,
@@ -30087,12 +34032,12 @@ export class OnlinePoint {
       hsws: 7.5,
       yqws: null,
       flhk: null,
-      lwm: 21.0,
-      yssbp: 20.9,
-      ymhk: 21.2
+      lwm: null,
+      yssbp: 21.0,
+      ymhk: 20.9
     },
     {
-      date: '2019-06-30',
+      date: '2019/6/30',
       wsd: 16.1,
       jlrdc: 19.5,
       jlswz: 15.8,
@@ -30102,12 +34047,12 @@ export class OnlinePoint {
       hsws: 8.3,
       yqws: null,
       flhk: null,
-      lwm: 21.1,
+      lwm: null,
       yssbp: 21.1,
-      ymhk: 21.2
+      ymhk: 21.1
     },
     {
-      date: '2019-07-01',
+      date: '2019/7/1',
       wsd: 16.4,
       jlrdc: 19.8,
       jlswz: 15.4,
@@ -30117,12 +34062,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 20.9,
-      yssbp: 20.7,
-      ymhk: 21.4
+      lwm: null,
+      yssbp: 20.9,
+      ymhk: 20.7
     },
     {
-      date: '2019-07-02',
+      date: '2019/7/2',
       wsd: 16.0,
       jlrdc: 20.2,
       jlswz: 17.1,
@@ -30132,12 +34077,12 @@ export class OnlinePoint {
       hsws: 7.0,
       yqws: null,
       flhk: null,
-      lwm: 21.3,
-      yssbp: 21.2,
-      ymhk: 21.7
+      lwm: null,
+      yssbp: 21.3,
+      ymhk: 21.2
     },
     {
-      date: '2019-07-03',
+      date: '2019/7/3',
       wsd: 16.7,
       jlrdc: 20.5,
       jlswz: 16.1,
@@ -30147,12 +34092,12 @@ export class OnlinePoint {
       hsws: 7.3,
       yqws: null,
       flhk: null,
-      lwm: 21.0,
-      yssbp: 20.7,
-      ymhk: 21.6
+      lwm: null,
+      yssbp: 21.0,
+      ymhk: 20.7
     },
     {
-      date: '2019-07-04',
+      date: '2019/7/4',
       wsd: 19.5,
       jlrdc: 20.3,
       jlswz: 17.3,
@@ -30162,12 +34107,12 @@ export class OnlinePoint {
       hsws: 7.9,
       yqws: null,
       flhk: null,
-      lwm: 21.2,
-      yssbp: 21.0,
-      ymhk: 21.6
+      lwm: null,
+      yssbp: 21.2,
+      ymhk: 21.0
     },
     {
-      date: '2019-07-05',
+      date: '2019/7/5',
       wsd: 19.2,
       jlrdc: 21.2,
       jlswz: 16.2,
@@ -30177,12 +34122,12 @@ export class OnlinePoint {
       hsws: 8.0,
       yqws: null,
       flhk: null,
-      lwm: 21.4,
-      yssbp: 21.2,
-      ymhk: 21.9
+      lwm: null,
+      yssbp: 21.4,
+      ymhk: 21.2
     },
     {
-      date: '2019-07-06',
+      date: '2019/7/6',
       wsd: 19.9,
       jlrdc: 22.0,
       jlswz: 16.3,
@@ -30192,12 +34137,12 @@ export class OnlinePoint {
       hsws: 8.1,
       yqws: null,
       flhk: null,
-      lwm: 22.3,
-      yssbp: 22.1,
-      ymhk: 22.7
+      lwm: null,
+      yssbp: 22.3,
+      ymhk: 22.1
     },
     {
-      date: '2019-07-07',
+      date: '2019/7/7',
       wsd: 19.9,
       jlrdc: 22.6,
       jlswz: 16.6,
@@ -30207,12 +34152,12 @@ export class OnlinePoint {
       hsws: 8.4,
       yqws: null,
       flhk: null,
-      lwm: 23.4,
-      yssbp: 23.2,
-      ymhk: 23.9
+      lwm: null,
+      yssbp: 23.4,
+      ymhk: 23.2
     },
     {
-      date: '2019-07-08',
+      date: '2019/7/8',
       wsd: 19.9,
       jlrdc: 22.8,
       jlswz: 16.4,
@@ -30222,12 +34167,12 @@ export class OnlinePoint {
       hsws: 8.7,
       yqws: null,
       flhk: null,
-      lwm: 23.9,
-      yssbp: 23.4,
-      ymhk: 25.0
+      lwm: null,
+      yssbp: 23.9,
+      ymhk: 23.4
     },
     {
-      date: '2019-07-09',
+      date: '2019/7/9',
       wsd: 20.6,
       jlrdc: 23.2,
       jlswz: 16.4,
@@ -30237,12 +34182,12 @@ export class OnlinePoint {
       hsws: 8.8,
       yqws: null,
       flhk: null,
-      lwm: 24.2,
-      yssbp: 23.5,
-      ymhk: 25.6
+      lwm: null,
+      yssbp: 24.2,
+      ymhk: 23.5
     },
     {
-      date: '2019-07-10',
+      date: '2019/7/10',
       wsd: 20.3,
       jlrdc: 23.7,
       jlswz: 15.1,
@@ -30252,12 +34197,12 @@ export class OnlinePoint {
       hsws: 8.6,
       yqws: null,
       flhk: null,
-      lwm: 24.3,
-      yssbp: 23.5,
-      ymhk: 26.0
+      lwm: null,
+      yssbp: 24.3,
+      ymhk: 23.5
     },
     {
-      date: '2019-07-11',
+      date: '2019/7/11',
       wsd: 20.0,
       jlrdc: 22.5,
       jlswz: 14.3,
@@ -30267,12 +34212,12 @@ export class OnlinePoint {
       hsws: 8.4,
       yqws: null,
       flhk: null,
-      lwm: 24.2,
-      yssbp: 23.5,
-      ymhk: 25.6
+      lwm: null,
+      yssbp: 24.2,
+      ymhk: 23.5
     },
     {
-      date: '2019-07-12',
+      date: '2019/7/12',
       wsd: 18.1,
       jlrdc: 22.1,
       jlswz: 15.0,
@@ -30282,12 +34227,12 @@ export class OnlinePoint {
       hsws: 8.8,
       yqws: null,
       flhk: null,
-      lwm: 24.5,
-      yssbp: 24.1,
-      ymhk: 25.4
+      lwm: null,
+      yssbp: 24.5,
+      ymhk: 24.1
     },
     {
-      date: '2019-07-13',
+      date: '2019/7/13',
       wsd: 18.4,
       jlrdc: 22.0,
       jlswz: 15.3,
@@ -30297,12 +34242,12 @@ export class OnlinePoint {
       hsws: 9.4,
       yqws: null,
       flhk: null,
-      lwm: 24.2,
-      yssbp: 24.1,
-      ymhk: 24.6
+      lwm: null,
+      yssbp: 24.2,
+      ymhk: 24.1
     },
     {
-      date: '2019-07-14',
+      date: '2019/7/14',
       wsd: 17.5,
       jlrdc: 22.2,
       jlswz: 18.4,
@@ -30312,12 +34257,12 @@ export class OnlinePoint {
       hsws: 9.1,
       yqws: null,
       flhk: null,
-      lwm: 24.6,
-      yssbp: 24.4,
-      ymhk: 25.0
+      lwm: null,
+      yssbp: 24.6,
+      ymhk: 24.4
     },
     {
-      date: '2019-07-15',
+      date: '2019/7/15',
       wsd: 18.2,
       jlrdc: 23.6,
       jlswz: 21.1,
@@ -30327,12 +34272,12 @@ export class OnlinePoint {
       hsws: 8.8,
       yqws: null,
       flhk: null,
-      lwm: 24.4,
-      yssbp: 24.0,
-      ymhk: 25.3
+      lwm: null,
+      yssbp: 24.4,
+      ymhk: 24.0
     },
     {
-      date: '2019-07-16',
+      date: '2019/7/16',
       wsd: 18.9,
       jlrdc: 25.0,
       jlswz: 23.1,
@@ -30342,12 +34287,12 @@ export class OnlinePoint {
       hsws: 9.1,
       yqws: null,
       flhk: null,
-      lwm: 23.5,
-      yssbp: 22.9,
-      ymhk: 24.7
+      lwm: null,
+      yssbp: 23.5,
+      ymhk: 22.9
     },
     {
-      date: '2019-07-17',
+      date: '2019/7/17',
       wsd: 21.3,
       jlrdc: 25.8,
       jlswz: 23.2,
@@ -30357,12 +34302,12 @@ export class OnlinePoint {
       hsws: 9.3,
       yqws: null,
       flhk: null,
-      lwm: 22.1,
-      yssbp: 21.7,
-      ymhk: 22.8
+      lwm: null,
+      yssbp: 22.1,
+      ymhk: 21.7
     },
     {
-      date: '2019-07-18',
+      date: '2019/7/18',
       wsd: 21.2,
       jlrdc: 25.9,
       jlswz: 16.6,
@@ -30372,12 +34317,12 @@ export class OnlinePoint {
       hsws: 9.2,
       yqws: null,
       flhk: null,
-      lwm: 22.0,
-      yssbp: 21.7,
-      ymhk: 22.6
+      lwm: null,
+      yssbp: 22.0,
+      ymhk: 21.7
     },
     {
-      date: '2019-07-19',
+      date: '2019/7/19',
       wsd: 20.3,
       jlrdc: 25.2,
       jlswz: 16.0,
@@ -30387,12 +34332,12 @@ export class OnlinePoint {
       hsws: 9.2,
       yqws: null,
       flhk: null,
-      lwm: 22.9,
-      yssbp: 22.7,
-      ymhk: 23.3
+      lwm: null,
+      yssbp: 22.9,
+      ymhk: 22.7
     },
     {
-      date: '2019-07-20',
+      date: '2019/7/20',
       wsd: 20.5,
       jlrdc: 24.9,
       jlswz: 16.1,
@@ -30402,12 +34347,12 @@ export class OnlinePoint {
       hsws: 9.0,
       yqws: null,
       flhk: null,
-      lwm: 24.2,
-      yssbp: 24.0,
-      ymhk: 24.5
+      lwm: null,
+      yssbp: 24.2,
+      ymhk: 24.0
     },
     {
-      date: '2019-07-21',
+      date: '2019/7/21',
       wsd: 20.7,
       jlrdc: 24.1,
       jlswz: 16.2,
@@ -30417,12 +34362,12 @@ export class OnlinePoint {
       hsws: 9.0,
       yqws: null,
       flhk: null,
-      lwm: 23.8,
-      yssbp: 23.5,
-      ymhk: 24.7
+      lwm: null,
+      yssbp: 23.8,
+      ymhk: 23.5
     },
     {
-      date: '2019-07-22',
+      date: '2019/7/22',
       wsd: 20.7,
       jlrdc: 23.7,
       jlswz: 17.8,
@@ -30432,12 +34377,12 @@ export class OnlinePoint {
       hsws: 9.2,
       yqws: null,
       flhk: null,
-      lwm: 24.6,
-      yssbp: 24.3,
-      ymhk: 25.2
+      lwm: null,
+      yssbp: 24.6,
+      ymhk: 24.3
     },
     {
-      date: '2019-07-23',
+      date: '2019/7/23',
       wsd: 20.2,
       jlrdc: 23.5,
       jlswz: 17.7,
@@ -30447,12 +34392,12 @@ export class OnlinePoint {
       hsws: 9.6,
       yqws: null,
       flhk: null,
-      lwm: 25.0,
-      yssbp: 24.9,
-      ymhk: 25.0
+      lwm: null,
+      yssbp: 25.0,
+      ymhk: 24.9
     },
     {
-      date: '2019-07-24',
+      date: '2019/7/24',
       wsd: 20.9,
       jlrdc: 24.4,
       jlswz: 18.2,
@@ -30462,12 +34407,12 @@ export class OnlinePoint {
       hsws: 9.8,
       yqws: null,
       flhk: null,
-      lwm: 25.4,
-      yssbp: 25.3,
-      ymhk: 25.7
+      lwm: null,
+      yssbp: 25.4,
+      ymhk: 25.3
     },
     {
-      date: '2019-07-25',
+      date: '2019/7/25',
       wsd: 20.1,
       jlrdc: 25.8,
       jlswz: 21.4,
@@ -30477,12 +34422,12 @@ export class OnlinePoint {
       hsws: 10.1,
       yqws: null,
       flhk: null,
-      lwm: 24.9,
-      yssbp: 24.7,
-      ymhk: 25.3
+      lwm: null,
+      yssbp: 24.9,
+      ymhk: 24.7
     },
     {
-      date: '2019-07-26',
+      date: '2019/7/26',
       wsd: 20.0,
       jlrdc: 27.0,
       jlswz: 22.5,
@@ -30492,12 +34437,12 @@ export class OnlinePoint {
       hsws: 10.7,
       yqws: null,
       flhk: null,
-      lwm: 25.2,
-      yssbp: 25.0,
-      ymhk: 25.5
+      lwm: null,
+      yssbp: 25.2,
+      ymhk: 25.0
     },
     {
-      date: '2019-07-27',
+      date: '2019/7/27',
       wsd: 20.2,
       jlrdc: 28.7,
       jlswz: 22.6,
@@ -30507,12 +34452,12 @@ export class OnlinePoint {
       hsws: 10.9,
       yqws: null,
       flhk: null,
-      lwm: 25.1,
-      yssbp: 24.9,
-      ymhk: 25.6
+      lwm: null,
+      yssbp: 25.1,
+      ymhk: 24.9
     },
     {
-      date: '2019-07-28',
+      date: '2019/7/28',
       wsd: 20.4,
       jlrdc: 29.6,
       jlswz: 21.3,
@@ -30522,12 +34467,12 @@ export class OnlinePoint {
       hsws: 10.9,
       yqws: null,
       flhk: null,
-      lwm: 25.8,
-      yssbp: 25.6,
-      ymhk: 26.2
+      lwm: null,
+      yssbp: 25.8,
+      ymhk: 25.6
     },
     {
-      date: '2019-07-29',
+      date: '2019/7/29',
       wsd: 20.6,
       jlrdc: 27.4,
       jlswz: 20.0,
@@ -30537,12 +34482,12 @@ export class OnlinePoint {
       hsws: 10.9,
       yqws: null,
       flhk: null,
-      lwm: 25.5,
-      yssbp: 25.3,
-      ymhk: 26.0
+      lwm: null,
+      yssbp: 25.5,
+      ymhk: 25.3
     },
     {
-      date: '2019-07-30',
+      date: '2019/7/30',
       wsd: 20.7,
       jlrdc: 26.0,
       jlswz: 17.4,
@@ -30552,12 +34497,12 @@ export class OnlinePoint {
       hsws: 11.0,
       yqws: null,
       flhk: null,
-      lwm: 25.2,
-      yssbp: 25.0,
-      ymhk: 25.8
+      lwm: null,
+      yssbp: 25.2,
+      ymhk: 25.0
     },
     {
-      date: '2019-07-31',
+      date: '2019/7/31',
       wsd: 20.9,
       jlrdc: 26.9,
       jlswz: 17.6,
@@ -30567,12 +34512,12 @@ export class OnlinePoint {
       hsws: 11.1,
       yqws: null,
       flhk: null,
-      lwm: 25.6,
-      yssbp: 25.4,
-      ymhk: 26.3
+      lwm: null,
+      yssbp: 25.6,
+      ymhk: 25.4
     },
     {
-      date: '2019-08-01',
+      date: '2019/8/1',
       wsd: 21.1,
       jlrdc: 25.8,
       jlswz: 19.6,
@@ -30582,12 +34527,12 @@ export class OnlinePoint {
       hsws: 11.2,
       yqws: null,
       flhk: null,
-      lwm: 25.6,
-      yssbp: 25.4,
-      ymhk: 26.1
+      lwm: null,
+      yssbp: 25.6,
+      ymhk: 25.4
     },
     {
-      date: '2019-08-02',
+      date: '2019/8/2',
       wsd: 21.2,
       jlrdc: 23.6,
       jlswz: 17.8,
@@ -30597,12 +34542,12 @@ export class OnlinePoint {
       hsws: 11.4,
       yqws: null,
       flhk: null,
-      lwm: 25.8,
-      yssbp: 25.4,
-      ymhk: 26.7
+      lwm: null,
+      yssbp: 25.8,
+      ymhk: 25.4
     },
     {
-      date: '2019-08-03',
+      date: '2019/8/3',
       wsd: 21.4,
       jlrdc: 23.6,
       jlswz: 18.3,
@@ -30612,12 +34557,12 @@ export class OnlinePoint {
       hsws: 11.5,
       yqws: null,
       flhk: null,
-      lwm: 25.4,
-      yssbp: 25.0,
-      ymhk: 26.4
+      lwm: null,
+      yssbp: 25.4,
+      ymhk: 25.0
     },
     {
-      date: '2019-08-04',
+      date: '2019/8/4',
       wsd: 20.4,
       jlrdc: 25.0,
       jlswz: 21.1,
@@ -30627,12 +34572,12 @@ export class OnlinePoint {
       hsws: 12.0,
       yqws: null,
       flhk: null,
-      lwm: 25.1,
-      yssbp: 24.7,
-      ymhk: 26.1
+      lwm: null,
+      yssbp: 25.1,
+      ymhk: 24.7
     },
     {
-      date: '2019-08-05',
+      date: '2019/8/5',
       wsd: 20.0,
       jlrdc: 24.9,
       jlswz: 21.1,
@@ -30642,12 +34587,12 @@ export class OnlinePoint {
       hsws: 12.3,
       yqws: null,
       flhk: null,
-      lwm: 26.1,
-      yssbp: 26.0,
-      ymhk: 26.3
+      lwm: null,
+      yssbp: 26.1,
+      ymhk: 26.0
     },
     {
-      date: '2019-08-06',
+      date: '2019/8/6',
       wsd: 21.9,
       jlrdc: 25.4,
       jlswz: 19.8,
@@ -30657,12 +34602,12 @@ export class OnlinePoint {
       hsws: 12.3,
       yqws: null,
       flhk: null,
-      lwm: 25.5,
-      yssbp: 25.3,
-      ymhk: 26.1
+      lwm: null,
+      yssbp: 25.5,
+      ymhk: 25.3
     },
     {
-      date: '2019-08-07',
+      date: '2019/8/7',
       wsd: 20.7,
       jlrdc: 25.1,
       jlswz: 17.2,
@@ -30672,12 +34617,12 @@ export class OnlinePoint {
       hsws: 12.5,
       yqws: null,
       flhk: null,
-      lwm: 25.1,
-      yssbp: 24.8,
-      ymhk: 25.7
+      lwm: null,
+      yssbp: 25.1,
+      ymhk: 24.8
     },
     {
-      date: '2019-08-08',
+      date: '2019/8/8',
       wsd: 18.4,
       jlrdc: 22.7,
       jlswz: 18.5,
@@ -30687,12 +34632,12 @@ export class OnlinePoint {
       hsws: 12.5,
       yqws: null,
       flhk: null,
-      lwm: 24.3,
-      yssbp: 24.0,
-      ymhk: 24.9
+      lwm: null,
+      yssbp: 24.3,
+      ymhk: 24.0
     },
     {
-      date: '2019-08-09',
+      date: '2019/8/9',
       wsd: 18.4,
       jlrdc: 22.4,
       jlswz: 17.8,
@@ -30702,12 +34647,12 @@ export class OnlinePoint {
       hsws: 12.3,
       yqws: null,
       flhk: null,
-      lwm: 23.7,
+      lwm: null,
       yssbp: 23.7,
-      ymhk: 23.8
+      ymhk: 23.7
     },
     {
-      date: '2019-08-10',
+      date: '2019/8/10',
       wsd: 19.3,
       jlrdc: 21.6,
       jlswz: 18.0,
@@ -30717,12 +34662,12 @@ export class OnlinePoint {
       hsws: 12.7,
       yqws: null,
       flhk: null,
-      lwm: 23.7,
-      yssbp: 23.6,
-      ymhk: 23.9
+      lwm: null,
+      yssbp: 23.7,
+      ymhk: 23.6
     },
     {
-      date: '2019-08-11',
+      date: '2019/8/11',
       wsd: 21.9,
       jlrdc: 22.4,
       jlswz: 17.1,
@@ -30732,12 +34677,12 @@ export class OnlinePoint {
       hsws: 12.0,
       yqws: null,
       flhk: null,
-      lwm: 22.7,
-      yssbp: 22.4,
-      ymhk: 23.2
+      lwm: null,
+      yssbp: 22.7,
+      ymhk: 22.4
     },
     {
-      date: '2019-08-12',
+      date: '2019/8/12',
       wsd: 19.9,
       jlrdc: 21.7,
       jlswz: 16.8,
@@ -30747,12 +34692,12 @@ export class OnlinePoint {
       hsws: 12.0,
       yqws: null,
       flhk: null,
-      lwm: 22.1,
-      yssbp: 22.0,
-      ymhk: 22.3
+      lwm: null,
+      yssbp: 22.1,
+      ymhk: 22.0
     },
     {
-      date: '2019-08-13',
+      date: '2019/8/13',
       wsd: 20.3,
       jlrdc: 21.7,
       jlswz: 17.5,
@@ -30762,12 +34707,12 @@ export class OnlinePoint {
       hsws: 12.2,
       yqws: null,
       flhk: null,
-      lwm: 22.2,
-      yssbp: 22.3,
-      ymhk: 22.2
+      lwm: null,
+      yssbp: 22.2,
+      ymhk: 22.3
     },
     {
-      date: '2019-08-14',
+      date: '2019/8/14',
       wsd: 21.4,
       jlrdc: 22.9,
       jlswz: 20.8,
@@ -30777,12 +34722,12 @@ export class OnlinePoint {
       hsws: 13.6,
       yqws: null,
       flhk: null,
-      lwm: 22.4,
-      yssbp: 22.3,
-      ymhk: 22.6
+      lwm: null,
+      yssbp: 22.4,
+      ymhk: 22.3
     },
     {
-      date: '2019-08-15',
+      date: '2019/8/15',
       wsd: 20.0,
       jlrdc: 22.7,
       jlswz: 20.8,
@@ -30792,12 +34737,12 @@ export class OnlinePoint {
       hsws: 15.1,
       yqws: null,
       flhk: null,
-      lwm: 22.3,
-      yssbp: 22.2,
-      ymhk: 22.6
+      lwm: null,
+      yssbp: 22.3,
+      ymhk: 22.2
     },
     {
-      date: '2019-08-16',
+      date: '2019/8/16',
       wsd: 19.9,
       jlrdc: 22.6,
       jlswz: 20.0,
@@ -30807,12 +34752,12 @@ export class OnlinePoint {
       hsws: 13.9,
       yqws: null,
       flhk: null,
-      lwm: 21.8,
-      yssbp: 21.6,
-      ymhk: 22.1
+      lwm: null,
+      yssbp: 21.8,
+      ymhk: 21.6
     },
     {
-      date: '2019-08-17',
+      date: '2019/8/17',
       wsd: 19.2,
       jlrdc: 22.2,
       jlswz: 19.5,
@@ -30822,12 +34767,12 @@ export class OnlinePoint {
       hsws: 13.4,
       yqws: null,
       flhk: null,
-      lwm: 20.7,
-      yssbp: 20.6,
-      ymhk: 20.9
+      lwm: null,
+      yssbp: 20.7,
+      ymhk: 20.6
     },
     {
-      date: '2019-08-18',
+      date: '2019/8/18',
       wsd: 18.4,
       jlrdc: 21.5,
       jlswz: 19.0,
@@ -30837,12 +34782,12 @@ export class OnlinePoint {
       hsws: 12.8,
       yqws: null,
       flhk: null,
-      lwm: 20.8,
+      lwm: null,
       yssbp: 20.8,
       ymhk: 20.8
     },
     {
-      date: '2019-08-19',
+      date: '2019/8/19',
       wsd: 18.7,
       jlrdc: 21.8,
       jlswz: 19.0,
@@ -30852,12 +34797,12 @@ export class OnlinePoint {
       hsws: 12.1,
       yqws: null,
       flhk: null,
-      lwm: 20.8,
-      yssbp: 20.6,
-      ymhk: 21.4
+      lwm: null,
+      yssbp: 20.8,
+      ymhk: 20.6
     },
     {
-      date: '2019-08-20',
+      date: '2019/8/20',
       wsd: 18.8,
       jlrdc: 21.7,
       jlswz: 18.8,
@@ -30867,12 +34812,12 @@ export class OnlinePoint {
       hsws: 11.9,
       yqws: null,
       flhk: null,
-      lwm: 20.3,
-      yssbp: 20.1,
-      ymhk: 20.9
+      lwm: null,
+      yssbp: 20.3,
+      ymhk: 20.1
     },
     {
-      date: '2019-08-21',
+      date: '2019/8/21',
       wsd: 19.0,
       jlrdc: 21.5,
       jlswz: 19.6,
@@ -30882,12 +34827,12 @@ export class OnlinePoint {
       hsws: 11.5,
       yqws: null,
       flhk: null,
-      lwm: 20.5,
-      yssbp: 20.4,
-      ymhk: 20.7
+      lwm: null,
+      yssbp: 20.5,
+      ymhk: 20.4
     },
     {
-      date: '2019-08-22',
+      date: '2019/8/22',
       wsd: 19.1,
       jlrdc: 21.2,
       jlswz: 19.2,
@@ -30897,12 +34842,12 @@ export class OnlinePoint {
       hsws: 11.7,
       yqws: null,
       flhk: null,
-      lwm: 20.0,
+      lwm: null,
       yssbp: 20.0,
-      ymhk: 20.1
+      ymhk: 20.0
     },
     {
-      date: '2019-08-23',
+      date: '2019/8/23',
       wsd: 19.2,
       jlrdc: 21.5,
       jlswz: 18.9,
@@ -30912,12 +34857,12 @@ export class OnlinePoint {
       hsws: 11.7,
       yqws: null,
       flhk: null,
-      lwm: 20.3,
+      lwm: null,
       yssbp: 20.3,
       ymhk: 20.3
     },
     {
-      date: '2019-08-24',
+      date: '2019/8/24',
       wsd: 19.3,
       jlrdc: 21.4,
       jlswz: 18.1,
@@ -30927,12 +34872,12 @@ export class OnlinePoint {
       hsws: 11.6,
       yqws: null,
       flhk: null,
-      lwm: 20.6,
-      yssbp: 20.4,
-      ymhk: 20.9
+      lwm: null,
+      yssbp: 20.6,
+      ymhk: 20.4
     },
     {
-      date: '2019-08-25',
+      date: '2019/8/25',
       wsd: 19.5,
       jlrdc: 21.5,
       jlswz: 17.7,
@@ -30942,12 +34887,12 @@ export class OnlinePoint {
       hsws: 11.8,
       yqws: null,
       flhk: null,
-      lwm: 21.2,
-      yssbp: 21.0,
-      ymhk: 21.6
+      lwm: null,
+      yssbp: 21.2,
+      ymhk: 21.0
     },
     {
-      date: '2019-08-26',
+      date: '2019/8/26',
       wsd: 19.6,
       jlrdc: 22.2,
       jlswz: 17.6,
@@ -30957,12 +34902,12 @@ export class OnlinePoint {
       hsws: 11.9,
       yqws: null,
       flhk: null,
-      lwm: 21.2,
-      yssbp: 21.1,
-      ymhk: 21.4
+      lwm: null,
+      yssbp: 21.2,
+      ymhk: 21.1
     },
     {
-      date: '2019-08-27',
+      date: '2019/8/27',
       wsd: 19.7,
       jlrdc: 21.7,
       jlswz: 19.2,
@@ -30972,12 +34917,12 @@ export class OnlinePoint {
       hsws: 12.0,
       yqws: null,
       flhk: null,
-      lwm: 21.5,
-      yssbp: 21.3,
-      ymhk: 22.0
+      lwm: null,
+      yssbp: 21.5,
+      ymhk: 21.3
     },
     {
-      date: '2019-08-28',
+      date: '2019/8/28',
       wsd: 19.9,
       jlrdc: 21.7,
       jlswz: 19.0,
@@ -30987,12 +34932,12 @@ export class OnlinePoint {
       hsws: 11.9,
       yqws: null,
       flhk: null,
-      lwm: 21.0,
-      yssbp: 20.8,
-      ymhk: 21.5
+      lwm: null,
+      yssbp: 21.0,
+      ymhk: 20.8
     },
     {
-      date: '2019-08-29',
+      date: '2019/8/29',
       wsd: 20.0,
       jlrdc: 21.3,
       jlswz: 17.9,
@@ -31002,12 +34947,12 @@ export class OnlinePoint {
       hsws: 12.0,
       yqws: null,
       flhk: null,
-      lwm: 20.2,
-      yssbp: 20.1,
-      ymhk: 20.4
+      lwm: null,
+      yssbp: 20.2,
+      ymhk: 20.1
     },
     {
-      date: '2019-08-30',
+      date: '2019/8/30',
       wsd: 20.1,
       jlrdc: 21.6,
       jlswz: 18.6,
@@ -31017,12 +34962,12 @@ export class OnlinePoint {
       hsws: 11.8,
       yqws: null,
       flhk: null,
-      lwm: 20.3,
+      lwm: null,
       yssbp: 20.3,
       ymhk: 20.3
     },
     {
-      date: '2019-08-31',
+      date: '2019/8/31',
       wsd: 20.2,
       jlrdc: 21.5,
       jlswz: 18.6,
@@ -31032,12 +34977,12 @@ export class OnlinePoint {
       hsws: 11.8,
       yqws: null,
       flhk: null,
-      lwm: 20.7,
-      yssbp: 20.6,
-      ymhk: 20.9
+      lwm: null,
+      yssbp: 20.7,
+      ymhk: 20.6
     },
     {
-      date: '2019-09-01',
+      date: '2019/9/1',
       wsd: 20.4,
       jlrdc: 21.0,
       jlswz: 18.4,
@@ -31047,12 +34992,12 @@ export class OnlinePoint {
       hsws: 12.6,
       yqws: null,
       flhk: null,
-      lwm: 20.9,
-      yssbp: 20.8,
-      ymhk: 21.1
+      lwm: null,
+      yssbp: 20.9,
+      ymhk: 20.8
     },
     {
-      date: '2019-09-02',
+      date: '2019/9/2',
       wsd: 20.5,
       jlrdc: 22.4,
       jlswz: 18.6,
@@ -31062,12 +35007,12 @@ export class OnlinePoint {
       hsws: 12.3,
       yqws: null,
       flhk: null,
-      lwm: 21.0,
+      lwm: null,
       yssbp: 21.0,
-      ymhk: 21.5
+      ymhk: 21.0
     },
     {
-      date: '2019-09-03',
+      date: '2019/9/3',
       wsd: 20.6,
       jlrdc: 23.3,
       jlswz: 18.8,
@@ -31077,12 +35022,12 @@ export class OnlinePoint {
       hsws: 12.5,
       yqws: null,
       flhk: null,
-      lwm: 21.0,
+      lwm: null,
       yssbp: 21.0,
-      ymhk: 21.8
+      ymhk: 21.0
     },
     {
-      date: '2019-09-04',
+      date: '2019/9/4',
       wsd: 20.8,
       jlrdc: 23.9,
       jlswz: 18.6,
@@ -31092,12 +35037,12 @@ export class OnlinePoint {
       hsws: 12.6,
       yqws: null,
       flhk: null,
-      lwm: 21.5,
+      lwm: null,
       yssbp: 21.5,
-      ymhk: 22.3
+      ymhk: 21.5
     },
     {
-      date: '2019-09-05',
+      date: '2019/9/5',
       wsd: 20.9,
       jlrdc: 24.1,
       jlswz: 18.1,
@@ -31107,12 +35052,12 @@ export class OnlinePoint {
       hsws: 12.7,
       yqws: null,
       flhk: null,
-      lwm: 21.8,
-      yssbp: 21.9,
-      ymhk: 22.5
+      lwm: null,
+      yssbp: 21.8,
+      ymhk: 21.9
     },
     {
-      date: '2019-09-06',
+      date: '2019/9/6',
       wsd: 19.6,
       jlrdc: 23.8,
       jlswz: 18.2,
@@ -31121,13 +35066,13 @@ export class OnlinePoint {
       sqws: 15.2,
       hsws: 12.7,
       yqws: null,
-      flhk: 23.3,
-      lwm: 22.0,
-      yssbp: 22.1,
-      ymhk: 22.9
+      flhk: null,
+      lwm: 23.3,
+      yssbp: 22.0,
+      ymhk: 22.1
     },
     {
-      date: '2019-09-07',
+      date: '2019/9/7',
       wsd: 18.3,
       jlrdc: 23.8,
       jlswz: 18.2,
@@ -31136,13 +35081,13 @@ export class OnlinePoint {
       sqws: 15.3,
       hsws: 12.6,
       yqws: null,
-      flhk: 23.5,
-      lwm: 21.8,
-      yssbp: 21.6,
-      ymhk: 22.3
+      flhk: null,
+      lwm: 23.5,
+      yssbp: 21.8,
+      ymhk: 21.6
     },
     {
-      date: '2019-09-08',
+      date: '2019/9/8',
       wsd: 18.8,
       jlrdc: 23.4,
       jlswz: 20.1,
@@ -31151,13 +35096,13 @@ export class OnlinePoint {
       sqws: 15.1,
       hsws: 12.2,
       yqws: null,
-      flhk: 21.5,
+      flhk: null,
       lwm: 21.5,
       yssbp: 21.5,
-      ymhk: 22.1
+      ymhk: 21.5
     },
     {
-      date: '2019-09-09',
+      date: '2019/9/9',
       wsd: 19.0,
       jlrdc: 23.4,
       jlswz: 19.4,
@@ -31165,14 +35110,14 @@ export class OnlinePoint {
       fmswz: 15.9,
       sqws: 14.9,
       hsws: 12.7,
-      yqws: 18.2,
-      flhk: 21.4,
-      lwm: 19.6,
-      yssbp: 19.3,
-      ymhk: 20.7
+      yqws: null,
+      flhk: 18.2,
+      lwm: 21.4,
+      yssbp: 19.6,
+      ymhk: 19.3
     },
     {
-      date: '2019-09-10',
+      date: '2019/9/10',
       wsd: 18.6,
       jlrdc: 23.0,
       jlswz: 17.6,
@@ -31180,14 +35125,14 @@ export class OnlinePoint {
       fmswz: 15.2,
       sqws: 15.1,
       hsws: 12.6,
-      yqws: 17.2,
-      flhk: 21.0,
-      lwm: 19.1,
+      yqws: null,
+      flhk: 17.2,
+      lwm: 21.0,
       yssbp: 19.1,
-      ymhk: 19.2
+      ymhk: 19.1
     },
     {
-      date: '2019-09-11',
+      date: '2019/9/11',
       wsd: 18.1,
       jlrdc: 21.8,
       jlswz: 16.9,
@@ -31195,14 +35140,14 @@ export class OnlinePoint {
       fmswz: 15.2,
       sqws: 15.2,
       hsws: 13.0,
-      yqws: 16.4,
-      flhk: 19.5,
-      lwm: 19.2,
+      yqws: null,
+      flhk: 16.4,
+      lwm: 19.5,
       yssbp: 19.2,
-      ymhk: 19.4
+      ymhk: 19.2
     },
     {
-      date: '2019-09-12',
+      date: '2019/9/12',
       wsd: 17.7,
       jlrdc: 22.6,
       jlswz: 17.0,
@@ -31210,14 +35155,14 @@ export class OnlinePoint {
       fmswz: 15.8,
       sqws: 15.8,
       hsws: 13.1,
-      yqws: 16.4,
-      flhk: 18.7,
-      lwm: 19.0,
-      yssbp: 18.9,
-      ymhk: 19.4
+      yqws: null,
+      flhk: 16.4,
+      lwm: 18.7,
+      yssbp: 19.0,
+      ymhk: 18.9
     },
     {
-      date: '2019-09-13',
+      date: '2019/9/13',
       wsd: 17.3,
       jlrdc: 23.1,
       jlswz: 17.3,
@@ -31225,14 +35170,14 @@ export class OnlinePoint {
       fmswz: 16.1,
       sqws: 15.9,
       hsws: 13.0,
-      yqws: 16.1,
-      flhk: 18.7,
-      lwm: 18.5,
-      yssbp: 18.3,
-      ymhk: 18.6
+      yqws: null,
+      flhk: 16.1,
+      lwm: 18.7,
+      yssbp: 18.5,
+      ymhk: 18.3
     },
     {
-      date: '2019-09-14',
+      date: '2019/9/14',
       wsd: 17.5,
       jlrdc: 22.7,
       jlswz: 17.8,
@@ -31240,14 +35185,14 @@ export class OnlinePoint {
       fmswz: 15.7,
       sqws: 15.6,
       hsws: 13.4,
-      yqws: 15.7,
-      flhk: 17.6,
-      lwm: 18.2,
-      yssbp: 18.5,
-      ymhk: 18.7
+      yqws: null,
+      flhk: 15.7,
+      lwm: 17.6,
+      yssbp: 18.2,
+      ymhk: 18.5
     },
     {
-      date: '2019-09-15',
+      date: '2019/9/15',
       wsd: 17.9,
       jlrdc: 22.8,
       jlswz: 17.3,
@@ -31255,14 +35200,14 @@ export class OnlinePoint {
       fmswz: 15.7,
       sqws: 15.7,
       hsws: 13.5,
-      yqws: 15.4,
-      flhk: 18.1,
-      lwm: 18.0,
-      yssbp: 18.1,
-      ymhk: 18.5
+      yqws: null,
+      flhk: 15.4,
+      lwm: 18.1,
+      yssbp: 18.0,
+      ymhk: 18.1
     },
     {
-      date: '2019-09-16',
+      date: '2019/9/16',
       wsd: 17.4,
       jlrdc: 22.6,
       jlswz: 17.1,
@@ -31270,14 +35215,14 @@ export class OnlinePoint {
       fmswz: 15.2,
       sqws: 15.1,
       hsws: 13.8,
-      yqws: 15.7,
-      flhk: 18.0,
-      lwm: 17.4,
-      yssbp: 17.1,
-      ymhk: 17.6
+      yqws: null,
+      flhk: 15.7,
+      lwm: 18.0,
+      yssbp: 17.4,
+      ymhk: 17.1
     },
     {
-      date: '2019-09-17',
+      date: '2019/9/17',
       wsd: 16.9,
       jlrdc: 22.4,
       jlswz: 16.1,
@@ -31285,14 +35230,14 @@ export class OnlinePoint {
       fmswz: 14.8,
       sqws: 14.6,
       hsws: 13.4,
-      yqws: 14.9,
-      flhk: 17.0,
-      lwm: 16.9,
-      yssbp: 16.8,
+      yqws: null,
+      flhk: 14.9,
+      lwm: 17.0,
+      yssbp: 16.9,
       ymhk: 16.8
     },
     {
-      date: '2019-09-18',
+      date: '2019/9/18',
       wsd: 16.4,
       jlrdc: 21.4,
       jlswz: 15.5,
@@ -31300,14 +35245,14 @@ export class OnlinePoint {
       fmswz: 14.2,
       sqws: 14.4,
       hsws: 13.6,
-      yqws: 15.6,
-      flhk: 16.1,
+      yqws: null,
+      flhk: 15.6,
       lwm: 16.1,
-      yssbp: 15.6,
-      ymhk: 15.8
+      yssbp: 16.1,
+      ymhk: 15.6
     },
     {
-      date: '2019-09-19',
+      date: '2019/9/19',
       wsd: 16.3,
       jlrdc: 20.6,
       jlswz: 14.4,
@@ -31315,14 +35260,14 @@ export class OnlinePoint {
       fmswz: 14.6,
       sqws: 14.8,
       hsws: 14.1,
-      yqws: 14.9,
-      flhk: 14.6,
-      lwm: 15.5,
-      yssbp: 15.6,
-      ymhk: 15.2
+      yqws: null,
+      flhk: 14.9,
+      lwm: 14.6,
+      yssbp: 15.5,
+      ymhk: 15.6
     },
     {
-      date: '2019-09-20',
+      date: '2019/9/20',
       wsd: 16.0,
       jlrdc: 21.5,
       jlswz: 15.6,
@@ -31330,14 +35275,14 @@ export class OnlinePoint {
       fmswz: 15.5,
       sqws: 15.5,
       hsws: 14.4,
-      yqws: 15.8,
-      flhk: 14.0,
-      lwm: 15.7,
-      yssbp: 16.0,
-      ymhk: 15.4
+      yqws: null,
+      flhk: 15.8,
+      lwm: 14.0,
+      yssbp: 15.7,
+      ymhk: 16.0
     },
     {
-      date: '2019-09-21',
+      date: '2019/9/21',
       wsd: 16.2,
       jlrdc: 21.2,
       jlswz: 17.0,
@@ -31345,14 +35290,14 @@ export class OnlinePoint {
       fmswz: 15.4,
       sqws: 15.4,
       hsws: 14.4,
-      yqws: 15.6,
-      flhk: 14.8,
-      lwm: 16.0,
-      yssbp: 16.1,
-      ymhk: 15.7
+      yqws: null,
+      flhk: 15.6,
+      lwm: 14.8,
+      yssbp: 16.0,
+      ymhk: 16.1
     },
     {
-      date: '2019-09-22',
+      date: '2019/9/22',
       wsd: 16.4,
       jlrdc: 21.5,
       jlswz: 16.0,
@@ -31360,14 +35305,14 @@ export class OnlinePoint {
       fmswz: 15.4,
       sqws: 14.9,
       hsws: 14.6,
-      yqws: 15.2,
-      flhk: 15.0,
-      lwm: 16.0,
-      yssbp: 16.2,
-      ymhk: 15.7
+      yqws: null,
+      flhk: 15.2,
+      lwm: 15.0,
+      yssbp: 16.0,
+      ymhk: 16.2
     },
     {
-      date: '2019-09-23',
+      date: '2019/9/23',
       wsd: 17.3,
       jlrdc: 21.9,
       jlswz: 16.1,
@@ -31375,14 +35320,14 @@ export class OnlinePoint {
       fmswz: 15.0,
       sqws: 15.0,
       hsws: 14.5,
-      yqws: 15.1,
-      flhk: 15.0,
-      lwm: 16.4,
-      yssbp: 16.8,
-      ymhk: 16.1
+      yqws: null,
+      flhk: 15.1,
+      lwm: 15.0,
+      yssbp: 16.4,
+      ymhk: 16.8
     },
     {
-      date: '2019-09-24',
+      date: '2019/9/24',
       wsd: 17.6,
       jlrdc: 21.4,
       jlswz: 16.3,
@@ -31390,14 +35335,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.2,
       hsws: 14.3,
-      yqws: 15.2,
-      flhk: 15.4,
-      lwm: 16.6,
+      yqws: null,
+      flhk: 15.2,
+      lwm: 15.4,
       yssbp: 16.6,
-      ymhk: 16.3
+      ymhk: 16.6
     },
     {
-      date: '2019-09-25',
+      date: '2019/9/25',
       wsd: 17.3,
       jlrdc: 21.6,
       jlswz: 15.7,
@@ -31405,14 +35350,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.3,
       hsws: 14.1,
-      yqws: 15.4,
-      flhk: 15.2,
-      lwm: 16.3,
+      yqws: null,
+      flhk: 15.4,
+      lwm: 15.2,
       yssbp: 16.3,
-      ymhk: 16.0
+      ymhk: 16.3
     },
     {
-      date: '2019-09-26',
+      date: '2019/9/26',
       wsd: 17.5,
       jlrdc: 22.9,
       jlswz: 16.6,
@@ -31420,14 +35365,14 @@ export class OnlinePoint {
       fmswz: 15.7,
       sqws: 15.6,
       hsws: 14.2,
-      yqws: 15.6,
-      flhk: 15.7,
-      lwm: 16.7,
-      yssbp: 17.2,
-      ymhk: 16.4
+      yqws: null,
+      flhk: 15.6,
+      lwm: 15.7,
+      yssbp: 16.7,
+      ymhk: 17.2
     },
     {
-      date: '2019-09-27',
+      date: '2019/9/27',
       wsd: 17.7,
       jlrdc: 23.3,
       jlswz: 17.2,
@@ -31435,14 +35380,14 @@ export class OnlinePoint {
       fmswz: 15.6,
       sqws: 15.6,
       hsws: 14.2,
-      yqws: 15.6,
-      flhk: 16.4,
-      lwm: 17.3,
-      yssbp: 17.6,
-      ymhk: 17.0
+      yqws: null,
+      flhk: 15.6,
+      lwm: 16.4,
+      yssbp: 17.3,
+      ymhk: 17.6
     },
     {
-      date: '2019-09-28',
+      date: '2019/9/28',
       wsd: 18.0,
       jlrdc: 23.5,
       jlswz: 17.2,
@@ -31450,14 +35395,14 @@ export class OnlinePoint {
       fmswz: 15.3,
       sqws: 15.3,
       hsws: 14.2,
-      yqws: 15.3,
-      flhk: 16.3,
-      lwm: 17.7,
-      yssbp: 18.0,
-      ymhk: 17.4
+      yqws: null,
+      flhk: 15.3,
+      lwm: 16.3,
+      yssbp: 17.7,
+      ymhk: 18.0
     },
     {
-      date: '2019-09-29',
+      date: '2019/9/29',
       wsd: 18.5,
       jlrdc: 24.0,
       jlswz: 16.8,
@@ -31465,14 +35410,14 @@ export class OnlinePoint {
       fmswz: 15.2,
       sqws: 15.1,
       hsws: 14.5,
-      yqws: 15.2,
-      flhk: 13.9,
-      lwm: 17.8,
+      yqws: null,
+      flhk: 15.2,
+      lwm: 13.9,
       yssbp: 17.8,
-      ymhk: 17.5
+      ymhk: 17.8
     },
     {
-      date: '2019-09-30',
+      date: '2019/9/30',
       wsd: 18.5,
       jlrdc: 23.0,
       jlswz: 16.4,
@@ -31480,14 +35425,14 @@ export class OnlinePoint {
       fmswz: 15.3,
       sqws: 15.1,
       hsws: 14.5,
-      yqws: 15.3,
-      flhk: 11.7,
-      lwm: 17.5,
-      yssbp: 17.6,
-      ymhk: 17.2
+      yqws: null,
+      flhk: 15.3,
+      lwm: 11.7,
+      yssbp: 17.5,
+      ymhk: 17.6
     },
     {
-      date: '2019-10-01',
+      date: '2019/10/1',
       wsd: 18.6,
       jlrdc: 22.6,
       jlswz: 16.7,
@@ -31495,14 +35440,14 @@ export class OnlinePoint {
       fmswz: 15.6,
       sqws: 15.4,
       hsws: 14.7,
-      yqws: 15.5,
-      flhk: 14.4,
-      lwm: 18.0,
-      yssbp: 18.2,
-      ymhk: 17.7
+      yqws: null,
+      flhk: 15.5,
+      lwm: 14.4,
+      yssbp: 18.0,
+      ymhk: 18.2
     },
     {
-      date: '2019-10-02',
+      date: '2019/10/2',
       wsd: 18.5,
       jlrdc: 23.8,
       jlswz: 17.0,
@@ -31510,14 +35455,14 @@ export class OnlinePoint {
       fmswz: 15.7,
       sqws: 15.7,
       hsws: 14.5,
-      yqws: 15.6,
-      flhk: 15.3,
-      lwm: 18.4,
+      yqws: null,
+      flhk: 15.6,
+      lwm: 15.3,
       yssbp: 18.4,
-      ymhk: 18.1
+      ymhk: 18.4
     },
     {
-      date: '2019-10-03',
+      date: '2019/10/3',
       wsd: 17.4,
       jlrdc: 23.1,
       jlswz: 16.1,
@@ -31525,14 +35470,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.2,
       hsws: 14.3,
-      yqws: 15.4,
-      flhk: 17.2,
-      lwm: 17.5,
-      yssbp: 16.2,
-      ymhk: 17.2
+      yqws: null,
+      flhk: 15.4,
+      lwm: 17.2,
+      yssbp: 17.5,
+      ymhk: 16.2
     },
     {
-      date: '2019-10-04',
+      date: '2019/10/4',
       wsd: 16.2,
       jlrdc: 21.5,
       jlswz: 13.9,
@@ -31540,14 +35485,14 @@ export class OnlinePoint {
       fmswz: 14.2,
       sqws: 14.7,
       hsws: 13.9,
-      yqws: 14.7,
-      flhk: 15.4,
-      lwm: 14.8,
-      yssbp: 14.0,
-      ymhk: 14.5
+      yqws: null,
+      flhk: 14.7,
+      lwm: 15.4,
+      yssbp: 14.8,
+      ymhk: 14.0
     },
     {
-      date: '2019-10-05',
+      date: '2019/10/5',
       wsd: 15.3,
       jlrdc: 20.4,
       jlswz: 13.1,
@@ -31555,14 +35500,14 @@ export class OnlinePoint {
       fmswz: 14.7,
       sqws: 15.1,
       hsws: 14.0,
-      yqws: 14.8,
-      flhk: 12.4,
-      lwm: 13.9,
-      yssbp: 14.4,
-      ymhk: 13.6
+      yqws: null,
+      flhk: 14.8,
+      lwm: 12.4,
+      yssbp: 13.9,
+      ymhk: 14.4
     },
     {
-      date: '2019-10-06',
+      date: '2019/10/6',
       wsd: 14.1,
       jlrdc: 20.4,
       jlswz: 13.6,
@@ -31570,14 +35515,14 @@ export class OnlinePoint {
       fmswz: 15.0,
       sqws: 15.6,
       hsws: 14.3,
-      yqws: 15.2,
-      flhk: 11.4,
-      lwm: 14.2,
-      yssbp: 14.0,
-      ymhk: 13.9
+      yqws: null,
+      flhk: 15.2,
+      lwm: 11.4,
+      yssbp: 14.2,
+      ymhk: 14.0
     },
     {
-      date: '2019-10-07',
+      date: '2019/10/7',
       wsd: 13.8,
       jlrdc: 21.3,
       jlswz: 14.3,
@@ -31585,14 +35530,14 @@ export class OnlinePoint {
       fmswz: 15.7,
       sqws: 16.0,
       hsws: 14.3,
-      yqws: 15.7,
-      flhk: 10.6,
-      lwm: 13.7,
-      yssbp: 13.5,
-      ymhk: 13.4
+      yqws: null,
+      flhk: 15.7,
+      lwm: 10.6,
+      yssbp: 13.7,
+      ymhk: 13.5
     },
     {
-      date: '2019-10-08',
+      date: '2019/10/8',
       wsd: 13.2,
       jlrdc: 21.6,
       jlswz: 14.1,
@@ -31600,14 +35545,14 @@ export class OnlinePoint {
       fmswz: 14.2,
       sqws: 14.6,
       hsws: 14.0,
-      yqws: 15.1,
-      flhk: 10.9,
-      lwm: 13.0,
-      yssbp: 12.1,
-      ymhk: 12.7
+      yqws: null,
+      flhk: 15.1,
+      lwm: 10.9,
+      yssbp: 13.0,
+      ymhk: 12.1
     },
     {
-      date: '2019-10-09',
+      date: '2019/10/9',
       wsd: 13.5,
       jlrdc: 21.1,
       jlswz: 13.5,
@@ -31615,14 +35560,14 @@ export class OnlinePoint {
       fmswz: 14.8,
       sqws: 15.4,
       hsws: 14.0,
-      yqws: 14.8,
-      flhk: 10.2,
-      lwm: 12.2,
-      yssbp: 12.4,
-      ymhk: 11.9
+      yqws: null,
+      flhk: 14.8,
+      lwm: 10.2,
+      yssbp: 12.2,
+      ymhk: 12.4
     },
     {
-      date: '2019-10-10',
+      date: '2019/10/10',
       wsd: 13.4,
       jlrdc: 21.9,
       jlswz: 14.0,
@@ -31630,14 +35575,14 @@ export class OnlinePoint {
       fmswz: 15.6,
       sqws: 16.0,
       hsws: 13.9,
-      yqws: 15.6,
-      flhk: 11.2,
-      lwm: 12.6,
-      yssbp: 12.2,
-      ymhk: 12.3
+      yqws: null,
+      flhk: 15.6,
+      lwm: 11.2,
+      yssbp: 12.6,
+      ymhk: 12.2
     },
     {
-      date: '2019-10-11',
+      date: '2019/10/11',
       wsd: 13.2,
       jlrdc: 20.9,
       jlswz: 14.3,
@@ -31645,14 +35590,14 @@ export class OnlinePoint {
       fmswz: 15.4,
       sqws: 15.8,
       hsws: 13.0,
-      yqws: 15.7,
-      flhk: 10.1,
-      lwm: 11.9,
-      yssbp: 10.3,
-      ymhk: 11.6
+      yqws: null,
+      flhk: 15.7,
+      lwm: 10.1,
+      yssbp: 11.9,
+      ymhk: 10.3
     },
     {
-      date: '2019-10-12',
+      date: '2019/10/12',
       wsd: 13.0,
       jlrdc: 19.5,
       jlswz: 14.1,
@@ -31660,14 +35605,14 @@ export class OnlinePoint {
       fmswz: 15.2,
       sqws: 15.7,
       hsws: 13.7,
-      yqws: 15.6,
-      flhk: 9.9,
-      lwm: 11.2,
-      yssbp: 9.9,
-      ymhk: 10.9
+      yqws: null,
+      flhk: 15.6,
+      lwm: 9.9,
+      yssbp: 11.2,
+      ymhk: 9.9
     },
     {
-      date: '2019-10-13',
+      date: '2019/10/13',
       wsd: 12.5,
       jlrdc: 19.0,
       jlswz: 13.4,
@@ -31675,14 +35620,14 @@ export class OnlinePoint {
       fmswz: 14.4,
       sqws: 15.1,
       hsws: 13.7,
-      yqws: 15.1,
-      flhk: 8.8,
-      lwm: 10.6,
-      yssbp: 8.6,
-      ymhk: 10.3
+      yqws: null,
+      flhk: 15.1,
+      lwm: 8.8,
+      yssbp: 10.6,
+      ymhk: 8.6
     },
     {
-      date: '2019-10-14',
+      date: '2019/10/14',
       wsd: 12.4,
       jlrdc: 18.7,
       jlswz: 12.7,
@@ -31690,14 +35635,14 @@ export class OnlinePoint {
       fmswz: 14.6,
       sqws: 15.3,
       hsws: 13.1,
-      yqws: 15.4,
-      flhk: 7.5,
-      lwm: 9.9,
-      yssbp: 8.4,
-      ymhk: 9.6
+      yqws: null,
+      flhk: 15.4,
+      lwm: 7.5,
+      yssbp: 9.9,
+      ymhk: 8.4
     },
     {
-      date: '2019-10-15',
+      date: '2019/10/15',
       wsd: 11.8,
       jlrdc: 19.6,
       jlswz: 12.9,
@@ -31705,14 +35650,14 @@ export class OnlinePoint {
       fmswz: 14.7,
       sqws: 15.4,
       hsws: 13.1,
-      yqws: 15.3,
-      flhk: 6.7,
-      lwm: 9.5,
-      yssbp: 8.6,
-      ymhk: 9.2
+      yqws: null,
+      flhk: 15.3,
+      lwm: 6.7,
+      yssbp: 9.5,
+      ymhk: 8.6
     },
     {
-      date: '2019-10-16',
+      date: '2019/10/16',
       wsd: 11.7,
       jlrdc: 19.8,
       jlswz: 13.6,
@@ -31720,14 +35665,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.6,
       hsws: 13.0,
-      yqws: 15.2,
-      flhk: 7.3,
-      lwm: 9.7,
-      yssbp: 9.2,
-      ymhk: 9.4
+      yqws: null,
+      flhk: 15.2,
+      lwm: 7.3,
+      yssbp: 9.7,
+      ymhk: 9.2
     },
     {
-      date: '2019-10-17',
+      date: '2019/10/17',
       wsd: 11.9,
       jlrdc: 20.2,
       jlswz: 14.1,
@@ -31735,14 +35680,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.7,
       hsws: 13.1,
-      yqws: 15.4,
-      flhk: 7.2,
-      lwm: 10.1,
-      yssbp: 9.6,
-      ymhk: 9.8
+      yqws: null,
+      flhk: 15.4,
+      lwm: 7.2,
+      yssbp: 10.1,
+      ymhk: 9.6
     },
     {
-      date: '2019-10-18',
+      date: '2019/10/18',
       wsd: 12.7,
       jlrdc: 20.7,
       jlswz: 14.2,
@@ -31750,14 +35695,14 @@ export class OnlinePoint {
       fmswz: 15.2,
       sqws: 15.7,
       hsws: 13.3,
-      yqws: 15.3,
-      flhk: 7.7,
-      lwm: 10.2,
+      yqws: null,
+      flhk: 15.3,
+      lwm: 7.7,
       yssbp: 10.2,
-      ymhk: 9.9
+      ymhk: 10.2
     },
     {
-      date: '2019-10-19',
+      date: '2019/10/19',
       wsd: 13.3,
       jlrdc: 22.6,
       jlswz: 14.4,
@@ -31765,14 +35710,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.5,
       hsws: 13.4,
-      yqws: 15.3,
-      flhk: 8.5,
-      lwm: 10.4,
-      yssbp: 10.7,
-      ymhk: 10.1
+      yqws: null,
+      flhk: 15.3,
+      lwm: 8.5,
+      yssbp: 10.4,
+      ymhk: 10.7
     },
     {
-      date: '2019-10-20',
+      date: '2019/10/20',
       wsd: 13.5,
       jlrdc: 22.4,
       jlswz: 14.1,
@@ -31780,14 +35725,14 @@ export class OnlinePoint {
       fmswz: 15.0,
       sqws: 15.4,
       hsws: 13.6,
-      yqws: 15.1,
-      flhk: 7.9,
-      lwm: 10.5,
-      yssbp: 9.9,
-      ymhk: 10.2
+      yqws: null,
+      flhk: 15.1,
+      lwm: 7.9,
+      yssbp: 10.5,
+      ymhk: 9.9
     },
     {
-      date: '2019-10-21',
+      date: '2019/10/21',
       wsd: 13.7,
       jlrdc: 21.5,
       jlswz: 14.0,
@@ -31795,14 +35740,14 @@ export class OnlinePoint {
       fmswz: 14.8,
       sqws: 15.2,
       hsws: 13.7,
-      yqws: 15.0,
-      flhk: 8.1,
-      lwm: 10.3,
-      yssbp: 8.1,
-      ymhk: 10.0
+      yqws: null,
+      flhk: 15.0,
+      lwm: 8.1,
+      yssbp: 10.3,
+      ymhk: 8.1
     },
     {
-      date: '2019-10-22',
+      date: '2019/10/22',
       wsd: 13.6,
       jlrdc: 21.2,
       jlswz: 13.8,
@@ -31810,14 +35755,14 @@ export class OnlinePoint {
       fmswz: 14.8,
       sqws: 15.4,
       hsws: 13.9,
-      yqws: 14.9,
-      flhk: 8.0,
-      lwm: 10.3,
-      yssbp: 9.2,
-      ymhk: 10.0
+      yqws: null,
+      flhk: 14.9,
+      lwm: 8.0,
+      yssbp: 10.3,
+      ymhk: 9.2
     },
     {
-      date: '2019-10-23',
+      date: '2019/10/23',
       wsd: 13.6,
       jlrdc: 21.1,
       jlswz: 14.0,
@@ -31825,14 +35770,14 @@ export class OnlinePoint {
       fmswz: 14.8,
       sqws: 15.2,
       hsws: 14.1,
-      yqws: 15.1,
-      flhk: 8.4,
-      lwm: 10.4,
-      yssbp: 10.3,
-      ymhk: 10.1
+      yqws: null,
+      flhk: 15.1,
+      lwm: 8.4,
+      yssbp: 10.4,
+      ymhk: 10.3
     },
     {
-      date: '2019-10-24',
+      date: '2019/10/24',
       wsd: 13.8,
       jlrdc: 20.7,
       jlswz: 14.3,
@@ -31840,14 +35785,14 @@ export class OnlinePoint {
       fmswz: 14.8,
       sqws: 15.2,
       hsws: 14.1,
-      yqws: 15.2,
-      flhk: 8.7,
-      lwm: 10.7,
-      yssbp: 10.9,
-      ymhk: 10.4
+      yqws: null,
+      flhk: 15.2,
+      lwm: 8.7,
+      yssbp: 10.7,
+      ymhk: 10.9
     },
     {
-      date: '2019-10-25',
+      date: '2019/10/25',
       wsd: 13.5,
       jlrdc: 22.3,
       jlswz: 13.6,
@@ -31855,14 +35800,14 @@ export class OnlinePoint {
       fmswz: 14.3,
       sqws: 14.8,
       hsws: 13.9,
-      yqws: 15.1,
-      flhk: 9.6,
-      lwm: 10.7,
-      yssbp: 9.1,
-      ymhk: 10.4
+      yqws: null,
+      flhk: 15.1,
+      lwm: 9.6,
+      yssbp: 10.7,
+      ymhk: 9.1
     },
     {
-      date: '2019-10-26',
+      date: '2019/10/26',
       wsd: 13.1,
       jlrdc: 22.2,
       jlswz: 12.8,
@@ -31870,14 +35815,14 @@ export class OnlinePoint {
       fmswz: 13.8,
       sqws: 14.2,
       hsws: 13.9,
-      yqws: 14.1,
-      flhk: 7.3,
-      lwm: 9.8,
-      yssbp: 9.1,
-      ymhk: 9.5
+      yqws: null,
+      flhk: 14.1,
+      lwm: 7.3,
+      yssbp: 9.8,
+      ymhk: 9.1
     },
     {
-      date: '2019-10-27',
+      date: '2019/10/27',
       wsd: 12.6,
       jlrdc: 22.7,
       jlswz: 12.4,
@@ -31885,14 +35830,14 @@ export class OnlinePoint {
       fmswz: 13.8,
       sqws: 14.5,
       hsws: 13.7,
-      yqws: 14.1,
-      flhk: 6.2,
-      lwm: 9.7,
-      yssbp: 9.6,
-      ymhk: 9.4
+      yqws: null,
+      flhk: 14.1,
+      lwm: 6.2,
+      yssbp: 9.7,
+      ymhk: 9.6
     },
     {
-      date: '2019-10-28',
+      date: '2019/10/28',
       wsd: 11.9,
       jlrdc: 22.4,
       jlswz: 12.5,
@@ -31900,14 +35845,14 @@ export class OnlinePoint {
       fmswz: 14.2,
       sqws: 14.7,
       hsws: 13.6,
-      yqws: 14.5,
-      flhk: 6.0,
-      lwm: 9.8,
-      yssbp: 9.6,
-      ymhk: 9.5
+      yqws: null,
+      flhk: 14.5,
+      lwm: 6.0,
+      yssbp: 9.8,
+      ymhk: 9.6
     },
     {
-      date: '2019-10-29',
+      date: '2019/10/29',
       wsd: 11.8,
       jlrdc: 23.1,
       jlswz: 13.1,
@@ -31915,14 +35860,14 @@ export class OnlinePoint {
       fmswz: 14.0,
       sqws: 14.4,
       hsws: 13.3,
-      yqws: 14.4,
-      flhk: 6.6,
-      lwm: 9.8,
-      yssbp: 8.1,
-      ymhk: 9.5
+      yqws: null,
+      flhk: 14.4,
+      lwm: 6.6,
+      yssbp: 9.8,
+      ymhk: 8.1
     },
     {
-      date: '2019-10-30',
+      date: '2019/10/30',
       wsd: 12.5,
       jlrdc: 23.6,
       jlswz: 12.7,
@@ -31930,14 +35875,14 @@ export class OnlinePoint {
       fmswz: 13.8,
       sqws: 14.3,
       hsws: 13.0,
-      yqws: 14.2,
-      flhk: 5.4,
-      lwm: 9.3,
-      yssbp: 8.9,
-      ymhk: 9.0
+      yqws: null,
+      flhk: 14.2,
+      lwm: 5.4,
+      yssbp: 9.3,
+      ymhk: 8.9
     },
     {
-      date: '2019-10-31',
+      date: '2019/10/31',
       wsd: 12.6,
       jlrdc: 23.0,
       jlswz: 13.1,
@@ -31945,14 +35890,14 @@ export class OnlinePoint {
       fmswz: 13.5,
       sqws: 13.7,
       hsws: 12.8,
-      yqws: 14.3,
-      flhk: 6.5,
-      lwm: 9.3,
-      yssbp: 9.0,
+      yqws: null,
+      flhk: 14.3,
+      lwm: 6.5,
+      yssbp: 9.3,
       ymhk: 9.0
     },
     {
-      date: '2019-11-01',
+      date: '2019/11/1',
       wsd: 12.8,
       jlrdc: 21.0,
       jlswz: 12.6,
@@ -31960,14 +35905,14 @@ export class OnlinePoint {
       fmswz: 13.1,
       sqws: 13.3,
       hsws: 12.6,
-      yqws: 14.1,
-      flhk: 5.5,
-      lwm: 8.8,
-      yssbp: 8.4,
-      ymhk: 8.5
+      yqws: null,
+      flhk: 14.1,
+      lwm: 5.5,
+      yssbp: 8.8,
+      ymhk: 8.4
     },
     {
-      date: '2019-11-02',
+      date: '2019/11/2',
       wsd: 12.5,
       jlrdc: 20.5,
       jlswz: 12.6,
@@ -31975,14 +35920,14 @@ export class OnlinePoint {
       fmswz: 13.3,
       sqws: 13.7,
       hsws: 12.4,
-      yqws: 13.9,
-      flhk: 4.9,
-      lwm: 8.8,
-      yssbp: 8.4,
-      ymhk: 8.5
+      yqws: null,
+      flhk: 13.9,
+      lwm: 4.9,
+      yssbp: 8.8,
+      ymhk: 8.4
     },
     {
-      date: '2019-11-03',
+      date: '2019/11/3',
       wsd: 12.1,
       jlrdc: 19.3,
       jlswz: 11.8,
@@ -31990,14 +35935,14 @@ export class OnlinePoint {
       fmswz: 13.1,
       sqws: 13.5,
       hsws: 12.1,
-      yqws: 13.3,
-      flhk: 3.5,
-      lwm: 8.4,
-      yssbp: 8.0,
-      ymhk: 8.1
+      yqws: null,
+      flhk: 13.3,
+      lwm: 3.5,
+      yssbp: 8.4,
+      ymhk: 8.0
     },
     {
-      date: '2019-11-04',
+      date: '2019/11/4',
       wsd: 11.4,
       jlrdc: 19.2,
       jlswz: 11.6,
@@ -32005,14 +35950,14 @@ export class OnlinePoint {
       fmswz: 13.0,
       sqws: 13.4,
       hsws: 11.9,
-      yqws: 13.1,
-      flhk: 2.5,
-      lwm: 8.6,
-      yssbp: 8.4,
-      ymhk: 8.3
+      yqws: null,
+      flhk: 13.1,
+      lwm: 2.5,
+      yssbp: 8.6,
+      ymhk: 8.4
     },
     {
-      date: '2019-11-05',
+      date: '2019/11/5',
       wsd: 11.1,
       jlrdc: 19.7,
       jlswz: 11.6,
@@ -32020,14 +35965,14 @@ export class OnlinePoint {
       fmswz: 12.8,
       sqws: 13.2,
       hsws: 11.6,
-      yqws: 13.0,
-      flhk: 2.4,
-      lwm: 8.5,
-      yssbp: 8.1,
-      ymhk: 8.2
+      yqws: null,
+      flhk: 13.0,
+      lwm: 2.4,
+      yssbp: 8.5,
+      ymhk: 8.1
     },
     {
-      date: '2019-11-06',
+      date: '2019/11/6',
       wsd: 10.9,
       jlrdc: 19.1,
       jlswz: 11.3,
@@ -32035,14 +35980,14 @@ export class OnlinePoint {
       fmswz: 12.6,
       sqws: 13.0,
       hsws: 11.5,
-      yqws: 12.8,
-      flhk: 1.6,
-      lwm: 7.8,
-      yssbp: 7.4,
-      ymhk: 7.5
+      yqws: null,
+      flhk: 12.8,
+      lwm: 1.6,
+      yssbp: 7.8,
+      ymhk: 7.4
     },
     {
-      date: '2019-11-07',
+      date: '2019/11/7',
       wsd: 10.4,
       jlrdc: 18.4,
       jlswz: 10.6,
@@ -32050,14 +35995,14 @@ export class OnlinePoint {
       fmswz: 12.2,
       sqws: 12.7,
       hsws: 11.2,
-      yqws: 12.5,
-      flhk: 1.1,
-      lwm: 6.8,
-      yssbp: 6.3,
-      ymhk: 6.5
+      yqws: null,
+      flhk: 12.5,
+      lwm: 1.1,
+      yssbp: 6.8,
+      ymhk: 6.3
     },
     {
-      date: '2019-11-08',
+      date: '2019/11/8',
       wsd: 9.8,
       jlrdc: 18.2,
       jlswz: 10.7,
@@ -32065,14 +36010,14 @@ export class OnlinePoint {
       fmswz: 12.2,
       sqws: 12.6,
       hsws: 10.9,
-      yqws: 12.3,
-      flhk: 0.7,
-      lwm: 6.4,
-      yssbp: 6.3,
-      ymhk: 6.1
+      yqws: null,
+      flhk: 12.3,
+      lwm: 0.7,
+      yssbp: 6.4,
+      ymhk: 6.3
     },
     {
-      date: '2019-11-09',
+      date: '2019/11/9',
       wsd: 9.8,
       jlrdc: 19.1,
       jlswz: 10.8,
@@ -32080,14 +36025,14 @@ export class OnlinePoint {
       fmswz: 12.1,
       sqws: 12.5,
       hsws: 10.7,
-      yqws: 12.3,
-      flhk: 0.6,
-      lwm: 6.3,
+      yqws: null,
+      flhk: 12.3,
+      lwm: 0.6,
       yssbp: 6.3,
-      ymhk: 6.0
+      ymhk: 6.3
     },
     {
-      date: '2019-11-10',
+      date: '2019/11/10',
       wsd: 10.4,
       jlrdc: 19.6,
       jlswz: 10.8,
@@ -32095,14 +36040,14 @@ export class OnlinePoint {
       fmswz: 11.9,
       sqws: 12.5,
       hsws: 10.5,
-      yqws: 12.2,
-      flhk: 1.1,
-      lwm: 6.6,
-      yssbp: 6.7,
-      ymhk: 6.3
+      yqws: null,
+      flhk: 12.2,
+      lwm: 1.1,
+      yssbp: 6.6,
+      ymhk: 6.7
     },
     {
-      date: '2019-11-11',
+      date: '2019/11/11',
       wsd: 10.7,
       jlrdc: 19.8,
       jlswz: 11.1,
@@ -32110,14 +36055,14 @@ export class OnlinePoint {
       fmswz: 11.9,
       sqws: 12.2,
       hsws: 10.4,
-      yqws: 12.1,
-      flhk: 2.1,
-      lwm: 7.1,
+      yqws: null,
+      flhk: 12.1,
+      lwm: 2.1,
       yssbp: 7.1,
-      ymhk: 6.8
+      ymhk: 7.1
     },
     {
-      date: '2019-11-12',
+      date: '2019/11/12',
       wsd: 10.7,
       jlrdc: 19.4,
       jlswz: 10.5,
@@ -32125,14 +36070,14 @@ export class OnlinePoint {
       fmswz: 11.6,
       sqws: 12.0,
       hsws: 10.3,
-      yqws: 12.0,
-      flhk: 1.9,
-      lwm: 6.5,
-      yssbp: 6.1,
-      ymhk: 6.2
+      yqws: null,
+      flhk: 12.0,
+      lwm: 1.9,
+      yssbp: 6.5,
+      ymhk: 6.1
     },
     {
-      date: '2019-11-13',
+      date: '2019/11/13',
       wsd: 10.0,
       jlrdc: 18.9,
       jlswz: 10.0,
@@ -32140,14 +36085,14 @@ export class OnlinePoint {
       fmswz: 11.3,
       sqws: 11.8,
       hsws: 10.1,
-      yqws: 11.8,
-      flhk: 1.7,
-      lwm: 5.7,
-      yssbp: 5.1,
-      ymhk: 5.4
+      yqws: null,
+      flhk: 11.8,
+      lwm: 1.7,
+      yssbp: 5.7,
+      ymhk: 5.1
     },
     {
-      date: '2019-11-14',
+      date: '2019/11/14',
       wsd: 8.7,
       jlrdc: 18.9,
       jlswz: 8.9,
@@ -32155,14 +36100,14 @@ export class OnlinePoint {
       fmswz: 11.0,
       sqws: 11.4,
       hsws: 9.8,
-      yqws: 11.5,
-      flhk: 0.0,
-      lwm: 4.1,
-      yssbp: 3.7,
-      ymhk: 3.8
+      yqws: null,
+      flhk: 11.5,
+      lwm: 0.0,
+      yssbp: 4.1,
+      ymhk: 3.7
     },
     {
-      date: '2019-11-15',
+      date: '2019/11/15',
       wsd: 7.1,
       jlrdc: 19.5,
       jlswz: 8.9,
@@ -32170,14 +36115,14 @@ export class OnlinePoint {
       fmswz: 10.7,
       sqws: 11.2,
       hsws: 9.5,
-      yqws: 11.3,
-      flhk: 0.0,
-      lwm: 3.6,
-      yssbp: 3.5,
-      ymhk: 3.3
+      yqws: null,
+      flhk: 11.3,
+      lwm: 0.0,
+      yssbp: 3.6,
+      ymhk: 3.5
     },
     {
-      date: '2019-11-16',
+      date: '2019/11/16',
       wsd: 7.0,
       jlrdc: 19.7,
       jlswz: 9.1,
@@ -32185,14 +36130,14 @@ export class OnlinePoint {
       fmswz: 10.6,
       sqws: 11.0,
       hsws: 9.2,
-      yqws: 11.0,
-      flhk: 0.0,
-      lwm: 3.4,
-      yssbp: 3.2,
-      ymhk: 3.1
+      yqws: null,
+      flhk: 11.0,
+      lwm: 0.0,
+      yssbp: 3.4,
+      ymhk: 3.2
     },
     {
-      date: '2019-11-17',
+      date: '2019/11/17',
       wsd: 7.6,
       jlrdc: 20.5,
       jlswz: 9.0,
@@ -32200,14 +36145,14 @@ export class OnlinePoint {
       fmswz: 10.4,
       sqws: 10.9,
       hsws: 9.0,
-      yqws: 10.8,
-      flhk: 0.0,
-      lwm: 3.3,
-      yssbp: 3.1,
-      ymhk: 3.0
+      yqws: null,
+      flhk: 10.8,
+      lwm: 0.0,
+      yssbp: 3.3,
+      ymhk: 3.1
     },
     {
-      date: '2019-11-18',
+      date: '2019/11/18',
       wsd: 7.6,
       jlrdc: 20.4,
       jlswz: 8.3,
@@ -32215,14 +36160,14 @@ export class OnlinePoint {
       fmswz: 10.1,
       sqws: 10.5,
       hsws: 8.6,
-      yqws: 10.5,
-      flhk: 0.0,
-      lwm: 2.5,
-      yssbp: 1.9,
-      ymhk: 2.2
+      yqws: null,
+      flhk: 10.5,
+      lwm: 0.0,
+      yssbp: 2.5,
+      ymhk: 1.9
     },
     {
-      date: '2019-11-19',
+      date: '2019/11/19',
       wsd: 6.5,
       jlrdc: 18.0,
       jlswz: 7.7,
@@ -32230,14 +36175,14 @@ export class OnlinePoint {
       fmswz: 9.7,
       sqws: 10.1,
       hsws: 8.3,
-      yqws: 10.2,
-      flhk: 0.0,
-      lwm: 1.3,
-      yssbp: 1.0,
+      yqws: null,
+      flhk: 10.2,
+      lwm: 0.0,
+      yssbp: 1.3,
       ymhk: 1.0
     },
     {
-      date: '2019-11-20',
+      date: '2019/11/20',
       wsd: 5.7,
       jlrdc: 18.0,
       jlswz: 7.9,
@@ -32245,14 +36190,14 @@ export class OnlinePoint {
       fmswz: 9.6,
       sqws: 10.0,
       hsws: 7.9,
-      yqws: 9.9,
-      flhk: 0.0,
-      lwm: 1.4,
+      yqws: null,
+      flhk: 9.9,
+      lwm: 0.0,
       yssbp: 1.4,
-      ymhk: 1.1
+      ymhk: 1.4
     },
     {
-      date: '2019-11-21',
+      date: '2019/11/21',
       wsd: 6.8,
       jlrdc: 19.3,
       jlswz: 8.3,
@@ -32260,14 +36205,14 @@ export class OnlinePoint {
       fmswz: 9.4,
       sqws: 9.8,
       hsws: 7.7,
-      yqws: 9.6,
-      flhk: 0.0,
-      lwm: 1.8,
-      yssbp: 1.9,
-      ymhk: 1.5
+      yqws: null,
+      flhk: 9.6,
+      lwm: 0.0,
+      yssbp: 1.8,
+      ymhk: 1.9
     },
     {
-      date: '2019-11-22',
+      date: '2019/11/22',
       wsd: 8.3,
       jlrdc: 20.4,
       jlswz: 8.6,
@@ -32275,14 +36220,14 @@ export class OnlinePoint {
       fmswz: 9.5,
       sqws: 9.7,
       hsws: 7.7,
-      yqws: 9.5,
-      flhk: 0.0,
-      lwm: 3.3,
-      yssbp: 3.5,
-      ymhk: 3.0
+      yqws: null,
+      flhk: 9.5,
+      lwm: 0.0,
+      yssbp: 3.3,
+      ymhk: 3.5
     },
     {
-      date: '2019-11-23',
+      date: '2019/11/23',
       wsd: 8.9,
       jlrdc: 18.9,
       jlswz: 8.5,
@@ -32290,14 +36235,14 @@ export class OnlinePoint {
       fmswz: 9.3,
       sqws: 9.4,
       hsws: 7.7,
-      yqws: 9.5,
-      flhk: 0.0,
-      lwm: 4.1,
-      yssbp: 3.8,
+      yqws: null,
+      flhk: 9.5,
+      lwm: 0.0,
+      yssbp: 4.1,
       ymhk: 3.8
     },
     {
-      date: '2019-11-24',
+      date: '2019/11/24',
       wsd: 8.4,
       jlrdc: 17.9,
       jlswz: 7.8,
@@ -32305,14 +36250,14 @@ export class OnlinePoint {
       fmswz: 8.9,
       sqws: 9.1,
       hsws: 7.2,
-      yqws: 9.2,
-      flhk: 0.0,
-      lwm: 3.6,
-      yssbp: 3.0,
-      ymhk: 3.3
+      yqws: null,
+      flhk: 9.2,
+      lwm: 0.0,
+      yssbp: 3.6,
+      ymhk: 3.0
     },
     {
-      date: '2019-11-25',
+      date: '2019/11/25',
       wsd: 6.9,
       jlrdc: 17.4,
       jlswz: 7.1,
@@ -32320,14 +36265,14 @@ export class OnlinePoint {
       fmswz: 8.6,
       sqws: 9.0,
       hsws: 7.0,
-      yqws: 8.9,
-      flhk: 0.0,
-      lwm: 3.5,
-      yssbp: 3.0,
-      ymhk: 3.2
+      yqws: null,
+      flhk: 8.9,
+      lwm: 0.0,
+      yssbp: 3.5,
+      ymhk: 3.0
     },
     {
-      date: '2019-11-26',
+      date: '2019/11/26',
       wsd: 6.2,
       jlrdc: 17.7,
       jlswz: 6.9,
@@ -32335,14 +36280,14 @@ export class OnlinePoint {
       fmswz: 8.5,
       sqws: 8.8,
       hsws: 6.7,
-      yqws: 8.7,
-      flhk: 0.0,
-      lwm: 3.7,
-      yssbp: 3.3,
-      ymhk: 3.4
+      yqws: null,
+      flhk: 8.7,
+      lwm: 0.0,
+      yssbp: 3.7,
+      ymhk: 3.3
     },
     {
-      date: '2019-11-27',
+      date: '2019/11/27',
       wsd: 5.7,
       jlrdc: 17.7,
       jlswz: 6.8,
@@ -32350,14 +36295,14 @@ export class OnlinePoint {
       fmswz: 8.3,
       sqws: 8.7,
       hsws: 6.4,
-      yqws: 8.5,
-      flhk: 0.0,
-      lwm: 3.0,
-      yssbp: 2.3,
-      ymhk: 2.7
+      yqws: null,
+      flhk: 8.5,
+      lwm: 0.0,
+      yssbp: 3.0,
+      ymhk: 2.3
     },
     {
-      date: '2019-11-28',
+      date: '2019/11/28',
       wsd: 5.4,
       jlrdc: 16.2,
       jlswz: 6.9,
@@ -32365,14 +36310,14 @@ export class OnlinePoint {
       fmswz: 8.2,
       sqws: 8.5,
       hsws: 6.1,
-      yqws: 8.3,
-      flhk: 0.0,
-      lwm: 2.0,
-      yssbp: 1.7,
+      yqws: null,
+      flhk: 8.3,
+      lwm: 0.0,
+      yssbp: 2.0,
       ymhk: 1.7
     },
     {
-      date: '2019-11-29',
+      date: '2019/11/29',
       wsd: 5.8,
       jlrdc: 17.0,
       jlswz: 6.9,
@@ -32380,14 +36325,14 @@ export class OnlinePoint {
       fmswz: 8.0,
       sqws: 8.3,
       hsws: 5.7,
-      yqws: 8.2,
-      flhk: 0.0,
-      lwm: 1.7,
-      yssbp: 1.4,
+      yqws: null,
+      flhk: 8.2,
+      lwm: 0.0,
+      yssbp: 1.7,
       ymhk: 1.4
     },
     {
-      date: '2019-11-30',
+      date: '2019/11/30',
       wsd: 6.1,
       jlrdc: 16.5,
       jlswz: 6.7,
@@ -32395,14 +36340,14 @@ export class OnlinePoint {
       fmswz: 7.8,
       sqws: 8.1,
       hsws: 5.5,
-      yqws: 8.0,
-      flhk: 0.0,
-      lwm: 1.8,
-      yssbp: 1.4,
-      ymhk: 1.5
+      yqws: null,
+      flhk: 8.0,
+      lwm: 0.0,
+      yssbp: 1.8,
+      ymhk: 1.4
     },
     {
-      date: '2019-12-01',
+      date: '2019/12/1',
       wsd: 5.7,
       jlrdc: 17.3,
       jlswz: 6.3,
@@ -32410,14 +36355,14 @@ export class OnlinePoint {
       fmswz: 7.6,
       sqws: 7.9,
       hsws: 5.3,
-      yqws: 7.8,
-      flhk: 0.0,
-      lwm: 1.5,
-      yssbp: 1.3,
-      ymhk: 1.2
+      yqws: null,
+      flhk: 7.8,
+      lwm: 0.0,
+      yssbp: 1.5,
+      ymhk: 1.3
     },
     {
-      date: '2019-12-02',
+      date: '2019/12/2',
       wsd: 4.9,
       jlrdc: 16.9,
       jlswz: 5.8,
@@ -32425,14 +36370,14 @@ export class OnlinePoint {
       fmswz: 7.4,
       sqws: 7.7,
       hsws: 5.0,
-      yqws: 7.5,
-      flhk: 0.0,
-      lwm: 1.3,
-      yssbp: 0.8,
-      ymhk: 1.0
+      yqws: null,
+      flhk: 7.5,
+      lwm: 0.0,
+      yssbp: 1.3,
+      ymhk: 0.8
     },
     {
-      date: '2019-12-03',
+      date: '2019/12/3',
       wsd: 3.9,
       jlrdc: 15.7,
       jlswz: 5.1,
@@ -32440,14 +36385,14 @@ export class OnlinePoint {
       fmswz: 7.1,
       sqws: 7.5,
       hsws: 4.5,
-      yqws: 7.4,
-      flhk: 0.0,
-      lwm: 0.5,
-      yssbp: 0.2,
+      yqws: null,
+      flhk: 7.4,
+      lwm: 0.0,
+      yssbp: 0.5,
       ymhk: 0.2
     },
     {
-      date: '2019-12-04',
+      date: '2019/12/4',
       wsd: 3.1,
       jlrdc: 15.9,
       jlswz: 5.7,
@@ -32455,14 +36400,14 @@ export class OnlinePoint {
       fmswz: 7.0,
       sqws: 7.3,
       hsws: 4.1,
-      yqws: 7.1,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 7.1,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2019-12-05',
+      date: '2019/12/5',
       wsd: 3.7,
       jlrdc: 16.3,
       jlswz: 5.2,
@@ -32470,14 +36415,14 @@ export class OnlinePoint {
       fmswz: 6.7,
       sqws: 7.0,
       hsws: 4.0,
-      yqws: 6.9,
-      flhk: 0.0,
+      yqws: null,
+      flhk: 6.9,
       lwm: 0.0,
       yssbp: 0.0,
       ymhk: 0.0
     },
     {
-      date: '2019-12-06',
+      date: '2019/12/6',
       wsd: 3.3,
       jlrdc: 16.1,
       jlswz: 5.4,
@@ -32485,14 +36430,14 @@ export class OnlinePoint {
       fmswz: 6.5,
       sqws: 6.7,
       hsws: 4.0,
-      yqws: 6.6,
-      flhk: 0.0,
+      yqws: null,
+      flhk: 6.6,
       lwm: 0.0,
       yssbp: 0.0,
       ymhk: 0.0
     },
     {
-      date: '2019-12-07',
+      date: '2019/12/7',
       wsd: 3.8,
       jlrdc: 15.9,
       jlswz: 5.3,
@@ -32500,14 +36445,14 @@ export class OnlinePoint {
       fmswz: 6.3,
       sqws: 6.5,
       hsws: 3.7,
-      yqws: 6.4,
-      flhk: 0.0,
+      yqws: null,
+      flhk: 6.4,
       lwm: 0.0,
       yssbp: 0.0,
       ymhk: 0.0
     },
     {
-      date: '2019-12-08',
+      date: '2019/12/8',
       wsd: 4.1,
       jlrdc: 16.5,
       jlswz: 5.4,
@@ -32515,14 +36460,14 @@ export class OnlinePoint {
       fmswz: 6.2,
       sqws: 6.3,
       hsws: 3.2,
-      yqws: 6.1,
-      flhk: 0.0,
+      yqws: null,
+      flhk: 6.1,
       lwm: 0.0,
       yssbp: 0.0,
       ymhk: 0.0
     },
     {
-      date: '2019-12-09',
+      date: '2019/12/9',
       wsd: 4.9,
       jlrdc: 17.3,
       jlswz: 5.6,
@@ -32530,14 +36475,14 @@ export class OnlinePoint {
       fmswz: 6.1,
       sqws: 6.2,
       hsws: 2.8,
-      yqws: 6.0,
-      flhk: 0.0,
+      yqws: null,
+      flhk: 6.0,
       lwm: 0.0,
-      yssbp: 0.1,
-      ymhk: 0.0
+      yssbp: 0.0,
+      ymhk: 0.1
     },
     {
-      date: '2019-12-10',
+      date: '2019/12/10',
       wsd: 5.2,
       jlrdc: 16.2,
       jlswz: 5.4,
@@ -32545,14 +36490,14 @@ export class OnlinePoint {
       fmswz: 5.9,
       sqws: 6.0,
       hsws: 3.0,
-      yqws: 5.9,
-      flhk: 0.0,
-      lwm: 0.2,
+      yqws: null,
+      flhk: 5.9,
+      lwm: 0.0,
       yssbp: 0.2,
-      ymhk: 0.0
+      ymhk: 0.2
     },
     {
-      date: '2019-12-11',
+      date: '2019/12/11',
       wsd: 4.7,
       jlrdc: 16.4,
       jlswz: 4.8,
@@ -32560,14 +36505,14 @@ export class OnlinePoint {
       fmswz: 5.6,
       sqws: 5.7,
       hsws: 3.2,
-      yqws: 5.6,
-      flhk: 0.0,
-      lwm: 0.5,
-      yssbp: 0.4,
-      ymhk: 0.2
+      yqws: null,
+      flhk: 5.6,
+      lwm: 0.0,
+      yssbp: 0.5,
+      ymhk: 0.4
     },
     {
-      date: '2019-12-12',
+      date: '2019/12/12',
       wsd: 3.9,
       jlrdc: 15.2,
       jlswz: 4.7,
@@ -32575,14 +36520,14 @@ export class OnlinePoint {
       fmswz: 5.4,
       sqws: 5.6,
       hsws: 2.8,
-      yqws: 5.4,
-      flhk: 0.0,
-      lwm: 0.7,
-      yssbp: 0.5,
-      ymhk: 0.4
+      yqws: null,
+      flhk: 5.4,
+      lwm: 0.0,
+      yssbp: 0.7,
+      ymhk: 0.5
     },
     {
-      date: '2019-12-13',
+      date: '2019/12/13',
       wsd: 3.8,
       jlrdc: 15.2,
       jlswz: 4.7,
@@ -32590,14 +36535,14 @@ export class OnlinePoint {
       fmswz: 5.3,
       sqws: 5.4,
       hsws: 2.6,
-      yqws: 5.3,
-      flhk: 0.0,
-      lwm: 0.8,
+      yqws: null,
+      flhk: 5.3,
+      lwm: 0.0,
       yssbp: 0.8,
-      ymhk: 0.5
+      ymhk: 0.8
     },
     {
-      date: '2019-12-14',
+      date: '2019/12/14',
       wsd: 4.0,
       jlrdc: 14.3,
       jlswz: 4.4,
@@ -32605,14 +36550,14 @@ export class OnlinePoint {
       fmswz: 5.2,
       sqws: 5.4,
       hsws: 2.7,
-      yqws: 5.2,
-      flhk: 0.0,
-      lwm: 0.9,
-      yssbp: 0.7,
-      ymhk: 0.6
+      yqws: null,
+      flhk: 5.2,
+      lwm: 0.0,
+      yssbp: 0.9,
+      ymhk: 0.7
     },
     {
-      date: '2019-12-15',
+      date: '2019/12/15',
       wsd: 3.7,
       jlrdc: 15.0,
       jlswz: 4.4,
@@ -32620,14 +36565,14 @@ export class OnlinePoint {
       fmswz: 5.1,
       sqws: 5.2,
       hsws: 1.8,
-      yqws: 5.0,
-      flhk: 0.0,
-      lwm: 0.8,
-      yssbp: 0.7,
-      ymhk: 0.5
+      yqws: null,
+      flhk: 5.0,
+      lwm: 0.0,
+      yssbp: 0.8,
+      ymhk: 0.7
     },
     {
-      date: '2019-12-16',
+      date: '2019/12/16',
       wsd: 3.9,
       jlrdc: 15.7,
       jlswz: 4.4,
@@ -32635,14 +36580,14 @@ export class OnlinePoint {
       fmswz: 5.0,
       sqws: 5.1,
       hsws: 2.1,
-      yqws: 5.0,
-      flhk: 0.0,
-      lwm: 1.0,
+      yqws: null,
+      flhk: 5.0,
+      lwm: 0.0,
       yssbp: 1.0,
-      ymhk: 0.7
+      ymhk: 1.0
     },
     {
-      date: '2019-12-17',
+      date: '2019/12/17',
       wsd: 4.1,
       jlrdc: 15.1,
       jlswz: 4.1,
@@ -32650,14 +36595,14 @@ export class OnlinePoint {
       fmswz: 4.9,
       sqws: 5.1,
       hsws: 2.3,
-      yqws: 4.9,
-      flhk: 0.0,
-      lwm: 1.1,
-      yssbp: 0.8,
+      yqws: null,
+      flhk: 4.9,
+      lwm: 0.0,
+      yssbp: 1.1,
       ymhk: 0.8
     },
     {
-      date: '2019-12-18',
+      date: '2019/12/18',
       wsd: 3.2,
       jlrdc: 14.4,
       jlswz: 3.1,
@@ -32665,14 +36610,14 @@ export class OnlinePoint {
       fmswz: 4.5,
       sqws: 4.9,
       hsws: 2.3,
-      yqws: 4.8,
-      flhk: 0.0,
-      lwm: 0.5,
-      yssbp: 0.2,
+      yqws: null,
+      flhk: 4.8,
+      lwm: 0.0,
+      yssbp: 0.5,
       ymhk: 0.2
     },
     {
-      date: '2019-12-19',
+      date: '2019/12/19',
       wsd: 2.1,
       jlrdc: 15.4,
       jlswz: 2.9,
@@ -32680,14 +36625,14 @@ export class OnlinePoint {
       fmswz: 4.4,
       sqws: 4.8,
       hsws: 2.3,
-      yqws: 4.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 4.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2019-12-20',
+      date: '2019/12/20',
       wsd: 1.3,
       jlrdc: 15.8,
       jlswz: 2.9,
@@ -32695,14 +36640,14 @@ export class OnlinePoint {
       fmswz: 4.4,
       sqws: 4.7,
       hsws: 2.4,
-      yqws: 4.5,
-      flhk: 0.0,
+      yqws: null,
+      flhk: 4.5,
       lwm: 0.0,
-      yssbp: 0.1,
-      ymhk: 0.0
+      yssbp: 0.0,
+      ymhk: 0.1
     },
     {
-      date: '2019-12-21',
+      date: '2019/12/21',
       wsd: 1.4,
       jlrdc: 15.8,
       jlswz: 3.6,
@@ -32710,14 +36655,14 @@ export class OnlinePoint {
       fmswz: 4.4,
       sqws: 4.6,
       hsws: 2.6,
-      yqws: 4.4,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 4.4,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2019-12-22',
+      date: '2019/12/22',
       wsd: 2.3,
       jlrdc: 15.0,
       jlswz: 3.1,
@@ -32725,14 +36670,14 @@ export class OnlinePoint {
       fmswz: 4.2,
       sqws: 4.4,
       hsws: 2.8,
-      yqws: 4.2,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 4.2,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-23',
+      date: '2019/12/23',
       wsd: 2.1,
       jlrdc: 14.3,
       jlswz: 2.4,
@@ -32740,14 +36685,14 @@ export class OnlinePoint {
       fmswz: 3.8,
       sqws: 4.3,
       hsws: 3.0,
-      yqws: 4.1,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 4.1,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-24',
+      date: '2019/12/24',
       wsd: 1.4,
       jlrdc: 15.0,
       jlswz: 2.6,
@@ -32755,14 +36700,14 @@ export class OnlinePoint {
       fmswz: 3.8,
       sqws: 4.1,
       hsws: 2.8,
-      yqws: 4.0,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 4.0,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-25',
+      date: '2019/12/25',
       wsd: 1.2,
       jlrdc: 14.9,
       jlswz: 2.7,
@@ -32770,14 +36715,14 @@ export class OnlinePoint {
       fmswz: 3.7,
       sqws: 3.9,
       hsws: 3.0,
-      yqws: 3.7,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 3.7,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-26',
+      date: '2019/12/26',
       wsd: 1.3,
       jlrdc: 13.5,
       jlswz: 2.3,
@@ -32785,14 +36730,14 @@ export class OnlinePoint {
       fmswz: 3.6,
       sqws: 3.9,
       hsws: 3.2,
-      yqws: 3.7,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 3.7,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-27',
+      date: '2019/12/27',
       wsd: 0.8,
       jlrdc: 14.9,
       jlswz: 2.4,
@@ -32800,14 +36745,14 @@ export class OnlinePoint {
       fmswz: 3.5,
       sqws: 3.7,
       hsws: 3.1,
-      yqws: 3.5,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 3.5,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-28',
+      date: '2019/12/28',
       wsd: 1.0,
       jlrdc: 15.1,
       jlswz: 2.3,
@@ -32815,14 +36760,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.5,
       hsws: 2.8,
-      yqws: 3.1,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 3.1,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-29',
+      date: '2019/12/29',
       wsd: 1.5,
       jlrdc: 15.5,
       jlswz: 2.5,
@@ -32830,14 +36775,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.0,
       hsws: 2.8,
-      yqws: 2.4,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.4,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-30',
+      date: '2019/12/30',
       wsd: 1.3,
       jlrdc: 14.5,
       jlswz: 1.0,
@@ -32845,14 +36790,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.4,
       hsws: 2.9,
-      yqws: 2.9,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.9,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2019-12-31',
+      date: '2019/12/31',
       wsd: 0.4,
       jlrdc: 14.5,
       jlswz: 1.3,
@@ -32860,14 +36805,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.4,
       hsws: 2.9,
-      yqws: 3.2,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 3.2,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-01',
+      date: '2020/1/1',
       wsd: 0.1,
       jlrdc: 14.3,
       jlswz: 1.5,
@@ -32875,14 +36820,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.5,
       hsws: 3.1,
-      yqws: 3.2,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 3.2,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-02',
+      date: '2020/1/2',
       wsd: 0.1,
       jlrdc: 13.9,
       jlswz: 1.9,
@@ -32890,14 +36835,14 @@ export class OnlinePoint {
       fmswz: 2.6,
       sqws: 3.1,
       hsws: 3.1,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-03',
+      date: '2020/1/3',
       wsd: 0.2,
       jlrdc: 14.8,
       jlswz: 1.4,
@@ -32905,14 +36850,14 @@ export class OnlinePoint {
       fmswz: 2.4,
       sqws: 2.9,
       hsws: 2.8,
-      yqws: 2.4,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.4,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-04',
+      date: '2020/1/4',
       wsd: 0.4,
       jlrdc: 14.6,
       jlswz: 1.5,
@@ -32920,14 +36865,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.0,
       hsws: 2.6,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-05',
+      date: '2020/1/5',
       wsd: 0.4,
       jlrdc: 15.2,
       jlswz: 1.6,
@@ -32935,14 +36880,14 @@ export class OnlinePoint {
       fmswz: 2.5,
       sqws: 3.0,
       hsws: 2.7,
-      yqws: 2.4,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.4,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-06',
+      date: '2020/1/6',
       wsd: 0.6,
       jlrdc: 14.9,
       jlswz: 1.6,
@@ -32950,14 +36895,14 @@ export class OnlinePoint {
       fmswz: 1.5,
       sqws: 2.8,
       hsws: 2.8,
-      yqws: 2.3,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.3,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-07',
+      date: '2020/1/7',
       wsd: 0.9,
       jlrdc: 15.4,
       jlswz: 1.7,
@@ -32965,14 +36910,14 @@ export class OnlinePoint {
       fmswz: 2.6,
       sqws: 3.0,
       hsws: 2.7,
-      yqws: 2.4,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.4,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-08',
+      date: '2020/1/8',
       wsd: 1.2,
       jlrdc: 14.9,
       jlswz: 1.5,
@@ -32980,14 +36925,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.2,
       hsws: 2.7,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-09',
+      date: '2020/1/9',
       wsd: 0.8,
       jlrdc: 14.3,
       jlswz: 1.9,
@@ -32995,14 +36940,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.2,
       hsws: 2.6,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-10',
+      date: '2020/1/10',
       wsd: 0.6,
       jlrdc: 14.1,
       jlswz: 1.8,
@@ -33010,14 +36955,14 @@ export class OnlinePoint {
       fmswz: 2.5,
       sqws: 3.1,
       hsws: 2.5,
-      yqws: 2.4,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.4,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-11',
+      date: '2020/1/11',
       wsd: 0.6,
       jlrdc: 14.6,
       jlswz: 1.4,
@@ -33025,14 +36970,14 @@ export class OnlinePoint {
       fmswz: 2.0,
       sqws: 3.1,
       hsws: 2.3,
-      yqws: 2.4,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.4,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-12',
+      date: '2020/1/12',
       wsd: 0.5,
       jlrdc: 14.6,
       jlswz: 1.4,
@@ -33040,14 +36985,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.2,
       hsws: 2.3,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-13',
+      date: '2020/1/13',
       wsd: 0.3,
       jlrdc: 15.3,
       jlswz: 1.6,
@@ -33055,14 +37000,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.1,
       hsws: 2.3,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-14',
+      date: '2020/1/14',
       wsd: 0.2,
       jlrdc: 13.9,
       jlswz: 1.5,
@@ -33070,14 +37015,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.1,
       hsws: 2.1,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-15',
+      date: '2020/1/15',
       wsd: 0.2,
       jlrdc: 13.6,
       jlswz: 1.4,
@@ -33085,14 +37030,14 @@ export class OnlinePoint {
       fmswz: 2.5,
       sqws: 3.2,
       hsws: 2.2,
-      yqws: 2.4,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.4,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-16',
+      date: '2020/1/16',
       wsd: 0.2,
       jlrdc: 13.1,
       jlswz: 1.2,
@@ -33100,14 +37045,14 @@ export class OnlinePoint {
       fmswz: 1.8,
       sqws: 3.0,
       hsws: 2.3,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-17',
+      date: '2020/1/17',
       wsd: 0.2,
       jlrdc: 13.5,
       jlswz: 1.2,
@@ -33115,14 +37060,14 @@ export class OnlinePoint {
       fmswz: 2.3,
       sqws: 3.1,
       hsws: 2.3,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
-      yssbp: 0.0,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.1,
       ymhk: 0.0
     },
     {
-      date: '2020-01-18',
+      date: '2020/1/18',
       wsd: 0.1,
       jlrdc: 14.6,
       jlswz: 1.6,
@@ -33130,14 +37075,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.1,
       hsws: 2.3,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-19',
+      date: '2020/1/19',
       wsd: 0.3,
       jlrdc: 14.5,
       jlswz: 1.7,
@@ -33145,14 +37090,14 @@ export class OnlinePoint {
       fmswz: 2.4,
       sqws: 3.1,
       hsws: 2.2,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-20',
+      date: '2020/1/20',
       wsd: 0.6,
       jlrdc: 14.6,
       jlswz: 1.7,
@@ -33160,14 +37105,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.1,
       hsws: 2.1,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-21',
+      date: '2020/1/21',
       wsd: 0.7,
       jlrdc: 14.5,
       jlswz: 1.8,
@@ -33175,14 +37120,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.2,
       hsws: 2.1,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-22',
+      date: '2020/1/22',
       wsd: 0.7,
       jlrdc: 13.8,
       jlswz: 1.9,
@@ -33190,14 +37135,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.1,
       hsws: 2.1,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-23',
+      date: '2020/1/23',
       wsd: 0.9,
       jlrdc: 14.8,
       jlswz: 1.9,
@@ -33205,14 +37150,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.1,
       hsws: 2.0,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-24',
+      date: '2020/1/24',
       wsd: 0.7,
       jlrdc: 14.1,
       jlswz: 1.7,
@@ -33220,14 +37165,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.2,
       hsws: 1.9,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-25',
+      date: '2020/1/25',
       wsd: 0.6,
       jlrdc: 14.5,
       jlswz: 1.6,
@@ -33235,14 +37180,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.2,
       hsws: 1.8,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-26',
+      date: '2020/1/26',
       wsd: 0.4,
       jlrdc: 13.4,
       jlswz: 1.6,
@@ -33250,14 +37195,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.2,
       hsws: 1.8,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-27',
+      date: '2020/1/27',
       wsd: 0.6,
       jlrdc: 13.7,
       jlswz: 1.6,
@@ -33265,14 +37210,14 @@ export class OnlinePoint {
       fmswz: 2.5,
       sqws: 3.1,
       hsws: 2.0,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-28',
+      date: '2020/1/28',
       wsd: 0.7,
       jlrdc: 13.7,
       jlswz: 1.7,
@@ -33280,14 +37225,14 @@ export class OnlinePoint {
       fmswz: 2.6,
       sqws: 3.1,
       hsws: 1.9,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-29',
+      date: '2020/1/29',
       wsd: 0.6,
       jlrdc: 13.6,
       jlswz: 1.6,
@@ -33295,14 +37240,14 @@ export class OnlinePoint {
       fmswz: 1.8,
       sqws: 3.1,
       hsws: 1.9,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-30',
+      date: '2020/1/30',
       wsd: 0.5,
       jlrdc: 12.6,
       jlswz: 1.5,
@@ -33310,14 +37255,14 @@ export class OnlinePoint {
       fmswz: 2.3,
       sqws: 3.0,
       hsws: 1.9,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-01-31',
+      date: '2020/1/31',
       wsd: 0.3,
       jlrdc: 12.3,
       jlswz: 1.4,
@@ -33325,14 +37270,14 @@ export class OnlinePoint {
       fmswz: 2.4,
       sqws: 3.1,
       hsws: 1.8,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-01',
+      date: '2020/2/1',
       wsd: 0.2,
       jlrdc: 12.5,
       jlswz: 1.5,
@@ -33340,14 +37285,14 @@ export class OnlinePoint {
       fmswz: 2.6,
       sqws: 3.1,
       hsws: 1.7,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-02',
+      date: '2020/2/2',
       wsd: 0.2,
       jlrdc: 13.8,
       jlswz: 1.6,
@@ -33355,14 +37300,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.1,
       hsws: 1.4,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-03',
+      date: '2020/2/3',
       wsd: 0.3,
       jlrdc: 13.1,
       jlswz: 1.2,
@@ -33370,14 +37315,14 @@ export class OnlinePoint {
       fmswz: 2.1,
       sqws: 3.1,
       hsws: 1.8,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-04',
+      date: '2020/2/4',
       wsd: 0.2,
       jlrdc: 11.7,
       jlswz: 1.2,
@@ -33385,14 +37330,14 @@ export class OnlinePoint {
       fmswz: 2.3,
       sqws: 3.1,
       hsws: 1.7,
-      yqws: 2.4,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.4,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-05',
+      date: '2020/2/5',
       wsd: 0.2,
       jlrdc: 11.8,
       jlswz: 0.9,
@@ -33400,14 +37345,14 @@ export class OnlinePoint {
       fmswz: 2.4,
       sqws: 3.1,
       hsws: 1.8,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-06',
+      date: '2020/2/6',
       wsd: 0.2,
       jlrdc: 12.1,
       jlswz: 0.9,
@@ -33415,14 +37360,14 @@ export class OnlinePoint {
       fmswz: 2.5,
       sqws: 3.1,
       hsws: 1.7,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-07',
+      date: '2020/2/7',
       wsd: 0.1,
       jlrdc: 13.3,
       jlswz: 1.5,
@@ -33430,14 +37375,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.1,
       hsws: 1.7,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-08',
+      date: '2020/2/8',
       wsd: 0.0,
       jlrdc: 13.5,
       jlswz: 1.6,
@@ -33445,14 +37390,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.2,
       hsws: 1.7,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-09',
+      date: '2020/2/9',
       wsd: 0.1,
       jlrdc: 13.4,
       jlswz: 1.6,
@@ -33460,14 +37405,14 @@ export class OnlinePoint {
       fmswz: 2.2,
       sqws: 3.2,
       hsws: 1.5,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-10',
+      date: '2020/2/10',
       wsd: 0.2,
       jlrdc: 13.9,
       jlswz: 1.9,
@@ -33475,14 +37420,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.2,
       hsws: 1.6,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-11',
+      date: '2020/2/11',
       wsd: 0.5,
       jlrdc: 14.3,
       jlswz: 2.4,
@@ -33490,14 +37435,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.1,
       hsws: 1.4,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-12',
+      date: '2020/2/12',
       wsd: 1.3,
       jlrdc: 14.4,
       jlswz: 2.8,
@@ -33505,14 +37450,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.2,
       hsws: 1.4,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-13',
+      date: '2020/2/13',
       wsd: 2.2,
       jlrdc: 13.8,
       jlswz: 2.6,
@@ -33520,14 +37465,14 @@ export class OnlinePoint {
       fmswz: 2.6,
       sqws: 3.2,
       hsws: 1.4,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-14',
+      date: '2020/2/14',
       wsd: 2.5,
       jlrdc: 13.8,
       jlswz: 2.2,
@@ -33535,14 +37480,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.3,
       hsws: 1.4,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-15',
+      date: '2020/2/15',
       wsd: 1.4,
       jlrdc: 13.8,
       jlswz: 1.6,
@@ -33550,14 +37495,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.2,
       hsws: 1.2,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-16',
+      date: '2020/2/16',
       wsd: 0.4,
       jlrdc: 13.8,
       jlswz: 1.7,
@@ -33565,14 +37510,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.2,
       hsws: 1.3,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-17',
+      date: '2020/2/17',
       wsd: 0.2,
       jlrdc: 13.5,
       jlswz: 1.5,
@@ -33580,14 +37525,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.1,
       hsws: 1.2,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-18',
+      date: '2020/2/18',
       wsd: 0.4,
       jlrdc: 13.7,
       jlswz: 1.8,
@@ -33595,14 +37540,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.1,
       hsws: 1.1,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-19',
+      date: '2020/2/19',
       wsd: 0.7,
       jlrdc: 14.2,
       jlswz: 2.4,
@@ -33610,14 +37555,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.2,
       hsws: 1.0,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-20',
+      date: '2020/2/20',
       wsd: 1.5,
       jlrdc: 13.3,
       jlswz: 2.5,
@@ -33625,14 +37570,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.1,
       hsws: 1.3,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-21',
+      date: '2020/2/21',
       wsd: 2.3,
       jlrdc: 14.0,
       jlswz: 2.3,
@@ -33640,14 +37585,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.1,
       hsws: 1.3,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-22',
+      date: '2020/2/22',
       wsd: 2.5,
       jlrdc: 13.8,
       jlswz: 2.4,
@@ -33655,14 +37600,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.2,
       hsws: 1.3,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-23',
+      date: '2020/2/23',
       wsd: 2.4,
       jlrdc: 14.2,
       jlswz: 2.1,
@@ -33670,14 +37615,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.1,
       hsws: 1.4,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-24',
+      date: '2020/2/24',
       wsd: 2.1,
       jlrdc: 14.4,
       jlswz: 2.6,
@@ -33685,14 +37630,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.3,
       hsws: 1.4,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-25',
+      date: '2020/2/25',
       wsd: 2.3,
       jlrdc: 14.2,
       jlswz: 2.6,
@@ -33700,14 +37645,14 @@ export class OnlinePoint {
       fmswz: 2.7,
       sqws: 3.1,
       hsws: 1.3,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-26',
+      date: '2020/2/26',
       wsd: 2.4,
       jlrdc: 14.3,
       jlswz: 2.5,
@@ -33715,14 +37660,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.1,
       hsws: 1.3,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-27',
+      date: '2020/2/27',
       wsd: 2.6,
       jlrdc: 14.3,
       jlswz: 2.4,
@@ -33730,14 +37675,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.2,
       hsws: 1.4,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-28',
+      date: '2020/2/28',
       wsd: 2.5,
       jlrdc: 13.8,
       jlswz: 2.2,
@@ -33745,14 +37690,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.2,
       hsws: 1.3,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-02-29',
+      date: '2020/2/29',
       wsd: 2.5,
       jlrdc: 13.3,
       jlswz: 2.4,
@@ -33760,14 +37705,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.3,
       hsws: 1.3,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-01',
+      date: '2020/3/1',
       wsd: 2.4,
       jlrdc: 13.8,
       jlswz: 2.7,
@@ -33775,14 +37720,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.2,
       hsws: 1.4,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-02',
+      date: '2020/3/2',
       wsd: 2.7,
       jlrdc: 12.4,
       jlswz: 2.5,
@@ -33790,14 +37735,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.0,
       hsws: 1.5,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-03',
+      date: '2020/3/3',
       wsd: 2.7,
       jlrdc: 12.5,
       jlswz: 2.4,
@@ -33805,14 +37750,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.2,
       hsws: 1.4,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-04',
+      date: '2020/3/4',
       wsd: 2.4,
       jlrdc: 12.0,
       jlswz: 2.3,
@@ -33820,14 +37765,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.2,
       hsws: 1.7,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-05',
+      date: '2020/3/5',
       wsd: 2.3,
       jlrdc: 12.9,
       jlswz: 2.5,
@@ -33835,14 +37780,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.2,
       hsws: 1.8,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-06',
+      date: '2020/3/6',
       wsd: 2.5,
       jlrdc: 13.2,
       jlswz: 2.7,
@@ -33850,14 +37795,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.1,
       hsws: 1.8,
-      yqws: 2.5,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.5,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-07',
+      date: '2020/3/7',
       wsd: 3.2,
       jlrdc: 13.1,
       jlswz: 2.9,
@@ -33865,14 +37810,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.0,
       hsws: 1.9,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-08',
+      date: '2020/3/8',
       wsd: 3.5,
       jlrdc: 14.0,
       jlswz: 2.8,
@@ -33880,14 +37825,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 2.9,
       hsws: 2.0,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-09',
+      date: '2020/3/9',
       wsd: 3.6,
       jlrdc: 13.1,
       jlswz: 2.9,
@@ -33895,14 +37840,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 2.9,
       hsws: 2.1,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.0
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2020-03-10',
+      date: '2020/3/10',
       wsd: 3.5,
       jlrdc: 13.1,
       jlswz: 2.5,
@@ -33910,14 +37855,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.0,
       hsws: 2.0,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-11',
+      date: '2020/3/11',
       wsd: 3.2,
       jlrdc: 13.5,
       jlswz: 2.7,
@@ -33925,14 +37870,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.1,
       hsws: 2.0,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.0
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2020-03-12',
+      date: '2020/3/12',
       wsd: 3.1,
       jlrdc: 13.6,
       jlswz: 2.5,
@@ -33940,14 +37885,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.0,
       hsws: 2.1,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-13',
+      date: '2020/3/13',
       wsd: 2.7,
       jlrdc: 12.1,
       jlswz: 2.4,
@@ -33955,14 +37900,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.1,
       hsws: 1.9,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.0
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2020-03-14',
+      date: '2020/3/14',
       wsd: 2.5,
       jlrdc: 11.4,
       jlswz: 2.7,
@@ -33970,14 +37915,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.1,
       hsws: 2.1,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.1,
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
       yssbp: 0.1,
-      ymhk: 0.0
+      ymhk: 0.1
     },
     {
-      date: '2020-03-15',
+      date: '2020/3/15',
       wsd: 2.8,
       jlrdc: 11.6,
       jlswz: 2.0,
@@ -33985,14 +37930,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.1,
       hsws: 2.1,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.2,
-      yssbp: 0.1,
-      ymhk: 0.0
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.2,
+      ymhk: 0.1
     },
     {
-      date: '2020-03-16',
+      date: '2020/3/16',
       wsd: 2.6,
       jlrdc: 12.2,
       jlswz: 2.6,
@@ -34000,14 +37945,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.2,
       hsws: 2.0,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.3,
-      yssbp: 0.2,
-      ymhk: 0.0
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.3,
+      ymhk: 0.2
     },
     {
-      date: '2020-03-17',
+      date: '2020/3/17',
       wsd: 3.1,
       jlrdc: 12.4,
       jlswz: 2.7,
@@ -34015,14 +37960,14 @@ export class OnlinePoint {
       fmswz: 2.8,
       sqws: 3.1,
       hsws: 2.1,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 0.9,
-      yssbp: 0.4,
-      ymhk: 0.2
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 0.9,
+      ymhk: 0.4
     },
     {
-      date: '2020-03-18',
+      date: '2020/3/18',
       wsd: 3.7,
       jlrdc: 13.1,
       jlswz: 2.9,
@@ -34030,14 +37975,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.1,
       hsws: 2.1,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 1.6,
-      yssbp: 0.6,
-      ymhk: 0.5
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 1.6,
+      ymhk: 0.6
     },
     {
-      date: '2020-03-19',
+      date: '2020/3/19',
       wsd: 4.1,
       jlrdc: 12.7,
       jlswz: 2.1,
@@ -34045,14 +37990,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.1,
       hsws: 2.2,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 2.4,
-      yssbp: 1.5,
-      ymhk: 0.7
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
+      yssbp: 2.4,
+      ymhk: 1.5
     },
     {
-      date: '2020-03-20',
+      date: '2020/3/20',
       wsd: 4.3,
       jlrdc: 12.4,
       jlswz: 2.3,
@@ -34060,14 +38005,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.0,
       hsws: 2.2,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 2.8,
-      yssbp: 2.2,
-      ymhk: 0.9
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 2.8,
+      ymhk: 2.2
     },
     {
-      date: '2020-03-21',
+      date: '2020/3/21',
       wsd: 4.1,
       jlrdc: 12.0,
       jlswz: 2.8,
@@ -34075,14 +38020,14 @@ export class OnlinePoint {
       fmswz: 3.2,
       sqws: 3.2,
       hsws: 2.3,
-      yqws: 2.6,
-      flhk: 0.0,
-      lwm: 3.4,
-      yssbp: 3.0,
-      ymhk: 1.6
+      yqws: null,
+      flhk: 2.6,
+      lwm: 0.0,
+      yssbp: 3.4,
+      ymhk: 3.0
     },
     {
-      date: '2020-03-22',
+      date: '2020/3/22',
       wsd: 4.3,
       jlrdc: 11.8,
       jlswz: 2.7,
@@ -34090,14 +38035,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.1,
       hsws: 2.4,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 3.9,
-      yssbp: 3.7,
-      ymhk: 2.5
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
+      yssbp: 3.9,
+      ymhk: 3.7
     },
     {
-      date: '2020-03-23',
+      date: '2020/3/23',
       wsd: 4.5,
       jlrdc: 13.0,
       jlswz: 3.1,
@@ -34105,14 +38050,14 @@ export class OnlinePoint {
       fmswz: 3.2,
       sqws: 3.1,
       hsws: 2.6,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 4.2,
-      yssbp: 4.0,
-      ymhk: 3.1
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
+      yssbp: 4.2,
+      ymhk: 4.0
     },
     {
-      date: '2020-03-24',
+      date: '2020/3/24',
       wsd: 4.5,
       jlrdc: 12.4,
       jlswz: 3.3,
@@ -34120,14 +38065,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.1,
       hsws: 2.6,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 4.6,
-      yssbp: 4.4,
-      ymhk: 3.6
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
+      yssbp: 4.6,
+      ymhk: 4.4
     },
     {
-      date: '2020-03-25',
+      date: '2020/3/25',
       wsd: 4.6,
       jlrdc: 14.1,
       jlswz: 3.2,
@@ -34135,14 +38080,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.1,
       hsws: 2.7,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 4.8,
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
       yssbp: 4.8,
-      ymhk: 4.0
+      ymhk: 4.8
     },
     {
-      date: '2020-03-26',
+      date: '2020/3/26',
       wsd: 3.8,
       jlrdc: 13.5,
       jlswz: 3.1,
@@ -34150,14 +38095,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.1,
       hsws: 2.8,
-      yqws: 2.7,
-      flhk: 0.0,
-      lwm: 4.6,
-      yssbp: 3.9,
-      ymhk: 4.3
+      yqws: null,
+      flhk: 2.7,
+      lwm: 0.0,
+      yssbp: 4.6,
+      ymhk: 3.9
     },
     {
-      date: '2020-03-27',
+      date: '2020/3/27',
       wsd: 3.5,
       jlrdc: 13.7,
       jlswz: 3.0,
@@ -34165,14 +38110,14 @@ export class OnlinePoint {
       fmswz: 3.0,
       sqws: 3.1,
       hsws: 3.2,
-      yqws: 2.8,
-      flhk: 0.0,
-      lwm: 3.7,
-      yssbp: 3.6,
-      ymhk: 4.0
+      yqws: null,
+      flhk: 2.8,
+      lwm: 0.0,
+      yssbp: 3.7,
+      ymhk: 3.6
     },
     {
-      date: '2020-03-28',
+      date: '2020/3/28',
       wsd: 3.2,
       jlrdc: 13.3,
       jlswz: 3.3,
@@ -34180,14 +38125,14 @@ export class OnlinePoint {
       fmswz: 2.9,
       sqws: 3.1,
       hsws: 3.3,
-      yqws: 2.9,
-      flhk: 0.0,
-      lwm: 3.5,
-      yssbp: 3.6,
-      ymhk: 3.8
+      yqws: null,
+      flhk: 2.9,
+      lwm: 0.0,
+      yssbp: 3.5,
+      ymhk: 3.6
     },
     {
-      date: '2020-03-29',
+      date: '2020/3/29',
       wsd: 3.4,
       jlrdc: 14.2,
       jlswz: 3.6,
@@ -34195,14 +38140,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.2,
       hsws: 3.6,
-      yqws: 2.9,
-      flhk: 0.0,
-      lwm: 3.8,
-      yssbp: 3.7,
-      ymhk: 3.9
+      yqws: null,
+      flhk: 2.9,
+      lwm: 0.0,
+      yssbp: 3.8,
+      ymhk: 3.7
     },
     {
-      date: '2020-03-30',
+      date: '2020/3/30',
       wsd: 4.5,
       jlrdc: 14.0,
       jlswz: 3.9,
@@ -34210,14 +38155,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.2,
       hsws: 3.6,
-      yqws: 2.9,
-      flhk: 0.3,
-      lwm: 4.3,
-      yssbp: 4.5,
-      ymhk: 4.1
+      yqws: null,
+      flhk: 2.9,
+      lwm: 0.3,
+      yssbp: 4.3,
+      ymhk: 4.5
     },
     {
-      date: '2020-03-31',
+      date: '2020/3/31',
       wsd: 4.7,
       jlrdc: 13.9,
       jlswz: 4.2,
@@ -34225,14 +38170,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.2,
       hsws: 3.8,
-      yqws: 3.0,
-      flhk: 3.4,
-      lwm: 5.0,
+      yqws: null,
+      flhk: 3.0,
+      lwm: 3.4,
       yssbp: 5.0,
-      ymhk: 4.5
+      ymhk: 5.0
     },
     {
-      date: '2020-04-01',
+      date: '2020/4/1',
       wsd: 4.7,
       jlrdc: 13.8,
       jlswz: 3.8,
@@ -34240,14 +38185,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.2,
       hsws: 4.0,
-      yqws: 3.0,
-      flhk: 4.1,
-      lwm: 4.9,
-      yssbp: 5.0,
-      ymhk: 4.7
+      yqws: null,
+      flhk: 3.0,
+      lwm: 4.1,
+      yssbp: 4.9,
+      ymhk: 5.0
     },
     {
-      date: '2020-04-02',
+      date: '2020/4/2',
       wsd: 4.5,
       jlrdc: 14.6,
       jlswz: 3.8,
@@ -34255,14 +38200,14 @@ export class OnlinePoint {
       fmswz: 3.2,
       sqws: 3.3,
       hsws: 4.0,
-      yqws: 3.0,
-      flhk: 4.9,
-      lwm: 5.5,
-      yssbp: 5.6,
-      ymhk: 4.8
+      yqws: null,
+      flhk: 3.0,
+      lwm: 4.9,
+      yssbp: 5.5,
+      ymhk: 5.6
     },
     {
-      date: '2020-04-03',
+      date: '2020/4/3',
       wsd: 4.3,
       jlrdc: 15.2,
       jlswz: 3.7,
@@ -34270,14 +38215,14 @@ export class OnlinePoint {
       fmswz: 3.2,
       sqws: 3.3,
       hsws: 4.3,
-      yqws: 3.1,
-      flhk: 5.3,
-      lwm: 5.6,
-      yssbp: 5.3,
-      ymhk: 5.1
+      yqws: null,
+      flhk: 3.1,
+      lwm: 5.3,
+      yssbp: 5.6,
+      ymhk: 5.3
     },
     {
-      date: '2020-04-04',
+      date: '2020/4/4',
       wsd: 3.6,
       jlrdc: 14.2,
       jlswz: 3.4,
@@ -34285,14 +38230,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.3,
       hsws: 4.4,
-      yqws: 3.1,
-      flhk: 3.9,
-      lwm: 4.6,
-      yssbp: 4.4,
-      ymhk: 5.1
+      yqws: null,
+      flhk: 3.1,
+      lwm: 3.9,
+      yssbp: 4.6,
+      ymhk: 4.4
     },
     {
-      date: '2020-04-05',
+      date: '2020/4/5',
       wsd: 3.6,
       jlrdc: 14.1,
       jlswz: 3.5,
@@ -34300,14 +38245,14 @@ export class OnlinePoint {
       fmswz: 3.2,
       sqws: 3.3,
       hsws: 4.4,
-      yqws: 3.1,
-      flhk: 3.7,
-      lwm: 4.4,
-      yssbp: 4.6,
-      ymhk: 4.9
+      yqws: null,
+      flhk: 3.1,
+      lwm: 3.7,
+      yssbp: 4.4,
+      ymhk: 4.6
     },
     {
-      date: '2020-04-06',
+      date: '2020/4/6',
       wsd: 4.0,
       jlrdc: 14.0,
       jlswz: 3.7,
@@ -34315,14 +38260,14 @@ export class OnlinePoint {
       fmswz: 3.2,
       sqws: 3.3,
       hsws: 4.6,
-      yqws: 3.1,
-      flhk: 4.7,
-      lwm: 4.6,
-      yssbp: 4.5,
-      ymhk: 4.9
+      yqws: null,
+      flhk: 3.1,
+      lwm: 4.7,
+      yssbp: 4.6,
+      ymhk: 4.5
     },
     {
-      date: '2020-04-07',
+      date: '2020/4/7',
       wsd: 4.0,
       jlrdc: 14.1,
       jlswz: 3.6,
@@ -34330,14 +38275,14 @@ export class OnlinePoint {
       fmswz: 3.2,
       sqws: 3.3,
       hsws: 4.6,
-      yqws: 3.2,
-      flhk: 5.4,
-      lwm: 4.4,
-      yssbp: 4.3,
-      ymhk: 5.0
+      yqws: null,
+      flhk: 3.2,
+      lwm: 5.4,
+      yssbp: 4.4,
+      ymhk: 4.3
     },
     {
-      date: '2020-04-08',
+      date: '2020/4/8',
       wsd: 3.7,
       jlrdc: 13.3,
       jlswz: 3.4,
@@ -34345,14 +38290,14 @@ export class OnlinePoint {
       fmswz: 3.1,
       sqws: 3.3,
       hsws: 4.7,
-      yqws: 3.1,
-      flhk: 5.4,
-      lwm: 4.2,
-      yssbp: 4.1,
-      ymhk: 4.9
+      yqws: null,
+      flhk: 3.1,
+      lwm: 5.4,
+      yssbp: 4.2,
+      ymhk: 4.1
     },
     {
-      date: '2020-04-09',
+      date: '2020/4/9',
       wsd: 3.6,
       jlrdc: 13.6,
       jlswz: 3.5,
@@ -34360,14 +38305,14 @@ export class OnlinePoint {
       fmswz: 3.2,
       sqws: 3.3,
       hsws: 4.5,
-      yqws: 3.1,
-      flhk: 4.7,
-      lwm: 4.5,
-      yssbp: 4.7,
-      ymhk: 4.8
+      yqws: null,
+      flhk: 3.1,
+      lwm: 4.7,
+      yssbp: 4.5,
+      ymhk: 4.7
     },
     {
-      date: '2020-04-10',
+      date: '2020/4/10',
       wsd: 4.1,
       jlrdc: 14.0,
       jlswz: 3.9,
@@ -34375,14 +38320,14 @@ export class OnlinePoint {
       fmswz: 3.4,
       sqws: 3.4,
       hsws: 4.3,
-      yqws: 3.2,
-      flhk: 5.8,
-      lwm: 4.9,
-      yssbp: 5.1,
+      yqws: null,
+      flhk: 3.2,
+      lwm: 5.8,
+      yssbp: 4.9,
       ymhk: 5.1
     },
     {
-      date: '2020-04-11',
+      date: '2020/4/11',
       wsd: 4.6,
       jlrdc: 14.2,
       jlswz: 4.1,
@@ -34390,14 +38335,14 @@ export class OnlinePoint {
       fmswz: 3.3,
       sqws: 3.4,
       hsws: 4.3,
-      yqws: 3.2,
-      flhk: 6.7,
-      lwm: 5.4,
-      yssbp: 5.5,
-      ymhk: 5.4
+      yqws: null,
+      flhk: 3.2,
+      lwm: 6.7,
+      yssbp: 5.4,
+      ymhk: 5.5
     },
     {
-      date: '2020-04-12',
+      date: '2020/4/12',
       wsd: 4.9,
       jlrdc: 13.9,
       jlswz: 4.3,
@@ -34405,14 +38350,14 @@ export class OnlinePoint {
       fmswz: 3.4,
       sqws: 3.5,
       hsws: 4.4,
-      yqws: 3.2,
-      flhk: 7.2,
-      lwm: 5.7,
-      yssbp: 5.9,
-      ymhk: 5.8
+      yqws: null,
+      flhk: 3.2,
+      lwm: 7.2,
+      yssbp: 5.7,
+      ymhk: 5.9
     },
     {
-      date: '2020-04-13',
+      date: '2020/4/13',
       wsd: 5.1,
       jlrdc: 13.6,
       jlswz: 4.2,
@@ -34420,14 +38365,14 @@ export class OnlinePoint {
       fmswz: 3.4,
       sqws: 3.5,
       hsws: 4.5,
-      yqws: 3.3,
-      flhk: 8.2,
-      lwm: 6.4,
-      yssbp: 6.5,
-      ymhk: 6.1
+      yqws: null,
+      flhk: 3.3,
+      lwm: 8.2,
+      yssbp: 6.4,
+      ymhk: 6.5
     },
     {
-      date: '2020-04-14',
+      date: '2020/4/14',
       wsd: 5.2,
       jlrdc: 14.8,
       jlswz: 4.5,
@@ -34435,14 +38380,14 @@ export class OnlinePoint {
       fmswz: 3.5,
       sqws: 3.5,
       hsws: 4.7,
-      yqws: 3.4,
-      flhk: 9.2,
-      lwm: 6.9,
-      yssbp: 7.0,
-      ymhk: 6.4
+      yqws: null,
+      flhk: 3.4,
+      lwm: 9.2,
+      yssbp: 6.9,
+      ymhk: 7.0
     },
     {
-      date: '2020-04-15',
+      date: '2020/4/15',
       wsd: 5.1,
       jlrdc: 14.5,
       jlswz: 4.5,
@@ -34450,14 +38395,14 @@ export class OnlinePoint {
       fmswz: 3.5,
       sqws: 3.6,
       hsws: 4.8,
-      yqws: 3.5,
-      flhk: 10.3,
-      lwm: 6.9,
-      yssbp: 7.0,
-      ymhk: 6.7
+      yqws: null,
+      flhk: 3.5,
+      lwm: 10.3,
+      yssbp: 6.9,
+      ymhk: 7.0
     },
     {
-      date: '2020-04-16',
+      date: '2020/4/16',
       wsd: 5.1,
       jlrdc: 15.1,
       jlswz: 4.8,
@@ -34465,14 +38410,14 @@ export class OnlinePoint {
       fmswz: 3.6,
       sqws: 3.7,
       hsws: 5.1,
-      yqws: 3.5,
-      flhk: 10.5,
-      lwm: 6.9,
+      yqws: null,
+      flhk: 3.5,
+      lwm: 10.5,
       yssbp: 6.9,
       ymhk: 6.9
     },
     {
-      date: '2020-04-17',
+      date: '2020/4/17',
       wsd: 5.5,
       jlrdc: 15.9,
       jlswz: 5.1,
@@ -34480,14 +38425,14 @@ export class OnlinePoint {
       fmswz: 3.6,
       sqws: 3.8,
       hsws: 5.3,
-      yqws: 3.6,
-      flhk: 11.5,
-      lwm: 6.9,
-      yssbp: 7.0,
+      yqws: null,
+      flhk: 3.6,
+      lwm: 11.5,
+      yssbp: 6.9,
       ymhk: 7.0
     },
     {
-      date: '2020-04-18',
+      date: '2020/4/18',
       wsd: 5.5,
       jlrdc: 15.4,
       jlswz: 5.0,
@@ -34495,14 +38440,14 @@ export class OnlinePoint {
       fmswz: 3.7,
       sqws: 3.8,
       hsws: 5.3,
-      yqws: 3.6,
-      flhk: 11.7,
-      lwm: 7.0,
+      yqws: null,
+      flhk: 3.6,
+      lwm: 11.7,
       yssbp: 7.0,
-      ymhk: 7.1
+      ymhk: 7.0
     },
     {
-      date: '2020-04-19',
+      date: '2020/4/19',
       wsd: 5.5,
       jlrdc: 15.2,
       jlswz: 5.2,
@@ -34510,14 +38455,14 @@ export class OnlinePoint {
       fmswz: 3.8,
       sqws: 3.9,
       hsws: 5.4,
-      yqws: 3.8,
-      flhk: 11.3,
-      lwm: 6.9,
-      yssbp: 7.1,
-      ymhk: 7.2
+      yqws: null,
+      flhk: 3.8,
+      lwm: 11.3,
+      yssbp: 6.9,
+      ymhk: 7.1
     },
     {
-      date: '2020-04-20',
+      date: '2020/4/20',
       wsd: 5.4,
       jlrdc: 14.3,
       jlswz: 4.8,
@@ -34525,14 +38470,14 @@ export class OnlinePoint {
       fmswz: 3.8,
       sqws: 3.9,
       hsws: 5.3,
-      yqws: 3.9,
-      flhk: 11.8,
-      lwm: 7.0,
-      yssbp: 6.7,
-      ymhk: 7.2
+      yqws: null,
+      flhk: 3.9,
+      lwm: 11.8,
+      yssbp: 7.0,
+      ymhk: 6.7
     },
     {
-      date: '2020-04-21',
+      date: '2020/4/21',
       wsd: 4.4,
       jlrdc: 12.2,
       jlswz: 4.3,
@@ -34540,14 +38485,14 @@ export class OnlinePoint {
       fmswz: 3.5,
       sqws: 3.8,
       hsws: 5.2,
-      yqws: 3.6,
-      flhk: 7.4,
-      lwm: 5.4,
-      yssbp: 5.5,
-      ymhk: 6.6
+      yqws: null,
+      flhk: 3.6,
+      lwm: 7.4,
+      yssbp: 5.4,
+      ymhk: 5.5
     },
     {
-      date: '2020-04-22',
+      date: '2020/4/22',
       wsd: 4.2,
       jlrdc: 12.7,
       jlswz: 3.8,
@@ -34555,14 +38500,14 @@ export class OnlinePoint {
       fmswz: 3.6,
       sqws: 3.7,
       hsws: 5.1,
-      yqws: 3.7,
-      flhk: 6.5,
-      lwm: 5.2,
-      yssbp: 4.9,
-      ymhk: 6.1
+      yqws: null,
+      flhk: 3.7,
+      lwm: 6.5,
+      yssbp: 5.2,
+      ymhk: 4.9
     },
     {
-      date: '2020-04-23',
+      date: '2020/4/23',
       wsd: 3.9,
       jlrdc: 13.6,
       jlswz: 4.0,
@@ -34570,14 +38515,14 @@ export class OnlinePoint {
       fmswz: 3.7,
       sqws: 3.8,
       hsws: 4.9,
-      yqws: 3.7,
-      flhk: 4.9,
-      lwm: 5.0,
-      yssbp: 5.1,
-      ymhk: 5.8
+      yqws: null,
+      flhk: 3.7,
+      lwm: 4.9,
+      yssbp: 5.0,
+      ymhk: 5.1
     },
     {
-      date: '2020-04-24',
+      date: '2020/4/24',
       wsd: 4.6,
       jlrdc: 13.7,
       jlswz: 4.8,
@@ -34585,14 +38530,14 @@ export class OnlinePoint {
       fmswz: 3.9,
       sqws: 3.9,
       hsws: 4.7,
-      yqws: 3.8,
-      flhk: 5.4,
-      lwm: 5.2,
-      yssbp: 5.4,
-      ymhk: 5.9
+      yqws: null,
+      flhk: 3.8,
+      lwm: 5.4,
+      yssbp: 5.2,
+      ymhk: 5.4
     },
     {
-      date: '2020-04-25',
+      date: '2020/4/25',
       wsd: 5.3,
       jlrdc: 13.9,
       jlswz: 5.9,
@@ -34600,14 +38545,14 @@ export class OnlinePoint {
       fmswz: 4.3,
       sqws: 4.1,
       hsws: 4.7,
-      yqws: 3.9,
-      flhk: 6.9,
-      lwm: 5.5,
-      yssbp: 5.6,
-      ymhk: 6.1
+      yqws: null,
+      flhk: 3.9,
+      lwm: 6.9,
+      yssbp: 5.5,
+      ymhk: 5.6
     },
     {
-      date: '2020-04-26',
+      date: '2020/4/26',
       wsd: 6.1,
       jlrdc: 13.7,
       jlswz: 6.9,
@@ -34615,14 +38560,14 @@ export class OnlinePoint {
       fmswz: 4.0,
       sqws: 4.2,
       hsws: 4.8,
-      yqws: 3.9,
-      flhk: 7.7,
-      lwm: 6.0,
-      yssbp: 6.1,
-      ymhk: 6.3
+      yqws: null,
+      flhk: 3.9,
+      lwm: 7.7,
+      yssbp: 6.0,
+      ymhk: 6.1
     },
     {
-      date: '2020-04-27',
+      date: '2020/4/27',
       wsd: 6.5,
       jlrdc: 14.2,
       jlswz: 6.7,
@@ -34630,14 +38575,14 @@ export class OnlinePoint {
       fmswz: 4.5,
       sqws: 4.2,
       hsws: 5.0,
-      yqws: 4.0,
-      flhk: 7.1,
-      lwm: 6.8,
-      yssbp: 7.2,
-      ymhk: 6.7
+      yqws: null,
+      flhk: 4.0,
+      lwm: 7.1,
+      yssbp: 6.8,
+      ymhk: 7.2
     },
     {
-      date: '2020-04-28',
+      date: '2020/4/28',
       wsd: 6.8,
       jlrdc: 14.1,
       jlswz: 7.1,
@@ -34645,14 +38590,14 @@ export class OnlinePoint {
       fmswz: 4.5,
       sqws: 4.2,
       hsws: 5.0,
-      yqws: 4.1,
-      flhk: 9.9,
-      lwm: 8.2,
-      yssbp: 8.3,
-      ymhk: 7.4
+      yqws: null,
+      flhk: 4.1,
+      lwm: 9.9,
+      yssbp: 8.2,
+      ymhk: 8.3
     },
     {
-      date: '2020-04-29',
+      date: '2020/4/29',
       wsd: 7.1,
       jlrdc: 14.5,
       jlswz: 7.4,
@@ -34660,14 +38605,14 @@ export class OnlinePoint {
       fmswz: 4.5,
       sqws: 4.4,
       hsws: 4.8,
-      yqws: 4.3,
-      flhk: 11.5,
-      lwm: 9.2,
-      yssbp: 9.5,
-      ymhk: 8.2
+      yqws: null,
+      flhk: 4.3,
+      lwm: 11.5,
+      yssbp: 9.2,
+      ymhk: 9.5
     },
     {
-      date: '2020-04-30',
+      date: '2020/4/30',
       wsd: 7.6,
       jlrdc: 14.8,
       jlswz: 5.8,
@@ -34675,14 +38620,14 @@ export class OnlinePoint {
       fmswz: 4.4,
       sqws: 4.4,
       hsws: 4.8,
-      yqws: 4.5,
-      flhk: 12.5,
-      lwm: 9.8,
-      yssbp: 9.7,
-      ymhk: 8.8
+      yqws: null,
+      flhk: 4.5,
+      lwm: 12.5,
+      yssbp: 9.8,
+      ymhk: 9.7
     },
     {
-      date: '2020-05-01',
+      date: '2020/5/1',
       wsd: 6.5,
       jlrdc: 14.4,
       jlswz: 7.7,
@@ -34690,14 +38635,14 @@ export class OnlinePoint {
       fmswz: 5.3,
       sqws: 5.0,
       hsws: 4.9,
-      yqws: 4.9,
-      flhk: 12.4,
-      lwm: 10.4,
-      yssbp: 10.9,
-      ymhk: 9.2
+      yqws: null,
+      flhk: 4.9,
+      lwm: 12.4,
+      yssbp: 10.4,
+      ymhk: 10.9
     },
     {
-      date: '2020-05-02',
+      date: '2020/5/2',
       wsd: 8.3,
       jlrdc: 15.0,
       jlswz: 7.7,
@@ -34705,14 +38650,14 @@ export class OnlinePoint {
       fmswz: 4.6,
       sqws: 4.6,
       hsws: 5.3,
-      yqws: 4.1,
-      flhk: 15.5,
-      lwm: 11.7,
-      yssbp: 12.0,
-      ymhk: 9.8
+      yqws: null,
+      flhk: 4.1,
+      lwm: 15.5,
+      yssbp: 11.7,
+      ymhk: 12.0
     },
     {
-      date: '2020-05-03',
+      date: '2020/5/3',
       wsd: 7.7,
       jlrdc: 14.7,
       jlswz: 6.7,
@@ -34720,14 +38665,14 @@ export class OnlinePoint {
       fmswz: 4.5,
       sqws: 4.5,
       hsws: 5.8,
-      yqws: 4.4,
-      flhk: 16.9,
-      lwm: 10.8,
-      yssbp: 10.2,
-      ymhk: 10.5
+      yqws: null,
+      flhk: 4.4,
+      lwm: 16.9,
+      yssbp: 10.8,
+      ymhk: 10.2
     },
     {
-      date: '2020-05-04',
+      date: '2020/5/4',
       wsd: 6.2,
       jlrdc: 14.2,
       jlswz: 6.7,
@@ -34735,14 +38680,14 @@ export class OnlinePoint {
       fmswz: 4.5,
       sqws: 4.5,
       hsws: 6.1,
-      yqws: 4.3,
-      flhk: 13.1,
-      lwm: 9.4,
-      yssbp: 9.7,
-      ymhk: 10.0
+      yqws: null,
+      flhk: 4.3,
+      lwm: 13.1,
+      yssbp: 9.4,
+      ymhk: 9.7
     },
     {
-      date: '2020-05-05',
+      date: '2020/5/5',
       wsd: 6.4,
       jlrdc: 14.0,
       jlswz: 6.2,
@@ -34750,14 +38695,14 @@ export class OnlinePoint {
       fmswz: 4.4,
       sqws: 4.5,
       hsws: 6.2,
-      yqws: 4.4,
-      flhk: 13.9,
-      lwm: 10.3,
-      yssbp: 10.4,
-      ymhk: 10.7
+      yqws: null,
+      flhk: 4.4,
+      lwm: 13.9,
+      yssbp: 10.3,
+      ymhk: 10.4
     },
     {
-      date: '2020-05-06',
+      date: '2020/5/6',
       wsd: 6.3,
       jlrdc: 14.8,
       jlswz: 5.9,
@@ -34765,14 +38710,14 @@ export class OnlinePoint {
       fmswz: 4.5,
       sqws: 4.6,
       hsws: 5.7,
-      yqws: 4.5,
-      flhk: 14.0,
-      lwm: 10.2,
+      yqws: null,
+      flhk: 4.5,
+      lwm: 14.0,
       yssbp: 10.2,
-      ymhk: 11.4
+      ymhk: 10.2
     },
     {
-      date: '2020-05-07',
+      date: '2020/5/7',
       wsd: 6.2,
       jlrdc: 15.2,
       jlswz: 6.3,
@@ -34780,14 +38725,14 @@ export class OnlinePoint {
       fmswz: 5.4,
       sqws: 4.9,
       hsws: 5.6,
-      yqws: 5.3,
-      flhk: 15.1,
-      lwm: 9.6,
+      yqws: null,
+      flhk: 5.3,
+      lwm: 15.1,
       yssbp: 9.6,
-      ymhk: 10.7
+      ymhk: 9.6
     },
     {
-      date: '2020-05-08',
+      date: '2020/5/8',
       wsd: 6.6,
       jlrdc: 15.8,
       jlswz: 6.9,
@@ -34795,14 +38740,14 @@ export class OnlinePoint {
       fmswz: 5.9,
       sqws: 5.5,
       hsws: 5.3,
-      yqws: 5.6,
-      flhk: 15.7,
-      lwm: 9.3,
-      yssbp: 9.4,
-      ymhk: 10.5
+      yqws: null,
+      flhk: 5.6,
+      lwm: 15.7,
+      yssbp: 9.3,
+      ymhk: 9.4
     },
     {
-      date: '2020-05-09',
+      date: '2020/5/9',
       wsd: 7.0,
       jlrdc: 16.8,
       jlswz: 6.5,
@@ -34810,14 +38755,14 @@ export class OnlinePoint {
       fmswz: 5.8,
       sqws: 5.4,
       hsws: 5.1,
-      yqws: 5.7,
-      flhk: 15.1,
-      lwm: 9.5,
-      yssbp: 9.6,
-      ymhk: 10.6
+      yqws: null,
+      flhk: 5.7,
+      lwm: 15.1,
+      yssbp: 9.5,
+      ymhk: 9.6
     },
     {
-      date: '2020-05-10',
+      date: '2020/5/10',
       wsd: 7.2,
       jlrdc: 17.3,
       jlswz: 7.7,
@@ -34825,14 +38770,14 @@ export class OnlinePoint {
       fmswz: 6.6,
       sqws: 6.3,
       hsws: 5.2,
-      yqws: 6.4,
-      flhk: 15.5,
-      lwm: 9.7,
-      yssbp: 9.8,
-      ymhk: 10.8
+      yqws: null,
+      flhk: 6.4,
+      lwm: 15.5,
+      yssbp: 9.7,
+      ymhk: 9.8
     },
     {
-      date: '2020-05-11',
+      date: '2020/5/11',
       wsd: 8.5,
       jlrdc: 17.3,
       jlswz: 7.4,
@@ -34840,14 +38785,14 @@ export class OnlinePoint {
       fmswz: 5.1,
       sqws: 5.2,
       hsws: 5.5,
-      yqws: 4.8,
-      flhk: 15.1,
-      lwm: 9.7,
+      yqws: null,
+      flhk: 4.8,
+      lwm: 15.1,
       yssbp: 9.7,
-      ymhk: 10.3
+      ymhk: 9.7
     },
     {
-      date: '2020-05-12',
+      date: '2020/5/12',
       wsd: 8.0,
       jlrdc: 16.3,
       jlswz: 6.0,
@@ -34855,14 +38800,14 @@ export class OnlinePoint {
       fmswz: 5.0,
       sqws: 5.2,
       hsws: 5.6,
-      yqws: 4.9,
-      flhk: 14.5,
-      lwm: 9.5,
+      yqws: null,
+      flhk: 4.9,
+      lwm: 14.5,
       yssbp: 9.5,
-      ymhk: 10.3
+      ymhk: 9.5
     },
     {
-      date: '2020-05-13',
+      date: '2020/5/13',
       wsd: 6.6,
       jlrdc: 18.1,
       jlswz: 6.5,
@@ -34870,14 +38815,14 @@ export class OnlinePoint {
       fmswz: 5.8,
       sqws: 5.7,
       hsws: 5.8,
-      yqws: 5.8,
-      flhk: 13.7,
-      lwm: 10.0,
-      yssbp: 10.4,
-      ymhk: 10.8
+      yqws: null,
+      flhk: 5.8,
+      lwm: 13.7,
+      yssbp: 10.0,
+      ymhk: 10.4
     },
     {
-      date: '2020-05-14',
+      date: '2020/5/14',
       wsd: 7.9,
       jlrdc: 17.8,
       jlswz: 7.9,
@@ -34885,14 +38830,14 @@ export class OnlinePoint {
       fmswz: 7.0,
       sqws: 6.5,
       hsws: 6.0,
-      yqws: 6.9,
-      flhk: 11.1,
-      lwm: 11.3,
-      yssbp: 11.7,
-      ymhk: 12.0
+      yqws: null,
+      flhk: 6.9,
+      lwm: 11.1,
+      yssbp: 11.3,
+      ymhk: 11.7
     },
     {
-      date: '2020-05-15',
+      date: '2020/5/15',
       wsd: 8.8,
       jlrdc: 16.6,
       jlswz: 7.8,
@@ -34900,14 +38845,14 @@ export class OnlinePoint {
       fmswz: 7.5,
       sqws: 6.9,
       hsws: 6.0,
-      yqws: 7.5,
-      flhk: 12.9,
-      lwm: 11.4,
+      yqws: null,
+      flhk: 7.5,
+      lwm: 12.9,
       yssbp: 11.4,
-      ymhk: 12.8
+      ymhk: 11.4
     },
     {
-      date: '2020-05-16',
+      date: '2020/5/16',
       wsd: 8.6,
       jlrdc: 17.0,
       jlswz: 9.3,
@@ -34915,14 +38860,14 @@ export class OnlinePoint {
       fmswz: 9.0,
       sqws: 8.2,
       hsws: 6.1,
-      yqws: 8.9,
-      flhk: 11.6,
-      lwm: 11.1,
-      yssbp: 11.4,
-      ymhk: 12.4
+      yqws: null,
+      flhk: 8.9,
+      lwm: 11.6,
+      yssbp: 11.1,
+      ymhk: 11.4
     },
     {
-      date: '2020-05-17',
+      date: '2020/5/17',
       wsd: 10.0,
       jlrdc: 17.2,
       jlswz: 9.8,
@@ -34930,14 +38875,14 @@ export class OnlinePoint {
       fmswz: 9.0,
       sqws: 7.9,
       hsws: 6.0,
-      yqws: 9.7,
-      flhk: 11.7,
-      lwm: 11.0,
-      yssbp: 10.9,
-      ymhk: 11.7
+      yqws: null,
+      flhk: 9.7,
+      lwm: 11.7,
+      yssbp: 11.0,
+      ymhk: 10.9
     },
     {
-      date: '2020-05-18',
+      date: '2020/5/18',
       wsd: 10.5,
       jlrdc: 18.8,
       jlswz: 10.6,
@@ -34945,14 +38890,14 @@ export class OnlinePoint {
       fmswz: 10.5,
       sqws: 9.7,
       hsws: 5.8,
-      yqws: 10.3,
-      flhk: 12.4,
-      lwm: 10.7,
-      yssbp: 10.8,
-      ymhk: 11.3
+      yqws: null,
+      flhk: 10.3,
+      lwm: 12.4,
+      yssbp: 10.7,
+      ymhk: 10.8
     },
     {
-      date: '2020-05-19',
+      date: '2020/5/19',
       wsd: 10.9,
       jlrdc: 17.6,
       jlswz: 10.5,
@@ -34960,14 +38905,14 @@ export class OnlinePoint {
       fmswz: 10.6,
       sqws: 10.0,
       hsws: 5.7,
-      yqws: 10.4,
-      flhk: 15.6,
-      lwm: 10.7,
+      yqws: null,
+      flhk: 10.4,
+      lwm: 15.6,
       yssbp: 10.7,
-      ymhk: 11.0
+      ymhk: 10.7
     },
     {
-      date: '2020-05-20',
+      date: '2020/5/20',
       wsd: 10.8,
       jlrdc: 18.0,
       jlswz: 10.8,
@@ -34975,14 +38920,14 @@ export class OnlinePoint {
       fmswz: 10.5,
       sqws: 10.0,
       hsws: 5.6,
-      yqws: 10.2,
-      flhk: 14.1,
-      lwm: 11.0,
-      yssbp: 11.1,
+      yqws: null,
+      flhk: 10.2,
+      lwm: 14.1,
+      yssbp: 11.0,
       ymhk: 11.1
     },
     {
-      date: '2020-05-21',
+      date: '2020/5/21',
       wsd: 11.3,
       jlrdc: 18.2,
       jlswz: 10.2,
@@ -34990,14 +38935,14 @@ export class OnlinePoint {
       fmswz: 9.8,
       sqws: 9.4,
       hsws: 5.4,
-      yqws: 9.6,
-      flhk: 14.4,
-      lwm: 11.5,
-      yssbp: 11.7,
-      ymhk: 11.6
+      yqws: null,
+      flhk: 9.6,
+      lwm: 14.4,
+      yssbp: 11.5,
+      ymhk: 11.7
     },
     {
-      date: '2020-05-22',
+      date: '2020/5/22',
       wsd: 10.7,
       jlrdc: 18.0,
       jlswz: 10.2,
@@ -35005,14 +38950,14 @@ export class OnlinePoint {
       fmswz: 10.2,
       sqws: 9.7,
       hsws: 5.7,
-      yqws: 9.9,
-      flhk: 15.5,
-      lwm: 11.9,
-      yssbp: 12.0,
+      yqws: null,
+      flhk: 9.9,
+      lwm: 15.5,
+      yssbp: 11.9,
       ymhk: 12.0
     },
     {
-      date: '2020-05-23',
+      date: '2020/5/23',
       wsd: 10.8,
       jlrdc: 18.1,
       jlswz: 10.6,
@@ -35020,14 +38965,14 @@ export class OnlinePoint {
       fmswz: 10.4,
       sqws: 9.9,
       hsws: 5.9,
-      yqws: 10.1,
-      flhk: 15.2,
-      lwm: 12.0,
-      yssbp: 12.1,
-      ymhk: 12.3
+      yqws: null,
+      flhk: 10.1,
+      lwm: 15.2,
+      yssbp: 12.0,
+      ymhk: 12.1
     },
     {
-      date: '2020-05-24',
+      date: '2020/5/24',
       wsd: 11.3,
       jlrdc: 19.6,
       jlswz: 11.2,
@@ -35035,14 +38980,14 @@ export class OnlinePoint {
       fmswz: 10.2,
       sqws: 9.8,
       hsws: 6.0,
-      yqws: 9.8,
-      flhk: 15.1,
-      lwm: 12.4,
-      yssbp: 12.7,
-      ymhk: 13.2
+      yqws: null,
+      flhk: 9.8,
+      lwm: 15.1,
+      yssbp: 12.4,
+      ymhk: 12.7
     },
     {
-      date: '2020-05-25',
+      date: '2020/5/25',
       wsd: 11.8,
       jlrdc: 19.3,
       jlswz: 11.4,
@@ -35050,14 +38995,14 @@ export class OnlinePoint {
       fmswz: 9.4,
       sqws: 9.3,
       hsws: 6.1,
-      yqws: 8.9,
-      flhk: 16.4,
-      lwm: 12.2,
-      yssbp: 12.3,
-      ymhk: 12.8
+      yqws: null,
+      flhk: 8.9,
+      lwm: 16.4,
+      yssbp: 12.2,
+      ymhk: 12.3
     },
     {
-      date: '2020-05-26',
+      date: '2020/5/26',
       wsd: 11.3,
       jlrdc: 19.0,
       jlswz: 9.1,
@@ -35065,14 +39010,14 @@ export class OnlinePoint {
       fmswz: 8.7,
       sqws: 8.2,
       hsws: 6.3,
-      yqws: 8.6,
-      flhk: 16.4,
-      lwm: 12.7,
-      yssbp: 13.1,
-      ymhk: 13.3
+      yqws: null,
+      flhk: 8.6,
+      lwm: 16.4,
+      yssbp: 12.7,
+      ymhk: 13.1
     },
     {
-      date: '2020-05-27',
+      date: '2020/5/27',
       wsd: 10.0,
       jlrdc: 19.6,
       jlswz: 10.5,
@@ -35080,14 +39025,14 @@ export class OnlinePoint {
       fmswz: 9.5,
       sqws: 9.0,
       hsws: 6.6,
-      yqws: 9.2,
-      flhk: 16.6,
-      lwm: 13.9,
-      yssbp: 14.1,
-      ymhk: 14.6
+      yqws: null,
+      flhk: 9.2,
+      lwm: 16.6,
+      yssbp: 13.9,
+      ymhk: 14.1
     },
     {
-      date: '2020-05-28',
+      date: '2020/5/28',
       wsd: 11.4,
       jlrdc: 19.9,
       jlswz: 10.7,
@@ -35095,14 +39040,14 @@ export class OnlinePoint {
       fmswz: 9.9,
       sqws: 9.3,
       hsws: 6.9,
-      yqws: 9.6,
-      flhk: 17.6,
-      lwm: 14.3,
-      yssbp: 14.6,
-      ymhk: 15.5
+      yqws: null,
+      flhk: 9.6,
+      lwm: 17.6,
+      yssbp: 14.3,
+      ymhk: 14.6
     },
     {
-      date: '2020-05-29',
+      date: '2020/5/29',
       wsd: 11.7,
       jlrdc: 20.7,
       jlswz: 11.5,
@@ -35110,14 +39055,14 @@ export class OnlinePoint {
       fmswz: 10.3,
       sqws: 9.8,
       hsws: 6.5,
-      yqws: 9.8,
-      flhk: 18.8,
-      lwm: 14.2,
-      yssbp: 14.3,
-      ymhk: 15.7
+      yqws: null,
+      flhk: 9.8,
+      lwm: 18.8,
+      yssbp: 14.2,
+      ymhk: 14.3
     },
     {
-      date: '2020-05-30',
+      date: '2020/5/30',
       wsd: 12.5,
       jlrdc: 21.3,
       jlswz: 11.4,
@@ -35125,14 +39070,14 @@ export class OnlinePoint {
       fmswz: 10.6,
       sqws: 9.8,
       hsws: 6.7,
-      yqws: 10.3,
-      flhk: 20.5,
-      lwm: 14.4,
-      yssbp: 14.6,
-      ymhk: 15.4
+      yqws: null,
+      flhk: 10.3,
+      lwm: 20.5,
+      yssbp: 14.4,
+      ymhk: 14.6
     },
     {
-      date: '2020-05-31',
+      date: '2020/5/31',
       wsd: 12.4,
       jlrdc: 21.5,
       jlswz: 12.3,
@@ -35140,14 +39085,14 @@ export class OnlinePoint {
       fmswz: 11.2,
       sqws: 10.7,
       hsws: 6.7,
-      yqws: 10.7,
-      flhk: 21.6,
-      lwm: 14.9,
-      yssbp: 15.2,
-      ymhk: 16.1
+      yqws: null,
+      flhk: 10.7,
+      lwm: 21.6,
+      yssbp: 14.9,
+      ymhk: 15.2
     },
     {
-      date: '2020-06-01',
+      date: '2020/6/1',
       wsd: 13.0,
       jlrdc: 19.8,
       jlswz: 11.7,
@@ -35155,14 +39100,14 @@ export class OnlinePoint {
       fmswz: 10.9,
       sqws: 10.4,
       hsws: 7.0,
-      yqws: 10.6,
-      flhk: 21.6,
-      lwm: 14.8,
-      yssbp: 14.7,
-      ymhk: 15.5
+      yqws: null,
+      flhk: 10.6,
+      lwm: 21.6,
+      yssbp: 14.8,
+      ymhk: 14.7
     },
     {
-      date: '2020-06-02',
+      date: '2020/6/2',
       wsd: 12.1,
       jlrdc: 19.7,
       jlswz: 12.1,
@@ -35170,14 +39115,14 @@ export class OnlinePoint {
       fmswz: 10.7,
       sqws: 10.1,
       hsws: 6.6,
-      yqws: 10.2,
-      flhk: 19.8,
-      lwm: 14.9,
-      yssbp: 15.2,
-      ymhk: 15.7
+      yqws: null,
+      flhk: 10.2,
+      lwm: 19.8,
+      yssbp: 14.9,
+      ymhk: 15.2
     },
     {
-      date: '2020-06-03',
+      date: '2020/6/3',
       wsd: 12.7,
       jlrdc: 18.8,
       jlswz: 11.6,
@@ -35185,14 +39130,14 @@ export class OnlinePoint {
       fmswz: 11.5,
       sqws: 10.7,
       hsws: 6.4,
-      yqws: 11.2,
-      flhk: 19.9,
-      lwm: 15.1,
-      yssbp: 15.0,
-      ymhk: 15.9
+      yqws: null,
+      flhk: 11.2,
+      lwm: 19.9,
+      yssbp: 15.1,
+      ymhk: 15.0
     },
     {
-      date: '2020-06-04',
+      date: '2020/6/4',
       wsd: 12.4,
       jlrdc: 19.6,
       jlswz: 12.7,
@@ -35200,14 +39145,14 @@ export class OnlinePoint {
       fmswz: 11.9,
       sqws: 11.3,
       hsws: 6.5,
-      yqws: 11.5,
-      flhk: 19.0,
-      lwm: 14.8,
-      yssbp: 14.9,
-      ymhk: 15.8
+      yqws: null,
+      flhk: 11.5,
+      lwm: 19.0,
+      yssbp: 14.8,
+      ymhk: 14.9
     },
     {
-      date: '2020-06-05',
+      date: '2020/6/5',
       wsd: 13.1,
       jlrdc: 19.9,
       jlswz: 12.3,
@@ -35215,14 +39160,14 @@ export class OnlinePoint {
       fmswz: 11.3,
       sqws: 10.8,
       hsws: 6.6,
-      yqws: 10.8,
-      flhk: 18.5,
-      lwm: 15.1,
-      yssbp: 15.3,
-      ymhk: 16.2
+      yqws: null,
+      flhk: 10.8,
+      lwm: 18.5,
+      yssbp: 15.1,
+      ymhk: 15.3
     },
     {
-      date: '2020-06-06',
+      date: '2020/6/6',
       wsd: 13.0,
       jlrdc: 20.1,
       jlswz: 12.6,
@@ -35230,14 +39175,14 @@ export class OnlinePoint {
       fmswz: 10.9,
       sqws: 10.6,
       hsws: 7.0,
-      yqws: 10.4,
-      flhk: 19.2,
-      lwm: 15.4,
-      yssbp: 15.5,
-      ymhk: 16.6
+      yqws: null,
+      flhk: 10.4,
+      lwm: 19.2,
+      yssbp: 15.4,
+      ymhk: 15.5
     },
     {
-      date: '2020-06-07',
+      date: '2020/6/7',
       wsd: 13.3,
       jlrdc: 19.8,
       jlswz: 11.9,
@@ -35245,14 +39190,14 @@ export class OnlinePoint {
       fmswz: 10.9,
       sqws: 10.2,
       hsws: 7.2,
-      yqws: 10.5,
-      flhk: 21.2,
-      lwm: 16.0,
-      yssbp: 16.3,
-      ymhk: 16.9
+      yqws: null,
+      flhk: 10.5,
+      lwm: 21.2,
+      yssbp: 16.0,
+      ymhk: 16.3
     },
     {
-      date: '2020-06-08',
+      date: '2020/6/8',
       wsd: 13.2,
       jlrdc: 19.9,
       jlswz: 12.9,
@@ -35260,14 +39205,14 @@ export class OnlinePoint {
       fmswz: 11.6,
       sqws: 11.0,
       hsws: 7.3,
-      yqws: 11.0,
-      flhk: 19.6,
-      lwm: 17.0,
-      yssbp: 17.3,
-      ymhk: 18.2
+      yqws: null,
+      flhk: 11.0,
+      lwm: 19.6,
+      yssbp: 17.0,
+      ymhk: 17.3
     },
     {
-      date: '2020-06-09',
+      date: '2020/6/9',
       wsd: 14.0,
       jlrdc: 17.6,
       jlswz: 12.7,
@@ -35275,14 +39220,14 @@ export class OnlinePoint {
       fmswz: 11.3,
       sqws: 10.8,
       hsws: 7.3,
-      yqws: 10.9,
-      flhk: 17.7,
-      lwm: 17.3,
+      yqws: null,
+      flhk: 10.9,
+      lwm: 17.7,
       yssbp: 17.3,
-      ymhk: 18.2
+      ymhk: 17.3
     },
     {
-      date: '2020-06-10',
+      date: '2020/6/10',
       wsd: 13.3,
       jlrdc: 18.0,
       jlswz: 13.6,
@@ -35290,14 +39235,14 @@ export class OnlinePoint {
       fmswz: 11.3,
       sqws: 10.6,
       hsws: 7.3,
-      yqws: 10.6,
-      flhk: 16.8,
-      lwm: 16.6,
-      yssbp: 16.5,
-      ymhk: 17.1
+      yqws: null,
+      flhk: 10.6,
+      lwm: 16.8,
+      yssbp: 16.6,
+      ymhk: 16.5
     },
     {
-      date: '2020-06-11',
+      date: '2020/6/11',
       wsd: 14.0,
       jlrdc: 17.7,
       jlswz: 13.9,
@@ -35305,14 +39250,14 @@ export class OnlinePoint {
       fmswz: 10.8,
       sqws: 10.1,
       hsws: 7.1,
-      yqws: 10.1,
-      flhk: 21.7,
-      lwm: 16.4,
-      yssbp: 16.8,
-      ymhk: 17.2
+      yqws: null,
+      flhk: 10.1,
+      lwm: 21.7,
+      yssbp: 16.4,
+      ymhk: 16.8
     },
     {
-      date: '2020-06-12',
+      date: '2020/6/12',
       wsd: 14.9,
       jlrdc: 18.0,
       jlswz: 14.2,
@@ -35320,14 +39265,14 @@ export class OnlinePoint {
       fmswz: 10.9,
       sqws: 10.2,
       hsws: 7.6,
-      yqws: 10.1,
-      flhk: 23.1,
-      lwm: 17.5,
-      yssbp: 17.6,
-      ymhk: 17.8
+      yqws: null,
+      flhk: 10.1,
+      lwm: 23.1,
+      yssbp: 17.5,
+      ymhk: 17.6
     },
     {
-      date: '2020-06-13',
+      date: '2020/6/13',
       wsd: 15.9,
       jlrdc: 18.3,
       jlswz: 13.5,
@@ -35335,14 +39280,14 @@ export class OnlinePoint {
       fmswz: 11.3,
       sqws: 10.5,
       hsws: 7.7,
-      yqws: 10.8,
-      flhk: 21.1,
-      lwm: 18.1,
-      yssbp: 18.0,
-      ymhk: 18.3
+      yqws: null,
+      flhk: 10.8,
+      lwm: 21.1,
+      yssbp: 18.1,
+      ymhk: 18.0
     },
     {
-      date: '2020-06-14',
+      date: '2020/6/14',
       wsd: 15.6,
       jlrdc: 18.0,
       jlswz: 13.3,
@@ -35350,14 +39295,14 @@ export class OnlinePoint {
       fmswz: 11.2,
       sqws: 10.6,
       hsws: 7.4,
-      yqws: 10.6,
-      flhk: 23.9,
-      lwm: 17.8,
-      yssbp: 17.5,
-      ymhk: 17.9
+      yqws: null,
+      flhk: 10.6,
+      lwm: 23.9,
+      yssbp: 17.8,
+      ymhk: 17.5
     },
     {
-      date: '2020-06-15',
+      date: '2020/6/15',
       wsd: 14.0,
       jlrdc: 17.9,
       jlswz: 11.3,
@@ -35365,14 +39310,14 @@ export class OnlinePoint {
       fmswz: 10.8,
       sqws: 10.2,
       hsws: 8.0,
-      yqws: 10.5,
-      flhk: 20.5,
-      lwm: 17.2,
-      yssbp: 17.4,
-      ymhk: 17.3
+      yqws: null,
+      flhk: 10.5,
+      lwm: 20.5,
+      yssbp: 17.2,
+      ymhk: 17.4
     },
     {
-      date: '2020-06-16',
+      date: '2020/6/16',
       wsd: 13.0,
       jlrdc: 18.3,
       jlswz: 12.5,
@@ -35380,14 +39325,14 @@ export class OnlinePoint {
       fmswz: 10.8,
       sqws: 10.0,
       hsws: 8.2,
-      yqws: 10.5,
-      flhk: 19.7,
-      lwm: 18.3,
-      yssbp: 18.8,
-      ymhk: 18.2
+      yqws: null,
+      flhk: 10.5,
+      lwm: 19.7,
+      yssbp: 18.3,
+      ymhk: 18.8
     },
     {
-      date: '2020-06-17',
+      date: '2020/6/17',
       wsd: 13.7,
       jlrdc: 18.9,
       jlswz: 13.1,
@@ -35395,14 +39340,14 @@ export class OnlinePoint {
       fmswz: 11.7,
       sqws: 10.9,
       hsws: 8.2,
-      yqws: 11.2,
-      flhk: 22.7,
-      lwm: 19.1,
+      yqws: null,
+      flhk: 11.2,
+      lwm: 22.7,
       yssbp: 19.1,
-      ymhk: 19.4
+      ymhk: 19.1
     },
     {
-      date: '2020-06-18',
+      date: '2020/6/18',
       wsd: 15.3,
       jlrdc: 18.8,
       jlswz: 14.0,
@@ -35410,14 +39355,14 @@ export class OnlinePoint {
       fmswz: 12.2,
       sqws: 11.3,
       hsws: 8.3,
-      yqws: 11.4,
-      flhk: 22.6,
-      lwm: 18.5,
-      yssbp: 18.2,
-      ymhk: 19.2
+      yqws: null,
+      flhk: 11.4,
+      lwm: 22.6,
+      yssbp: 18.5,
+      ymhk: 18.2
     },
     {
-      date: '2020-06-19',
+      date: '2020/6/19',
       wsd: 15.4,
       jlrdc: 19.7,
       jlswz: 13.4,
@@ -35425,14 +39370,14 @@ export class OnlinePoint {
       fmswz: 11.3,
       sqws: 10.7,
       hsws: 8.4,
-      yqws: 10.6,
-      flhk: 17.1,
-      lwm: 18.5,
-      yssbp: 18.4,
-      ymhk: 18.8
+      yqws: null,
+      flhk: 10.6,
+      lwm: 17.1,
+      yssbp: 18.5,
+      ymhk: 18.4
     },
     {
-      date: '2020-06-20',
+      date: '2020/6/20',
       wsd: 15.2,
       jlrdc: 19.4,
       jlswz: 12.6,
@@ -35440,14 +39385,14 @@ export class OnlinePoint {
       fmswz: 11.7,
       sqws: 11.4,
       hsws: 8.6,
-      yqws: 11.9,
-      flhk: 23.2,
-      lwm: 18.5,
-      yssbp: 18.1,
-      ymhk: 18.5
+      yqws: null,
+      flhk: 11.9,
+      lwm: 23.2,
+      yssbp: 18.5,
+      ymhk: 18.1
     },
     {
-      date: '2020-06-21',
+      date: '2020/6/21',
       wsd: 14.5,
       jlrdc: 19.5,
       jlswz: 14.8,
@@ -35455,14 +39400,14 @@ export class OnlinePoint {
       fmswz: 12.8,
       sqws: 12.5,
       hsws: 8.6,
-      yqws: 12.7,
-      flhk: 23.1,
-      lwm: 18.4,
-      yssbp: 18.7,
-      ymhk: null
+      yqws: null,
+      flhk: 12.7,
+      lwm: 23.1,
+      yssbp: 18.4,
+      ymhk: 18.7
     },
     {
-      date: '2020-06-22',
+      date: '2020/6/22',
       wsd: 15.7,
       jlrdc: 19.8,
       jlswz: 15.2,
@@ -35470,14 +39415,14 @@ export class OnlinePoint {
       fmswz: 12.7,
       sqws: 12.4,
       hsws: 8.6,
-      yqws: 12.7,
-      flhk: 24.4,
-      lwm: 18.8,
-      yssbp: 18.9,
-      ymhk: null
+      yqws: null,
+      flhk: 12.7,
+      lwm: 24.4,
+      yssbp: 18.8,
+      ymhk: 18.9
     },
     {
-      date: '2020-06-23',
+      date: '2020/6/23',
       wsd: 16.7,
       jlrdc: 20.0,
       jlswz: 14.5,
@@ -35485,14 +39430,14 @@ export class OnlinePoint {
       fmswz: 12.0,
       sqws: 11.8,
       hsws: 8.5,
-      yqws: 12.1,
-      flhk: 24.3,
-      lwm: 18.6,
-      yssbp: 18.4,
-      ymhk: null
+      yqws: null,
+      flhk: 12.1,
+      lwm: 24.3,
+      yssbp: 18.6,
+      ymhk: 18.4
     },
     {
-      date: '2020-06-24',
+      date: '2020/6/24',
       wsd: 16.6,
       jlrdc: 19.7,
       jlswz: 14.4,
@@ -35500,14 +39445,14 @@ export class OnlinePoint {
       fmswz: 12.7,
       sqws: 12.4,
       hsws: 8.6,
-      yqws: 12.8,
-      flhk: 22.9,
-      lwm: 18.2,
+      yqws: null,
+      flhk: 12.8,
+      lwm: 22.9,
       yssbp: 18.2,
-      ymhk: null
+      ymhk: 18.2
     },
     {
-      date: '2020-06-25',
+      date: '2020/6/25',
       wsd: 16.0,
       jlrdc: 20.1,
       jlswz: 14.7,
@@ -35515,14 +39460,14 @@ export class OnlinePoint {
       fmswz: 12.6,
       sqws: 12.5,
       hsws: 8.6,
-      yqws: 12.7,
-      flhk: 22.8,
-      lwm: 17.9,
-      yssbp: 17.7,
-      ymhk: null
+      yqws: null,
+      flhk: 12.7,
+      lwm: 22.8,
+      yssbp: 17.9,
+      ymhk: 17.7
     },
     {
-      date: '2020-06-26',
+      date: '2020/6/26',
       wsd: 16.6,
       jlrdc: 20.2,
       jlswz: 14.1,
@@ -35530,14 +39475,14 @@ export class OnlinePoint {
       fmswz: 11.7,
       sqws: 12.1,
       hsws: 8.5,
-      yqws: 11.8,
-      flhk: 22.8,
-      lwm: 18.1,
-      yssbp: 18.4,
-      ymhk: null
+      yqws: null,
+      flhk: 11.8,
+      lwm: 22.8,
+      yssbp: 18.1,
+      ymhk: 18.4
     },
     {
-      date: '2020-06-27',
+      date: '2020/6/27',
       wsd: 15.6,
       jlrdc: 19.6,
       jlswz: 12.8,
@@ -35545,14 +39490,14 @@ export class OnlinePoint {
       fmswz: 11.3,
       sqws: 11.7,
       hsws: 8.5,
-      yqws: 11.6,
-      flhk: 22.2,
-      lwm: 18.4,
-      yssbp: 18.5,
-      ymhk: null
+      yqws: null,
+      flhk: 11.6,
+      lwm: 22.2,
+      yssbp: 18.4,
+      ymhk: 18.5
     },
     {
-      date: '2020-06-28',
+      date: '2020/6/28',
       wsd: 14.5,
       jlrdc: 19.5,
       jlswz: 13.6,
@@ -35560,14 +39505,14 @@ export class OnlinePoint {
       fmswz: 12.4,
       sqws: 12.1,
       hsws: 8.8,
-      yqws: 12.5,
-      flhk: 21.9,
-      lwm: 18.7,
-      yssbp: 19.0,
-      ymhk: null
+      yqws: null,
+      flhk: 12.5,
+      lwm: 21.9,
+      yssbp: 18.7,
+      ymhk: 19.0
     },
     {
-      date: '2020-06-29',
+      date: '2020/6/29',
       wsd: 15.4,
       jlrdc: 20.1,
       jlswz: 15.5,
@@ -35575,14 +39520,14 @@ export class OnlinePoint {
       fmswz: 12.9,
       sqws: 12.7,
       hsws: 8.5,
-      yqws: 12.8,
-      flhk: 23.1,
-      lwm: 19.4,
-      yssbp: 19.5,
-      ymhk: null
+      yqws: null,
+      flhk: 12.8,
+      lwm: 23.1,
+      yssbp: 19.4,
+      ymhk: 19.5
     },
     {
-      date: '2020-06-30',
+      date: '2020/6/30',
       wsd: 16.3,
       jlrdc: 20.4,
       jlswz: 15.2,
@@ -35590,14 +39535,14 @@ export class OnlinePoint {
       fmswz: 13.8,
       sqws: 12.4,
       hsws: 8.5,
-      yqws: 13.7,
-      flhk: 24.4,
-      lwm: 19.7,
+      yqws: null,
+      flhk: 13.7,
+      lwm: 24.4,
       yssbp: 19.7,
-      ymhk: null
+      ymhk: 19.7
     },
     {
-      date: '2020-07-01',
+      date: '2020/7/1',
       wsd: 16.8,
       jlrdc: 20.2,
       jlswz: 15.2,
@@ -35605,14 +39550,14 @@ export class OnlinePoint {
       fmswz: 13.3,
       sqws: 13.4,
       hsws: 8.5,
-      yqws: 13.4,
-      flhk: 24.0,
-      lwm: 19.9,
-      yssbp: 20.0,
-      ymhk: null
+      yqws: null,
+      flhk: 13.4,
+      lwm: 24.0,
+      yssbp: 19.9,
+      ymhk: 20.0
     },
     {
-      date: '2020-07-02',
+      date: '2020/7/2',
       wsd: 17.2,
       jlrdc: 19.8,
       jlswz: 15.3,
@@ -35620,14 +39565,14 @@ export class OnlinePoint {
       fmswz: 12.1,
       sqws: 12.3,
       hsws: 8.4,
-      yqws: 12.2,
-      flhk: 25.0,
-      lwm: 20.2,
-      yssbp: 20.5,
-      ymhk: null
+      yqws: null,
+      flhk: 12.2,
+      lwm: 25.0,
+      yssbp: 20.2,
+      ymhk: 20.5
     },
     {
-      date: '2020-07-03',
+      date: '2020/7/3',
       wsd: 17.2,
       jlrdc: 20.5,
       jlswz: 14.3,
@@ -35635,14 +39580,14 @@ export class OnlinePoint {
       fmswz: 12.7,
       sqws: 12.6,
       hsws: 8.7,
-      yqws: 12.8,
-      flhk: 26.0,
-      lwm: 20.8,
-      yssbp: 20.9,
-      ymhk: null
+      yqws: null,
+      flhk: 12.8,
+      lwm: 26.0,
+      yssbp: 20.8,
+      ymhk: 20.9
     },
     {
-      date: '2020-07-04',
+      date: '2020/7/4',
       wsd: 16.9,
       jlrdc: 21.3,
       jlswz: 15.3,
@@ -35650,14 +39595,14 @@ export class OnlinePoint {
       fmswz: 14.3,
       sqws: 14.6,
       hsws: 8.7,
-      yqws: 14.6,
-      flhk: 24.2,
-      lwm: 20.9,
+      yqws: null,
+      flhk: 14.6,
+      lwm: 24.2,
       yssbp: 20.9,
-      ymhk: null
+      ymhk: 20.9
     },
     {
-      date: '2020-07-05',
+      date: '2020/7/5',
       wsd: 16.3,
       jlrdc: 21.4,
       jlswz: 17.4,
@@ -35665,14 +39610,14 @@ export class OnlinePoint {
       fmswz: 17.4,
       sqws: 17.6,
       hsws: 8.7,
-      yqws: 17.6,
-      flhk: 24.0,
-      lwm: 20.6,
-      yssbp: 20.3,
-      ymhk: null
+      yqws: null,
+      flhk: 17.6,
+      lwm: 24.0,
+      yssbp: 20.6,
+      ymhk: 20.3
     },
     {
-      date: '2020-07-06',
+      date: '2020/7/6',
       wsd: 18.5,
       jlrdc: 21.6,
       jlswz: 19.3,
@@ -35680,14 +39625,14 @@ export class OnlinePoint {
       fmswz: 15.7,
       sqws: 15.9,
       hsws: 8.7,
-      yqws: 15.5,
-      flhk: 23.3,
-      lwm: 19.7,
-      yssbp: 19.5,
-      ymhk: null
+      yqws: null,
+      flhk: 15.5,
+      lwm: 23.3,
+      yssbp: 19.7,
+      ymhk: 19.5
     },
     {
-      date: '2020-07-07',
+      date: '2020/7/7',
       wsd: 19.2,
       jlrdc: 21.3,
       jlswz: 16.7,
@@ -35695,14 +39640,14 @@ export class OnlinePoint {
       fmswz: 13.3,
       sqws: 13.4,
       hsws: 8.6,
-      yqws: 13.5,
-      flhk: 22.7,
-      lwm: 18.3,
+      yqws: null,
+      flhk: 13.5,
+      lwm: 22.7,
       yssbp: 18.3,
-      ymhk: null
+      ymhk: 18.3
     },
     {
-      date: '2020-07-08',
+      date: '2020/7/8',
       wsd: 18.2,
       jlrdc: 20.7,
       jlswz: 15.7,
@@ -35710,14 +39655,14 @@ export class OnlinePoint {
       fmswz: 12.9,
       sqws: 13.1,
       hsws: 8.9,
-      yqws: 13.0,
-      flhk: 23.0,
-      lwm: 19.2,
-      yssbp: 19.7,
-      ymhk: null
+      yqws: null,
+      flhk: 13.0,
+      lwm: 23.0,
+      yssbp: 19.2,
+      ymhk: 19.7
     },
     {
-      date: '2020-07-09',
+      date: '2020/7/9',
       wsd: 18.1,
       jlrdc: 20.3,
       jlswz: 15.7,
@@ -35725,14 +39670,14 @@ export class OnlinePoint {
       fmswz: 13.2,
       sqws: 13.2,
       hsws: 9.0,
-      yqws: 13.2,
-      flhk: 23.7,
-      lwm: 21.1,
-      yssbp: 21.6,
-      ymhk: null
+      yqws: null,
+      flhk: 13.2,
+      lwm: 23.7,
+      yssbp: 21.1,
+      ymhk: 21.6
     },
     {
-      date: '2020-07-10',
+      date: '2020/7/10',
       wsd: 17.3,
       jlrdc: 20.8,
       jlswz: 16.0,
@@ -35740,14 +39685,14 @@ export class OnlinePoint {
       fmswz: 13.7,
       sqws: 13.5,
       hsws: 9.2,
-      yqws: 13.8,
-      flhk: 25.3,
-      lwm: 22.6,
-      yssbp: 22.7,
-      ymhk: null
+      yqws: null,
+      flhk: 13.8,
+      lwm: 25.3,
+      yssbp: 22.6,
+      ymhk: 22.7
     },
     {
-      date: '2020-07-11',
+      date: '2020/7/11',
       wsd: 17.9,
       jlrdc: 21.4,
       jlswz: 16.7,
@@ -35755,14 +39700,14 @@ export class OnlinePoint {
       fmswz: 14.7,
       sqws: 14.7,
       hsws: 9.5,
-      yqws: 14.7,
-      flhk: 25.3,
-      lwm: 23.2,
-      yssbp: 23.1,
-      ymhk: null
+      yqws: null,
+      flhk: 14.7,
+      lwm: 25.3,
+      yssbp: 23.2,
+      ymhk: 23.1
     },
     {
-      date: '2020-07-12',
+      date: '2020/7/12',
       wsd: 18.3,
       jlrdc: 21.7,
       jlswz: 16.9,
@@ -35770,14 +39715,14 @@ export class OnlinePoint {
       fmswz: 14.0,
       sqws: 13.9,
       hsws: 9.5,
-      yqws: 14.0,
-      flhk: 25.5,
-      lwm: 23.4,
-      yssbp: 23.2,
-      ymhk: null
+      yqws: null,
+      flhk: 14.0,
+      lwm: 25.5,
+      yssbp: 23.4,
+      ymhk: 23.2
     },
     {
-      date: '2020-07-13',
+      date: '2020/7/13',
       wsd: 18.9,
       jlrdc: 22.1,
       jlswz: 16.6,
@@ -35785,14 +39730,14 @@ export class OnlinePoint {
       fmswz: 14.7,
       sqws: 14.5,
       hsws: 9.2,
-      yqws: 14.7,
-      flhk: 26.8,
-      lwm: 23.2,
-      yssbp: 22.9,
-      ymhk: null
+      yqws: null,
+      flhk: 14.7,
+      lwm: 26.8,
+      yssbp: 23.2,
+      ymhk: 22.9
     },
     {
-      date: '2020-07-14',
+      date: '2020/7/14',
       wsd: 18.3,
       jlrdc: 21.8,
       jlswz: 17.1,
@@ -35800,14 +39745,14 @@ export class OnlinePoint {
       fmswz: 15.0,
       sqws: 15.2,
       hsws: 9.3,
-      yqws: 15.1,
-      flhk: 25.9,
-      lwm: 22.9,
-      yssbp: 22.8,
-      ymhk: null
+      yqws: null,
+      flhk: 15.1,
+      lwm: 25.9,
+      yssbp: 22.9,
+      ymhk: 22.8
     },
     {
-      date: '2020-07-15',
+      date: '2020/7/15',
       wsd: 19.0,
       jlrdc: 21.9,
       jlswz: 16.8,
@@ -35815,14 +39760,14 @@ export class OnlinePoint {
       fmswz: 14.1,
       sqws: 14.3,
       hsws: 9.5,
-      yqws: 14.2,
-      flhk: 25.0,
-      lwm: 23.2,
-      yssbp: 23.4,
-      ymhk: null
+      yqws: null,
+      flhk: 14.2,
+      lwm: 25.0,
+      yssbp: 23.2,
+      ymhk: 23.4
     },
     {
-      date: '2020-07-16',
+      date: '2020/7/16',
       wsd: 19.6,
       jlrdc: 22.0,
       jlswz: 18.6,
@@ -35830,14 +39775,14 @@ export class OnlinePoint {
       fmswz: 14.7,
       sqws: 13.0,
       hsws: 9.5,
-      yqws: 14.1,
-      flhk: 24.6,
-      lwm: 23.6,
-      yssbp: 23.7,
-      ymhk: null
+      yqws: null,
+      flhk: 14.1,
+      lwm: 24.6,
+      yssbp: 23.6,
+      ymhk: 23.7
     },
     {
-      date: '2020-07-17',
+      date: '2020/7/17',
       wsd: 19.8,
       jlrdc: 22.2,
       jlswz: 17.3,
@@ -35845,14 +39790,14 @@ export class OnlinePoint {
       fmswz: 14.9,
       sqws: 14.7,
       hsws: 9.7,
-      yqws: 14.8,
-      flhk: 24.9,
-      lwm: 24.0,
-      yssbp: 23.9,
-      ymhk: null
+      yqws: null,
+      flhk: 14.8,
+      lwm: 24.9,
+      yssbp: 24.0,
+      ymhk: 23.9
     },
     {
-      date: '2020-07-18',
+      date: '2020/7/18',
       wsd: 20.5,
       jlrdc: 22.9,
       jlswz: 18.0,
@@ -35860,14 +39805,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.2,
       hsws: 9.7,
-      yqws: 15.0,
-      flhk: 22.5,
-      lwm: 24.2,
+      yqws: null,
+      flhk: 15.0,
+      lwm: 22.5,
       yssbp: 24.2,
-      ymhk: null
+      ymhk: 24.2
     },
     {
-      date: '2020-07-19',
+      date: '2020/7/19',
       wsd: 20.5,
       jlrdc: 22.6,
       jlswz: 17.0,
@@ -35875,14 +39820,14 @@ export class OnlinePoint {
       fmswz: 14.6,
       sqws: 14.8,
       hsws: 9.7,
-      yqws: 14.7,
-      flhk: 27.6,
-      lwm: 23.9,
-      yssbp: 23.4,
-      ymhk: null
+      yqws: null,
+      flhk: 14.7,
+      lwm: 27.6,
+      yssbp: 23.9,
+      ymhk: 23.4
     },
     {
-      date: '2020-07-20',
+      date: '2020/7/20',
       wsd: 19.3,
       jlrdc: 22.2,
       jlswz: 16.6,
@@ -35890,14 +39835,14 @@ export class OnlinePoint {
       fmswz: 14.7,
       sqws: 14.8,
       hsws: 9.7,
-      yqws: 14.7,
-      flhk: 19.7,
-      lwm: 22.9,
-      yssbp: 22.7,
-      ymhk: null
+      yqws: null,
+      flhk: 14.7,
+      lwm: 19.7,
+      yssbp: 22.9,
+      ymhk: 22.7
     },
     {
-      date: '2020-07-21',
+      date: '2020/7/21',
       wsd: 18.2,
       jlrdc: 21.8,
       jlswz: 17.6,
@@ -35905,14 +39850,14 @@ export class OnlinePoint {
       fmswz: 15.0,
       sqws: 14.9,
       hsws: 9.9,
-      yqws: 14.8,
-      flhk: 24.5,
-      lwm: 22.9,
-      yssbp: 23.0,
-      ymhk: null
+      yqws: null,
+      flhk: 14.8,
+      lwm: 24.5,
+      yssbp: 22.9,
+      ymhk: 23.0
     },
     {
-      date: '2020-07-22',
+      date: '2020/7/22',
       wsd: 18.5,
       jlrdc: 23.0,
       jlswz: 17.9,
@@ -35920,14 +39865,14 @@ export class OnlinePoint {
       fmswz: 15.9,
       sqws: 15.5,
       hsws: 9.9,
-      yqws: 15.7,
-      flhk: 25.0,
-      lwm: 23.4,
-      yssbp: 23.2,
-      ymhk: null
+      yqws: null,
+      flhk: 15.7,
+      lwm: 25.0,
+      yssbp: 23.4,
+      ymhk: 23.2
     },
     {
-      date: '2020-07-23',
+      date: '2020/7/23',
       wsd: 20.7,
       jlrdc: 23.1,
       jlswz: 18.8,
@@ -35935,14 +39880,14 @@ export class OnlinePoint {
       fmswz: 16.7,
       sqws: 16.7,
       hsws: 9.7,
-      yqws: 16.7,
-      flhk: 27.1,
-      lwm: 23.9,
-      yssbp: 24.2,
-      ymhk: null
+      yqws: null,
+      flhk: 16.7,
+      lwm: 27.1,
+      yssbp: 23.9,
+      ymhk: 24.2
     },
     {
-      date: '2020-07-24',
+      date: '2020/7/24',
       wsd: 19.7,
       jlrdc: 23.4,
       jlswz: 18.2,
@@ -35950,14 +39895,14 @@ export class OnlinePoint {
       fmswz: 15.7,
       sqws: 15.6,
       hsws: 9.9,
-      yqws: 15.7,
-      flhk: 27.9,
-      lwm: 24.8,
-      yssbp: 24.7,
-      ymhk: null
+      yqws: null,
+      flhk: 15.7,
+      lwm: 27.9,
+      yssbp: 24.8,
+      ymhk: 24.7
     },
     {
-      date: '2020-07-25',
+      date: '2020/7/25',
       wsd: 21.1,
       jlrdc: 22.9,
       jlswz: 18.0,
@@ -35965,14 +39910,14 @@ export class OnlinePoint {
       fmswz: 16.0,
       sqws: 16.0,
       hsws: 9.8,
-      yqws: 16.1,
-      flhk: 28.4,
-      lwm: 24.8,
-      yssbp: 24.5,
-      ymhk: null
+      yqws: null,
+      flhk: 16.1,
+      lwm: 28.4,
+      yssbp: 24.8,
+      ymhk: 24.5
     },
     {
-      date: '2020-07-26',
+      date: '2020/7/26',
       wsd: 20.5,
       jlrdc: 23.1,
       jlswz: 20.1,
@@ -35980,14 +39925,14 @@ export class OnlinePoint {
       fmswz: 20.5,
       sqws: 20.3,
       hsws: 10.2,
-      yqws: 20.6,
-      flhk: 27.4,
-      lwm: 24.8,
+      yqws: null,
+      flhk: 20.6,
+      lwm: 27.4,
       yssbp: 24.8,
-      ymhk: null
+      ymhk: 24.8
     },
     {
-      date: '2020-07-27',
+      date: '2020/7/27',
       wsd: 19.5,
       jlrdc: 24.6,
       jlswz: 22.3,
@@ -35995,14 +39940,14 @@ export class OnlinePoint {
       fmswz: 18.6,
       sqws: 18.5,
       hsws: 10.3,
-      yqws: 18.2,
-      flhk: 27.0,
-      lwm: 25.1,
-      yssbp: 24.8,
-      ymhk: null
+      yqws: null,
+      flhk: 18.2,
+      lwm: 27.0,
+      yssbp: 25.1,
+      ymhk: 24.8
     },
     {
-      date: '2020-07-28',
+      date: '2020/7/28',
       wsd: 20.5,
       jlrdc: 25.3,
       jlswz: 19.9,
@@ -36010,14 +39955,14 @@ export class OnlinePoint {
       fmswz: 16.2,
       sqws: 16.2,
       hsws: 10.3,
-      yqws: 16.0,
-      flhk: 23.1,
-      lwm: 24.6,
-      yssbp: 24.4,
-      ymhk: null
+      yqws: null,
+      flhk: 16.0,
+      lwm: 23.1,
+      yssbp: 24.6,
+      ymhk: 24.4
     },
     {
-      date: '2020-07-29',
+      date: '2020/7/29',
       wsd: 20.9,
       jlrdc: 24.3,
       jlswz: 18.6,
@@ -36025,14 +39970,14 @@ export class OnlinePoint {
       fmswz: 15.5,
       sqws: 15.6,
       hsws: 10.2,
-      yqws: 15.4,
-      flhk: 22.1,
-      lwm: 24.4,
-      yssbp: 24.2,
-      ymhk: null
+      yqws: null,
+      flhk: 15.4,
+      lwm: 22.1,
+      yssbp: 24.4,
+      ymhk: 24.2
     },
     {
-      date: '2020-07-30',
+      date: '2020/7/30',
       wsd: 22.0,
       jlrdc: 24.2,
       jlswz: 18.7,
@@ -36040,14 +39985,14 @@ export class OnlinePoint {
       fmswz: 15.8,
       sqws: 15.3,
       hsws: 10.2,
-      yqws: 15.2,
-      flhk: 22.2,
-      lwm: 24.5,
-      yssbp: 24.7,
-      ymhk: null
+      yqws: null,
+      flhk: 15.2,
+      lwm: 22.2,
+      yssbp: 24.5,
+      ymhk: 24.7
     },
     {
-      date: '2020-07-31',
+      date: '2020/7/31',
       wsd: 22.5,
       jlrdc: 24.8,
       jlswz: 18.2,
@@ -36055,14 +40000,14 @@ export class OnlinePoint {
       fmswz: 15.5,
       sqws: 15.4,
       hsws: 10.4,
-      yqws: 15.4,
-      flhk: 26.9,
-      lwm: 24.5,
-      yssbp: 22.7,
-      ymhk: null
+      yqws: null,
+      flhk: 15.4,
+      lwm: 26.9,
+      yssbp: 24.5,
+      ymhk: 22.7
     },
     {
-      date: '2020-08-01',
+      date: '2020/8/1',
       wsd: 22.7,
       jlrdc: 23.8,
       jlswz: 18.6,
@@ -36070,14 +40015,14 @@ export class OnlinePoint {
       fmswz: 15.3,
       sqws: 15.6,
       hsws: 10.1,
-      yqws: 15.0,
-      flhk: 26.3,
-      lwm: 24.2,
-      yssbp: 24.1,
-      ymhk: null
+      yqws: null,
+      flhk: 15.0,
+      lwm: 26.3,
+      yssbp: 24.2,
+      ymhk: 24.1
     },
     {
-      date: '2020-08-02',
+      date: '2020/8/2',
       wsd: 23.1,
       jlrdc: 24.3,
       jlswz: 17.1,
@@ -36085,14 +40030,14 @@ export class OnlinePoint {
       fmswz: 16.3,
       sqws: 16.2,
       hsws: 10.3,
-      yqws: 16.2,
-      flhk: 26.2,
-      lwm: 24.8,
-      yssbp: 24.7,
-      ymhk: null
+      yqws: null,
+      flhk: 16.2,
+      lwm: 26.2,
+      yssbp: 24.8,
+      ymhk: 24.7
     },
     {
-      date: '2020-08-03',
+      date: '2020/8/3',
       wsd: 22.6,
       jlrdc: 23.6,
       jlswz: 20.0,
@@ -36100,14 +40045,14 @@ export class OnlinePoint {
       fmswz: 16.7,
       sqws: 16.4,
       hsws: 10.5,
-      yqws: 16.3,
-      flhk: 27.0,
-      lwm: 25.1,
+      yqws: null,
+      flhk: 16.3,
+      lwm: 27.0,
       yssbp: 25.1,
-      ymhk: null
+      ymhk: 25.1
     },
     {
-      date: '2020-08-04',
+      date: '2020/8/4',
       wsd: 21.0,
       jlrdc: 23.6,
       jlswz: 20.3,
@@ -36115,14 +40060,14 @@ export class OnlinePoint {
       fmswz: 15.8,
       sqws: 15.5,
       hsws: 10.6,
-      yqws: 15.6,
-      flhk: 26.6,
-      lwm: 25.3,
-      yssbp: 24.8,
-      ymhk: null
+      yqws: null,
+      flhk: 15.6,
+      lwm: 26.6,
+      yssbp: 25.3,
+      ymhk: 24.8
     },
     {
-      date: '2020-08-05',
+      date: '2020/8/5',
       wsd: 20.7,
       jlrdc: 23.8,
       jlswz: 20.4,
@@ -36130,14 +40075,14 @@ export class OnlinePoint {
       fmswz: 16.5,
       sqws: 16.0,
       hsws: 10.5,
-      yqws: 16.0,
-      flhk: 25.2,
-      lwm: 25.0,
-      yssbp: 25.1,
-      ymhk: null
+      yqws: null,
+      flhk: 16.0,
+      lwm: 25.2,
+      yssbp: 25.0,
+      ymhk: 25.1
     },
     {
-      date: '2020-08-06',
+      date: '2020/8/6',
       wsd: 21.6,
       jlrdc: 23.7,
       jlswz: 19.5,
@@ -36145,14 +40090,14 @@ export class OnlinePoint {
       fmswz: 16.0,
       sqws: 16.0,
       hsws: 10.6,
-      yqws: 15.7,
-      flhk: 24.8,
-      lwm: 25.2,
-      yssbp: 24.9,
-      ymhk: null
+      yqws: null,
+      flhk: 15.7,
+      lwm: 24.8,
+      yssbp: 25.2,
+      ymhk: 24.9
     },
     {
-      date: '2020-08-07',
+      date: '2020/8/7',
       wsd: 21.7,
       jlrdc: 23.9,
       jlswz: 18.5,
@@ -36160,14 +40105,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.0,
       hsws: 10.6,
-      yqws: 14.8,
-      flhk: 25.3,
-      lwm: 24.7,
+      yqws: null,
+      flhk: 14.8,
+      lwm: 25.3,
       yssbp: 24.7,
-      ymhk: null
+      ymhk: 24.7
     },
     {
-      date: '2020-08-08',
+      date: '2020/8/8',
       wsd: 22.5,
       jlrdc: 23.8,
       jlswz: 18.2,
@@ -36175,14 +40120,14 @@ export class OnlinePoint {
       fmswz: 15.6,
       sqws: 15.5,
       hsws: 10.5,
-      yqws: 15.3,
-      flhk: 25.0,
-      lwm: 24.9,
-      yssbp: 24.5,
-      ymhk: null
+      yqws: null,
+      flhk: 15.3,
+      lwm: 25.0,
+      yssbp: 24.9,
+      ymhk: 24.5
     },
     {
-      date: '2020-08-09',
+      date: '2020/8/9',
       wsd: 22.3,
       jlrdc: 23.4,
       jlswz: 18.6,
@@ -36190,14 +40135,14 @@ export class OnlinePoint {
       fmswz: 16.8,
       sqws: 16.8,
       hsws: 10.5,
-      yqws: 16.5,
-      flhk: 26.5,
-      lwm: 25.1,
-      yssbp: 23.7,
-      ymhk: null
+      yqws: null,
+      flhk: 16.5,
+      lwm: 26.5,
+      yssbp: 25.1,
+      ymhk: 23.7
     },
     {
-      date: '2020-08-10',
+      date: '2020/8/10',
       wsd: 21.4,
       jlrdc: 23.3,
       jlswz: 19.3,
@@ -36205,14 +40150,14 @@ export class OnlinePoint {
       fmswz: 19.1,
       sqws: 17.3,
       hsws: 10.7,
-      yqws: 18.6,
-      flhk: 26.6,
-      lwm: 24.7,
-      yssbp: 22.6,
-      ymhk: null
+      yqws: null,
+      flhk: 18.6,
+      lwm: 26.6,
+      yssbp: 24.7,
+      ymhk: 22.6
     },
     {
-      date: '2020-08-11',
+      date: '2020/8/11',
       wsd: 21.8,
       jlrdc: 24.4,
       jlswz: 22.5,
@@ -36220,14 +40165,14 @@ export class OnlinePoint {
       fmswz: 19.4,
       sqws: 17.6,
       hsws: 10.5,
-      yqws: 19.1,
-      flhk: 24.3,
-      lwm: 24.7,
-      yssbp: 21.8,
-      ymhk: null
+      yqws: null,
+      flhk: 19.1,
+      lwm: 24.3,
+      yssbp: 24.7,
+      ymhk: 21.8
     },
     {
-      date: '2020-08-12',
+      date: '2020/8/12',
       wsd: 21.3,
       jlrdc: 25.3,
       jlswz: 21.4,
@@ -36235,14 +40180,14 @@ export class OnlinePoint {
       fmswz: 16.5,
       sqws: 17.7,
       hsws: 10.6,
-      yqws: 16.5,
-      flhk: 25.3,
-      lwm: 24.7,
-      yssbp: 24.6,
-      ymhk: null
+      yqws: null,
+      flhk: 16.5,
+      lwm: 25.3,
+      yssbp: 24.7,
+      ymhk: 24.6
     },
     {
-      date: '2020-08-13',
+      date: '2020/8/13',
       wsd: 23.5,
       jlrdc: 24.6,
       jlswz: 19.1,
@@ -36250,14 +40195,14 @@ export class OnlinePoint {
       fmswz: 18.8,
       sqws: 17.8,
       hsws: 10.8,
-      yqws: 18.9,
-      flhk: 22.5,
-      lwm: 24.4,
-      yssbp: 24.0,
-      ymhk: null
+      yqws: null,
+      flhk: 18.9,
+      lwm: 22.5,
+      yssbp: 24.4,
+      ymhk: 24.0
     },
     {
-      date: '2020-08-14',
+      date: '2020/8/14',
       wsd: 21.9,
       jlrdc: 24.0,
       jlswz: 22.0,
@@ -36265,14 +40210,14 @@ export class OnlinePoint {
       fmswz: 20.9,
       sqws: 18.1,
       hsws: 11.3,
-      yqws: 20.4,
-      flhk: 24.9,
-      lwm: 23.6,
-      yssbp: 23.7,
-      ymhk: null
+      yqws: null,
+      flhk: 20.4,
+      lwm: 24.9,
+      yssbp: 23.6,
+      ymhk: 23.7
     },
     {
-      date: '2020-08-15',
+      date: '2020/8/15',
       wsd: 19.9,
       jlrdc: 24.8,
       jlswz: 19.8,
@@ -36280,14 +40225,14 @@ export class OnlinePoint {
       fmswz: 17.0,
       sqws: 17.1,
       hsws: 11.8,
-      yqws: 17.0,
-      flhk: 24.6,
-      lwm: 23.8,
+      yqws: null,
+      flhk: 17.0,
+      lwm: 24.6,
       yssbp: 23.8,
-      ymhk: null
+      ymhk: 23.8
     },
     {
-      date: '2020-08-16',
+      date: '2020/8/16',
       wsd: 19.1,
       jlrdc: 23.9,
       jlswz: 18.4,
@@ -36295,14 +40240,14 @@ export class OnlinePoint {
       fmswz: 16.0,
       sqws: 17.7,
       hsws: 11.7,
-      yqws: 17.5,
-      flhk: 24.7,
-      lwm: 24.3,
-      yssbp: 24.6,
-      ymhk: null
+      yqws: null,
+      flhk: 17.5,
+      lwm: 24.7,
+      yssbp: 24.3,
+      ymhk: 24.6
     },
     {
-      date: '2020-08-17',
+      date: '2020/8/17',
       wsd: 20.5,
       jlrdc: 24.0,
       jlswz: 20.5,
@@ -36310,14 +40255,14 @@ export class OnlinePoint {
       fmswz: 20.1,
       sqws: 19.8,
       hsws: 11.8,
-      yqws: 19.8,
-      flhk: 25.9,
-      lwm: 25.0,
-      yssbp: 24.8,
-      ymhk: null
+      yqws: null,
+      flhk: 19.8,
+      lwm: 25.9,
+      yssbp: 25.0,
+      ymhk: 24.8
     },
     {
-      date: '2020-08-18',
+      date: '2020/8/18',
       wsd: 20.3,
       jlrdc: 27.2,
       jlswz: 21.8,
@@ -36325,14 +40270,14 @@ export class OnlinePoint {
       fmswz: 17.1,
       sqws: 16.7,
       hsws: 12.0,
-      yqws: 16.6,
-      flhk: 25.3,
-      lwm: 24.1,
+      yqws: null,
+      flhk: 16.6,
+      lwm: 25.3,
       yssbp: 24.1,
-      ymhk: null
+      ymhk: 24.1
     },
     {
-      date: '2020-08-19',
+      date: '2020/8/19',
       wsd: 19.8,
       jlrdc: 24.2,
       jlswz: 21.2,
@@ -36340,14 +40285,14 @@ export class OnlinePoint {
       fmswz: 16.9,
       sqws: 16.1,
       hsws: 11.9,
-      yqws: 16.3,
-      flhk: 26.0,
-      lwm: 23.4,
-      yssbp: 23.1,
-      ymhk: null
+      yqws: null,
+      flhk: 16.3,
+      lwm: 26.0,
+      yssbp: 23.4,
+      ymhk: 23.1
     },
     {
-      date: '2020-08-20',
+      date: '2020/8/20',
       wsd: 20.0,
       jlrdc: 23.6,
       jlswz: 19.6,
@@ -36355,14 +40300,14 @@ export class OnlinePoint {
       fmswz: 16.0,
       sqws: 15.9,
       hsws: 12.0,
-      yqws: 15.8,
-      flhk: 22.6,
-      lwm: 22.5,
-      yssbp: 22.2,
-      ymhk: null
+      yqws: null,
+      flhk: 15.8,
+      lwm: 22.6,
+      yssbp: 22.5,
+      ymhk: 22.2
     },
     {
-      date: '2020-08-21',
+      date: '2020/8/21',
       wsd: 20.2,
       jlrdc: 23.5,
       jlswz: 18.6,
@@ -36370,14 +40315,14 @@ export class OnlinePoint {
       fmswz: 16.2,
       sqws: 15.9,
       hsws: 12.3,
-      yqws: 16.0,
-      flhk: 21.4,
-      lwm: 22.1,
-      yssbp: 21.9,
-      ymhk: null
+      yqws: null,
+      flhk: 16.0,
+      lwm: 21.4,
+      yssbp: 22.1,
+      ymhk: 21.9
     },
     {
-      date: '2020-08-22',
+      date: '2020/8/22',
       wsd: 20.3,
       jlrdc: 24.2,
       jlswz: 18.7,
@@ -36385,14 +40330,14 @@ export class OnlinePoint {
       fmswz: 16.5,
       sqws: 16.3,
       hsws: 12.3,
-      yqws: 16.5,
-      flhk: 21.4,
-      lwm: 22.0,
-      yssbp: 21.9,
-      ymhk: null
+      yqws: null,
+      flhk: 16.5,
+      lwm: 21.4,
+      yssbp: 22.0,
+      ymhk: 21.9
     },
     {
-      date: '2020-08-23',
+      date: '2020/8/23',
       wsd: 20.5,
       jlrdc: 25.2,
       jlswz: 19.2,
@@ -36400,14 +40345,14 @@ export class OnlinePoint {
       fmswz: 18.2,
       sqws: 17.7,
       hsws: 12.4,
-      yqws: 18.1,
-      flhk: 21.8,
-      lwm: 22.5,
+      yqws: null,
+      flhk: 18.1,
+      lwm: 21.8,
       yssbp: 22.5,
-      ymhk: null
+      ymhk: 22.5
     },
     {
-      date: '2020-08-24',
+      date: '2020/8/24',
       wsd: 19.7,
       jlrdc: 24.3,
       jlswz: 20.0,
@@ -36415,14 +40360,14 @@ export class OnlinePoint {
       fmswz: 20.7,
       sqws: 21.3,
       hsws: 12.4,
-      yqws: 21.3,
-      flhk: 23.2,
-      lwm: 22.5,
-      yssbp: 21.6,
-      ymhk: null
+      yqws: null,
+      flhk: 21.3,
+      lwm: 23.2,
+      yssbp: 22.5,
+      ymhk: 21.6
     },
     {
-      date: '2020-08-25',
+      date: '2020/8/25',
       wsd: 19.9,
       jlrdc: 24.3,
       jlswz: 21.7,
@@ -36430,14 +40375,14 @@ export class OnlinePoint {
       fmswz: 21.6,
       sqws: 21.5,
       hsws: 12.7,
-      yqws: 21.2,
-      flhk: 21.8,
+      yqws: null,
+      flhk: 21.2,
       lwm: 21.8,
-      yssbp: 21.9,
-      ymhk: null
+      yssbp: 21.8,
+      ymhk: 21.9
     },
     {
-      date: '2020-08-26',
+      date: '2020/8/26',
       wsd: 20.7,
       jlrdc: 25.6,
       jlswz: 22.1,
@@ -36445,14 +40390,14 @@ export class OnlinePoint {
       fmswz: 18.8,
       sqws: 18.6,
       hsws: 12.4,
-      yqws: 18.6,
-      flhk: 21.4,
-      lwm: 22.7,
-      yssbp: 22.6,
-      ymhk: null
+      yqws: null,
+      flhk: 18.6,
+      lwm: 21.4,
+      yssbp: 22.7,
+      ymhk: 22.6
     },
     {
-      date: '2020-08-27',
+      date: '2020/8/27',
       wsd: 22.6,
       jlrdc: 25.9,
       jlswz: 21.3,
@@ -36460,14 +40405,14 @@ export class OnlinePoint {
       fmswz: 19.6,
       sqws: 19.6,
       hsws: 12.4,
-      yqws: 19.9,
-      flhk: 22.5,
-      lwm: 22.3,
-      yssbp: 22.0,
-      ymhk: null
+      yqws: null,
+      flhk: 19.9,
+      lwm: 22.5,
+      yssbp: 22.3,
+      ymhk: 22.0
     },
     {
-      date: '2020-08-28',
+      date: '2020/8/28',
       wsd: 22.3,
       jlrdc: 25.2,
       jlswz: 21.4,
@@ -36475,14 +40420,14 @@ export class OnlinePoint {
       fmswz: 20.5,
       sqws: 20.2,
       hsws: 12.5,
-      yqws: 20.2,
-      flhk: 22.6,
-      lwm: 21.8,
-      yssbp: 21.9,
-      ymhk: null
+      yqws: null,
+      flhk: 20.2,
+      lwm: 22.6,
+      yssbp: 21.8,
+      ymhk: 21.9
     },
     {
-      date: '2020-08-29',
+      date: '2020/8/29',
       wsd: 20.4,
       jlrdc: 24.7,
       jlswz: 21.5,
@@ -36490,14 +40435,14 @@ export class OnlinePoint {
       fmswz: 16.7,
       sqws: 16.4,
       hsws: 12.9,
-      yqws: 16.1,
-      flhk: 22.6,
-      lwm: 21.8,
-      yssbp: 21.7,
-      ymhk: null
+      yqws: null,
+      flhk: 16.1,
+      lwm: 22.6,
+      yssbp: 21.8,
+      ymhk: 21.7
     },
     {
-      date: '2020-08-30',
+      date: '2020/8/30',
       wsd: 18.3,
       jlrdc: 24.6,
       jlswz: 21.2,
@@ -36505,14 +40450,14 @@ export class OnlinePoint {
       fmswz: 16.5,
       sqws: 16.4,
       hsws: 13.2,
-      yqws: 16.1,
-      flhk: 22.6,
-      lwm: 21.4,
-      yssbp: 21.6,
-      ymhk: null
+      yqws: null,
+      flhk: 16.1,
+      lwm: 22.6,
+      yssbp: 21.4,
+      ymhk: 21.6
     },
     {
-      date: '2020-08-31',
+      date: '2020/8/31',
       wsd: 17.8,
       jlrdc: 24.6,
       jlswz: 20.4,
@@ -36520,14 +40465,14 @@ export class OnlinePoint {
       fmswz: 17.8,
       sqws: 17.7,
       hsws: 13.1,
-      yqws: 17.5,
-      flhk: 22.8,
-      lwm: 22.4,
-      yssbp: 22.7,
-      ymhk: null
+      yqws: null,
+      flhk: 17.5,
+      lwm: 22.8,
+      yssbp: 22.4,
+      ymhk: 22.7
     },
     {
-      date: '2020-09-01',
+      date: '2020/9/1',
       wsd: 19.9,
       jlrdc: 24.7,
       jlswz: 19.7,
@@ -36535,14 +40480,14 @@ export class OnlinePoint {
       fmswz: 17.7,
       sqws: 18.1,
       hsws: 14.0,
-      yqws: 19.8,
-      flhk: 23.7,
-      lwm: 23.5,
-      yssbp: 23.4,
-      ymhk: null
+      yqws: null,
+      flhk: 19.8,
+      lwm: 23.7,
+      yssbp: 23.5,
+      ymhk: 23.4
     },
     {
-      date: '2020-09-02',
+      date: '2020/9/2',
       wsd: 19.7,
       jlrdc: 25.5,
       jlswz: 14.6,
@@ -36550,14 +40495,14 @@ export class OnlinePoint {
       fmswz: 17.5,
       sqws: 17.2,
       hsws: 14.9,
-      yqws: 22.1,
-      flhk: 23.8,
-      lwm: 23.3,
-      yssbp: 22.9,
-      ymhk: null
+      yqws: null,
+      flhk: 22.1,
+      lwm: 23.8,
+      yssbp: 23.3,
+      ymhk: 22.9
     },
     {
-      date: '2020-09-03',
+      date: '2020/9/3',
       wsd: 18.3,
       jlrdc: 22.9,
       jlswz: 15.6,
@@ -36565,14 +40510,14 @@ export class OnlinePoint {
       fmswz: 17.3,
       sqws: 16.2,
       hsws: 11.4,
-      yqws: 18.8,
-      flhk: 24.3,
-      lwm: 22.1,
-      yssbp: 21.9,
-      ymhk: null
+      yqws: null,
+      flhk: 18.8,
+      lwm: 24.3,
+      yssbp: 22.1,
+      ymhk: 21.9
     },
     {
-      date: '2020-09-04',
+      date: '2020/9/4',
       wsd: 17.4,
       jlrdc: 22.2,
       jlswz: 16.4,
@@ -36580,14 +40525,14 @@ export class OnlinePoint {
       fmswz: 17.2,
       sqws: 15.2,
       hsws: 11.7,
-      yqws: 17.8,
-      flhk: 19.8,
-      lwm: 18.8,
-      yssbp: 18.6,
-      ymhk: null
+      yqws: null,
+      flhk: 17.8,
+      lwm: 19.8,
+      yssbp: 18.8,
+      ymhk: 18.6
     },
     {
-      date: '2020-09-05',
+      date: '2020/9/5',
       wsd: 18.6,
       jlrdc: 23.1,
       jlswz: 16.9,
@@ -36595,14 +40540,14 @@ export class OnlinePoint {
       fmswz: 17.0,
       sqws: 14.3,
       hsws: 11.5,
-      yqws: 21.7,
-      flhk: 18.2,
-      lwm: 17.8,
-      yssbp: 17.6,
-      ymhk: null
+      yqws: null,
+      flhk: 21.7,
+      lwm: 18.2,
+      yssbp: 17.8,
+      ymhk: 17.6
     },
     {
-      date: '2020-09-06',
+      date: '2020/9/6',
       wsd: 19.6,
       jlrdc: 24.6,
       jlswz: 20.8,
@@ -36610,14 +40555,14 @@ export class OnlinePoint {
       fmswz: 16.8,
       sqws: 13.7,
       hsws: 11.4,
-      yqws: 21.3,
-      flhk: 19.1,
-      lwm: 17.2,
-      yssbp: 17.3,
-      ymhk: null
+      yqws: null,
+      flhk: 21.3,
+      lwm: 19.1,
+      yssbp: 17.2,
+      ymhk: 17.3
     },
     {
-      date: '2020-09-07',
+      date: '2020/9/7',
       wsd: 19.0,
       jlrdc: 24.2,
       jlswz: 16.8,
@@ -36625,14 +40570,14 @@ export class OnlinePoint {
       fmswz: 16.7,
       sqws: 15.7,
       hsws: 11.8,
-      yqws: 20.2,
-      flhk: 20.1,
-      lwm: 18.9,
-      yssbp: 19.1,
-      ymhk: null
+      yqws: null,
+      flhk: 20.2,
+      lwm: 20.1,
+      yssbp: 18.9,
+      ymhk: 19.1
     },
     {
-      date: '2020-09-08',
+      date: '2020/9/8',
       wsd: 18.3,
       jlrdc: 22.7,
       jlswz: 17.0,
@@ -36640,14 +40585,14 @@ export class OnlinePoint {
       fmswz: 16.5,
       sqws: 18.3,
       hsws: 11.7,
-      yqws: 18.3,
-      flhk: 19.6,
-      lwm: 18.8,
+      yqws: null,
+      flhk: 18.3,
+      lwm: 19.6,
       yssbp: 18.8,
-      ymhk: null
+      ymhk: 18.8
     },
     {
-      date: '2020-09-09',
+      date: '2020/9/9',
       wsd: 17.9,
       jlrdc: 23.2,
       jlswz: 16.2,
@@ -36655,14 +40600,14 @@ export class OnlinePoint {
       fmswz: 14.4,
       sqws: 15.1,
       hsws: 12.2,
-      yqws: 17.4,
-      flhk: 18.4,
-      lwm: 18.2,
-      yssbp: 18.1,
-      ymhk: null
+      yqws: null,
+      flhk: 17.4,
+      lwm: 18.4,
+      yssbp: 18.2,
+      ymhk: 18.1
     },
     {
-      date: '2020-09-10',
+      date: '2020/9/10',
       wsd: 17.1,
       jlrdc: 22.6,
       jlswz: 16.0,
@@ -36670,14 +40615,14 @@ export class OnlinePoint {
       fmswz: 12.6,
       sqws: 13.6,
       hsws: 12.4,
-      yqws: 19.1,
-      flhk: 17.6,
-      lwm: 17.8,
+      yqws: null,
+      flhk: 19.1,
+      lwm: 17.6,
       yssbp: 17.8,
-      ymhk: null
+      ymhk: 17.8
     },
     {
-      date: '2020-09-11',
+      date: '2020/9/11',
       wsd: 18.1,
       jlrdc: 22.9,
       jlswz: 16.7,
@@ -36685,14 +40630,14 @@ export class OnlinePoint {
       fmswz: 13.1,
       sqws: 15.3,
       hsws: 12.5,
-      yqws: 19.2,
-      flhk: 17.5,
-      lwm: 17.6,
-      yssbp: 17.5,
-      ymhk: null
+      yqws: null,
+      flhk: 19.2,
+      lwm: 17.5,
+      yssbp: 17.6,
+      ymhk: 17.5
     },
     {
-      date: '2020-09-12',
+      date: '2020/9/12',
       wsd: 18.7,
       jlrdc: 22.5,
       jlswz: 18.3,
@@ -36700,14 +40645,14 @@ export class OnlinePoint {
       fmswz: 16.6,
       sqws: 18.9,
       hsws: 11.8,
-      yqws: 19.0,
-      flhk: 18.4,
-      lwm: 17.5,
-      yssbp: 17.6,
-      ymhk: null
+      yqws: null,
+      flhk: 19.0,
+      lwm: 18.4,
+      yssbp: 17.5,
+      ymhk: 17.6
     },
     {
-      date: '2020-09-13',
+      date: '2020/9/13',
       wsd: 19.1,
       jlrdc: 22.7,
       jlswz: 18.3,
@@ -36715,14 +40660,14 @@ export class OnlinePoint {
       fmswz: 17.3,
       sqws: 18.4,
       hsws: 11.9,
-      yqws: 18.5,
+      yqws: null,
       flhk: 18.5,
-      lwm: 18.1,
+      lwm: 18.5,
       yssbp: 18.1,
-      ymhk: null
+      ymhk: 18.1
     },
     {
-      date: '2020-09-14',
+      date: '2020/9/14',
       wsd: 18.9,
       jlrdc: 22.8,
       jlswz: 18.0,
@@ -36730,14 +40675,14 @@ export class OnlinePoint {
       fmswz: 17.3,
       sqws: 17.9,
       hsws: 12.3,
-      yqws: 18.0,
-      flhk: 18.7,
+      yqws: null,
+      flhk: 18.0,
       lwm: 18.7,
       yssbp: 18.7,
-      ymhk: null
+      ymhk: 18.7
     },
     {
-      date: '2020-09-15',
+      date: '2020/9/15',
       wsd: 18.5,
       jlrdc: 22.5,
       jlswz: 17.9,
@@ -36745,14 +40690,14 @@ export class OnlinePoint {
       fmswz: 17.3,
       sqws: 17.6,
       hsws: 12.7,
-      yqws: 17.7,
-      flhk: 18.5,
-      lwm: 18.9,
+      yqws: null,
+      flhk: 17.7,
+      lwm: 18.5,
       yssbp: 18.9,
-      ymhk: null
+      ymhk: 18.9
     },
     {
-      date: '2020-09-16',
+      date: '2020/9/16',
       wsd: 18.2,
       jlrdc: 22.6,
       jlswz: 18.0,
@@ -36760,14 +40705,14 @@ export class OnlinePoint {
       fmswz: 18.0,
       sqws: 18.0,
       hsws: 12.9,
-      yqws: 18.2,
-      flhk: 18.8,
-      lwm: 18.6,
-      yssbp: 18.5,
-      ymhk: null
+      yqws: null,
+      flhk: 18.2,
+      lwm: 18.8,
+      yssbp: 18.6,
+      ymhk: 18.5
     },
     {
-      date: '2020-09-17',
+      date: '2020/9/17',
       wsd: 18.3,
       jlrdc: 22.5,
       jlswz: 17.7,
@@ -36775,14 +40720,14 @@ export class OnlinePoint {
       fmswz: 17.9,
       sqws: 18.0,
       hsws: 12.9,
-      yqws: 18.1,
-      flhk: 18.8,
-      lwm: 17.7,
-      yssbp: 17.8,
-      ymhk: null
+      yqws: null,
+      flhk: 18.1,
+      lwm: 18.8,
+      yssbp: 17.7,
+      ymhk: 17.8
     },
     {
-      date: '2020-09-18',
+      date: '2020/9/18',
       wsd: 17.9,
       jlrdc: 22.5,
       jlswz: 17.4,
@@ -36790,14 +40735,14 @@ export class OnlinePoint {
       fmswz: 17.6,
       sqws: 17.7,
       hsws: 12.5,
-      yqws: 17.9,
-      flhk: 17.2,
-      lwm: 17.0,
-      yssbp: 17.1,
-      ymhk: null
+      yqws: null,
+      flhk: 17.9,
+      lwm: 17.2,
+      yssbp: 17.0,
+      ymhk: 17.1
     },
     {
-      date: '2020-09-19',
+      date: '2020/9/19',
       wsd: null,
       jlrdc: 22.4,
       jlswz: 16.9,
@@ -36805,14 +40750,14 @@ export class OnlinePoint {
       fmswz: 17.0,
       sqws: 17.2,
       hsws: 11.9,
-      yqws: 17.3,
-      flhk: 16.5,
-      lwm: 17.0,
-      yssbp: 17.1,
-      ymhk: null
+      yqws: null,
+      flhk: 17.3,
+      lwm: 16.5,
+      yssbp: 17.0,
+      ymhk: 17.1
     },
     {
-      date: '2020-09-20',
+      date: '2020/9/20',
       wsd: null,
       jlrdc: 22.0,
       jlswz: 16.6,
@@ -36820,14 +40765,14 @@ export class OnlinePoint {
       fmswz: 16.9,
       sqws: 17.1,
       hsws: 11.6,
-      yqws: 17.1,
-      flhk: 16.2,
-      lwm: 16.8,
-      yssbp: 16.9,
-      ymhk: null
+      yqws: null,
+      flhk: 17.1,
+      lwm: 16.2,
+      yssbp: 16.8,
+      ymhk: 16.9
     },
     {
-      date: '2020-09-21',
+      date: '2020/9/21',
       wsd: null,
       jlrdc: 21.8,
       jlswz: 16.8,
@@ -36835,14 +40780,14 @@ export class OnlinePoint {
       fmswz: 16.9,
       sqws: 17.2,
       hsws: 11.5,
-      yqws: 17.2,
-      flhk: 15.7,
-      lwm: 17.0,
+      yqws: null,
+      flhk: 17.2,
+      lwm: 15.7,
       yssbp: 17.0,
-      ymhk: null
+      ymhk: 17.0
     },
     {
-      date: '2020-09-22',
+      date: '2020/9/22',
       wsd: null,
       jlrdc: 22.0,
       jlswz: 17.0,
@@ -36850,14 +40795,14 @@ export class OnlinePoint {
       fmswz: 17.2,
       sqws: 17.4,
       hsws: 11.4,
-      yqws: 17.4,
-      flhk: 15.9,
-      lwm: 16.7,
+      yqws: null,
+      flhk: 17.4,
+      lwm: 15.9,
       yssbp: 16.7,
-      ymhk: null
+      ymhk: 16.7
     },
     {
-      date: '2020-09-23',
+      date: '2020/9/23',
       wsd: null,
       jlrdc: 22.2,
       jlswz: 17.2,
@@ -36865,14 +40810,14 @@ export class OnlinePoint {
       fmswz: 17.2,
       sqws: 17.5,
       hsws: 11.7,
-      yqws: 17.4,
-      flhk: 15.5,
-      lwm: 16.6,
+      yqws: null,
+      flhk: 17.4,
+      lwm: 15.5,
       yssbp: 16.6,
-      ymhk: null
+      ymhk: 16.6
     },
     {
-      date: '2020-09-24',
+      date: '2020/9/24',
       wsd: null,
       jlrdc: 22.5,
       jlswz: 17.4,
@@ -36880,14 +40825,14 @@ export class OnlinePoint {
       fmswz: 17.3,
       sqws: 17.6,
       hsws: 12.3,
-      yqws: 17.5,
-      flhk: 15.9,
-      lwm: 16.8,
-      yssbp: 16.9,
-      ymhk: null
+      yqws: null,
+      flhk: 17.5,
+      lwm: 15.9,
+      yssbp: 16.8,
+      ymhk: 16.9
     },
     {
-      date: '2020-09-25',
+      date: '2020/9/25',
       wsd: null,
       jlrdc: 25.8,
       jlswz: 17.6,
@@ -36895,14 +40840,14 @@ export class OnlinePoint {
       fmswz: 17.2,
       sqws: 17.5,
       hsws: 13.3,
-      yqws: 17.4,
-      flhk: 16.3,
-      lwm: 17.4,
-      yssbp: 17.5,
-      ymhk: null
+      yqws: null,
+      flhk: 17.4,
+      lwm: 16.3,
+      yssbp: 17.4,
+      ymhk: 17.5
     },
     {
-      date: '2020-09-26',
+      date: '2020/9/26',
       wsd: null,
       jlrdc: 29.7,
       jlswz: 17.5,
@@ -36910,14 +40855,14 @@ export class OnlinePoint {
       fmswz: 17.1,
       sqws: 17.5,
       hsws: 13.3,
-      yqws: 17.3,
-      flhk: 16.9,
-      lwm: 17.7,
+      yqws: null,
+      flhk: 17.3,
+      lwm: 16.9,
       yssbp: 17.7,
-      ymhk: null
+      ymhk: 17.7
     },
     {
-      date: '2020-09-27',
+      date: '2020/9/27',
       wsd: null,
       jlrdc: 28.7,
       jlswz: 17.4,
@@ -36925,14 +40870,14 @@ export class OnlinePoint {
       fmswz: 17.1,
       sqws: 17.4,
       hsws: 12.9,
-      yqws: 17.2,
-      flhk: 17.1,
-      lwm: 17.9,
+      yqws: null,
+      flhk: 17.2,
+      lwm: 17.1,
       yssbp: 17.9,
-      ymhk: null
+      ymhk: 17.9
     },
     {
-      date: '2020-09-28',
+      date: '2020/9/28',
       wsd: null,
       jlrdc: 27.4,
       jlswz: 17.2,
@@ -36940,14 +40885,14 @@ export class OnlinePoint {
       fmswz: 16.9,
       sqws: 17.3,
       hsws: 13.0,
-      yqws: 17.1,
-      flhk: 16.9,
-      lwm: 17.6,
-      yssbp: 17.5,
-      ymhk: null
+      yqws: null,
+      flhk: 17.1,
+      lwm: 16.9,
+      yssbp: 17.6,
+      ymhk: 17.5
     },
     {
-      date: '2020-09-29',
+      date: '2020/9/29',
       wsd: null,
       jlrdc: 22.2,
       jlswz: 16.9,
@@ -36955,14 +40900,14 @@ export class OnlinePoint {
       fmswz: 16.7,
       sqws: 17.0,
       hsws: 12.9,
-      yqws: 16.9,
-      flhk: 16.6,
-      lwm: 16.9,
-      yssbp: 17.0,
-      ymhk: null
+      yqws: null,
+      flhk: 16.9,
+      lwm: 16.6,
+      yssbp: 16.9,
+      ymhk: 17.0
     },
     {
-      date: '2020-09-30',
+      date: '2020/9/30',
       wsd: null,
       jlrdc: 21.4,
       jlswz: 16.5,
@@ -36970,14 +40915,14 @@ export class OnlinePoint {
       fmswz: 16.5,
       sqws: 16.8,
       hsws: 12.8,
-      yqws: 16.8,
-      flhk: 15.9,
-      lwm: 16.6,
+      yqws: null,
+      flhk: 16.8,
+      lwm: 15.9,
       yssbp: 16.6,
-      ymhk: null
+      ymhk: 16.6
     },
     {
-      date: '2020-10-01',
+      date: '2020/10/1',
       wsd: null,
       jlrdc: 21.5,
       jlswz: 15.5,
@@ -36985,14 +40930,14 @@ export class OnlinePoint {
       fmswz: 15.8,
       sqws: 16.2,
       hsws: 12.6,
-      yqws: 16.6,
-      flhk: 14.7,
-      lwm: 16.1,
+      yqws: null,
+      flhk: 16.6,
+      lwm: 14.7,
       yssbp: 16.1,
-      ymhk: null
+      ymhk: 16.1
     },
     {
-      date: '2020-10-02',
+      date: '2020/10/2',
       wsd: null,
       jlrdc: 21.5,
       jlswz: 16.0,
@@ -37000,14 +40945,14 @@ export class OnlinePoint {
       fmswz: 16.1,
       sqws: 16.4,
       hsws: 12.3,
-      yqws: 16.5,
-      flhk: 14.5,
-      lwm: 15.8,
-      yssbp: 16.0,
-      ymhk: null
+      yqws: null,
+      flhk: 16.5,
+      lwm: 14.5,
+      yssbp: 15.8,
+      ymhk: 16.0
     },
     {
-      date: '2020-10-03',
+      date: '2020/10/3',
       wsd: null,
       jlrdc: 21.2,
       jlswz: 15.7,
@@ -37015,14 +40960,14 @@ export class OnlinePoint {
       fmswz: 15.9,
       sqws: 16.0,
       hsws: 12.6,
-      yqws: 16.2,
-      flhk: 14.2,
-      lwm: 15.2,
-      yssbp: 15.8,
-      ymhk: null
+      yqws: null,
+      flhk: 16.2,
+      lwm: 14.2,
+      yssbp: 15.2,
+      ymhk: 15.8
     },
     {
-      date: '2020-10-04',
+      date: '2020/10/4',
       wsd: null,
       jlrdc: 20.7,
       jlswz: 14.8,
@@ -37030,14 +40975,14 @@ export class OnlinePoint {
       fmswz: 15.5,
       sqws: 15.8,
       hsws: 12.6,
-      yqws: 16.1,
-      flhk: 13.6,
-      lwm: 14.7,
-      yssbp: 15.4,
-      ymhk: null
+      yqws: null,
+      flhk: 16.1,
+      lwm: 13.6,
+      yssbp: 14.7,
+      ymhk: 15.4
     },
     {
-      date: '2020-10-05',
+      date: '2020/10/5',
       wsd: null,
       jlrdc: 20.3,
       jlswz: 14.0,
@@ -37045,14 +40990,14 @@ export class OnlinePoint {
       fmswz: 14.4,
       sqws: 14.9,
       hsws: 12.4,
-      yqws: 15.0,
-      flhk: 12.3,
-      lwm: 13.4,
-      yssbp: 14.3,
-      ymhk: null
+      yqws: null,
+      flhk: 15.0,
+      lwm: 12.3,
+      yssbp: 13.4,
+      ymhk: 14.3
     },
     {
-      date: '2020-10-06',
+      date: '2020/10/6',
       wsd: null,
       jlrdc: 20.9,
       jlswz: 13.7,
@@ -37060,14 +41005,14 @@ export class OnlinePoint {
       fmswz: 15.1,
       sqws: 15.3,
       hsws: 12.3,
-      yqws: 15.6,
-      flhk: 11.6,
-      lwm: 13.0,
-      yssbp: 14.5,
-      ymhk: null
+      yqws: null,
+      flhk: 15.6,
+      lwm: 11.6,
+      yssbp: 13.0,
+      ymhk: 14.5
     },
     {
-      date: '2020-10-07',
+      date: '2020/10/7',
       wsd: null,
       jlrdc: 20.4,
       jlswz: 14.5,
@@ -37075,14 +41020,14 @@ export class OnlinePoint {
       fmswz: 15.2,
       sqws: 15.4,
       hsws: 12.1,
-      yqws: 15.7,
-      flhk: 11.1,
-      lwm: 13.3,
-      yssbp: 14.4,
-      ymhk: null
+      yqws: null,
+      flhk: 15.7,
+      lwm: 11.1,
+      yssbp: 13.3,
+      ymhk: 14.4
     },
     {
-      date: '2020-10-08',
+      date: '2020/10/8',
       wsd: null,
       jlrdc: 20.7,
       jlswz: 14.8,
@@ -37090,14 +41035,14 @@ export class OnlinePoint {
       fmswz: 15.3,
       sqws: 15.5,
       hsws: 12.0,
-      yqws: 15.8,
-      flhk: 11.0,
-      lwm: 13.3,
-      yssbp: 14.4,
-      ymhk: null
+      yqws: null,
+      flhk: 15.8,
+      lwm: 11.0,
+      yssbp: 13.3,
+      ymhk: 14.4
     },
     {
-      date: '2020-10-09',
+      date: '2020/10/9',
       wsd: null,
       jlrdc: 22.1,
       jlswz: 14.7,
@@ -37105,14 +41050,14 @@ export class OnlinePoint {
       fmswz: 15.3,
       sqws: 15.6,
       hsws: 11.9,
-      yqws: 15.8,
-      flhk: 11.3,
-      lwm: 13.4,
-      yssbp: 14.3,
-      ymhk: null
+      yqws: null,
+      flhk: 15.8,
+      lwm: 11.3,
+      yssbp: 13.4,
+      ymhk: 14.3
     },
     {
-      date: '2020-10-10',
+      date: '2020/10/10',
       wsd: null,
       jlrdc: 23.9,
       jlswz: 15.3,
@@ -37120,14 +41065,14 @@ export class OnlinePoint {
       fmswz: 15.4,
       sqws: 15.5,
       hsws: 11.7,
-      yqws: 15.8,
-      flhk: 11.6,
-      lwm: 13.3,
-      yssbp: 14.3,
-      ymhk: null
+      yqws: null,
+      flhk: 15.8,
+      lwm: 11.6,
+      yssbp: 13.3,
+      ymhk: 14.3
     },
     {
-      date: '2020-10-11',
+      date: '2020/10/11',
       wsd: null,
       jlrdc: 24.3,
       jlswz: 14.9,
@@ -37135,14 +41080,14 @@ export class OnlinePoint {
       fmswz: 15.2,
       sqws: 15.4,
       hsws: 11.7,
-      yqws: 15.7,
-      flhk: 12.4,
-      lwm: 13.3,
-      yssbp: 13.8,
-      ymhk: null
+      yqws: null,
+      flhk: 15.7,
+      lwm: 12.4,
+      yssbp: 13.3,
+      ymhk: 13.8
     },
     {
-      date: '2020-10-12',
+      date: '2020/10/12',
       wsd: null,
       jlrdc: 23.4,
       jlswz: 14.3,
@@ -37150,14 +41095,14 @@ export class OnlinePoint {
       fmswz: 15.0,
       sqws: 15.3,
       hsws: 11.6,
-      yqws: 15.5,
-      flhk: 11.1,
-      lwm: 12.5,
-      yssbp: 13.1,
-      ymhk: null
+      yqws: null,
+      flhk: 15.5,
+      lwm: 11.1,
+      yssbp: 12.5,
+      ymhk: 13.1
     },
     {
-      date: '2020-10-13',
+      date: '2020/10/13',
       wsd: null,
       jlrdc: 23.3,
       jlswz: 13.8,
@@ -37165,14 +41110,14 @@ export class OnlinePoint {
       fmswz: 14.6,
       sqws: 14.9,
       hsws: 11.6,
-      yqws: 15.2,
-      flhk: 10.1,
-      lwm: 12.1,
-      yssbp: 12.9,
-      ymhk: null
+      yqws: null,
+      flhk: 15.2,
+      lwm: 10.1,
+      yssbp: 12.1,
+      ymhk: 12.9
     },
     {
-      date: '2020-10-14',
+      date: '2020/10/14',
       wsd: null,
       jlrdc: 22.5,
       jlswz: 13.1,
@@ -37180,14 +41125,14 @@ export class OnlinePoint {
       fmswz: 14.2,
       sqws: 14.6,
       hsws: 11.4,
-      yqws: 14.8,
-      flhk: 8.5,
-      lwm: 11.3,
-      yssbp: 11.8,
-      ymhk: null
+      yqws: null,
+      flhk: 14.8,
+      lwm: 8.5,
+      yssbp: 11.3,
+      ymhk: 11.8
     },
     {
-      date: '2020-10-15',
+      date: '2020/10/15',
       wsd: null,
       jlrdc: 23.6,
       jlswz: 13.2,
@@ -37195,14 +41140,14 @@ export class OnlinePoint {
       fmswz: 14.1,
       sqws: 14.3,
       hsws: 11.4,
-      yqws: 14.6,
-      flhk: 7.5,
-      lwm: 10.9,
-      yssbp: 11.8,
-      ymhk: null
+      yqws: null,
+      flhk: 14.6,
+      lwm: 7.5,
+      yssbp: 10.9,
+      ymhk: 11.8
     },
     {
-      date: '2020-10-16',
+      date: '2020/10/16',
       wsd: null,
       jlrdc: 24.8,
       jlswz: 13.2,
@@ -37210,14 +41155,14 @@ export class OnlinePoint {
       fmswz: 13.7,
       sqws: 14.0,
       hsws: 11.2,
-      yqws: 14.5,
-      flhk: 7.8,
-      lwm: 10.9,
-      yssbp: 11.8,
-      ymhk: null
+      yqws: null,
+      flhk: 14.5,
+      lwm: 7.8,
+      yssbp: 10.9,
+      ymhk: 11.8
     },
     {
-      date: '2020-10-17',
+      date: '2020/10/17',
       wsd: null,
       jlrdc: 25.1,
       jlswz: 13.0,
@@ -37225,14 +41170,14 @@ export class OnlinePoint {
       fmswz: 13.9,
       sqws: 14.3,
       hsws: 11.0,
-      yqws: 14.3,
-      flhk: 7.3,
-      lwm: 10.7,
-      yssbp: 11.5,
-      ymhk: null
+      yqws: null,
+      flhk: 14.3,
+      lwm: 7.3,
+      yssbp: 10.7,
+      ymhk: 11.5
     },
     {
-      date: '2020-10-18',
+      date: '2020/10/18',
       wsd: null,
       jlrdc: 24.6,
       jlswz: 13.1,
@@ -37240,14 +41185,14 @@ export class OnlinePoint {
       fmswz: 13.7,
       sqws: 14.1,
       hsws: 10.9,
-      yqws: 14.2,
-      flhk: 7.9,
-      lwm: 10.7,
-      yssbp: 11.6,
-      ymhk: null
+      yqws: null,
+      flhk: 14.2,
+      lwm: 7.9,
+      yssbp: 10.7,
+      ymhk: 11.6
     },
     {
-      date: '2020-10-19',
+      date: '2020/10/19',
       wsd: null,
       jlrdc: 25.4,
       jlswz: 13.1,
@@ -37255,14 +41200,14 @@ export class OnlinePoint {
       fmswz: 13.6,
       sqws: 13.9,
       hsws: 10.9,
-      yqws: 14.1,
-      flhk: 7.6,
-      lwm: 10.6,
-      yssbp: 11.9,
-      ymhk: null
+      yqws: null,
+      flhk: 14.1,
+      lwm: 7.6,
+      yssbp: 10.6,
+      ymhk: 11.9
     },
     {
-      date: '2020-10-20',
+      date: '2020/10/20',
       wsd: null,
       jlrdc: 24.1,
       jlswz: 13.3,
@@ -37270,14 +41215,14 @@ export class OnlinePoint {
       fmswz: 13.6,
       sqws: 13.9,
       hsws: 11.1,
-      yqws: 14.1,
-      flhk: 8.3,
-      lwm: 10.8,
-      yssbp: 12.2,
-      ymhk: null
+      yqws: null,
+      flhk: 14.1,
+      lwm: 8.3,
+      yssbp: 10.8,
+      ymhk: 12.2
     },
     {
-      date: '2020-10-21',
+      date: '2020/10/21',
       wsd: null,
       jlrdc: 22.3,
       jlswz: 13.2,
@@ -37285,14 +41230,14 @@ export class OnlinePoint {
       fmswz: 13.5,
       sqws: 13.9,
       hsws: 11.0,
-      yqws: 14.0,
-      flhk: 9.8,
-      lwm: 11.2,
-      yssbp: 12.1,
-      ymhk: null
+      yqws: null,
+      flhk: 14.0,
+      lwm: 9.8,
+      yssbp: 11.2,
+      ymhk: 12.1
     },
     {
-      date: '2020-10-22',
+      date: '2020/10/22',
       wsd: null,
       jlrdc: 20.6,
       jlswz: 12.6,
@@ -37300,14 +41245,14 @@ export class OnlinePoint {
       fmswz: 13.3,
       sqws: 13.7,
       hsws: 10.9,
-      yqws: 13.8,
-      flhk: 8.2,
-      lwm: 10.5,
-      yssbp: 11.2,
-      ymhk: null
+      yqws: null,
+      flhk: 13.8,
+      lwm: 8.2,
+      yssbp: 10.5,
+      ymhk: 11.2
     },
     {
-      date: '2020-10-23',
+      date: '2020/10/23',
       wsd: null,
       jlrdc: 20.3,
       jlswz: 12.0,
@@ -37315,14 +41260,14 @@ export class OnlinePoint {
       fmswz: 13.1,
       sqws: 13.3,
       hsws: 10.7,
-      yqws: 13.6,
-      flhk: 7.4,
-      lwm: 9.9,
-      yssbp: 10.8,
-      ymhk: null
+      yqws: null,
+      flhk: 13.6,
+      lwm: 7.4,
+      yssbp: 9.9,
+      ymhk: 10.8
     },
     {
-      date: '2020-10-24',
+      date: '2020/10/24',
       wsd: null,
       jlrdc: 19.8,
       jlswz: 11.6,
@@ -37330,14 +41275,14 @@ export class OnlinePoint {
       fmswz: null,
       sqws: 13.1,
       hsws: 10.6,
-      yqws: 13.3,
-      flhk: 5.9,
-      lwm: 9.4,
-      yssbp: 10.4,
-      ymhk: null
+      yqws: null,
+      flhk: 13.3,
+      lwm: 5.9,
+      yssbp: 9.4,
+      ymhk: 10.4
     },
     {
-      date: '2020-10-25',
+      date: '2020/10/25',
       wsd: null,
       jlrdc: 20.4,
       jlswz: 12.0,
@@ -37345,14 +41290,14 @@ export class OnlinePoint {
       fmswz: null,
       sqws: 12.9,
       hsws: 10.8,
-      yqws: 13.1,
-      flhk: 5.5,
-      lwm: 9.5,
-      yssbp: 10.5,
-      ymhk: null
+      yqws: null,
+      flhk: 13.1,
+      lwm: 5.5,
+      yssbp: 9.5,
+      ymhk: 10.5
     },
     {
-      date: '2020-10-26',
+      date: '2020/10/26',
       wsd: null,
       jlrdc: 20.4,
       jlswz: 12.0,
@@ -37360,14 +41305,14 @@ export class OnlinePoint {
       fmswz: null,
       sqws: 12.8,
       hsws: 10.9,
-      yqws: 13.0,
-      flhk: 5.6,
-      lwm: 9.7,
-      yssbp: 10.6,
-      ymhk: null
+      yqws: null,
+      flhk: 13.0,
+      lwm: 5.6,
+      yssbp: 9.7,
+      ymhk: 10.6
     },
     {
-      date: '2020-10-27',
+      date: '2020/10/27',
       wsd: null,
       jlrdc: 20.2,
       jlswz: 12.1,
@@ -37375,14 +41320,14 @@ export class OnlinePoint {
       fmswz: null,
       sqws: 12.9,
       hsws: 10.8,
-      yqws: 13.0,
-      flhk: 6.6,
-      lwm: 9.8,
-      yssbp: 10.7,
-      ymhk: null
+      yqws: null,
+      flhk: 13.0,
+      lwm: 6.6,
+      yssbp: 9.8,
+      ymhk: 10.7
     },
     {
-      date: '2020-10-28',
+      date: '2020/10/28',
       wsd: null,
       jlrdc: 20.6,
       jlswz: 11.6,
@@ -37390,14 +41335,14 @@ export class OnlinePoint {
       fmswz: null,
       sqws: 12.6,
       hsws: 10.7,
-      yqws: 12.7,
-      flhk: 6.0,
-      lwm: 9.1,
-      yssbp: 10.0,
-      ymhk: null
+      yqws: null,
+      flhk: 12.7,
+      lwm: 6.0,
+      yssbp: 9.1,
+      ymhk: 10.0
     },
     {
-      date: '2020-10-29',
+      date: '2020/10/29',
       wsd: null,
       jlrdc: 21.4,
       jlswz: 11.3,
@@ -37405,14 +41350,14 @@ export class OnlinePoint {
       fmswz: null,
       sqws: 12.4,
       hsws: 10.6,
-      yqws: 12.6,
-      flhk: 5.2,
-      lwm: 8.6,
-      yssbp: 9.9,
-      ymhk: null
+      yqws: null,
+      flhk: 12.6,
+      lwm: 5.2,
+      yssbp: 8.6,
+      ymhk: 9.9
     },
     {
-      date: '2020-10-30',
+      date: '2020/10/30',
       wsd: null,
       jlrdc: 20.9,
       jlswz: 11.0,
@@ -37420,14 +41365,14 @@ export class OnlinePoint {
       fmswz: null,
       sqws: 12.3,
       hsws: 10.7,
-      yqws: 12.4,
-      flhk: 4.4,
-      lwm: 8.5,
-      yssbp: 9.5,
-      ymhk: null
+      yqws: null,
+      flhk: 12.4,
+      lwm: 4.4,
+      yssbp: 8.5,
+      ymhk: 9.5
     },
     {
-      date: '2020-10-31',
+      date: '2020/10/31',
       wsd: null,
       jlrdc: 20.6,
       jlswz: 11.0,
@@ -37435,12 +41380,12 @@ export class OnlinePoint {
       fmswz: null,
       sqws: 12.2,
       hsws: 10.7,
-      yqws: 12.3,
-      flhk: 4.3,
-      lwm: 8.8,
-      yssbp: 9.7,
-      ymhk: null
-    }
+      yqws: null,
+      flhk: 12.3,
+      lwm: 4.3,
+      yssbp: 8.8,
+      ymhk: 9.7
+    },
   ];
 
   date: string;
