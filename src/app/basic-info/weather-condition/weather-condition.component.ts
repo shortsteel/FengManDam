@@ -68,11 +68,15 @@ export class WeatherConditionComponent implements OnInit {
     start: new FormControl(new Date(2013, 0, 1)),
     end: new FormControl(new Date(2020, 9, 31))
   });
+  timeList: string[];
 
   constructor(@Inject(LOCALE_ID) private locale: string) {
   }
 
   ngOnInit(): void {
+    this.timeList = WeatherCondition.DATA.map(record => record.date);
+    this.dateRange.controls.start.setValue(this.timeList[0]);
+    this.dateRange.controls.end.setValue(this.timeList[this.timeList.length - 1]);
     this.setChartData(WeatherCondition.DATA);
   }
 
@@ -81,17 +85,20 @@ export class WeatherConditionComponent implements OnInit {
   }
 
   setChartDateWithRange(): void {
-    const startDate: Date = this.dateRange.controls.start.value;
-    const endDate: Date = this.dateRange.controls.end.value;
+    const startDate: string = this.dateRange.controls.start.value;
+    const endDate: string = this.dateRange.controls.end.value;
+    if (startDate > endDate) {
+      return;
+    }
 
     let data = WeatherCondition.DATA;
     data = data.filter(item => {
-      const itemDate = new Date(item.date);
-      return itemDate.getTime() >= startDate.getTime();
+      const itemDate = item.date;
+      return itemDate >= startDate;
     });
     data = data.filter(item => {
-      const itemDate = new Date(item.date);
-      return itemDate.getTime() <= endDate.getTime();
+      const itemDate = item.date;
+      return (itemDate <= endDate) || (itemDate === endDate);
     });
 
     this.setChartData(data);

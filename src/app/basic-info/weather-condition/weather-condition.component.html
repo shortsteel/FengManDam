@@ -3,15 +3,19 @@
     <form [formGroup]="dateRange">
       <mat-form-field class="example-full-width" style="margin-left: 20%">
         <mat-label>开始时间</mat-label>
-        <input matInput [matDatepicker]="picker1" formControlName="start">
-        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
-        <mat-datepicker #picker1></mat-datepicker>
+        <mat-select formControlName="start">
+          <mat-option *ngFor="let time of timeList" [value]="time">
+            {{time}}
+          </mat-option>
+        </mat-select>
       </mat-form-field>
       <mat-form-field class="example-full-width" style="margin-left: 10%">
         <mat-label>结束时间</mat-label>
-        <input matInput [matDatepicker]="picker2" formControlName="end">
-        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
-        <mat-datepicker #picker2></mat-datepicker>
+        <mat-select formControlName="end">
+          <mat-option *ngFor="let time of timeList" [value]="time">
+            {{time}}
+          </mat-option>
+        </mat-select>
       </mat-form-field>
       <button mat-flat-button color="primary" (click)="setChartDateWithRange()" style="margin-left: 10%">确认</button>
     </form>
