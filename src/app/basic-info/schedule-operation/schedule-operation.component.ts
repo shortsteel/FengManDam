@@ -26,7 +26,7 @@ export class ScheduleOperationComponent implements OnInit {
     },
     tooltip: {
       trigger: 'axis',
-      formatter: '{b}<br/>{a0}:{c0}米,<br/>{a1}:{c1}立方米/秒,<br/>{a2}:{c2}立方米/秒,<br/>'
+      formatter: '{b}<br/>{a0}:{c0}m,<br/>{a1}:{c1}m³/s,<br/>{a2}:{c2}m³/s,<br/>'
     },
     grid: {
       top: '70px',
@@ -42,17 +42,11 @@ export class ScheduleOperationComponent implements OnInit {
     yAxis: [{
       name: '水位(m)',
       type: 'value',
-      scale: true,
-      axisLabel: {
-        formatter: '{value} m'
-      }
+      scale: true
     }, {
       name: '流量(m³/s)',
       type: 'value',
-      scale: true,
-      axisLabel: {
-        formatter: '{value} m³/s'
-      }
+      scale: true
     }],
     series: [{
       yAxisIndex: 0,
@@ -98,14 +92,18 @@ export class ScheduleOperationComponent implements OnInit {
 
   chartInstance: any;
   dateRange = new FormGroup({
-    start: new FormControl(new Date(2013, 5, 1)),
-    end: new FormControl(new Date(2020, 11, 28))
+    start: new FormControl(),
+    end: new FormControl()
   });
+  timeList: string[];
 
   constructor(@Inject(LOCALE_ID) private locale: string) {
   }
 
   ngOnInit(): void {
+    this.timeList = ScheduleOperation.DATA.map(record => record.date);
+    this.dateRange.controls.start.setValue(this.timeList[0]);
+    this.dateRange.controls.end.setValue(this.timeList[this.timeList.length - 1]);
     this.setChartData(ScheduleOperation.DATA);
   }
 
@@ -114,17 +112,20 @@ export class ScheduleOperationComponent implements OnInit {
   }
 
   setChartDateWithRange(): void {
-    const startDate: Date = this.dateRange.controls.start.value;
-    const endDate: Date = this.dateRange.controls.end.value;
+    const startDate: string = this.dateRange.controls.start.value;
+    const endDate: string = this.dateRange.controls.end.value;
+    if (startDate > endDate) {
+      return;
+    }
 
     let data = ScheduleOperation.DATA;
     data = data.filter(item => {
-      const itemDate = new Date(item.date);
-      return itemDate.getTime() >= startDate.getTime();
+      const itemDate = item.date;
+      return itemDate >= startDate;
     });
     data = data.filter(item => {
-      const itemDate = new Date(item.date);
-      return itemDate.getTime() <= endDate.getTime();
+      const itemDate = item.date;
+      return (itemDate <= endDate) || (itemDate === endDate);
     });
 
     this.setChartData(data);
