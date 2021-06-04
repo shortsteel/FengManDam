@@ -1,0 +1,18 @@
+<div class="back-groud">
+  <mat-card style="width: 500px;height:250px;">
+    <mat-card-content style="height: 100%">
+      <form [formGroup]="loginFormGroup"
+            style="height:100%;display:flex;flex-wrap: wrap;justify-content: center;align-content: center">
+        <mat-form-field class="example-full-width" style="width: 80%">
+          <mat-label>用户名</mat-label>
+          <input matInput type="email" formControlName="userName"/>
+        </mat-form-field>
+        <mat-form-field class="example-full-width" style="width: 80%">
+          <mat-label>密码</mat-label>
+          <input matInput type="password" formControlName="password"/>
+        </mat-form-field>
+        <button mat-flat-button color="primary" (click)="login()" style="width: 80%">确认</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

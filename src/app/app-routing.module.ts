@@ -12,29 +12,38 @@ import {WeatherConditionComponent} from './basic-info/weather-condition/weather-
 import {ReservoirVerticalComponent} from './water-temperature/reservoir-vertical/reservoir-vertical.component';
 import {OnlinePointComponent} from './water-temperature/online-point/online-point.component';
 import {ReservoirTemperatureComponent} from './water-temperature/reservoir-temperature/reservoir-temperature.component';
+import {LoginComponent} from './login/login.component';
+import {BannerComponent} from './banner/banner.component';
+import {LoginGuard} from './login/login-guard';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'Home', pathMatch: 'full'},
-  {path: 'Home', component: HomeComponent},
+  {path: '', redirectTo: 'App', pathMatch: 'full'},
+  {path: 'LogIn', component: LoginComponent},
   {
-    path: 'BasicInfo', component: BasicInfoComponent, children: [
-      {path: '', redirectTo: 'BasinOverview', pathMatch: 'full'},
-      {path: 'BasinOverview', component: BasinOverviewComponent},
-      {path: 'ProjectOverview', component: ProjectOverviewComponent},
-      {path: 'ScheduleOperation', component: ScheduleOperationComponent},
-      {path: 'WeatherCondition', component: WeatherConditionComponent}
+    path: 'App', component: BannerComponent, canActivate: [LoginGuard], children: [
+      {path: '', redirectTo: 'Home', pathMatch: 'full'},
+      {path: 'Home', component: HomeComponent},
+      {
+        path: 'BasicInfo', component: BasicInfoComponent, children: [
+          {path: '', redirectTo: 'BasinOverview', pathMatch: 'full'},
+          {path: 'BasinOverview', component: BasinOverviewComponent},
+          {path: 'ProjectOverview', component: ProjectOverviewComponent},
+          {path: 'ScheduleOperation', component: ScheduleOperationComponent},
+          {path: 'WeatherCondition', component: WeatherConditionComponent}
+        ]
+      },
+      {path: 'MonitoringPlan', component: MonitoringPlanComponent},
+      {
+        path: 'WaterTemperature', component: WaterTemperatureComponent, children: [
+          {path: '', redirectTo: 'ReservoirVertical', pathMatch: 'full'},
+          {path: 'ReservoirVertical', component: ReservoirVerticalComponent},
+          {path: 'OnlinePoint', component: OnlinePointComponent},
+          {path: 'ReservoirTemperature', component: ReservoirTemperatureComponent},
+        ]
+      },
+      {path: 'IceCondition', component: IceConditionComponent}
     ]
   },
-  {path: 'MonitoringPlan', component: MonitoringPlanComponent},
-  {
-    path: 'WaterTemperature', component: WaterTemperatureComponent, children: [
-      {path: '', redirectTo: 'ReservoirVertical', pathMatch: 'full'},
-      {path: 'ReservoirVertical', component: ReservoirVerticalComponent},
-      {path: 'OnlinePoint', component: OnlinePointComponent},
-      {path: 'ReservoirTemperature', component: ReservoirTemperatureComponent},
-    ]
-  },
-  {path: 'IceCondition', component: IceConditionComponent},
 ];
 
 @NgModule({

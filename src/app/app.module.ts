@@ -29,6 +29,9 @@ import {ReservoirVerticalComponent} from './water-temperature/reservoir-vertical
 import {OnlinePointComponent} from './water-temperature/online-point/online-point.component';
 import {ReservoirTemperatureComponent} from './water-temperature/reservoir-temperature/reservoir-temperature.component';
 import {MatSelectModule} from '@angular/material/select';
+import {LoginComponent} from './login/login.component';
+import {LoginGuard} from './login/login-guard';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -44,30 +47,32 @@ import {MatSelectModule} from '@angular/material/select';
     WeatherConditionComponent,
     ReservoirVerticalComponent,
     OnlinePointComponent,
-    ReservoirTemperatureComponent
+    ReservoirTemperatureComponent,
+    LoginComponent,
+    BannerComponent
   ],
-    imports: [
-        BrowserModule,
-        BrowserAnimationsModule,
-        MatToolbarModule,
-        MatTabsModule,
-        MatCardModule,
-        MatGridListModule,
-        MatListModule,
-        MatButtonModule,
-        MatDatepickerModule,
-        MatFormFieldModule,
-        MatNativeDateModule,
-        MatButtonModule,
-        MatInputModule,
-        NgxEchartsModule,
-        AppRoutingModule,
-        ReactiveFormsModule,
-        MatSelectModule,
-        MatOptionModule,
-        FormsModule
-    ],
-  providers: [],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatTabsModule,
+    MatCardModule,
+    MatGridListModule,
+    MatListModule,
+    MatButtonModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatNativeDateModule,
+    MatButtonModule,
+    MatInputModule,
+    NgxEchartsModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    MatSelectModule,
+    MatOptionModule,
+    FormsModule
+  ],
+  providers: [LoginGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule {
