@@ -32,6 +32,9 @@ export class LoginComponent implements OnInit {
       && this.loginFormGroup.controls.password.value === 'admin123') {
       localStorage.setItem(LoginComponent.LOGGED_IN, LoginComponent.LOGGED_IN);
       this.router.navigate(['/']);
+    } else {
+      this.loginFormGroup.controls.userName.setValue('');
+      this.loginFormGroup.controls.password.setValue('');
     }
   }
 }
