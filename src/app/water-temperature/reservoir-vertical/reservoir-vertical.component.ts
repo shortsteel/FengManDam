@@ -39,10 +39,7 @@ export class ReservoirVerticalComponent implements OnInit {
     yAxis: [{
       name: '温度(°C)',
       type: 'value',
-      scale: true,
-      axisLabel: {
-        formatter: '{value} °C'
-      }
+      scale: true
     }],
     series: [{
       yAxisIndex: 0,
