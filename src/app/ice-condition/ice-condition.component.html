@@ -4,6 +4,7 @@
       <mat-form-field class="example-full-width" style="margin-left: 5%">
         <mat-label>时间</mat-label>
         <mat-select [(ngModel)]="imgSrc">
+          <mat-option value="assets/images/ice-condition/位置关系图.jpg">位置关系图</mat-option>
           <mat-option value="assets/images/ice-condition/2013-11-26.png">2013-11-26</mat-option>
           <mat-option value="assets/images/ice-condition/2013-12-28.png">2013-12-28</mat-option>
           <mat-option value="assets/images/ice-condition/2014-01-29.png">2014-01-29</mat-option>
@@ -42,6 +43,6 @@
         </mat-select>
       </mat-form-field>
     </div>
-    <img [src]="imgSrc"/>
+    <img [src]="imgSrc" style="width: 100%" alt="冰情图"/>
   </mat-card-content>
 </mat-card>

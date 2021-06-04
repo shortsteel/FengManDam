@@ -12,6 +12,6 @@ export class IceConditionComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.imgSrc = 'assets/images/ice-condition/2014-03-18.png';
+    this.imgSrc = 'assets/images/ice-condition/位置关系图.jpg';
   }
 }
