@@ -1,5 +1,9 @@
-.home-card {
-  height: 85vh;
+.back-ground {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url("../../assets/images/dam-aerial.png");
   background-size: cover;
 }
