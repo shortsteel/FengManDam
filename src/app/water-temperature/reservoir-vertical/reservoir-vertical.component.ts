@@ -22,30 +22,42 @@ export class ReservoirVerticalComponent implements OnInit {
     },
     tooltip: {
       trigger: 'axis',
-      formatter: '深度:{b}m<br/>{a0}:{c0}°C'
+      formatter: (value, index) => {
+        console.log(value);
+        console.log(index);
+        const data = value[0].data;
+        return '深度：' + Number(data[1]).toFixed(3) + 'm, 温度: ' + Number(data[0]).toFixed(3) + '°C';
+      },
     },
     grid: {
       top: '70px',
       containLabel: false
     },
     xAxis: [{
-      name: '水深(m)',
-      type: 'category',
+      name: '温度(°C)',
+      position: 'top',
+      type: 'value',
       data: [],
+      min: 0,
+      max: 30,
       axisLabel: {
-        rotate: 45
+        rotate: 45,
+        formatter: (value) => {
+          return Number(value).toFixed(3);
+        }
       }
     }],
     yAxis: [{
-      name: '温度(°C)',
+      name: '水深(m)',
       type: 'value',
-      scale: true
+      min: 0,
+      inverse: true
     }],
     series: [{
       yAxisIndex: 0,
-      name: '气温',
       type: 'line',
       data: [],
+      symbolSize: 0,
       itemStyle: {
         normal: {
           lineStyle: {
@@ -87,8 +99,15 @@ export class ReservoirVerticalComponent implements OnInit {
     const dataItem = this.dataList.filter(data => data.date === this.dataSelectFormGroup.controls.time.value)[0];
     const positionDataItem = dataItem.data
       .filter(positionData => positionData.position === this.dataSelectFormGroup.controls.position.value)[0];
-    this.chartOptions.xAxis[0].data = positionDataItem.depth;
-    this.chartOptions.series[0].data = positionDataItem.temperature;
+    this.chartOptions.xAxis[0].data = positionDataItem.temperature;
+
+    const seriesData: number[][] = [];
+    for (let i = 0; i < positionDataItem.temperature.length; i++) {
+      if (i < positionDataItem.depth.length) {
+        seriesData.push([positionDataItem.temperature[i], positionDataItem.depth[i]]);
+      }
+    }
+    this.chartOptions.series[0].data = seriesData;
     this.chartInstance.setOption(this.chartOptions);
   }
 }

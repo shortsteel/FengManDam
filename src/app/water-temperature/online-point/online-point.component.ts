@@ -15,10 +15,6 @@ export class OnlinePointComponent implements OnInit {
       subtext: '',
       left: 'center'
     },
-    legend: {
-      data: ['温度'],
-      top: 30
-    },
     toolbox: {
       feature: {
         saveAsImage: {}
