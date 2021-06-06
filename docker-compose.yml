@@ -1,0 +1,8 @@
+# yaml 配置实例
+version: '3'
+services:
+  web:
+    build: .
+    container_name: fengman-dam
+    ports:
+      - "80:80"
