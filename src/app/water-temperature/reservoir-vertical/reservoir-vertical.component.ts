@@ -35,15 +35,18 @@ export class ReservoirVerticalComponent implements OnInit {
     },
     xAxis: [{
       name: '温度(°C)',
+      nameTextStyle: {
+        padding: [0, 0, 0, -10]    // 四个数字分别为上右下左与原位置距离
+      },
       position: 'top',
       type: 'value',
       data: [],
       min: 0,
       max: 30,
       axisLabel: {
-        rotate: 45,
+        // rotate: 45,
         formatter: (value) => {
-          return Number(value).toFixed(3);
+          return value;
         }
       }
     }],

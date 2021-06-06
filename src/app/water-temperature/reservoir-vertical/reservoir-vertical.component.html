@@ -1,7 +1,7 @@
 <mat-card style="margin-top: 10%">
   <mat-card-content>
-    <form [formGroup]="dataSelectFormGroup">
-      <mat-form-field class="example-full-width" style="margin-left: 20%">
+    <form [formGroup]="dataSelectFormGroup" style="display: flex;justify-content: center">
+      <mat-form-field class="example-full-width">
         <mat-label>时间</mat-label>
         <mat-select formControlName="time">
           <mat-option *ngFor="let data of dataList" [value]="data.date">
@@ -19,8 +19,8 @@
       </mat-form-field>
     </form>
   </mat-card-content>
-  <mat-card-content>
-    <div style="width: 60vw;">
+  <mat-card-content style="width: 60vw;display: flex;justify-content: center">
+    <div style="min-width: 350px; width: 50%">
       <div echarts [options]="chartOptions" (chartInit)="chartInit($event)"></div>
     </div>
   </mat-card-content>
