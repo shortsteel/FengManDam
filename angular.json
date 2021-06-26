@@ -23,6 +23,8 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
+              "src/el-main.js",
+              "src/package.json",
               "src/favicon.ico",
               "src/assets"
             ],
