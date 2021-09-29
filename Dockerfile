@@ -1,7 +1,7 @@
-FROM node AS builder
+FROM node:14-alpine AS builder
 WORKDIR /app
 COPY . /app
-RUN yarn && yarn run build
+RUN npm set registry https://mirrors.cloud.tencent.com/npm/ && npm install && npm run build
 
 FROM nginx:stable-alpine
 COPY --from=builder /app/dist/FengManDam /usr/share/nginx/html

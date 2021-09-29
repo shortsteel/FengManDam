@@ -23,8 +23,6 @@
     "@angular/platform-browser-dynamic": "~11.2.11",
     "@angular/router": "~11.2.11",
     "echarts": "^4.9.0",
-    "electron": "^13.1.4",
-    "electron-packager": "^15.2.0",
     "ngx-echarts": "^4.2.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

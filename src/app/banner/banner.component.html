@@ -1,16 +1,21 @@
 <mat-toolbar class="app-toolbar">
-  <h1 style="font-weight: 400;font-size: 1.5em;margin: 0 auto;">丰满水电站水温监测成果综合数据库</h1>
-  <a href="" (click)="logOut()">退出</a>
+   <div style="flex: 4;"></div>
+   <h1 style="flex: 4;font-weight: 400;font-size: 1.5em;">水利水电工程水温监测成果综合数据库系统</h1>
+   <h3 style="flex: 2;font-weight: 400;font-size: 1em;">--丰满水电站</h3>
+   <div style="flex: 1;">
+      <a style="float: right;" href="" (click)="logOut()">退出</a>
+   </div>
 </mat-toolbar>
 
 <nav mat-tab-nav-bar mat-align-tabs="center">
-  <a mat-tab-link routerLink="Home" routerLinkActive #Home="routerLinkActive" [active]="Home.isActive">首页</a>
-  <a mat-tab-link routerLink="BasicInfo" routerLinkActive #BasicInfo="routerLinkActive" [active]="BasicInfo.isActive">基本信息</a>
-  <a mat-tab-link routerLink="MonitoringPlan" routerLinkActive #MonitoringPlan="routerLinkActive"
-     [active]="MonitoringPlan.isActive">监测方案</a>
-  <a mat-tab-link routerLink="WaterTemperature" routerLinkActive #WaterTemperature="routerLinkActive"
-     [active]="WaterTemperature.isActive">水温</a>
-  <a mat-tab-link routerLink="IceCondition" routerLinkActive #IceCondition="routerLinkActive"
-     [active]="IceCondition.isActive">冰情</a>
+   <a mat-tab-link routerLink="Home" routerLinkActive #Home="routerLinkActive" [active]="Home.isActive">首页</a>
+   <a mat-tab-link routerLink="BasicInfo" routerLinkActive #BasicInfo="routerLinkActive"
+      [active]="BasicInfo.isActive">基本信息</a>
+   <a mat-tab-link routerLink="MonitoringPlan" routerLinkActive #MonitoringPlan="routerLinkActive"
+      [active]="MonitoringPlan.isActive">监测方案</a>
+   <a mat-tab-link routerLink="WaterTemperature" routerLinkActive #WaterTemperature="routerLinkActive"
+      [active]="WaterTemperature.isActive">水温</a>
+   <a mat-tab-link routerLink="IceCondition" routerLinkActive #IceCondition="routerLinkActive"
+      [active]="IceCondition.isActive">冰情</a>
 </nav>
 <router-outlet></router-outlet>
